@@ -1,0 +1,60 @@
+Program Administrators and Nursing Staff Members shall be able to add clinical classes or sections to a sequence of classes.
+
+
+Program Administrators and Nursing Staff Members shall be able to add a new cohort to the system  identified by start month and year.
+
+
+Program Administrators and Nursing Staff Members shall be able to add new classes for the nursing department into the system.
+
+
+Program Administrators/Nursing Staff Members shall be able to create a new Program of Study.
+
+Program Administrators and Nursing Staff Members shall have the ability to specify which classes are required for a Program of Study.
+
+The system shall be able to display a report of needed classes for a given quarter for all cohorts of all programs for Program Administrators/Nursing Staff Members planning purposes.
+
+
+Program Administrators and Nursing Staff Members shall be able to add a new clinical site into the system.
+
+
+Program Administrators and Nursing Staff Members shall be able to add a new clinical lab section for an existing clinical class into the System.
+
+
+Program Administrators and Nursing Staff Members shall be able to add a student who has registered for a clinical class to a clinical lab section for that class.
+
+The system shall allow a Program Administrator or Nursing staff member to remove a student from a clinical lab section.
+
+The system shall allow a Program Administrator/Nursing Staff Member to move a student from one clinical lab section to another clinical lab section corresponding to the same clinical class.
+
+Program Administrators/Nursing Staff Members shall be able to cancel a clinical lab section only if there are no students registered for that clinical lab section.
+
+A Program Administrator/Nursing Staff Member shall be able to add a new nursing student to the system.
+
+A staff member shall have the ability to manage the progress of a part time student  which includes modifying their sequence of classes and timeline of classes.
+
+The system shall be able to display a printable summary for individual cohorts  which will include the students enlisted  the Program of study  sequence of classes  cohort progress through the program  and timeline of completion.
+
+The system shall be able to display a printable summary for individual clinical sites  which will include information on labs being held at that site for the given quarter (Clinical site  general information on labs held at that location  dates and times of all labs held there).
+
+The system shall be able to display a printable summary for individual clinical labs  which will include (but not be limited to) class name  class number  lab section  listing of students enrolled  instructor  day(s)  time  and location.
+
+The system shall be able to display a printable summary for individual nursing students  which will include (but not be limited to) student name  student ID  admission date  classes  credits  GPA  and the cohort that the student is enrolled in.
+
+The system shall be able to display a printable summary of the system log.
+
+
+The system will notify affected parties when changes occur affecting cohorts  including but not limited to changes to the sequence for a cohort's program of study and changes to a given week's schedule (lab cancelled this week due to instructor illness).
+
+The system will notify affected parties when changes occur affecting specific students  including but not limited to changing a student's status from full time to part time and moving a student to a different clinical section.
+
+Program Administrators/Nursing Staff Members shall have the ability to modify information relating to cohorts  including cohort identifier  program of study  preferred sequence of classes and quarters that a cohort will be taking specific classes.
+
+Program Administrators/Nursing Staff Members shall have the ability to modify information relating to a Program of Study within the Nursing Department  including the Program of study name  and required classes for that Program of Study.
+
+Program Administrators/Nursing Staff Members shall have the ability to modify information relating to a Clinical Site  including the clinical site name  site contact person  contact information  and address.
+
+Program Administrators/Nursing Staff Members shall have the ability to modify information relating to a Clinical Lab Section  including the clinical site name  the department/section for the lab  the class  instructor  day and time of lab  and contact information.
+
+Program Administrators/Nursing Staff Members shall have the ability to modify information relating to a Nursing Student  including student ID  student name  phone number  e-mail  status (full time or part time)  and program of study.
+
+

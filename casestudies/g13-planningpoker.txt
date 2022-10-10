@@ -1,0 +1,105 @@
+As a moderator, I want to create a new game by entering a name and an optional description, so that I can start inviting estimators.
+
+As a moderator, I want to invite estimators by giving them a URL where they can access the game, so that we can start the game.
+
+As a moderator, I want to start a round by entering an item in a single multi-line text field, so that we can estimate it.
+
+As a moderator, I want to see all items we try to estimate this session, so that I can answer questions about the current story such as "does this include ___".
+
+As a moderator, I want to select an item to be estimated or re-estimated, so that the team sees that item and can estimate it.
+
+As a moderator, I want to add an item to the list of items to be estimated, so that so that we can be flexible and accommodate situations where we think of a new story while playing.
+
+As a moderator, I want to edit an item in the list of items to be estimated, so that I can make it better reflect the team's understanding of the item.
+
+As a moderator, I want to delete an item from the list of items to be estimated, so that we can remove it and not estimate it.
+
+As a moderator, I want to show all estimates immediately, so that I can decide to show the estimates that have been given even though not all estimators have given their estimate.
+
+As a moderator, I want to accept the average of all estimates, so that we can move on to the next item when we agree.
+
+As a moderator, I want to have the "estimate" field filled in automatically if all estimators show the same card, so that I can accept it more quickly.
+
+As a moderator, I want to enter the agreed-upon estimate, so that we can move on to the next item when we agree.
+
+As a moderator, I want to estimate a story we estimated earlier in the session again, so that we can give a new estimate if we feel different about the story after estimating other related stories.
+
+As a moderator, I want to import stories from a spreadsheet, so that I don't have to copy and paste each individual story.
+
+As a moderator, I want to copy/paste stories from a spreadsheet, so that I can get started more quickly.
+
+As a moderator, I want to browse through previous games, so that I can find the previous game I’m looking for.
+
+As a moderator, I want to view a transcript of a game, so that I can see the stories and estimates.
+
+As a moderator, I want to export a transcript of a game as a HTML file, so that I can save the stories and estimates locally.
+
+As a moderator, I want to export a transcript of a game as a CSV file, so that I can further process the stories and estimates.
+
+As a moderator, I want to delete a game, so that stories and estimates for this game are no longer stored.
+
+As a moderator, I want to create an account for the application by entering my name, email address, a password and a username, so that I can start using the application.
+
+As a moderator, I want to log in using my account name and password, so that I can start using the application.
+
+As a moderator, I want to change my account details, so that I can keep my account details up-to-date.
+
+As a moderator, I want to delete my account, so that account information and games are no longer stored.
+
+As a moderator, I want to see dates and times in my local timezone, so that I don't have to do timezone conversion myself.
+
+As a moderator, I want to get a password reminder by email, so that I can get back to using the application when I've forgotten my password.
+
+As a moderator, I want to select whether to have the team estimate with {0, 1/2, 1, 2, 3, 5, 8, etc.} or {0, 1, 2, 4, 8, 16, 32, etc.}, so that the team can use either the modified Fibonacci sequence or powers of 2.
+
+As a moderator, I want to invite up to 15 estimators, so that we can play with large but not immense teams.
+
+As an estimator, I want to join a game by entering my name on the page I received the URL for, so that I can participate.
+
+As an estimator, I want to see the item we’re estimating, so that I know what I’m giving an estimate for.
+
+As an estimator, I want to see all items we will try to estimate this session, so that I have a feel for the sizes of the various items.
+
+As a participant, I want to immediately see that an estimate has been given by a specific estimator, so that I know who has already given an estimate and who we’re still waiting for.
+
+As a participant, I want to be shown all estimates at the same time after all estimators have given their estimate, so that I can be sure estimates are independent and not influenced by other estimates given in the same draw.
+
+As a participant, I want to be able to change my estimate up until the last person selects a card and all are shown, so that I can change my mind based on information I hear.
+
+As a participant, I want to be able to see each estimator's prior estimates for the story being estimated, so that I can see how his or her opinion has changed so I can ask questions.
+
+As a participant, I want to see who gave what estimates during the current round, so that I know this when we’re discussing the estimates.
+
+As a participant, I want to be able start a two-minute countdown timer that all participants can see, so that I can limit the time spent discussing the estimates when I think we’ve talked long enough.
+
+As a participant, I want to have the two-minute timer reset itself as soon as we all play an estimate, so that it's ready for use on the next round.
+
+As a participant, I want to scroll back through the stories and estimates from prior rounds, so that I can use this information when I estimate the item of the current round.
+
+As a participant, I want to always have the cards in the same order across multiple draws, so that it's easy to compare estimates.
+
+As a participant, I want to change my estimate as long as the draw has not been completed, so that I can change my mind.
+
+As a participant, I want to have a small thumbnail photo displayed near where my cards are played, so that the game is more personal because I see who I'm estimating with.
+
+As a developer, I want to have written a site which is compliant with XHTML and CSS standards, so that as many people as possible can access the site and view it as intended.
+
+As a developer, I want to have a list of definitions for commonly used terms, so that everyone working on the project can understand each other more easily.
+
+As a developer, I want to have created database indexes, so that the queries run as fast as possible.
+
+As a developer, I want to have the application function correctly in Internet Explorer 6 and 7, Firefox 1.5 and 2, and Safari 2, so that as many people as possible can fully use the application.
+
+As a developer, I want to have the site comply with the W3C accessibility guidelines where possible, so that people with accessibility issues can use the application.
+
+As a user, I want to have the application respond quickly to my actions, so that I don't get bored.
+
+As a user, I want to be able to use Unicode, so that I can use any language I like.
+
+As a user, I want to see sensible and predictable URLs, so that the application feels logical and transparent.
+
+As a user, I want to have nice error pages when something goes wrong, so that I can trust the system and its developers.
+
+As a Researcher, I want results to be stored in a non-identifiable way, so that I can study the data to see things like whether estimates converged around the first opinion given by "estimator A" for example.
+
+As a Mike, I want to be able to see some metrics on use of the game, so that I can see how much it is being used.

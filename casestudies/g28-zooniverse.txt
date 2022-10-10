@@ -1,0 +1,116 @@
+As a user, I want to search and discover music using content identification or fingerprinting.	
+
+As a user, I want to search and discover music based on my profile.	
+
+As a user, I want to search and discover music based on other users similar to myself.	
+
+As a user, I want to search and discover music or ringback tones similar to a given music video based on content similarity.	
+
+As a user, I want to search and discover music by exploiting enriched metadata and image tags, so that I find related artists, new genre, or other relevant listening path.
+
+As a user, I want to upload tagged videos and have tags available for all further processing steps.	
+
+As a user, I want to view thumbnail sequences of video segments.	
+
+As a user, I want to get info about similar video items and segments.	
+
+As a user, I want to get info about perceptually similar video items and segments.	
+
+As a user, I want to receive content recommendations from similar profiles.
+
+As a user, I want to receive content recommendations based on most relevant news events in my area.	
+
+As a user, I want to identify persons in videos, and receive related information about them.	
+
+As a user, I want to identify products in videos, and receive related information about them.	
+
+As a user, I want to identify broadcaster logos in videos, and receive related information about them.	
+
+As a user, I want to identify brands in videos, and receive related information about them.	
+
+As a user, I want to take a picture or upload an image, so that I am recommended with videos related to that picture or image.	
+
+As a user, I want to walk around, access content using a geographical map and be informed if there are videos covering the area, monuments or any other relevant point of interest.	
+As a user, I want to search content items using automatic speech recognition.	
+
+As an admin, I want to see, validate and edit segmentation of videos.	
+
+As an admin, I want to annotate news video segments and extract a topic for each segment.	
+
+As an admin, I want to filter and rank videos based on A/V quality aspects.	
+
+As an admin, I want to get a quick assessment of whether audio material has been edited before the upload.	
+
+As an admin, I want to prefilter nudity content.	
+
+As an admin, I want to prefilter content using search based on low­level asset information.	
+
+As an admin, I want to automatically validated the ingested contents for copyright infringement.	
+
+As an admin, I want to prefilter the content using search on high­level asset information such as metadata and tags either recognized by the system of provided by the user.	
+
+As a Zooniverse admin, I want to assess how interesting or appealing or complex a picture is based on automated analysis, citizen annotations, and comments on Talk.	
+
+As a Zooniverse admin, I want to detect when a scientist should be prompted to look at a subject, based on annotations and information from Talk comments.	
+
+As a Zooniverse admin, I want to identify volunteer types.
+
+As a Zooniverse admin, I want to preclassify the Galaxy Zoo images using simple low­level image features.	
+
+As a Zooniverse admin, I want to automatically detect Snapshot Serengeti images with no classifiable animals in them.
+
+As a Zooniverse admin, I want to perform automatic image series detection for the case of timestamping malfunction in Snapshot Serengeti images.	
+
+As a Zooniverse admin, I want to perform automatic animal species preclassification in Snapshot Serengeti.	
+
+As a Zooniverse admin, I want to perform automatic animal attribute preclassification in Snapshot Serengeti.	
+
+As a Zooniverse admin, I want to perform automatic animal number detection in Snapshot Serengeti.	
+
+As a Zooniverse admin, I want to perform automatic segmentation or localization of plankton in Plankton Portal.	
+As a Zooniverse admin, I want to automatically detect Plankton Portal images with no classifiable plankton in them.	
+
+As a Zooniverse admin, I want to perform automatic detection of plankton size or orientation in Plankton Portal images.	
+
+As a Zooniverse admin, I want to perform automatic preclassification of plankton species in Plankton Portal images.	
+
+As a Zooniverse admin, I want to perform automatic worm motion analysis to reduce video duration in Worm Watch Lab.	
+
+As a Zooniverse admin, I want to automatically detect the time in a Worm Watch Lab video where the worm lays an egg.	
+
+As a Zooniverse admin, I want to detect important features such as areas of flooding, damage, temporary shelters, blocked roads etc in the satellite images.	
+
+As a Zooniverse admin, I want to assess the probability/weight of a volunteer’s classification based on their experience.	
+
+As a Zooniverse admin, I want to perform prefiltering of the images to remove artefacts such as bright stars and camera read errors.	
+
+As a Zooniverse admin, I want to detect moving and transient objects in the images.	
+
+As a Zooniverse admin, I want to remove background noise and distracting sounds from the audio files.	
+
+As a Zooniverse admin, I want to group whale calls that are similar.	
+
+As a Zooniverse admin, I want to identify the number of whales heard in a single audio file.	
+
+As a Zooniverse admin, I want to know when I should interrupt a volunteer.	
+
+As a Zooniverse admin, I want to know whether I should interrupt a volunteer with text, an image, or a video.	
+
+As a Zooniverse admin, I want to know when I should educate a volunteer.	
+
+As a Zooniverse admin, I want to know whether I should educate a volunteer with text, an image, or a video.	
+
+As a Zooniverse admin,I want to know which piece of education I should give to a volunteer.	
+
+As a Zooniverse admin, I want to know when a volunteer has made an interesting comment on a subject.	
+
+As a Zooniverse admin, I want to know when Zoonibot should comment on a subject.
+
+As a Zooniverse admin, I want to know when Zoonibot should give an explanation.	
+
+As a Zooniverse admin, I want to know what Zoonibot should say to a volunteer.	
+
+As a Zooniverse admin, I want to group subjects by similarity.	
+As a Zooniverse admin, I want to recommend different projects to volunteers based on their previous experiences.	
+
+As an admin, I want to see a summary of articles, so that I reuse them.	

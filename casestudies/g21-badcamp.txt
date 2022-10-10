@@ -1,0 +1,137 @@
+As a anonymoususer, I want to view a list of sponsors, so that I can thank all the awesome sponsors.
+
+As a anonymoususer, I want to view a list of user profiles, so that I know who is attending the conference.
+
+As a trainingcoordinator, I want to email all the trainers at once from the website for info and updates, so that It is easier to use.
+
+As a attendee, I want to have a very clear map where the buildings and rooms are, so that I can make it to class on time.
+
+As a trainer, I want to edit my training node myself, so that the training coordinators don't have to and links to slides.
+
+As a trainee, I want to limit to one registration per day per authenticated user, so that we don't have duplicate spaces.
+
+As a trainingcoordinator, I want to have an admin view that helps track registration status for each attendee so that, so that we can see if attendend, refunded, no show.
+
+As a attendee, I want to be added to a training waitlist, so that so they can be considered for a class.
+
+As a trainee, I want to must accept the cancellation terms with a checkbox, so that they can be accountable..
+
+As a trainingcoordinator, I want to tie in a cancellation deadline to whatever registration / cancellation workflow exists, so that so we don't loose money or spots.
+
+As a trainee, I want to add to "my schedule" if there is a schedule feature on the site, so that they can schedule their event experience.
+
+As a trainee, I want to see which trainings I have signed up for, so that they can schedule their event experience.
+
+As a trainer, I want to have a view that is attached to their training node that shows all attendee information Trainers can see all class attendance at first because there are so little trainers and they are trusted with privacy, so that the training coordinator doesn't have to do all the work to get login info for environment setup.
+
+As a trainingcoordinator, I want to have an admin view where all trainee information is shown and can be filtered to show a single training session, so that I can see WTF is happening.
+
+As a anonymoususer, I want to have a dedicated page for each class to learn more about the offering The following information must be shown: Logo, title, trainers, location, possibly a map view, datetime, skill level, registrations remaining, link to register for class. The URL path should be SEO friendly /training/training-title, so that I can choose the right class, AND the trainer can tweet and promote their class.
+
+As a anonymoususer, I want to have the training options clearly marked for the following information: day and time of training, title, short summary, trainers, level, number of registrations, remaining registrations, location of training, link to full details of the training, register now link, so that I can shop for training all with one page AND find their class on on one page.
+
+As a anonymoususer, I want to have a training landing page with an intro section and a list of all training offerings and promote call for trainings, so that I can shop for training all with one page and we can have a call for trainings for selection.
+
+As a anonymoususer, I want to have a link on the home page to a list of training options, so that I can take training.
+
+As a anonymoususer, I want to find out where the coding lounge is and what time it is open, so that I can code with my friends.
+
+As a administrator, I want to refund sponsorship money that was processed via stripe, so that people get their monies back.
+
+As a authenticateduser, I want to find a link on the sponsorships page to become a $350 level sponsor, so that I can pay for and become a sponsor role.
+
+As a anonymoususer, I want to See a list of attendees associated with this company, so that I know who from this sponsor organization is attending.
+
+As a authenticateduser, I want to identify myself as and pay for a $350 company sponsorship, so that I can easily become a sponsor at this level without having to interface with badcamp personnel to get a sponsorship.
+
+As a administrator, I want to create and maintain venues, so that I can provide location details to help users find what they're looking for.
+
+As a anonymoususer, I want to view venue details, so that I can get a sense of the location and see the events happening there.
+
+As a anonymoususer, I want to see a list of the sessions associated with sponsor attendees, so that I know where I can engage with this sponsor and where they are thought leaders.
+
+As a authenticateduser, I want to See a payment page to pay for my individual sponsorships as the third step of the registration process so that pay for my sponsorship.
+
+As a administrator, I want to assign sponsors to events, trainings and summits so that They will be featured on the sponsor detail page.
+
+As a anonymoususer, I want to see all events, trainings and summits that a sponsor is sponsoring so that I know where I can engage with this sponsor and where they are thought leaders.
+
+As a authenticateduser, I want to Enter payment information and have my card charged for an individual sponsorship, so that I can pay for an individual sponsorship.
+
+As a sponsor, I want to link BADCamp attendees to my sponsorship page, so that I can show off our level of attendance.
+
+As a authenticateduser, I want to update my user profile, so that I can connect with other Drupalists at BADCamp.
+
+As a anonymoususer, I want to sign up for the BADCamp newsletter, so that I can stay up to date with the latest communications about BADCamp.
+
+As a administrator, I want to tag my blog posts for consumption by Drupal Planet, so that they will be listed on the Drupal Planet blog.
+
+As a administrator, I want to create blog posts, so that I can share the latest information about BADCamp with the public.
+
+As a anonymoususer, I want to read the blog, so that I can stay informed about all the latest happenings with BADCamp.
+
+As a sponsor, I want to sponsor a summit that matches my brand, so that I can get exposure to potential customers and otherwise tout my Drupal credentials.
+
+As a attendee, I want to register for a summit, so that I can reserve my seat at the summit.
+
+As a attendee, I want to get detailed directions to the summit venue, so that I can get to the summit easily on the day of the event.
+
+As a attendee, I want to see what summits I'm signed up for, so that I can confirm my attendence and prevent myself from accidentally double-booking with a training or another summit.
+
+As a summit coordinator, I want to see a list of attendees signed up for my summit, so that I can communicate with my attendees by email prior to the event.
+
+As a summit coordinator, I want to list basic information about my summit, so that I can inform potential attendees on why they should attend my summit.
+
+As a summit coordinator, I want to list sponsors for my summit, so that I can make sure sponsors feel rewarded and will be interested in sponsoring in future years.
+
+As a summit coordinator, I want to list an agenda for my summit, so that I can entice attendees and give positive feedback to presenters to encourage participation.
+
+As a anonymoususer, I want to see how many seats are left for the summit, so that I can make sure to register in-time to reserve my spot.
+
+As a anonymoususer, I want to see specific details on summits, so that I can learn more about the summit I'm interested in to see if it matches my interests, register for the event, and get day-of knowledge to help me get to the location.
+
+As a anonymoususer, I want to see a list of all the summits, so that I can determine which summit I might be interested and able to attend.
+
+As a anonymoususer, I want to learn about sponsorship levels, so that I can determine the right level of sponsorship for my organization.
+
+As a authenticateduser, I want to use a WYSIWYG editor for all long-form content, so that I don't have to know HTML to update my content.
+
+As a sponsor, I want to Link to my sponsorship profile from my job listings, so that recruits can learn more about my organization.
+
+As a anonymoususer, I want to learn about posting jobs as a sponsor and contact the sponsorship person, so that I have the opportunty to post my job listing on the BADCamp site.
+
+As a sponsor, I want to post a job, so that I can hire top-tier Drupal talent.
+
+As a authenticateduser, I want to view the job board, so that I can look for an interesting Drupal gig!.
+
+As a administrator, I want to assign a room to a time slot and a location, so that I can populate the schedule .
+
+As a anonymoususer, I want to see the schedule, so that I can plan my day and figure out where to go!.
+
+As a anonymoususer, I want to see the final list of sessions approved, so that I can see what's going on at BADCamp .
+
+As a administrator, I want to bulk approve sessions as accepted, so that I can save time.
+
+As a administrator, I want to mark a session as accepted, so that I can populate the schedule .
+
+As a anonymoususer, I want to receive a notification when sessions have been evaluated, so that I know whether I've been accepted or rejected.
+
+As a anonymoususer, I want to receive a notification when I submit a session, so that know that my session went through ok.
+
+As a authenticateduser, I want to edit my session, so that if I make a mistake, I can correct it.
+
+As a anonymoususer, I want to register to speak at BADCamp, so that I submit a session.
+
+As a authenticateduser, I want to submit a session at BADCAMP, so that I can get my session evaluated.
+
+As a sponsor, I want to personalize my sponsorship page, so that I can promote my brand.
+
+As a anonymoususer, I want to see a list of all the summits that include when they are, so that I can determine which summit I want to attend.
+
+As a authenticateduser, I want to Be offered several choices of idividual sponsorship on the second page of registration, so that I can be awesome and financially support the camp.
+
+As a anonymoususer, I want to easily find a link in the menu that links to the registration form, so that I can easily register for the camp.
+
+As a anonymoususer, I want to fill out a user registration form, so that I can register for the camp and get an account on the website.
+
+As a anonymoususer, I want to find session information, so that I can go to a session.

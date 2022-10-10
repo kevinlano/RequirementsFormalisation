@@ -1,0 +1,131 @@
+As a collection curator, I want to set a date after which data will expire and be deleted or hidden then deleted.
+
+As a collection curator, I want to see the scheduled records deletion date be displayed on the item and component pages.
+
+As a repository manager, I want to track who is financially responsible for each item in the repository, who should probably be a person contact including name, phone, email, maybe title and address.
+
+As a repository manager, I want to be able t run a report periodically showing the storage consumed by each financial contact.
+
+As a collection curator, I want to map an item or items from one collection to another, so that an item may administratively belong to one collection but could appear in other collections.
+
+As a faculty member, I want to add a date delimiter to a search string, so that I can limit a search to return only results from before, after, or between a given date or dates.
+
+As a developer, I want to determine if we can use the in-built Fedora 4 event audit services.
+
+As a DPC, I want events to be created when a publication is published and unpublished, who did it, comment, so that I can record when and why something was made unavailable.  
+
+As a repository manager, I want to specify the remote replication policy for each collection.
+
+As a repository manager, I want to elect to either replicate remotely or not and possibly to replicate beyond the primary remote site.
+
+As a collection curator, I want to have the repository queue my collection for replication upon ingest to our remote storage site and to display the remote replication status in each item and component page in the staff interface.
+
+As a collection curator, I want to have a summary of all remote replication status at collection level on my dashboard.
+
+As a collection curator, I want to have my collection be encrypted with a key maintained on that server, a checksum made and stored of the encrypted file, and the encrypted file replicated to our remote storage site.
+
+As a collection curator, I want to lift an embargo for an object in a simple way.
+
+As a repoadmin, I want to have Symplectic Elements bidirectionally communicate and integrate with DDR, which  provide a Fedora Connector and Emory is using a hidden Fedora instance that Hydra collects objects for.
+
+As a collection curator, I want to have items be made available under the permissions they were configured once the embargo date has been reached.
+
+As a collection curator, I want to create deposit forms specific to the collection.
+
+As a collection curator, I want to allow some collections the option of setting an embargo date at deposit.
+
+As a collection curator, I want to have item metadata to be discoverable while the item is under embargo.
+
+As a collection curator, I want to have the item to be allowed under the access permissions set on the object after the embargo data is reached.
+
+As a repoadmin, I want to have users to be presented with a license or a selection of licenses, specific to the collection, and deposit to be denied if the submitter does not accept the license.
+
+As a repoadmin, I want to have the license be recorded in metadata and displayed alongside the item.
+
+As a DigitalRecords Archivist, I want to have a method to batch ingest ETDs we receive from ProQuest.
+
+As a DigitalRecords Archivist, I want to have the batch ingest tool to recognize and set embargoes, permissions for embargoed items should be allow everyone to view metadata, and collection curator and repository administrators to download the files.
+
+As a DigitalRecords Archivist, I want to have the repository to lift embargoes on the release date and set the access controls to the configuration set on item on that date.
+
+As a visitor, I want to see the embargo status and release date clearly displayed and perhaps highlighted in some way.
+
+As a DigitalRecords Archivist, I want to have a method to add and remove multiple people to deposit groups in specific collections, to set a date that the deposit window closes, and to have these permissions conferred on these depositors should pick up on the collection's default permission.
+
+As a DigitalRecords Archivist, I want to edit the length of embargoes.
+
+As a DigitalRecords Archivist, I want to expose the descriptive record for each ETD item for re-use external to Fedora.
+
+As a DigitalRecords Archivist, I want to grant embargo privileges to other repository administrators.
+
+As a DigitalRecords Archivist, I want to have a method to add and remove individual people from deposit groups.
+
+As a collection curator, I want to have a tool to perform author authority control.
+
+As a collection curator, I want to move items from one collection to another.
+
+As a repoadmin, I want to expose repository contents via OAI-PMH Auditing & Reporting.
+
+As a DigitalRecords Archivist, I want to view and download summary embargo metadata for all ETDs in the repository.
+
+As a batch submitter, I want to provide my data and metadata in a simple, documented format to the repository staff for ingest.
+
+As repository manager, I want to view authenticated, active users and anonymous users.
+
+As a repository manager, I want to schedule a message to users to be displayed on each page on the repository between select times for things like notification of upcoming downtime.
+
+As a repository manager, I want to see a display of recent errors deduplicated for easy comprehension like Symplectic Elements provides.
+
+As a repository manager, I want to view a dashboard statistics about collections size including a list of collections, the number of items and components in each, total storage consumed by each collection, visualization of deposit activity.
+
+As a collection curator, I want to see a dashboard widget showing a summary of recent submissions to my collection.
+
+As a repoadmin, I want to continue to provide access to the repository in the event that the server fails.
+
+As a repoadmin, I want to provide the server SLA to data contributors.
+
+As a repoadmin, I want to update the repository index without disrupting access to the public interface.
+
+As a repoadmin, I want to provide a Linked Data interface to the repository.
+
+As a repoadmin, I want to have Symplectic Elements to communicate bidirectionally with the repository.
+
+As a developer, I want to upgrade to Fedora 4 and migrate our applications and data.
+
+As a collection curator, I want to have metadata changes made to items with repository-assigned DOIs to be propagated to the EZID.
+
+As a collection curator, I want to canonically identify authors and creators of my items by unique identifier, so that it's easier to view all of the works by that person together.
+
+As a collection curator, I want to see the referers for visitors who use resolver-abstracted links to reach my items.
+
+As a data contributor, I want to refer to the Disaster Recovery Plan in grant proposals and Data Management Plans.
+
+As a depositor, I want to get feedback post-ingest alerting me if files I submitted do not conform to their format specifications, if they are not valid, or if they are not wellformed.
+
+As a batch submitter, I want to access documentation describing the folder ingest process.
+
+As a depositor, I want to see what kinds of things the repository accepts and what formats are accepted and recommended.
+
+As a depositor, I want to easily find information about which data can be assigned a DOI, how to get one, and what metadata are required.
+
+As a collection curator, I want to create groups of users to manage permissions in the repository in an easy way.
+
+As a collection curator, I want to restrict access to my collection or items to Duke IP addresses.
+
+As a collection curator, I want users to contact me directly from the repository to request access to restricted objects.
+
+As a collection owner, I want to have submitters to my collection to be unable to modify existing items in that collection.
+
+As a superuser, I want to enter and exit the superuser scope.
+
+As a collection curator I want to change permissions on one or more items simultaneously.
+
+As a collection curator, I want to be able require authentication to access objects unless the request is coming from a whitelisted IP address, list of addresses.
+
+As a repository manager, I want to view available versions of an object and restore a version from the staff interface.
+
+As a collection curator, I want to view the permission on my objects all together.
+
+As a non-Duke researcher, I want to describe my team and mine's objects in the repository after they've been deposited if we've been assigned permission to edit metadata.
+
+As a faculty member, I want to go to my repository dashboard to manage members of my classes, grant submit permissions by pasting in a list of NetIDs, see confirmation that DDR recognizes the NetIDs, ability to manually remove permissions, ability to set begin and end dates for a submission window, and a have a status screen to clearly illustrate who has and hasn't submitted.

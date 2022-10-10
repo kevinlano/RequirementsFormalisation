@@ -1,0 +1,130 @@
+As an app developer, I want to include the code of a dataset type in my app artifact and create a dataset of that type when deploying the app.
+
+As an app developer, I want to deploy a new version of a dataset type as part of deploying a new version of the app that includes it and I expect that all dataset instances of that type that were created as part of the app deployment start using the new code.
+
+As an app developer, I want to deploy a new version of a dataset type as part of an app artifact, without affecting other datasets of this type.
+
+As an app developer, I want to explore a dataset instance of a type that was deployed as part of an app.
+
+As an app developer, I want to ensure that when I deploy an artifact without creating an app this will not create any dataset types or instances.
+
+As an app developer, I want to share a dataset type across multiple applications that include the dataset type's code in their artifacts.
+
+As an app developer, I want to ensure that when I deploy a new version of an app that includes a shared dataset type that all dataset instances created by this app start using the new code but all dataset instances created by other apps remain unchanged.
+
+As an app developer, I want to ensure that when I deploy a new version of an app that includes an older version of a dataset type deployed by another app and I expect that the dataset instances created by this app use the dataset type code included in this app.
+
+As an app developer, I want to ensure that when I deploy a new version of an app that includes a different version of a dataset type deployed by another app and this app shares a dataset instance of this type with the other app the deployment will fail with a version conflict error. 
+
+As an app developer, I want to share a dataset type that I had previously deployed as part of an app.
+
+As a dataset developer, I want to deploy a dataset type independent from any app and allow apps to create and use dataset instances of that type.
+
+As a dataset developer, I want to have the option of forcing applications to have the dataset code injected at runtime.
+
+As a dataset developer, I want to have an archetype that helps me package my dataset type properly.
+
+As a dataset developer, I want to separate the interface from the implementation of a dataset type.
+
+As an app developer, I want to only depend on the interface of a dataset type in my app and have the system inject the implementation at runtime.
+
+As an app developer, I want to write unit tests for an app that depends on the interface of a dataset type.
+
+As a dataset developer, I want to assign explicit versions to the code of a dataset type.
+
+As a dataset developer, I want to deploy a new version of a dataset type without affecting the dataset instances of that type.
+
+As an app developer, I want to create a dataset instance with a specific version of a dataset type.
+
+As a dataset developer, I want to explore a dataset instance created from a dataset type that was deployed by itself.
+
+As a dataset developer, I want to delete outdated versions of a dataset type and I expect this to fail if there are any dataset instances with that version of the type.
+
+As a dataset developer, I want to list all dataset instances that use a dataset type or a specific version of a type.
+
+As a data scientist, I want to be able to create a dataset instance of an existing dataset type without writing code.
+
+As a data scientist, I want to be able to upgrade a dataset instance to a new version of its code.
+
+As a hydrator user, I want to create a pipeline that reads or writes an existing dataset instance.
+
+As a hydrator user, I want to create a pipeline that reads or writes a new dataset instance and I want to create that dataset instance as part of pipeline creation.
+
+As a hydrator user, I want to specify an explicit version of the dataset types of the dataset instances created by my pipeline and I expect pipeline creation to fail if that results in incompatible upgrade of an existing dataset instance that is shared with other apps or pipelines.
+
+As a hydrator user, I want to explore the datasets created by my pipeline.
+
+As a hydrator user, I want to ensure that all dataset instances created by apps are available as sinks and sources for pipelines.
+
+As an app developer, I want to ensure that all dataset instances created by Hydrator pipelines are accessible to the app.
+
+As a plugin developer, I want to include the code for a dataset type in the plugin artifact, so that when a pipeline using this plugin is created a dataset instance of that type is created and it is explorable and available to apps.
+
+As a plugin developer, I want to use a custom dataset type that was deployed independently or as part of an app inside the plugin. 
+
+As a plugin developer, I want to upgrade the code of a dataset type used by a dataset instance created by that plugin when I deploy a new version of the plugin and update the pipeline to use that version.
+
+As a pipeline developer, I want to upgrade a dataset instance to a newer version of the code after the pipeline was created.
+
+As a dataset developer, I want to have the option of implementing an upgrade step for when a dataset instance is upgraded to a new version of the dataset type.
+
+As a dataset developer, I want to have a way to reject an upgrade of a dataset instance to a newer version of it type if the upgrade is not compatible.
+
+As a dataset developer, I want to have the option of implementing a migration procedure that can be run after an upgrade of a dataset instance to a new version of it type. 
+
+As a developer, I want to take a dataset offline, so that I can perform a long-running maintenance or migration procedure.
+
+As a dataset developer, I want to implement custom administrative operations such as "compaction" or "rebalance" that are no common to all dataset types.
+
+As an app developer, I want to perform custom administrative operations on dataset instances from my app and the CLI and REST or the UI.
+
+As a user, I want to find out what properties are supported by the dataset type what values are allowed and what the defaults are when creating a dataset instance. 
+
+As a user, I want to specify the schema of a dataset in a uniform way across all dataset types.
+
+As a user, I want to specify schema as a JSON string.
+
+As a user, I want to specify schema as a SQL schema string.
+
+As a user, I want to configure time-to-live in a uniform way across all dataset types.
+
+As a user, I want to see the properties that were used to configure a dataset instance.
+
+As a user, I want to find out what properties of a dataset can be updated.
+
+As a user, I want to update the properties of a dataset instance and I expect this to fail if the new properties are not compatible with a meaningful error message.
+
+As a user, I want to update a single property of a dataset instance without knowing all other properties. 
+
+As a user, I want to remove a single property of a dataset instance without knowing all other properties. 
+
+As a user, I want to trigger a migration process for a dataset if updating its properties requires that.
+
+As a user, I want to ensure that if reconfiguration of a dataset fails then no changes have taken effect, so that all steps required to reconfigure a dataset must be done as a single atomic action.
+
+As an app developer, I want to ensure that application creation fails if any of its datasets cannot be created.
+
+As an app developer, I want to ensure that application redeployment fails if any of its datasets cannot be reconfigured.
+
+As an app developer, I want to tolerate existing datasets if their properties are different but compatible when creating a dataset as part of app deployment. 
+
+As a pipeline designer, I want to get a meaningful error message when pipeline creation fails when I use an existing dataset as a sink or source, so that I know that the schema or any other property of the dataset is incompatible with what the pipeline requires. 
+
+As a user, I want to specify as part of dataset configuration whether it is explorable.
+
+As a user, I want to specify the explore schema separately.
+
+As a user, I want to ensure that dataset creation fails if the dataset cannot be enabled for explore.
+
+As a user, I want to ensure that dataset reconfiguration fails if the corresponding update of the explore table fails.
+
+As a user, I want to ensure that a dataset operation fails if it fails to make its required changes to explore.
+
+As a user, I want to ensure that an update of explore never leads to silent loss of data or data available for explore. 
+
+As a user, I want to enable explore for a dataset that was not configured for explore initially.
+
+As a user, I want to disable explore for a dataset that was configured for explore initially.
+
+
+

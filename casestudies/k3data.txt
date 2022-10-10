@@ -1,0 +1,21 @@
+
+A class shall be either a non-clinical class or a clinical class.
+
+A non-clinical class shall specify the course name, lecture room requirements  and instructor needs.
+
+A clinical class shall specify the course name, lecture room requirements,  clinical site needs,  lecture instructor needs  and clinical lab instructor needs.
+
+
+A Program of Study shall consist of a program name and listing of required classes (both clinical and non-clinical) that must be completed.
+
+
+The report of needed classes shall include (but not be limited to) classes to be offered,  number of sections needed,  number of labs needed,  and room types needed.
+
+Classes for a given cohort shall not conflict with regards to the time and day that they are offered.
+
+A clinical lab section shall include the clinical site name,  the class  instructor,  day and time of the lab.
+
+Clinical site information shall include (but not be limited to) the name of the site,  contact person  and contact information.
+
+The system shall contain contact information (e-mail and phone number) for all people relevant to the system  including (but not limited to) staff members,  students,  lecture instructors,  clinical lab instructors  and clinical site administrators.
+

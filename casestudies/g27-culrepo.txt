@@ -1,0 +1,229 @@
+As a faculty member, I want to access a collection within the repository, so that I can obtain research materials.
+
+As a faculty member, I want to direct students to an item within the repository, so that I can facilitate my teaching (i.e. desires ability to link to content).
+
+As a Cornell faculty member, I want to upload data to the repository and associate it with a publication, so that I receive attribution for my data as well as my publications.
+
+As a patron, I want to know which reports/datasets are coming out when, so that I can access latest report/dataset.
+
+As a patron, I want to select/deselect reports/datasets to be emailed, possibly many at one time, when new versions are available.
+
+As a DB/IR administrator, I want to mark report/dataset not to be emailed/viewable due to error being discovered.
+
+As a DB/IR administrator, I want to manage report/dataset name changes so patrons are able to find historic reports that have a different name from current report.
+
+As a Cornell faculty member, I want to see clearly what reuse rights I have to files discovered in the repository, so that I know how I can reuse them.
+
+As a library staff member, I want to apply or remove an access embargo to an item when asked to do this by an item author.
+
+As a researcher, I want to stay up to date on research related to a given topic at Cornell, including those in other departments/schools, so that my own research remains relevant and innovative.
+
+As a faculty member, I want to easily collect my publications -- both those within the repository and without -- into a single online access point, so that I can raise the profile of my work.
+
+As a crossdeptprojteammember, I want to have a better place to collect and share project materials, with a range of organization/tagging and access options, including private (internal group use only), University and public.
+
+As a Cornell faculty member, I want to upload data and provide a cut and paste formatted citation for people who use it, so that I receive proper attribution for my work.
+
+As a patron, I want to view/upload content in multiple formats, including old formats such as Lotus Works.
+
+As a Cornell faculty member, I want to search the repository and browse through its contents on my phone, so that I can check things on the go.
+
+As a Cornell faculty member, I want to login remotely to the repository using Shibboleth, so that I can get remote access to Cornell campus-only content.
+
+As a Cornell faculty member, I want to have some control over how items within my collection sort in collection contents lists, so that I can control how my work is presented.
+
+As an administrator, I want to be able to use systems such as Symplectic Elements and Activity Insight to properly track faculty scholarly output in the repositories, so that I can facilitate personnel decisions.
+
+As a library staff member, I want to access useful and comprehensive usage statistics and analytics, including altmetrics, at the repository, collection, author, and item level, so that I can assess the results of this service.
+
+As an administrator, I want to see comprehensive tracking statistics that can be presented to faculty in a digestible way, so that I can increase buy-in for contributing their work.
+
+As a Cornell faculty member, I want to be notified if someone downloads any of my items or files, so that I can follow usage and see what others are most interested in reading.
+
+As a DB/IR administrator, I want to see list of subscribers for specified report in order research missing report complaints.
+
+As an administrator, I want to disseminate the aforementioned works in a digital space that is strongly branded, so that I can make sure my school is credited for the work.
+
+As a faculty member, I want to upload my scholarly work to the repository, so that I can have a persistent URL that can be used for my personal web page and CV.
+
+As a library staff member, I want to create collections which highlight rare, archival, or endangered material, so that I can preserve and provide access to this material.
+
+As an Extension Administrator, I want to have easy, well documented and supported workflows that can be easily passed on to others when she/others retire, so that continuity can be maintained.
+
+As a faculty member, I want to maintain versioning of Extension brochures, FAQs, etc., so that only the most current are used/adapted by other CCE Educators in their work.
+
+As a Cornell faculty member, I want to upload a data file and put a CC-By or CC0 license on it, so that my licensing desires are clearly stated.
+
+As a library staff member, I want to be able to tell the researchers I'm helping with DMPs that Cornell has a repository system I can use for archiving and sharing results of their research, so that I can easily meet the needs of funder DMP requirements.
+
+As a Cornell faculty member, I want to create a collection for my documents, or my organization's documents, and apply some distinctive branding to that collection, so that I can promote my work, or that of my organization.
+
+As a Cornell faculty member, I want to easily find all the items in the repository that I have authored, by searching on my name (author name authority and/or identification issue), because I keeps my publications in the repository up-to-date and points people tithe repository.
+
+As a Cornell faculty member, I want to see items I have deposited in the repository appear high up in Google search results, because that's my ticket to stardom.
+
+As a repository support team member, I want to alias (or map) an item from one collection to another (so the item will appear to belong to both collections), because the collection owner has asked them to.
+
+As a researcher, I want to discover items in the repository through the library's discovery system and Google, so that I can facilitate my easy use of the content.
+
+As a researcher, I want to see descriptive metadata for the item whether I come to the item through the repository or directly to the PDF, so that I can correctly identify the source of the content.
+
+As a researcher, I want to contact the author of a work that interests me, so that I can learn more about my research.
+
+As a researcher, I want to receive updates when new works are published in a given collection or by a given author, so that I can discover more of their work.
+
+As a researcher, I want to search within a repository or collection in an effective manner, including searching within subsets of a given collection, so that I can facilitate my use of the collection.
+
+As an academicresearcher, I want to find the works of a particular author in one easily sortable spot, so that I can see the evolution of their scholarship over time.
+
+As an academicresearcher, I want to the thesis paper of an influential judge or legal thinker to gain insight into how their initial scholarship got started.
+
+As a patron, I want to search for report/dataset with keywords or a partial or complete title to locate needed report/dataset.
+
+As a patron, I want to browse content by author or subject area to locate needed resources.
+
+As a DB/IR administrator, I want to manage subject classifications for ease of patron browsing and searching.
+
+As a DB/IR administrator, I want to manage customizable relationship groups in support of patron see also option.
+
+As a Cornell faculty member, I want to search for the dissertations in the repository for which I have been a thesis committee member, to quickly find work by a former student.
+
+As a library staff member, I want to make digital items held in trusted external system searchable within our system, so that I can provide seamless access to disparate collections.
+
+As a researcher, I want to have information that will help me identify other faculty I might partner/collaborate with.
+
+As an externaluser, I want to easily find and access research and educational materials from Cornell faculty related to a particular topic, which I can use to develop stronger research/evidence based programming, grant proposals, community policy, or business practices.
+
+As a student, I want to learn who at Cornell has or is engaged in research related to a particular topic, so that I can decide if I would like to pursue studies/research at Cornell.
+
+As a student, I want to learn who at Cornell has or is engaged in research related to a particular topic, so that I can find an appropriate advisor, choose which courses to enroll in, and identify work/internship opportunities.
+
+As a teachingfacultymember, I want to identify timely and relevant research suitable for use in my curriculum, and be notified of new research/content.
+
+As a patron, I want to view multiple versions of a report/dataset to get both timely and historical information.
+
+As a faculty member, I want to upload my scholarly work to the repository, so that I can reach a non-academic audience, expand my influence within my academic community, and use it for teaching.
+
+As a library staff member, I want to upload material to the repository on the author's behalf, so that I can fulfill a service obligation.
+
+As a library staff member, I want to create metadata for items within the repository that includes document title, description, author, document type, status, file locations, subscribable flag, subject area, release frequency, and keywords for searching.
+
+As a library staff member, I want to upload large batches of items simultaneously, including descriptive metadata, so that I can offer service to authors efficiently.
+
+As a library staff member, I want to upload an item to the repository that will only become visible after a specific embargo period has expired, so that I can comply with author or publisher requirements.
+
+As a library staff member, I want to include supplementary files such as datasets, slideshows, etc. – with DOIs for each, as needed – when uploading a given work, so that I can provide a robust image of the work in question.
+
+As a library staff member, I want to deliver streaming media from within the repository, so that I can deliver such content in the manner expected and ensure continued access to said content.
+
+As an administrator, I want to have a platform that can support a variety of media file and text-based formats, so that the intellectual output of the school can be showcased and preserved in a more comprehensive way.
+
+As a library staff member, I want to be able to assign an item to more than one collection.
+
+As a library staff member, I want to be able to add custom metadata fields for deposits I make on behalf of researchers to allow for better search capabilities.
+
+As a DB/IR administrator, I want to upload revised report/dataset due to error in report/document.
+
+As a DB/IR administrator, I want to upload new version of report/dataset while retaining previous versions for patron use.
+
+As a DB/IR administrator, I want to have the system recognize/categorize document type (e.g. historical report still published, expired historical report, single topic dataset, broad topic dataset, report with subtopic, computer file), so that report/dataset is processed and displayed properly.
+
+As a Cornell faculty member, I want to easily assign a CC license to the files I are depositing, so that users know how the materials can be used.
+
+As a repository support team member, I want to export a set of records and associated files, manipulate this data set, and reload into the system, because I am aware of a uniform error in a collection.
+
+As a Cornell faculty member, I want to associate a researcherID or ORCID with a submission, so that there is no ambiguity between my work and someone else with the same name.
+
+As a student, I want to upload to the repository the data that is associated with my embargoed dissertation to meet requirements of a DMP I submitted with my NSF DDIG.
+
+As a library staff member, I want to have customizable metadata fields, so that each project is described in the most accurate way possible.
+
+As a faculty member, I want to associate files with my scholarly works such that someone accessing the latter also receives access to the former, so that I can deliver the fullest picture of my research.
+
+As a library staff member, I want to use content and metadata from the repository in other systems and/or web pages easily, so that I can deliver such content in the manner best fit to the audience or occasion.
+
+As an Extension Administrator, I want to make resources that were developed for specific projects and geographic areas available to other faculty and educators across NYS.
+
+As an Extension Administrator or Staff Content Manager, I want to get periodic IR reminders, including when something needs attention (including next ingestion/approval steps), or something that might need to move from a current knowledge collection to Historical.
+
+As a researcher, I want to promote/share my work through interactive maps, so that I can display the range and extent of my work graphically.
+
+As an Extension Educator, I want to have a place to store a variety of documents, presentations and data sets I've created, that doesn't require an extra step in making available on my own County/Region/Project site (i.e. a list or directory of materials there is automatically updated when placed in a central archive/repository).
+
+As a patron, I want to know other reports/datasets that are related (e.g. see also) to report/dataset being viewed for the purpose finding other related information.
+
+As a patron, I want to know previous name(s) and publication date range (first version-last version) of reports/datasets, so that I can know what historical versions are available and how current more recent version is.
+
+As a patron, I want to create a personal account to request email notification when new version of report/dataset is available.
+
+As a patron, I want to download report/dataset release calendar to load into own calendar.
+
+As a librarydiscoveryoperator, I want to harvest useful metadata from the repository via OAI, and continue to do so incrementally, so that I can make Cornell publications discoverable in my repository.
+
+As a library staff member, I want to quickly correct errors in uploaded metadata, and even uploaded documents, while leaving a record of my revisions (and possibly the reasons behind them), so that I can present correct versions of content and to locate points of error.
+
+As a library staff member, I want to receive a quick response and a reasonable resolution to tech support issues, so that service can proceed with minimal interruption.
+
+As a Cornell faculty member, I want to share on the repository files that are larger than 1GB in a way that still allows users to download them if I want to use them, so that I can meet funder requirements.
+
+As a DB/IR administrator, I want to login to personal account with access to authorized functions.
+
+As a DB/IR administrator, I want to have a personal account with the ability to change passwords to make them more secure or to retrieve forgotten ones.
+
+As a DB/IR administrator, I want to set up or delete accounts for other administrators with various levels of permission.
+
+As a DB/IR administrator, I want to see a list of all administrators for ease of administering accounts.
+
+As a DB/IR administrator, I want to have robust searching and tracking features for existing and newly created patron accounts.
+
+As a DB/IR administrator, I want to unpublish a report/dataset if requested to do so by USDA agency.
+
+As a DB/IR administrator, I want to add future release dates of reports/datasets to calendar for patron FYI.
+
+As a faculty member, I want to recommend a digital collection be built in the repository, so that I can assist in my research.
+
+As a DB/IR administrator, I want to search for administrator accounts using full/partial email or name.
+
+As a DB/IR administrator, I want to administrate patron accounts for purpose of closing accounts, viewing subscriptions, changing subscriptions, resetting passwords, changing email address, etc.
+
+As a library staff member, I want to create custom metadata fields for certain collections, and allow searching of those fields, so that I can best reflect and deliver diverse content.
+
+As a repository support team member, I want to move a collection, so that I can fulfill the collection owner's request.
+
+As a repository support team member, I want to rename a collection, so that I can fulfill the collection owner's request.
+
+As an asset manager, I want to be assured that the digital copy I deposit is stored redundantly, so that when one copy suffers destruction or unwanted changes, I still have other good copies to restore from.
+
+As an asset manager, I want to be assured that threats to copies in one repository are not automatically incurred by the redundant copies.
+
+As an asset manager, I want to be assured that the redundant copies are continuously monitored for unwanted changes, and that if/when changes do occur, there is a mechanism by which I can determine the original object and restore it to all copies.
+
+As an asset manager, I want to be assured that the assets can be taken out of the repository, and that the assets taken out are the same as those that are put in.
+
+As an asset manager, I want to know what the intellectual value of the asset is to the institution at the time of deposit, so that I obtain guidance in the evaluation of it for current value for the institution.
+
+As an asset manager, I want to have a mechanism to obtain a listing or understanding of all the assets that have been deposited, and their current status.
+
+As an asset manager, I want to be assured that funding and staffing of the IR have a commitment to longevity of the repository through published plans and/or explicit contract clauses.
+
+As a stakeholder, I want to have files adequately described, so that I can successfully render them in my contemporary operating environment.
+
+As a library staff member, I want to preserve both the content and the metadata within the repository in a robust manner, so that I can provide stable, long-term access to this material.
+
+As a data curator, I want to upload a new version of an item that has changed, while still allowing old versions to be accessed.
+
+As a library staff member, I want to preserve the scholarship of the law school by using sustainable links that will not succumb to link rot, so that I can create a permanent digital archive for the scholarship of my institution.
+
+As a library staff member, I want to create a collection, sometimes with custom metadata fields, so that I can house digital material for wider distribution.
+
+As a library staff member, I want to trace the list of revisors to determine who uploaded an item to the repository, so that I can confirm that proper procedures were followed.
+
+As an asset manager, I want to be assured that there is a formal plan for the disposition of assets if the IR should cease.
+
+As an asset manager, I want to have mechanism to pass ownership/management of the assets to a successor.
+
+As a patron, I want to email system provider to report issues and ask questions.
+
+As a data curator, I want to have a mechanism to allow for records scheduling for items that do not need to be stored indefinitely.
+
+As a data curator, I want to upload a new version of an item that has changed, while still allowing old versions to be accessed.

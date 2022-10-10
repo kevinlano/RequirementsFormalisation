@@ -1,0 +1,389 @@
+
+As a Carequality implementer I want CONNECT to leverage the Carequality framework so I can exchange with other Carequality participants	
+
+As a CONNECT Adapter	 I want to be able to respond to requests and receive responses to requests asynchronously in addition to synchronously
+
+
+As a CONNECT administrator or security officer	 I want to view audit events via the System Admninistration module so that I can monitor the audit logs and events
+
+
+As a CONNECT administrator	 I want CONNECT to push audits and events via web services
+
+
+As a CONNECT administrator	 I want the ability to logout of the admin GUI application
+
+
+As a CONNECT adopter (VA)	 I want CONNECT to be upgraded to the latest version of Hibernate so that my implementation is compliant with VA requirements and for security reasons
+
+																				
+As a CONNECT adopter certifying for Meaningful Use Stage 2	 I want CONNECT 4.x to pass validation using the NIST tool so that my implementation can be validated for MU															
+As a CONNECT adopter e.g. CMS-CCSQ and VA	 I want CONNECT to  be implemented using Java 1.6 on WL 11g so that  I could use CONNECT in my preferred environment															
+As a CONNECT adopter e.g. CMS-OFM and SSA	 I want CONNECT to  be implemented using Java 1.6 on WAS 7 so that  I could use CONNECT in my WAS 7 environment															
+As a CONNECT Adopter I have a requirement to remove the reliance on the existence of the environment variable NHINC_PROPERTIES_DIR and to be able to find the CONNECT configuration files at run time using an instance-specific system variable.																
+													
+As a CONNECT Adopter I need a type of redaction engine for document query and document retrieve. This would be a process of removing data from the response message. 																
+													
+As a CONNECT Adopter I need CONNECT to be database independent and support different databases such as Oracle.																
+As a CONNECT Adopter I need CONNECT to provide support for both Online Certificate Status Profile (OCSP) and Certificate Revocation List (CRL) with validation.																
+As a CONNECT Adopter I need the ability to have both secure and unsecure interfaces on the Adapter side to increase my flexibility with implementing Adapters and interfacing with down stream systems.																
+As a CONNECT adopter I want installation instructions on how to configure and deploy CONNECT 4.x to be FIPS 140-2 compliant on a WebLogic 11g app server so that I can install CONNECT in my secure environment																
+As a CONNECT adopter I want installation instructions on how to configure and deploy CONNECT 4.x to be FIPS 140-2 compliant on a WebSphere 7.0 app server so that I can install CONNECT in my secure environment																
+As a CONNECT adopter I want installation instructions on how to configure and deploy CONNECT to be FIPS 140-2 compliant on JBoss app server so that I can install CONNECT in my secure environment																
+As a CONNECT adopter I want Release Notes for 4.3 to be documented on the wiki	 so that I understand the features and bug fixes packaged with this release														
+As a bug I want Release Notes for 4.3 to be documented on the wiki	 so that I understand the features and bug fixes packaged with this release														
+As a CONNECT adopter I want Release Notes for 4.4 to be documented on the wiki so that I understand the features	 and bug fixes packaged with this release														
+As a CONNECT adopter receiving Direct messages	 I need the ability to provide Negative delivery notification message to the Sending STA so that the sender may be informed of a failed delivery.															
+As a CONNECT adopter receiving Direct messages	 I need the ability to provide Positive delivery notification message(MDN) to the Sending STA so that the sender may be informed of a successful delivery.															
+As a CONNECT adopter sending Direct messages  I want to have the ability to request  delivery notification messages from Receiving STAs	 so that I am informed of a successful or failed delivery.															
+As a CONNECT adopter sending Direct messages	 I want to have the ability to inform the Sending STA that I am using Processed notifications for delivery tracking															
+As a CONNECT adopter sending Direct messages	 I want to receive a failure notification when the message I initiated was not sent to the Receiving STA so that I am informed of a  failed delivery 															
+As a CONNECT adopter sending Direct messages	 I want to receive a failure notification when the Receiving STA's SMTP infrastructure rejects the message	 so that I am informed of the failure and can take necessary next steps.														
+As a CONNECT adopter sending Direct messages	 I want to receive a notification  when positive or negative delivery notification message is received by the gateway from the Responding STA	 so that I am informed of a successful or failed delivery														
+As a CONNECT adopter sending Direct messages	 I want to receive an error notification when the Initiating gateway cannot accept my message due to some reason	 so that I  can take necessary next steps.														
+As a CONNECT adopter sending Direct messages	 I want to receive failure notification when a Processed MDN message is not received from the receiving STA in a configured timeframe	 so that I can monitor messages that could have failed. 														
+As a CONNECT adopter sending Direct messages	 I want to receive failure notifications when no requested delivery notifications are received from the receiving STA in a defined time	 so that I can monitor messages that could have failed. 														
+As a CONNECT adopter supporting deferred PD services I would like to know about the requests  that were fanned out by the gateway to multiple target communities so that I can keep track of the responses as I receive them.																
+As a CONNECT adopter supporting Deferred PD services	 I need the MessageID for the fan-out requests to be unique so that the service is spec compliant															
+As a CONNECT adopter testing the gateway against CCHIT's DIL I want to have a reusable set of SOAP UI tests that validate PD	 QD and RD initiating and responding scenarios  so that we can easily test and validate against the DIL.													
+As a CONNECT adopter using Direct I do not want to relay MDN notifications back to the edge to avoid redundant notifications and inorder to be spec compliant																
+As a CONNECT adopter using Direct transport	 I want CONNECT to be kept up to date with the Direct Reference Implementation and Direct Implementation guides so that the community can make use of success/failure delivery notifications and trust bundles															
+As a CONNECT adopter using Direct	 I want all delivery notifications sent or received from the remote STA or the edge to be logged in the CONNECT event logs so that I can troubleshoot and track message delivery															
+As a CONNECT Adopter utilizing CONNECT I need to understand at the individual message field level the meaning of each field and how CONNECT is using it for Patient Discovery.   																
+As a CONNECT adopter	  I need CONNECT to log auditing transactions to the audit repository asynchronously in order to improve performance															
+As a CONNECT Adopter	 CONNECT needs to provide a new MPI Adapter with an optional and configurable underlying database implementation for storing patient records.															
+As a CONNECT Adopter	 I can understand the technical design because it's well documented on the wiki															
+As a CONNECT adopter	 I find it annoying that CONNECT urls are inconsistent.															
+As a CONNECT Adopter	 I need a light weight policy engine implemented by a PDP implementation for evaluating the policies against the request context and determining a decision. 															
+As a CONNECT adopter	 I need all bugs related to HIEM service for Notify	 Subscribe and Unsubscribe to be fixed and HIEM service successfully validated so that I can use HIEM service														
+As a CONNECT adopter	 I need CONNECT 3.3 to be Exchange ready and certified by the eHealth Exchange certification body (CCHIT) so that I can use a certified product for health data exchange															
+As a CONNECT adopter	 I need CONNECT 4.6 to be Exchange ready and certified by the eHealth Exchange so that I can use a certified product for health data exchange															
+As a CONNECT adopter	 I need Direct to be deployed as a selectable service so that I can only install the services I need to minimize memory footprint															
+As a CONNECT adopter	 I need my policy adapters to have access to the Role value from the gateway so that this information can be made available for audit purposes															
+As a CONNECT Adopter	 I need the ability for a call to a web service to issue a retry upon timeout for a specified number of retries which can be configurable															
+								
+As a CONNECT adopter	 I need the audit database to contain audit fields as specified by the specs so that ATNA compliant audit messages be generated by the adopter for all messages.															
+As a CONNECT adopter	 I need the CONNECT Gateway to support both secure and unsecure inbound ports for inbound traffic for increased implementation flexibility	 such as using a security appliance in my installation.														
+As a CONNECT adopter	 I need to log my transactions(server and audit logs) asynchronously as opposed to synchronously to help improve performance.															
+As a CONNECT adopter	 I need to understand how fanning out requests to multiple communities is handled with the multi-specification implementation in CONNECT 															
+As a CONNECT adopter	 I need to understand how to configure the system to prevent logging PHI information in the server logs															
+As a CONNECT adopter	 I want 4.3 to be install tested so that the installation is successfully  validated in the supported environments															
+As a CONNECT adopter	 I want 5.3 to be install tested so that the installation is successfully validated in the supported environments															
+As a CONNECT adopter, I want a "Tuning guide" or "Performance Tip Sheet" to help anticipate, understand and avoid performance issues where possible 																
+As a CONNECT adopter	 I want a Release test plan for 4.3 so that the community understands how 4.3 has been tested prior to making it available															
+As a CONNECT adopter	 I want a Release test plan so that the community understands how 4.4 has been tested prior to making it available															
+As a CONNECT adopter	 I want a sourceless distribution option to enable to me to configure how connect is packaged and deployed															
+As a CONNECT adopter	 I want an installer that automates CONNECT deployment so that I can quickly implement CONNECT for Exchange messaging															
+As a CONNECT adopter	 I want CONNECT 4.0 to  be tested on WebSphere 7.x to validate whether CONNECT will work in my preferred enviornment															
+As a CONNECT adopter	 I want CONNECT 4.0 to  be tested on WebSphere 7.x using  IBM SDK 6 to validate that CONNECT will work in my preferred enviornment															
+As a CONNECT adopter	 I want CONNECT 4.6 to be published/released	 so that the community and federal agencies can avail of the enhancements and bug fixes in this release														
+As a CONNECT adopter	 I want CONNECT 4.7 to be published/released	 so that the community and federal agencies can avail of the enhancements and bug fixes in this release														
+As a CONNECT adopter	 I want CONNECT to  be implemented using Java 1.6 so that I can use it in my preferred environment															
+As a CONNECT adopter	 I want CONNECT to be deployable in JBOSS	 so that I can use my preferred application server for health data exchange.														
+As a CONNECT adopter	 I want CONNECT to be tested with the MU2 test cases for Direct related transports to enable my CONNECT implementation to be certified for MU2/ONC 2014 certification															
+As a CONNECT adopter	 I want CONNECT to include a Keep-Alive option to bypass proxy server timeout issues															
+As a CONNECT adopter	 I want CONNECT to interface with state PDMPs so I can request patient prescription data															
+As a CONNECT adopter	 I want CONNECT to meet performance expectations for Exchange services when Direct is deployed and used	 so that my Exchange partners are not impacted if I want to include Direct														
+As a CONNECT adopter	 I want CONNECT to return an error message when the passthrough request includes multiple target communities	 so that I am informed of the behavior														
+As a CONNECT adopter	 I want CONNECT to support NwHIN X12 Document submission service to support RACs with other alternative methods for documentation exchange for claims determination															
+As a CONNECT adopter	 I want CONNECT to use Apache CXF 2.7.3	 inorder to fix some security vulnerabilities  found in 2.7.2.														
+As a CONNECT adopter	 I want CONNECT to use latest Hibernate version	 in order to be on the latest released version.														
+As a CONNECT adopter	 I want CONNECT to use MySQL 5.6	 in order to have better performance and sub second granularity in timestamps.														
+As a CONNECT adopter	 I want CONNECT upgraded to CXF 3.1.7 so the software is more secure															
+As a CONNECT adopter	 I want deferred Document Submission responses to include a document payload															
+As a CONNECT adopter	 I want easy to use adapters so that integrating my EHR system with CONNECT is simplified and helps speed up the time taken to bring my system up integrating with the eHealth Exchange via CONNECT.															
+As a CONNECT adopter	 I want FIPS support all supported application servers															
+As a CONNECT adopter	 I want improvements in the interoperability testing infrastructure and testing process so that interoperability testing is streamlined and enhanced to include updated scripts for functionality	 and helps minimize costs														
+As a CONNECT adopter	 I want instructions for deploying CONNECT on WildFly in FIPS mode															
+As a CONNECT adopter	 I want new features and bug fixes are re-tested so that new functionality is validated prior to release															
+As a CONNECT adopter	 I want Release 4.3 to be tested with other prior versions of CONNECT to validate that Release 4.3 is interoperable with prior versions															
+As a CONNECT adopter	 I want Release 4.4 to be tested with other prior versions of CONNECT to validate that Release 4.4 is interoperable with prior versions															
+As a CONNECT adopter	 I want release 4.5.1 to be published	 so that the community can avail of the bug fixes in this patch release														
+As a CONNECT adopter	 I want release notes and other documentation for 4.4 so that the community understands the features and artifacts for the release															
+As a CONNECT adopter	 I want security risk assessment performed for CONNECT 4	 so that CONNECT 4 adopters can use the report to help them with their C&A needs														
+As a CONNECT adopter	 I want the ability to create a user to provide access to the admin GUI functionality															
+As a CONNECT adopter	 I want the ability to load test data (patients and documents) via the AdminGUI															
+As a CONNECT adopter	 I want the ability to send  Real Time NwHIN CAQH CORE X12 Document Submission transactions with X12 payload.															
+As a CONNECT adopter	 I want the CONNECT validation suite to be able to run against a remote server so that CONNECT is thoroughly tested against self and other machines.															
+As a CONNECT adopter	 I want the legacy universal client to be included in the Admin GUI and enhanced with the new look and feel so that it is easier to use and consistent with the CONNECT GUI look and feel															
+As a CONNECT adopter	 I want the newly discovered Fortify issues to be fixed so that we the product is secure 															
+As a CONNECT adopter	 I want the next Release 4.4 to be install tested so that the installation is successfully validated in supported environments															
+As a CONNECT adopter	 I want the regression suite to be well organized and documented so that understanding and executing the test suite is easier and the regression suite is easy to maintain															
+As a CONNECT adopter	 I want the Spring framework to be upgraded to 5.0 for enhanced security and agency requirement support															
+As a CONNECT adopter	 I want to address all Medium and Low Fortify issues so that the code quality is improved															
+As a CONNECT adopter	 I want to audit PD messages per ATNA specifications so that the PD audits are compliant.															
+As a CONNECT adopter	 I want to be able to enable and disable services by organization on the fly															
+As a CONNECT Adopter	 I want to be able to extend the Gateway where different transport methods are supported to better communicate with different exchange participants and broaden exchange participants															
+As a CONNECT Adopter	 I want to call a simple interface (well defined API) to integrate with CONNECT as quickly and simply (a limited set of required fields) as possible															
+As a CONNECT adopter	 I want to complete documentation for 4.3 updated on the wiki	 so that the community understands the enhancements and artifacts for the release														
+As a CONNECT adopter	 I want to define and implement a process for static code analysis to help improve the software with regards to software issues.															
+As a CONNECT adopter	 I want to ensure that CONNECT 3.3.1 has completed NwHIN onboarding validation testing	 so that I can have some assurance that the CONNECT components of exchange are capable of passing onboarding validation  testing.														
+As a CONNECT adopter	 I want to improve CONNECT's audit logging across all SOAP based services so that gateway is ATNA compliant	 auditing framework is consistent across all services and audit information is available for reporting purposes														
+As a CONNECT Adopter	 I want to install CONNECT as a complete product (COTS) in order to remove concern about which app-server to use or the configuration. 															
+As a CONNECT adopter	 I want to instruct the gateway which spec version/endpoint  to target for QD service so that I have greater flexibility when exchanging with my trading partners.															
+As a CONNECT adopter	 I want to instruct the gateway which spec version/endpoint  to target for RD service so that I have greater flexibility when exchanging with my trading partners.															
+As a CONNECT adopter	 I want to know how to enable FIPS on a CONNECT 3.3 installation on GlassFish 3.1.2															
+										
+As a CONNECT adopter	 I want to know the CONNECT 3.3 test plan so that I can understand how it was tested prior to release.														
+As a CONNECT adopter	 I want to know the service version of the inbound QD request	 so that I can determine how to validate/process the request and generate the appropriate response.														
+								
+As a CONNECT adopter	 I want to run CONNECT 3.3 on GlassFish 3.1.2 (with and without FIPS enabled)															
+As a CONNECT adopter	 I want to run the smoke test to make sure that fixes for CONN-355 does not negatively impact the release.															
+As a CONNECT adopter	 I want to understand how certificates are configured in CONNECT	 so that I can configure them correctly in my environment.														
+As a CONNECT adopter	 I want to view a demo of Admin GUI framework so that I understand the capabilities that have been developed and can provide additional guidance and direction for further development															
+As a CONNECT adopter	 I would like a certificate management interface so I can more efficiently manage Exchange certificates															
+As a CONNECT adopter	 I would like a simplified installation process that included Glassfish 3.1.1 and Metro 2.1.1	 so that I can download and install a standard Glassfish/Metro combination.														
+As a CONNECT adopter	 I would like an interface in the System Administration module for pinging remote partners so that I may trouble shoot connectivity.															
+As a CONNECT adopter, I would like assistance installing and configuring "Direct only" for CONNECT 4.																
+As a CONNECT adopter	 I would like CONNECT SAML handling to conform completely to the NwHIN specifications															
+As a CONNECT adopter	 I would like consolidated CONNECT documentation so I can find quickly find CONNECT answers 															
+As a CONNECT adopter	 I would like to be able to configure my Webservice timeouts by transaction to allow for greater flexibility managing my transaction/response time across my trading partners															
+As a CONNECT adopter	 I would like to have the next release 4.4 and artifacts published so that I can take advantage of the new features and improvements in this release															
+As a CONNECT Adopter	 there is a requirement for support of Multiple Assigning Authority to support the capability of responding and saving multiple unique patient identifiers of a patient from a community. 															
+As a CONNECT adopter/developer I want a clean property file (gateway.properties) so that there is no confusion with regards to the unused properties or default values.																
+As a CONNECT adopter/developer	 I want to Increase Cobertura coverage for Policy Engine	 Aggregator	 and Transform packages by at least 20% in line	 method	 and branch statistics so that code quality is improved											
+As a CONNECT adopter/developer	 I would like CONNECT to use liquibase for easier database management.															
+As a CONNECT adopter/product owner	 I want the report for the security scan reviewed	 responded to and issues addressed so that I can better understand the security issues associated with the CONNECT code and prepare for internal reviews														
+As a CONNECT Community member I would like to be notified and understand the CONNECT 4.1 release via Patch Release notes on the wiki																
+As a CONNECT community member	 I need Direct installation instructions to be updated to detail configuration steps	 so that I can easily install and configure Direct in my environment														
+As a CONNECT contributor I would like the CONNECT READMEs to be current and easy to update																
+As a CONNECT Contributor	 I need the Source Code to be well organized and easily understood in order to build upon the CONNECT framework to better serve Healthcare Interoperability and the Government's investment															
+As a CONNECT Custodial Agent we need to prepare CONNECT for other essential risks in health care like integrity and availability faults.  CONNECT needs automated controls to detect	 report	 alarm	 diagnose and correct integrity and availability issues. 													
+As a CONNECT deployer	 the startup logs should be free of errors and warnings															
+As a CONNECT developer I want a backing bean for the admin gui page to show which remote gateways a local gateway is talking to.																
+As a CONNECT developer I want an automated performance test suite which can be integrated into CI																
+As a CONNECT developer I want the Validation Suite to support more configurability options.																
+As a CONNECT developer I want to analyze Direct functionality and design an approach to creating test scripts in order to have functional level testing coverage of Direct																
+As a CONNECT developer I want to automatically deploy the latest code to the "latest" interop boxes nightly																
+As a CONNECT developer I want to create a "create user" page for the admin GUI																
+As a CONNECT developer I want to create direct configuration services which fit into the CONNECT techstack.																
+As a CONNECT developer I want to create the managed bean and service integration to create a user																
+As a CONNECT developer I want to deploy Connect with maven cargo on WebLogic app server to simplify configuration and deployment																
+As a CONNECT developer I want to deploy connect with maven cargo on WebSphere app server to simplify configuration and deployment																
+As a CONNECT developer I want to design and document automated interop lab testing																
+As a CONNECT developer I want to do a dry run of the HIMSS 2014 demo with good data.																
+As a CONNECT developer I want to implement some Direct configuration web services.																
+As a CONNECT developer I want to rebrand the portal with CONNECT theme to demo at HIMSS 2014																
+As a CONNECT developer I want to replace ant install and ant deploy.connect with maven cargo on GlassFish app server to simplify configuration and deployment																
+As a CONNECT developer I want to set up a UDDI implementation	 to increase test coverage in interop testing.															
+As a CONNECT developer I want to update CONNECT Direct code to support new event logging events																
+As a CONNECT developer I want to work on some improvements related to build/deploy	 code cleanup	regression and component tech upgrades so that the code is easier to maintain build times are improved													
+As a CONNECT developer I want to work on testing improvements for regression	 interoperability and performance testing so that  coverage levels are improved															
+As a CONNECT developer I would like a Admin GUI page to display the remote gateways that the local gateway is communicating with.																
+As a Connect Developer would like to update Gateway with new version of Apache WSS4J																
+As a CONNECT Developer	 CONNECTCoreLib should be free of static analysis errors and warnings															
+As a CONNECT developer	 I can build core libraries and services independently from each other															
+As a CONNECT developer	 I need to create a template for individual test results report	 so that I can populate said template to track each of my performance tests.														
+As a CONNECT developer	 I need to present options to the team for resolving application logging issues with large payloads	 so that we can develop a solution.														
+As a CONNECT developer	 I need to push CONNECT libraries built with Java 6 to maven central	 to support Java 6 for the Federal Partners.														
+As a CONNECT developer	 I need to update test suite to include test cases for bugs/improvements fixed for Release 4.2 so that going forward these tests are included as part of release testing															
+As a CONNECT developer	 I need to update the CONNECT codebase to use Java 6	 to support Federal Partners.														
+As a CONNECT developer	 I want to run wsdl2java generation as few times as possible during normal CI															
+As a CONNECT Developer	 I want to create the design approach for Direct enhancements															
+As a CONNECT developer	 I want a set of JMX utility classes	 so that I can quickly update CONNECT configurations.														
+AS a CONNECT developer	 I want all assertions upgrades to be completely tested so the code can be included in the next release															
+As a CONNECT developer	 I want integration tests moved out of the build (and replaced with JUnit tests when necessary) so that tests are scoped appropriately.															
+As a CONNECT developer	 I want the Direct GUI pages to be integrated with the config webservices both for retrieving and submitting information															
+As a CONNECT developer	 I want the option to build CONNECT without any dependencies on Direct so that non-Direct builds cannot hang or fail on Direct unit tests.															
+As a CONNECT developer	 I want to adopt Gateway adapter pattern for ExchangeManager															
+As a CONNECT developer	 I want to adopt liquibase for CDBM so that I can support new databases															
+As a CONNECT developer	 I want to be able to query event logs	 to display information for message tracking.														
+As a CONNECT developer	 I want to consolidate caching of configuration files into one subsystem to simplify code and help code maintainenance															
+As a CONNECT developer	 I want to create binary distributions in a single command so that I can have consistent binaries and simplify the process for binary creation and distribution															
+As a CONNECT developer	 I want to create WSDLs for NwHIN	 Adapter and Entity interfaces for CAQH Core X12 Document Submission Service specifications so that I may better understand the synchronous and batch(deferred) X12 transactions														
+As a CONNECT developer	 I want to eliminate audit transforms when auditing is not enabled	 to make the gateway run more efficiently.														
+As a CONNECT developer	 I want to hide all the Direct AdminGUI pages if Direct components are not deployed															
+As a CONNECT developer	 I want to implement Spring/Hibernate Direct configuration services as part of CONNECT so that I can change Direct config settings through the Admin GUI															
+As a CONNECT developer	 I want to implement static code analyzers in CONNECT via maven and jenkins	 to understand the quality of code.														
+As a CONNECT developer	 I want to include the security plugin for findbugs	 to help identify security vulnerabilities in CONNECT.														
+As a CONNECT Developer	 I want to Increase Cobertura coverage for Patient Corelation and Doc repository packages by at least 20% in line	 method	 and branch statistics so that code quality is improved													
+As a CONNECT Developer	 I want to migrate the automated test environment and regression test suites from GlassFish server to the Wildfly since GlassFish is no longer a supported application server															
+As a CONNECT developer	 I want to participate in the Direct connect-a-thon	 so that we can validate our implementation of the Direct specifications														
+As a CONNECT developer	 I want to participate in the Direct Virtual Connect-A-Thon so that I can test the Direct feature with other Direct instances and understand scalable trust	 trust bundles														
+As a CONNECT developer	 I want to PoC streaming web services	 to determine their feasibility in CONNECT.														
+As a CONNECT developer	 I want to provide a mechanism to manage gateway configuration	 so that my team and our adopters can more easily manage their gateway.														
+As a CONNECT developer	 I want to provide documentation on CONNECT scalability															
+As a CONNECT developer, I want to pull out "neat" adapters into a "plugins" repo, so that open source developers can more easily maintain them.																
+As a CONNECT developer	 I want to release 4.1.															
+As a CONNECT developer	 I want to research CommonWell specifications so CONNECT can support exchange on the CommonWell network															
+As a CONNECT developer	 I want to research design options related to determining what version of the spec an incoming message is implementing to support partner usecase (CONN-46)															
+As a CONNECT developer	 I want to research PDMP services for querying patient opioid information															
+As a CONNECT developer	 I want to research the CareEquality framework	 including possibly adding support for NRL services.														
+As a CONNECT Developer	 I want to resolve all of the Forty findings with Critical or High priorities.															
+As a CONNECT developer, I want to run Direct in "loopback" mode, to assist in developing and updating the Direct Implementation.																
+As a CONNECT developer	 I want to run the regression suite via maven	 so that I can run the whole regression suite at one time.														
+As a CONNECT developer	 I want to set up an environment for a HIMSS 2014 demo.															
+As a CONNECT developer	 I want to setup interoperability lab in GFE servers and not use Terremark so that the interop testing environment is stable															
+As a CONNECT developer	 I want to switch to and from passthru mode with out restarting the gateway	 so that I can test faster.														
+As a CONNECT developer	 I want to update DQ auditing so that DQ audits follow the ATNA specifications															
+As a CONNECT developer	 I would like the interoperability dashboard collector program updated to provide test diagnostic information.															
+As a CONNECT developer	 I would like to have a profile that would disable the SOAPUI tests.															
+As a CONNECT Developer	 I would like to pull out the Policy Engine adapter logic into a plugin	 so that I can improve the policy engine functionality														
+As a CONNECT developer	 I would like to script JBoss to automatically deploy and test via CI so that the validation tests are run at checkin and errors are caught earlier in the development process															
+As a CONNECT developer	 I would like to script WAS to automatically deploy and test via CI so that the validation tests are run at checkin and errors are caught earlier in the development process															
+As a CONNECT developer	 I would like to script WL to automatically deploy and test via CI so that the validation tests are run at checkin and errors are caught earlier in the development process															
+As a CONNECT developer	 I would like to see that the package structure actually be 'org.connectopensource'.															
+As a CONNECT developer	 the build logs should be free of errors and warnings															
+As a CONNECT developer	 the default build should take less than 5 minutes															
+As a CONNECT development team member	 I want to improve build/install documentation so that it can be easily maintained and navigated.															
+As a CONNECT Direct developer	 I want two test HISPs so I can test my Direct implementation															
+As a CONNECT Direct Hisp Adopter	 I want to manage failed msgs using a separate mail folder.															
+											
+As a CONNECT implementer new to CONNECT	 I need a tutorial on 'Learn CONNECT in 24 hours' so that I understand the business use cases supported and installation/implementation details for CONNECT															
+As a CONNECT implementer supporting a large number of trading partners	 I need support for increased  throughput of CONNECT with the existing architecture	 targeting increased numbers of PD	 QD	 RD	 AD and DS related to national program roll outs.											
+
+As a CONNECT implementer supporting both versions of the eHealth Exchange specifications	 I need to know what version of the spec a message is implementing	 so that I can validate the incoming message.														
+As a CONNECT implementer using Direct specifications	 I want the ability to send Direct email to multiple recipients/HISPs using a single outbound message from my edge.																									
+As a CONNECT implementer	 I shall have the ability to get more comprehensive event logging and metric data (counts and duration) using improved logging in CONNECT															
+As a CONNECT implementer	 I shall have the ability to get more comprehensive performance logging and metric data (counts and duration) using improved logging in CONNECT															
+As a CONNECT Implementer	 I want an install wizard	 so that I can install CONNECT quickly and correctly														
+As a CONNECT implementer	 I want HealtheWay audit checklists to be reviewed with the CONNECT codebase to identify all audit spec compliance issues 															
+As a CONNECT implementer	 I want HealtheWay manual checklists to be reviewed with the CONNECT codebase to ensure there are no specification discrepancies and find out specification issues prior to release															
+As a CONNECT implementer	 I want to address all High and Critical Fortify issues so that the code is secure and compliant with DoD requirements for code quality															
+As a CONNECT implementer	 I want to address all security issues identified as part of Fortify scans and other security tools to be fixed so that the code is secure and compliant with DoD requirements for code quality															
+As a CONNECT implementer	 I want to address all security issues identified as part of Fortify scans to be fixed so that the code is secure and compliant with DoD requirements for code quality															
+As a CONNECT implementer	 I want to ensure that there are no Critical	High	Medium and Low Cat 1 issues in Fortify	 high level issues in OWASP and no blockers	 critical in SonarQube so that CONNECT continues to be secure and quality											
+As a CONNECT implementer	 I want to ensure that there are no High	 Critical and Cat 1 issues so that CONNECT continues to be secure.														
+As a CONNECT implementer	 I want to instruct the gateway which spec version/endpoint  to target for a service so that I have greater flexibility when exchanging with my trading partners.															
+As a CONNECT implementer	 I want to upgrade CXF to the latest version/patch so that the security and bug fixes implemented in the patch are incorporated into CONNECT resulting in CONNECT being more secure and stable.															
+As a CONNECT implementer	 I would like enhanced CONNECT performance to minimize resource requirements															
+As a CONNECT implementor	 I want to reuse CXF's ws-securitypolicy certificate configuration for SAML Assertion signatures	 in order to simplify my certificate configuration.														
+As a CONNECT implementor	 I want to use my application server's SSLSocketFactory for outbound SSL	 in order to make my configuration more simple.														
+As a CONNECT member	 I want CONNECT 5.3 to be tested per the 5.3 release test plan so it can be released to the CONNECT community 															
+As a CONNECT product manager	 I want all the Product testing provisional test cases to be executed so that we can assess where CONNECT stands as is currently from a testing compliance perspective															
+As a CONNECT product manager	 I would like to release 4.4.1 to the community	 to provide a release that addresses all known issues discovered during eHealth Exchange participant certification 														
+As a CONNECT product owner I need issues related to the HIEM service be fixed and CONNECT be compliant with the NwHIN specifications so that any CONNECT adopter can use the HIEM service if needed. 																
+As a CONNECT product owner	 I need to test CONNECT 3.3.1.3 against the alpha test cases using the DIL test system so that feedback can be provided to the CTB on usage of the DIL and product team gains familiarity with the DIL															
+As a CONNECT product owner	 I want security risk assessment performed for 4.0	 so that CONNECT 4.0 adopters can use the report to help them with their C&A needs														
+As a CONNECT product owner	 I want the program team to organize and hold a User Group meeting so that the product team can engage with the user community and receive feedback on the product and/or needs of the users															
+As a CONNECT product owner	 I want to complete documentation for 4.2 so that the community understands the features and artifacts for the release															
+As a CONNECT product owner	 I would like to release 4.2 to the community so they can take advantage of the new features and improvements contained in this release															
+As a CONNECT product owner/adopter	 I want to complete the pre-requisities for pilot testing i.e. pre-test setup and responding smoke tests so that we can proceed with pilot testing 															
+As a CONNECT product owner/adopter	 I want to execute smoke tests(initiating) so that we can proceed with pilot testing 															
+As a CONNECT product owner/adopter	 I want to execute the assigned pilot test cases that the team was asked to focus on first so that we can complete pilot testing 															
+As a CONNECT QA analyst	 I need to document the test plan for Direct so that I can detail out how the Direct capability will be tested and validated															
+As a CONNECT system administrator	 I want documentation on PKI in CONNECT so that I have a reference for certificate setup and troubleshooting															
+As a CONNECT system administrator	 I want to have the ability to view and update gateway configuration files	 via a simple GUI interface	 so that it is easier for me to manage my gateway instance													
+As a CONNECT team member	 I want to continually improve our SDLC processes so that we can track	 report on	 and map artifacts such as requirements	 bug fixes	 and pull requests.											
+As a CONNECT team member	 I want to demonstrate CONNECT FHIR Fusion adapters to agency teams															
+As a CONNECT tester I would like to move all interop testing from the pdc to the gfe so that I can improve the testing process																
+As a CONNECT tester	 I want the regression test ready to run at regular intervals in the CI environment															
+AS a CONNECT tester	 I want to improve coverage of the regression test suite	 so that I can ensure that changes to the code are adequately covered by regression tests.														
+As a CONNECT tester	 I would like to have a thorough set of regression tests for Doc Query	 so that I can have proper test coverage														
+As a CONNECT tester	 I would like to have a thorough set of regression tests for Document Retrieve	 so that I can have proper test coverage														
+As a CONNECT tester	 I would like to have a thorough set of regression tests for Patient Discovery	 so that I can have proper test coverage														
+As a CONNECT Testing	 I want to understand how to test Direct from a regression perspective.															
+As a CONNECT user I need CONNECT to integrate with and support the DIRECT Project specifications																
+As a CONNECT user I need the Aggregator Timeout to be configurable																
+As a CONNECT user I need the specifications page updated on connectopensource.org wiki so that I am informed of the specifications and versions that CONNECT 4.0 supports along with backward compatibilility for the product																
+As a CONNECT user I need the support of a User Interface into the CONNECT log files for searches and presentation to more efficient and streamlined support (User Story: EST011)																
+As a CONNECT user I need to poll and log the MDN notifications received so that I can use that information to determine whether my Direct message was successfully processed by the Receiving STA.																
+As a CONNECT user I want the Admin GUI to display which remote HCID's the local gateway is communicating with so that I can analyze message traffic.																
+As a CONNECT user I want to be able to send SMTP messages using Direct protocols so that I could send health information to recipients that can accept Direct messages. 																
+As a CONNECT user I want to receive health information using Direct via email so that I could use my existing interfaces and workflow to accept Direct messages. 																
+As a CONNECT user I will need CONNECT to support the CMS sponsored Population Aggregate Data Profile/ Specification to help increase interoperability and meet quality reporting mandates																
+As a CONNECT user I will need CONNECT to support the CMS sponsored X12 Profile/ Specification to help increase interoperability																
+As a CONNECT user I would like to have auditing be handled by Proxy Implementation classes investigated for performance improvements																
+As a CONNECT user I would to have combining Nhinc(aka MsgProxy	 aka Passthru) and Entity interfaces as two operations of the same WSDL considered to improve efficiency 															
+As a CONNECT user receiving Direct messages	 I want to unpack the XDM content as an XDR Submission set so that I can use SOAP adapters to handle the XDR Submission set															
+As a CONNECT user	 I need bugs related to HIEM Notify transaction to be fixed  and successfully validated to ensure/validate that HIEM service works in Rel 4.0.															
+As a CONNECT user	 I need bugs related to HIEM Subscribe transaction to be fixed  and successfully validated to ensure/validate that HIEM service works in Rel 4.0.															
+As a CONNECT user	 I need the lightweight gateway capability to be applied for HIEM service so fewer endpoints need to be stood up for the service	 memory footprint is reduced and HIEM is consistent with other services.														
+As a CONNECT user	 I want a Findbugs report generated and published nightly	 in order to know the condition of software.														
+As a CONNECT user	 I want a Fortify report generated and published nightly	 in order to know the condition of software.														
+As a CONNECT user	 I want a JArchitect report generated and published nightly	 in order to know the condition of software.														
+As a CONNECT user	 I want a SONAR report generated and published nightly	 in order to know the condition of software.														
+As a CONNECT user	 I want any configuration required for the Direct service and/or related components to be documented so that I can successfully deploy Direct. 															
+As a CONNECT user	 I want CONNECT to be tested in a clustered environment(load balancing) with WS and WL so that I can deploy it in my clustered environment															
+As a CONNECT user	 I want CONNECT to support X509 certificates to identify the subject so that I could use X509 certs instead of RSAKeyValue in my implementation															
+As a CONNECT user	 I want Direct messages that I receive to be made accessible to me via SOAP+XDR endpoint so that I may use existing interfaces and workflow to receive the message while supporting the users that wish to send me health data via Direct.															
+As a CONNECT user	 I want Release 4.2 to be regression tested so that the functionality is validated															
+As a CONNECT user	 I want Release 4.2 to be regression tested so that the functionality is validated in RC2															
+As a CONNECT user	 I want Release 4.3 to be regression tested to validate CONNECT functionality and ensure that new code has not impacted past features and functions															
+As a CONNECT user	 I want Release 4.4 to be regression tested so that the functionality is validated															
+As a CONNECT user	 I want the administrative GUI functionality to include role based access so that I restrict access of administrative functions by user role															
+As a CONNECT user	 I want the Direct feature to work out of the box on binary installations	 so I can set up Direct more easily.														
+As a CONNECT user	 I want the HIEM service to include event logging capability so that I can gather performance metric data for the HIEM service 															
+As a CONNECT user	 I want the steps for Direct installation to be documented so that I can install the Direct service along with any other needed components.															
+As a CONNECT user	 I want to cleanup the CONNECT Database and document the database information															
+As a CONNECT user	 I want to log Direct messages sent and received from the gateway so that I can audit the Direct messages as well as gather Direct usage stats at the gateway.															
+As a CONNECT user	 I want to use a CONNECT endpoint to send a SOAP+XDR message that results in a Direct message so that I can use existing interfaces to send health information to Direct recipients.															
+As a CONNECT user	 I would like Java 7 to be the recommended/supported version for building	developing	 and running Connect so that I can take advantage of the improvements provided in the latest version													
+As a Custodial Agent we need to reduce the amount of up-front policy and planning for security requirements and what is assigned to the implementers	 this should be largely predetermined for all implementers and simplified. 															
+As a Custodial Agent we need to strengthen and expand CONNECT's security testing harness																
+As a Custodial Agent	 I Need to Remove Legacy Code for Audit Log Query So That I Can Better Maintain the Code Base															
+As a Custodial Agent	 I Need to Remove Legacy Code for Large Out-of-Ban File Transfers (LiFT) So That I Can Better Maintain the Code Base and Security Requirements 															
+As a Custodial Agent	 I Need to Remove Legacy Code for MuralMPI So That I Can Better Maintain the Code Base															
+As a Custodial Agent	 I Need to Remove Legacy Code for Re-Identification So That I Can Better Maintain the Code Base															
+As a Custodial Agent	 I Need to Remove Legacy Code for Subject Discovery So That I Can Better Maintain the Code Base															
+As a Custodial Agent	 I want to ensure CONNECT Plus adheres to the NwHIN Specifications.  CONNECT Plus needs to implement the Jan 2010 version of the Access Consent Policies specification. 															
+As a Custodial Agent	 I want to ensure CONNECT Plus adheres to the NwHIN Specifications.  CONNECT Plus needs to implement the Jan 2010 version of the Administrative Distribution specification. 															
+As a Custodial Agent	 I want to ensure CONNECT Plus adheres to the NwHIN Specifications.  CONNECT Plus needs to implement the Jan 2010 version of the Authorization Framework specification. 															
+As a Custodial Agent	 I want to ensure CONNECT Plus adheres to the NwHIN Specifications.  CONNECT Plus needs to implement the Jan 2010 version of the Document Query specification. 															
+As a Custodial Agent	 I want to ensure CONNECT Plus adheres to the NwHIN Specifications.  CONNECT Plus needs to implement the Jan 2010 version of the Document Retrieve specification. 															
+As a Custodial Agent	 I want to ensure CONNECT Plus adheres to the NwHIN Specifications.  CONNECT Plus needs to implement the Jan 2010 version of the Document Submission specification. 															
+As a Custodial Agent	 I want to ensure CONNECT Plus adheres to the NwHIN Specifications.  CONNECT Plus needs to implement the Jan 2010 version of the Health Information Event Messaging specification. 															
+As a Custodial Agent	 I want to ensure CONNECT Plus adheres to the NwHIN Specifications.  CONNECT Plus needs to implement the Jan 2010 version of the Messaging Platform specification. 															
+As a Custodial Agent	 I want to ensure CONNECT Plus adheres to the NwHIN Specifications.  CONNECT Plus needs to implement the Jan 2010 version of the Patient Discovery specification. 															
+As a Custodial Agent	 I want to ensure CONNECT Plus adheres to the NwHIN Specifications.  CONNECT Plus needs to implement the Jan 2010 version of the Web Services Registry specification. 															
+As a Custodial Agent	 I want to ensure CONNECT Plus adheres to the NwHIN Specifications.  CONNECT Plus needs to implement the July 2011 version of Deferred Document Submission. 															
+As a Custodial Agent	 I want to ensure CONNECT Plus adheres to the NwHIN Specifications.  CONNECT Plus needs to implement the July 2011 version of Deferred Patient Discovery. 															
+As a Custodial Agent	 I want to ensure CONNECT Plus adheres to the NwHIN Specifications.  CONNECT Plus needs to implement the July 2011 version of the Administrative Distribution specification. 															
+As a Custodial Agent	 I want to ensure CONNECT Plus adheres to the NwHIN Specifications.  CONNECT Plus needs to implement the July 2011 version of the Authorization Framework specification. 															
+As a Custodial Agent	 I want to ensure CONNECT Plus adheres to the NwHIN Specifications.  CONNECT Plus needs to implement the July 2011 version of the Document Query specification. 															
+As a Custodial Agent	 I want to ensure CONNECT Plus adheres to the NwHIN Specifications.  CONNECT Plus needs to implement the July 2011 version of the Document Retrieve specification. 															
+As a Custodial Agent	 I want to ensure CONNECT Plus adheres to the NwHIN Specifications.  CONNECT Plus needs to implement the July 2011 version of the Document Submission specification. 															
+As a Custodial Agent	 I want to ensure CONNECT Plus adheres to the NwHIN Specifications.  CONNECT Plus needs to implement the July 2011 version of the Messaging Platform specification. 															
+As a Custodial Agent	 I want to ensure CONNECT Plus adheres to the NwHIN Specifications.  CONNECT Plus needs to implement the July 2011 version of the Patient Discovery specification. 															
+As a Custodial Agent	 I want to ensure CONNECT Plus adheres to the NwHIN Specifications.  CONNECT Plus needs to implement the July 2011 version of the Web Services Registry specification. 															
+As a developer	 I want the adapter to respond the same way in passthrough and standard mode.															
+As a Direct HISP implementer using CONNECT	 I need a GUI for trust bundle configuration so that configuring anchors and trust bundles is made easy from an implementation perspective															
+As a Direct HISP implementer using CONNECT	 I need a GUI or simple tool to configure mail servers so that Direct mail configuration is made easy for implementers															
+As a Direct HISP implementer using CONNECT	 I want CONNECT to support trust  bundles to minimize configuration overhead for setting up multiple anchors and support the trust communities that use trust bundles															
+As a Federal Partner	 I want a database-less implementation of transaction logging	 so that I can deploy CONNECT 4.x without a database at the gateway.														
+As a federal partner	 I want CONNECT to deploy and run without defining datasource in passthrough mode.  															
+As a Federal Partner	 I want CONNECT to use keystores and truststores configured in my application server	 as opposed to file system references	 because my application server doesn't always have the local files.													
+As a Federal Partner	 I want database-less adapters	 in order to validation my installation.														
+As a Federal Partner	 I want documentation regarding application server configuration	 so that I can manage CONNECT's performance.														
+As a Federal Partner	 I want documentation regarding CONNECT configuration	 so that I can manage CONNECT's performance.														
+As a Federal Partner	 I want documentation regarding tunable performance parameters	 so that I can manage CONNECT's performance.														
+As a federal partner	 I want know that upgrading CONNECT won't break my current ability to exchange information and my working adapters in order to lower the hurdles to upgrading (User Story: U0005)															
+As a federal partner	 I want to be able to install a future version of CONNECT without having to upgrade my adapters that are conformant to CONNECT 3.3 reference implementation in order reduce the effort to upgrade.															
+As a federal partner	 I want to be able to install CONNECT 3.3 and be able to communicate with another gateway with CONNECT 3.1 install in order to be able to exchange information with out everyone having to upgrade.															
+As a federal partner	 I want to be able to install CONNECT 3.3 and be able to communicate with another gateway with CONNECT 3.2.1 install in order to be able to exchange information with out everyone having to upgrade.															
+As a federal partner	 I want to be able to install CONNECT 3.3 without having to upgrade my adapters that are conformant to CONNECT 2.4.7 reference implementation in order reduce the effort to upgrade.															
+As a federal partner	 I want to be able to install CONNECT 3.3 without having to upgrade my adapters that are conforment to CONNECT 3.1 reference implementation in order reduce the effort to upgrade.															
+As a federal partner	 I want to be able to install CONNECT 3.3 without having to upgrade my adapters that are conforment to CONNECT 3.2.1 reference implementation in order reduce the effort to upgrade.															
+As a federal partner	 I want to determine the state of a transaction across messages in order to better troubleshoot and analyze the operation of CONNECT															
+						
+As a federal partner	 I want to determine the state of a transaction across messages in order to better troubleshoot and analyze the operation of CONNECT (User Story: EST009)															
+As a federal partner	 I want to install CONNECT 3.3 and be able to communicate to a gateway running CONNECT 2.4.7 without having to upgrade that gateway from CONNECT 2.4.7 to CONNECT 3.3															
+As a Federal Partner	 I want to research CONNECT using keystores and truststores configured in my application server	 as opposed to file system references	 because my application server doesn't always have the local files.													
+As a Federal Partner	 I want to understand how CONNECT's certificate configuration impacts FIPS 140-2 compliance.															
+As a HIMSS participant	 I want the CONNECT-Hub user interface to be polished and handle my errors.															
+As a HISP supporting SMTP and XDR edge	 I want a GUI interface to track notifications for both MDN Processed and Delivery tracking methods to support my trading partners use cases															
+As a member of the CONNECT community	 I want JIRA and Confluence to have more stable and higher uptime	 so that I can access CONNECT's wiki and issue trackers.														
+As a member of the CONNECT community	 I want Jira to be upgraded to the latest version so that I can avail of the newer features in the latest version and address the security risk identified with the version being used															
+As a potential CommonWell participant	 I want CONNECT to leverage the CommonWell specifications so I can exchange with other participants on the CommonWell network															
+As a product owner/adopter	 I want Release 4.2 to be install tested so that the installation is successfully validated in supported environments															
+As a product owner/adopter	 I would like to release 4.1 to the community so that the community can avail of the new features and improvements in this release.															
+As a user	 I want to install CONNECT using Glassfish 3.1.2 on a 32bit OS															
+As a user	 I want to install CONNECT using Glassfish 3.1.2 on a 64bit OS															
+As an AdminGUI developer	 I would like all current Primefaces pages to have correct look and feel															
+As an adopter interested in interoperabilty and health data exchange	 I want to see a CONNECT demo so that I understand how CONNECT is used to exchange health data and how it interacts with other supporting MPI and repository systems															
+As an adopter using CAQH CORE X12 DS service	 I want all X12 service transactions inbound and outbound to be audited	 so that the gateway is compliant with the specifications and I have the needed information if needed to support any audit inquiry														
+As an adopter using CAQH CORE X12 DS service	 I want transaction events to be logged	 so that I can easily monitor transactions count as well as transaction time intervals to help with performance metrics reports by time and number for the X12 DS service														
+As an exchange participant	 I want a new DS web service that does not attach documents so I can share document metadata without providing actual documents															
+As an exchange participant	 I would like CONNECT to support a FHIR provider directory so I can locate electronic service information															
+As an exchange participant	 I would like CONNECT to support messaging on multiple exchanges so I only need one gateway to participate in multiple exchanges															
+As an exchange particpant	 I need Record Locator Services (RLS) for CONNECT so I can locate patient records															
+As an interop tester	 I would like all the interop machines to be set up to be configurable.															
+As an interop tester	 I would like the interop lab tied into the current CI.															
+As an interop tester	 I would like the running of the lab to be set up from one machine and set up through our Jenkins process.															
+As an organization who requires access to patient prescription histories	 I would like the CONNECT PDMP module to be completed so I can access state PDMP data															
+As as CONNECT Developer	 I want to document a design approach for Auditing enhancements	 to distribute to the community for comments.														
+As I CONNECT developer I want to Document Regression test coverage from a feature/service perspective so I can track test cases and suites back to functional features.																
+As the CONNECT product owner	 I need the CCHIT HIE_Certified_Network_Questionnaire to be completed to help determine the test cases that we will be required to test for.															
+As the CONNECT product owner	 I want HIEM to be removed from the codebase inorder to remove related security vulnerabilities identified in the scan and to remove technical debt															
+As the Custodial Agent	 I want clearly separated modules where each module allows for contributions and independent testing as opposed to testing CONNECT as a whole															
+As the product owner I want to demo Release 4.4 to partners	 so that they understand the features delivered in the release															
+As a Data user	 I want to have the 12-19-2017 deletions processed.																

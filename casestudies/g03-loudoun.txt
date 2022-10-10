@@ -1,0 +1,116 @@
+As a Public User, I want to Search for Information, so that I can obtain publicly available information concerning properties, County services, processes and other general information.
+
+As a ProspectiveApplicant, I want to research requirements and to select a service, so that I can find the relevant service and/or application type to initiate via the online portal.
+
+As an Applicant, I want to Request PreApplication Assistance, so that I can receive a response to a request for a meeting or information that is a result of the preapplication assistance.
+
+As a Customer, I want to Create a Customer Portal User Account, so that I can log on to the Customer Portal and perform transactions that first require user authentication.
+
+As an Applicant, I want to Submit Application, so that I can provide my information, plans and/or documents to initiate a transaction with the County.
+
+As an Applicant, I want to Submit Supporting Documentation, so that I can satisfy documentation requirements for my application.
+
+As an Applicant, I want to Pay Fee, so that I can satisfy outstanding charge associated with the service requested or received from the County.
+
+As an Applicant, I want to Check the Status of a transaction, so that I can understand where the provisioning of my service is in the process, such as information related to service levels, fees, plan review, permit, or inspection results.
+
+As an Applicant, I want to Modify my Application, so that I can successfully change information on an application.
+
+As a Staff member, I want to Perform a Completeness Review, so that I can validate when an application is complete and eligible for further technical review.
+
+As a Staff member, I want to Record an Internal Note, so that I can share information with other Staff collaborating on the record.
+
+As a Staff member, I want to Assign an Application for Detailed Review, so that I can review the for compliance and subsequently approved or denied.
+
+As a Staff member, I want to Apply a Hold, so that I can prevent progression through the workflow or other actions in the system until the issue is resolved.
+
+As a Staff member, I want to Remove a Hold, so that I can allow progression through the workflow or other actions in the system now that the issue has been resolved.
+
+As a Staff member, I want to Send a Formal Response to Applicant, so that I can satisfy communication and records responsibilities.
+
+As a Staff member, I want to Track  the Draft Proffers, so that I can preserve the history of draft proffer statements submitted by the Applicant.
+
+As a Staff member, I want to Manage Approved Proffers, so that I can ensure compliance with and satisfaction of the proffer in the future.
+
+As a Staff member, I want to Manage Ordinances, so that I can maintain accurate ordinance information in the System.
+
+As a Staff member, I want to Schedule a Meeting, so that I can bring the required parties together at a specific date/time to address an issue.
+
+As a staff member, I want to denote an application with a Final Action status. So that I can finish it.
+
+As a Planning Staff member, I want to Conduct and Track Plan Amendments and Planning Studies, so that I can record work in process, outcome, and location-based information related to the Plan(s).
+
+As a Planning Staff member, I want to Generate Planning-related Reports, so that I can access, analyze and/or export 
+the needed information in the format I requested.
+
+As a Planning Staff member, I want to Evaluate Consistency with the Comprehensive Plan, so that I can complete my required review of a plan set and/or application.
+
+As a Staff member, I want to Perform a Staff Review, so that I can validate compliance of an application with the Zoning Ordinance and impact approval/denial of the application accordingly.
+
+As a Zoning Staff member, I want to Process the Requests for Zoning Information, so that I can capture my response to the request in the system and also send a communication from the system to the Applicant.
+
+As a Zoning Staff member, I want to Issue the Zoning-Related Permits, so that I can satisfy an Applicant's request for service that has proven to be eligible and in compliance with the Zoning Ordinance.
+
+As a Staff member, I want to Develop a Staff Report, so that I can publish and distribute the report according to business rules.
+
+As a Staff member, I want to Manage Hearing Calendars, so that I can track hearing-related activities and due dates.
+
+As a Staff member, I want to Assign a Hearing Date, so that I can present the application to the appropriate governing body within the timelines dictated by the relevant County rules and procedures.
+
+As a Staff member, I want to Manage Affidavits, so that I can ensure compliance with the requirements prior to the hearing.
+
+As an Applicant, I want to Satisfy Hearing Requirements, so that I can ensure all pre-hearing requirements are satisfied in time for the hearing.
+
+As a Staff member, I want to Prepare for and Support Hearing Execution, so that I can ensure all pre-hearing requirements are satisfied and staff and Applicant are ready for the hearing.
+
+As a Staff member, I want to Capture a Hearing Decision, so that I can enforce the system.
+
+As a Staff member, I want to Process the Appeals, so that I can track the outcome and record the impact on the relevant records.
+
+As a Plan Review Staff member, I want to Assign Plans for Review, so that I can ensure plans have been assigned to the appropriate Plan Reviewer.
+
+As a Plan Review Staff Supervisor, I want to Manage Plan Reviewer Workload, so that I can monitor and effectively adjust workload as necessary and ensure service levels are met
+
+As an Applicant, I want to Request a Plan Review Meeting, so that I can meet with the Plan Review Staff regarding the plan review.
+
+As a Plan Review Staff member, I want to successfully Conduct a Plan Review Meeting with the Applicant and record the outcome, so that I can listen to it again.
+
+As a Plan Review Staff member, I want to Review Plans, so that I can review them for compliance and either approve, or fail or deny the plans and record any conditions, clearances, or corrections needed from the Applicant.
+
+As an Applicant, I want to Resubmit Plans, so that I can review revised plans. 
+
+As a Plan Review Staff Member, I want to Review the Code Modifications submitted by the Applicant, so that I can review the request and if approved, associate it with the appropriate project.
+
+As a Plan Review Staff member, I want to Track the Completion of Required Plan Reviews, so that I can ensure all plan review tasks are completed, results have been sent to the Applicant and any downstream steps are initiated such has a final review or payment for permit issuance.
+
+As a Development Staff member, I want to Issue a Development-related Permit, so that I can grant the request to the Applicant to begin work
+
+As a Staff member, I want to Manage Bonds, so that I can track and manage bonds throughout the lifecycle of the project until release.
+
+As an Applicant, I want to Complete Building Development Project, so that I can receive any posted bond and/or obtain occupancy.
+
+As an Applicant, I want to Complete Building Development Project, so that I can receive any posted bond and/or obtain occupancy.
+
+As a Customer, I want to Request Inspection, so that a County inspector is assigned to perform an inspection of my project.
+
+As an Inspection Staff member, I want to Create an Inspection, so that I can schedule and assign the inspection.
+
+As an Inspection Staff Supervisor, I want to Assign Inspections, so that I can make sure the appropriate Inspector receives the work.
+
+As an Inspection Supervisor, I want to Manage Inspector Workload, so that I can meet service level and quality requirements.
+
+As an Inspector, I want to Conduct Inspections, so that I can validate Customer compliance with code and regulations and provide results of the inspection to the Customer.
+
+As an Enforcement Staff member, I want to Issue a Notice of Violation, so that I can provide formal communication to the responsible party.
+
+As a l Staff member, I want to search for Property information, so that I can obtain all associated current and historic owners, permits, and applications.
+
+As a Staff member, I need to be notified when Geospatial attributes change, so that I can ensure that I am reviewing the permit/application to the most current data and appropriate standards.
+
+As a County Staff Member, I want to create a custom query/report outside of the common querying/reporting functionality, so that I can fulfill a request.
+
+As a Staff member, I want to create each condo unit, so that I can associate it to the child parcel and address after the condominiums are recorded in the system.
+
+As a Technical Staff member, I want to update the GIS Property Management, so that I can successfully update the transactional Parcel Pin to reference the GIS layer where the Split or Merged Parcel Pin exists.
+
+As a Staff member, I want to Send or Post Citations and Fines, so that I can successfully send the Notice Of Violation document to the property owner and log information about the action.
