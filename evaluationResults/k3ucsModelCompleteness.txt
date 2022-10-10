@@ -1,0 +1,19 @@
+Comparison of models to original text, using
+compareModel2Source.py
+
+
+AgileUML model: 
+
+>>> Verb completeness score: 1.0
+>>> Noun completeness score: 0.5128205128205128
+
+Simple heuristic model: 
+
+>>> Verb completeness score: 0.9333333333333333
+>>> Noun completeness score: 0.44871794871794873
+
+HH19 model: 
+
+>>> Verb completeness score: 0.4
+>>> Noun completeness score: 0.0
+

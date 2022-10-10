@@ -1,0 +1,19 @@
+C:\Users\klano\Documents\icse\nlpDSL>python checkModelNames.py --model k3ucsHeuristicResult.km3
+!! Class name Location_dates VBZ should be singular noun with initial capital
+>>> Class validity score: 0.9545454545454546
+>>> Usecase validity score: 1.0
+>>> Total number of flaws = 1
+
+C:\Users\klano\Documents\icse\nlpDSL>python checkModelNames.py --model mmk3ucsHH19.km3
+>>> Usecase validity score: 1.0
+>>> Total number of flaws = 0
+
+C:\Users\klano\Documents\icse\nlpDSL>python checkModelNames.py --model mmk3ucsAgileUML.km3
+!! Class name Members NNS should be singular noun with initial capital
+!! Class name ProgramAdministratorNursingStaffMembers NNS should be singular noun with initial capital
+!! Class name ProgramAdministrators/NursingStaffMembers NNS should be singular noun with initial capital
+>>> Class validity score: 0.88
+>>> Attribute validity score: 1.0
+>>> Usecase validity score: 1.0
+>>> Total number of flaws = 3
+

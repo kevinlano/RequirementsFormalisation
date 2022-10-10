@@ -1,0 +1,35 @@
+Comparison of AgileUML, HH19 and simple heuristic solutions wrt manually-created reference model, using compareModels.bat script.
+
+
+>>> classes comparison: mmk3ucsReferenceModel <: k3ucsAgileUML = 0.11864406779661017 attributes: 0.036076318143187444
+>>> classes comparison: k3ucsAgileUML <: mmk3ucsReferenceModel = 0.28 attributes 0.05391578118850846
+>>> Similarity of mmk3ucsReferenceModel classes and k3ucsAgileUML classes is: 0.03322033898305085
+>>> Similarity of mmk3ucsReferenceModel attributes and k3ucsAgileUML attributes is: 0.0019450828750951121
+
+>>> use cases comparison: mmk3ucsReferenceModel <: k3ucsAgileUML = 0.8484202012014451
+>>> use cases comparison: k3ucsAgileUML <: mmk3ucsReferenceModel = 0.8034428382664397
+>>> Similarity of mmk3ucsReferenceModel use cases and k3ucsAgileUML use cases is: 0.681657134495873
+
+
+
+
+>>> classes comparison: mmk3ucsReferenceModel <: k3ucsHH19 = 0.0 attributes: 0.0
+>>> classes comparison: k3ucsHH19 <: mmk3ucsReferenceModel = 1
+>>> Similarity of mmk3ucsReferenceModel classes and k3ucsHH19 classes is: 0.0
+>>> Similarity of mmk3ucsReferenceModel attributes and k3ucsHH19 attributes is: 0.0
+
+>>> use cases comparison: mmk3ucsReferenceModel <: k3ucsHH19 = 0.6271510620599572
+>>> use cases comparison: k3ucsHH19 <: mmk3ucsReferenceModel = 0.7644694182546377
+>>> Similarity of mmk3ucsReferenceModel use cases and k3ucsHH19 use cases is: 0.4794378075707536
+
+
+
+>>> classes comparison: mmk3ucsReferenceModel <: k3ucsHeuristicResult = 0.05084745762711865 attributes: 0.0
+>>> classes comparison: k3ucsHeuristicResult <: mmk3ucsReferenceModel = 0.13636363636363635 attributes 1.0
+>>> Similarity of mmk3ucsReferenceModel classes and k3ucsHeuristicResult classes is: 0.006933744221879815
+>>> Similarity of mmk3ucsReferenceModel attributes and k3ucsHeuristicResult attributes is: 0.0
+
+>>> use cases comparison: mmk3ucsReferenceModel <: k3ucsHeuristicResult = 0.7974512706518714
+>>> use cases comparison: k3ucsHeuristicResult <: mmk3ucsReferenceModel = 0.7142173608173956
+>>> Similarity of mmk3ucsReferenceModel use cases and k3ucsHeuristicResult use cases is: 0.5695535419054583
+
