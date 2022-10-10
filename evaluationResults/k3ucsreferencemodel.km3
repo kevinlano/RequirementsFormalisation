@@ -1,0 +1,226 @@
+package k3ucsref { 
+
+class Date { }
+
+class Day { }
+
+class Time { } 
+
+class Quarter { } 
+
+class Location { }
+
+class ClassCredit { }
+
+class GPA { }
+
+class AffectedParty { } 
+
+abstract class Change { } 
+
+class ChangesToSequence extends Change { } 
+
+class LabCancelledThisWeekDueToInstructorIllness extends Change { } 
+
+class ChangingStudentStatus extends Change { } 
+
+class MovingStudent extends Change { } 
+
+abstract class Person 
+{ } 
+
+abstract class StaffMember extends Person { } 
+
+abstract class ProgramAdministratorOrNursingStaffMember extends StaffMember
+{ } 
+
+class NursingStaffMember extends ProgramAdministratorOrNursingStaffMember
+{ } 
+
+class ProgramAdministrator extends ProgramAdministratorOrNursingStaffMember
+{ }
+
+abstract class DepartmentOrSection 
+{ } 
+
+class NursingDepartment extends DepartmentOrSection
+{ } 
+
+
+class Instructor extends Person 
+{ } 
+
+abstract class ClassOrSection { }
+
+abstract class ClinicalClassOrSection extends ClassOrSection
+{ } 
+
+enumeration StudentStatus
+{ literal fullTime; literal partTime; } 
+
+abstract class Student extends Person
+{ attribute partTime : boolean; 
+  attribute sequenceOfClasses : Sequence(ClassOrSection); 
+  attribute timelineOfClasses : Sequence(ClassOrSection); 
+} 
+
+class ProgramOfStudy
+{ attribute name : String; 
+  attribute requiredClasses : Sequence(ClassOrSection); 
+  attribute enlistedStudents : Sequence(Student); 
+} 
+
+class Cohort 
+{ attribute cohortIdentifier : String; 
+  attribute programOfStudy : ProgramOfStudy;
+  attribute preferredSequenceOfClasses : Sequence(ClassOrSection); 
+  attribute quarters : Sequence(Quarter); 
+} 
+
+
+class NursingStudent extends Student 
+{ attribute studentName : String; 
+  attribute studentId : String; 
+  attribute admissionDate : Date;
+  attribute classesCredits : Sequence(ClassCredit); 
+  attribute gpa : GPA; 
+  attribute cohort : Cohort;  
+  attribute email : String; 
+  attribute phoneNumber : String; 
+  attribute status : StudentStatus; 
+  attribute programOfStudy : ProgramOfStudy; 
+} 
+
+
+class ClinicalClass extends ClinicalClassOrSection
+{ attribute registeredStudents : Sequence(Student); } 
+
+class Section extends ClinicalClassOrSection
+{ } 
+
+
+class ClinicalLabSection 
+{ attribute clinicalSiteName : String; 
+  attribute departmentOrSection : DepartmentOrSection; 
+  attribute classInstructor : Instructor; 
+  attribute clinicalClass : ClinicalClass; 
+  attribute registeredStudents : Sequence(Student); 
+  attribute contactInformation : String; 
+  attribute date : Date;
+  attribute day : Day;
+  attribute time : Time; 
+} 
+
+class ClinicalLab
+{ attribute className : String; 
+  attribute classNumber : String; 
+  attribute labSection : ClinicalLabSection; 
+  attribute studentsEnrolled : Sequence(Student); 
+  attribute instructor : Instructor; 
+  attribute days : Sequence(Day); 
+  attribute time : Time; 
+  attribute location : Location; 
+} 
+
+
+class ClinicalSite 
+{ attribute name : String; 
+  attribute contactPerson : Person; 
+  attribute contactInformation : String; 
+  attribute address : String; 
+  attribute labsHeldAtSite : Sequence(ClinicalLabSection);
+} 
+
+
+class System
+{ attribute classesForNursingDepartment : Sequence(ClinicalClassOrSection);
+  attribute cohorts : Sequence(Cohort);
+  attribute clinicalSites : Sequence(ClinicalSite); 
+  attribute systemLog : SystemLog; 
+  attribute nursingStudents : Sequence(NursingStudent);
+} 
+
+
+usecase addClinicalClassesOrSectionsToASequenceOfClasses : void 
+{ stereotype actor="ProgramAdministratorOrNursingStaffMember"; } 
+
+usecase addANewCohortToTheSystemIdentifiedByStartMonthAndYear : void  { stereotype actor="ProgramAdministratorOrNursingStaffMember"; } 
+
+usecase addNewClassesForTheNursingDepartmentIntoTheSystem : void 
+{ stereotype actor="ProgramAdministratorOrNursingStaffMember"; } 
+
+usecase createANewProgramOfStudy : void 
+{ stereotype actor="ProgramAdministratorOrNursingStaffMember"; } 
+
+usecase specifyWhichClassesAreRequiredForAProgramOfStudy : void 
+{ stereotype actor="ProgramAdministratorOrNursingStaffMember";
+} 
+
+usecase displayAReportOfNeededClassesForAGivenQuarterForAllCohortsOfAllPrograms
+: void 
+{ stereotype actor="System"; } 
+
+usecase addANewClinicalSiteIntoTheSystem : void 
+{ stereotype actor="ProgramAdministratorOrNursingStaffMember";
+} 
+
+usecase addANewClinicalLabSectionForAnExistingClinicalClassIntoTheSystem : void 
+{ stereotype actor="ProgramAdministratorOrNursingStaffMember";
+} 
+
+usecase addAStudentWhoHasRegisteredForAClinicalClassToAClinicalLabSectionForThatClass : void 
+{ stereotype actor="ProgramAdministratorOrNursingStaffMember";
+} 
+
+usecase removeAStudentFromAClinicalLabSection : void 
+{ stereotype actor="ProgramAdministratorOrNursingStaffMember";
+} 
+
+usecase moveAStudentFromOneClinicalLabSectionToAnotherClinicalLabSectionCorrespondingToTheSameClinicalClass : void 
+{ stereotype actor="ProgramAdministratorOrNursingStaffMember";
+} 
+
+usecase cancelAClinicalLabSectionOnlyIfThereAreNoStudentsRegisteredForThatClinicalLabSection : void 
+{ stereotype actor="ProgramAdministratorOrNursingStaffMember";
+} 
+
+usecase addANewNursingStudentToTheSystem : void 
+{ stereotype actor="ProgramAdministratorOrNursingStaffMember";
+} 
+
+usecase manageTheProgressOfAPartTimeStudent : void 
+{ stereotype actor="StaffMember"; } 
+
+usecase displayAPrintableSummaryForIndividualCohorts : void { stereotype actor="System"; } 
+
+usecase displayAPrintableSummaryForIndividualClinicalSites : void { stereotype actor="System"; }
+
+usecase displayAPrintableSummaryForIndividualClinicalLabs : void { stereotype actor="System"; } 
+ 
+usecase displayAPrintableSummaryForIndividualNursingStudents : void  { stereotype actor="System"; } 
+
+usecase displayAPrintableSummaryOfTheSystemLog : void 
+{ stereotype actor="System"; } 
+
+usecase notifyAffectedPartiesWhenChangesOccurAffectingCohorts : void  { stereotype actor="System"; } 
+
+usecase notifyAffectedPartiesWhenChangesOccurAffectingSpecificStudents : void 
+{ stereotype actor="System"; } 
+
+usecase modifyInformationRelatingToCohorts : void 
+{ stereotype actor="ProgramAdministratorOrNursingStaffMember"; } 
+
+usecase modifyInformationRelatingToAProgramOfStudy : void 
+{ stereotype actor="ProgramAdministratorOrNursingStaffMember"; } 
+
+usecase modifyInformationRelatingToAClinicalSite : void 
+{ stereotype actor="ProgramAdministratorOrNursingStaffMember"; } 
+
+usecase modifyInformationRelatingToAClinicalLabSection : void { stereotype actor="ProgramAdministratorOrNursingStaffMember"; } 
+
+usecase modifyInformationRelatingToANursingStudent : void { stereotype actor="ProgramAdministratorOrNursingStaffMember"; } 
+
+
+} 
+
+
