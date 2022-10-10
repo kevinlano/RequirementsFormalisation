@@ -1,0 +1,205 @@
+package k3ucs { 
+
+class System { }
+
+class Nursing_department { }
+
+class Clinical_class { }
+
+class Student { }
+
+class Class { }
+
+class Nursing_staff_member { }
+
+class Same_clinical_class { }
+
+class New_nursing_student { }
+
+class Staff_member { }
+
+class Part_time_student { }
+
+class Timeline { }
+
+class Program { }
+
+class Location_dates { }
+
+class Class_name_class_number { }
+
+class Instructor_day { }
+
+class Location { }
+
+class Student_name_student_id_admission_date { }
+
+class System_log { }
+
+class Schedule { }
+
+class Clinical_site_name_site_contact_person { }
+
+class Class_instructor_day { }
+
+class Student_id_student_name_phone_number { }
+
+usecase add_clinical_classes_or_sections_to_a_sequence_of_classes  : void { 
+  stereotype actor="Program_Administrators_and_Nursing_Staff_Members";
+  stereotype "create";
+  activity: skip;
+}
+
+usecase add_a_new_cohort_to_the_system_identified_by_start_month_and_year  : void { 
+  stereotype actor="Program_Administrators_and_Nursing_Staff_Members";
+  stereotype "create";
+  activity: skip;
+}
+
+usecase add_new_classes_for_the_nursing_department_into_the_system  : void { 
+  stereotype actor="Program_Administrators_and_Nursing_Staff_Members";
+  stereotype "create";
+  activity: skip;
+}
+
+usecase create_a_new_Program_of_Study  : void { 
+  stereotype actor="Program_Administrators/Nursing_Staff_Members";
+  stereotype "create";
+  activity: skip;
+}
+
+usecase specify_which_classes_are_required_for_a_Program_of_Study  : void { 
+  stereotype actor="Program_Administrators_and_Nursing_Staff_Members";
+  stereotype "other";
+  activity: skip;
+}
+
+usecase display_a_report_of_needed_classes_for_a_given_quarter_for_all_cohorts_of_all_programs_for_Program_Staff_Members_planning_purposes  : void { 
+  stereotype actor="system";
+  stereotype "read";
+  activity: skip;
+}
+
+usecase add_a_new_clinical_site_into_the_system  : void { 
+  stereotype actor="Program_Administrators_and_Nursing_Staff_Members";
+  stereotype "create";
+  activity: skip;
+}
+
+usecase add_a_new_clinical_lab_section_for_an_existing_clinical_class_into_the_System  : void { 
+  stereotype actor="Program_Administrators_and_Nursing_Staff_Members";
+  stereotype "create";
+  activity: skip;
+}
+
+usecase add_a_student_who_has_registered_for_a_clinical_class_to_a_clinical_lab_section_for_that_class  : void { 
+  stereotype actor="Program_Administrators_and_Nursing_Staff_Members";
+  stereotype "create";
+  activity: skip;
+}
+
+usecase allow_a_Program_Administrator_or_Nursing_staff_member_to_remove_a_student_from_a_clinical_lab_section  : void { 
+  stereotype actor="system";
+  stereotype "other";
+  activity: skip;
+}
+
+usecase allow_a_Program_Staff_Member_to_move_a_student_from_one_clinical_lab_section_to_another_clinical_lab_section_corresponding_to_the_same_clinical_class  : void { 
+  stereotype actor="system";
+  stereotype "other";
+  activity: skip;
+}
+
+usecase cancel_a_clinical_lab_section_only_if_there_are_no_students_registered_for_that_clinical_lab_section  : void { 
+  stereotype actor="Program_Administrators/Nursing_Staff_Members";
+  stereotype "delete";
+  activity: skip;
+}
+
+usecase add_a_new_nursing_student_to_the_system  : void { 
+  stereotype actor="Program_Administrator/Nursing_Staff_Member";
+  stereotype "create";
+  activity: skip;
+}
+
+usecase manage_the_progress_of_a_part_time_student_which_includes_modifying_their_sequence_of_classes_and_timeline_of_classes  : void { 
+  stereotype actor="staff_member";
+  stereotype "edit";
+  activity: skip;
+}
+
+usecase display_a_printable_summary_for_individual_cohorts_which_will_include_the_students_enlisted_the_Program_of_study_sequence_of_classes_cohort_progress_through_the_program_and_timeline_of_completion  : void { 
+  stereotype actor="system";
+  stereotype "read";
+  activity: skip;
+}
+
+usecase display_a_printable_summary_for_individual_clinical_sites_which_will_include_information_on_labs_being_held_at_that_site_for_the_given_quarter_Clinical_site_general_information_on_labs_held_at_that_location_dates_and_times_of_all_labs_held_there  : void { 
+  stereotype actor="system";
+  stereotype "read";
+  activity: skip;
+}
+
+usecase display_a_printable_summary_for_individual_clinical_labs_which_will_include_but_not_be_limited_to_class_name_class_number_lab_section_listing_of_students_enrolled_instructor_day_s_time_and_location  : void { 
+  stereotype actor="system";
+  stereotype "read";
+  activity: skip;
+}
+
+usecase display_a_printable_summary_for_individual_nursing_students_which_will_include_but_not_be_limited_to_student_name_student_ID_admission_date_classes_credits_GPA_and_the_cohort_that_the_student_is_enrolled_in  : void { 
+  stereotype actor="system";
+  stereotype "read";
+  activity: skip;
+}
+
+usecase display_a_printable_summary_of_the_system_log  : void { 
+  stereotype actor="system";
+  stereotype "read";
+  activity: skip;
+}
+
+usecase notify_affected_parties_when_changes_occur_affecting_cohorts_including_but_not_limited_to_changes_to_the_sequence_for_a_cohort_program_of_study_and_changes_to_a_given_week_schedule_lab_cancelled_this_week_due_to_instructor_illness  : void { 
+  stereotype actor="system";
+  stereotype "other";
+  activity: skip;
+}
+
+usecase notify_affected_parties_when_changes_occur_affecting_specific_students_including_but_not_limited_to_changing_a_student_status_from_full_time_to_part_time_and_moving_a_student_to_a_different_clinical_section  : void { 
+  stereotype actor="system";
+  stereotype "other";
+  activity: skip;
+}
+
+usecase modify_information_relating_to_cohorts_including_cohort_identifier_program_of_study_preferred_sequence_of_classes_and_quarters_that_a_cohort_will_be_taking_specific_classes  : void { 
+  stereotype actor="Program_Administrators/Nursing_Staff_Members";
+  stereotype "edit";
+  activity: skip;
+}
+
+usecase modify_information_relating_to_a_Program_of_Study_within_the_Nursing_Department_including_the_Program_of_study_name_and_required_classes_for_that_Program_of_Study  : void { 
+  stereotype actor="Program_Administrators/Nursing_Staff_Members";
+  stereotype "edit";
+  activity: skip;
+}
+
+usecase modify_information_relating_to_a_Clinical_Site_including_the_clinical_site_name_site_contact_person_contact_information_and_address  : void { 
+  stereotype actor="Program_Administrators/Nursing_Staff_Members";
+  stereotype "edit";
+  activity: skip;
+}
+
+usecase modify_information_relating_to_a_Clinical_Lab_Section_including_the_clinical_site_name_the_for_the_lab_the_class_instructor_day_and_time_of_lab_and_contact_information  : void { 
+  stereotype actor="Program_Administrators/Nursing_Staff_Members";
+  stereotype "edit";
+  activity: skip;
+}
+
+usecase modify_information_relating_to_a_Nursing_Student_including_student_ID_student_name_phone_number_status_full_time_or_part_time_and_program_of_study  : void { 
+  stereotype actor="Program_Administrators/Nursing_Staff_Members";
+  stereotype "edit";
+  activity: skip;
+}
+
+} 
+
+

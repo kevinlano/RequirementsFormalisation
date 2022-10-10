@@ -1,0 +1,139 @@
+package hh19
+{
+  usecase addclinicclass : void { 
+    stereotype actor = 'program administr'; 
+
+    activity: skip; 
+  } 
+
+  usecase addnewcohort : void { 
+    stereotype actor = 'program administr'; 
+    activity: skip; 
+  }
+
+  usecase addnewclass : void { 
+    stereotype actor = 'program administr'; 
+    activity: skip; 
+  }
+
+  usecase creatnewprogram : void { 
+    stereotype actor = 'nurs staff memb'; 
+    activity: skip; 
+  }
+
+  usecase haveabil : void { 
+    stereotype actor = 'program administr'; 
+    activity: skip; 
+  }
+  
+  usecase displayreport : void { 
+    stereotype actor = 'system'; 
+    activity: skip; 
+  }
+  
+  usecase addclinicsit : void { 
+    stereotype actor = 'program administr'; 
+    activity: skip; 
+  } 
+
+  usecase addcliniclabsect : void {
+    stereotype actor = 'program administr'; 
+    activity: skip; 
+  }
+
+  usecase addstudent : void {
+    stereotype actor = 'program administr'; 
+    activity: skip; 
+  }
+
+  usecase allowprogramadministr : void { 
+    stereotype actor = 'system'; 
+    activity: skip; 
+  }
+
+  usecase allowprogramadministrnursstaffmemb : void { 
+    stereotype actor = 'system'; 
+    activity: skip; 
+  } 
+
+  usecase movestudent : void { 
+    stereotype actor = 'system'; 
+    activity: skip; 
+  }
+
+  usecase cancelcliniclabsect : void { 
+    stereotype actor = 'nurs staff memb'; 
+    activity: skip; 
+  }
+
+  usecase addnewnursstud : void {
+    stereotype actor = 'program administr nurs staff memb';  
+    activity: skip; 
+  }
+
+  usecase haveabil : void { 
+    stereotype actor = 'staff memb'; 
+    activity: skip; 
+  }
+
+  usecase displayprintablsummari : void { 
+    stereotype actor = 'system'; 
+    activity: skip; 
+  }
+
+  usecase displayprintablsummari : void { 
+    stereotype actor = 'system'; 
+    activity: skip; 
+  }
+
+  usecase displayprintablsummari : void {  
+    stereotype actor = 'system'; 
+    activity: skip; 
+  }
+
+  usecase displayprintablsummari : void { 
+    stereotype actor = 'system'; 
+    activity: skip; 
+  }
+
+  usecase displayprintablsummari : void { 
+    stereotype actor = 'system'; 
+    activity: skip; 
+  }
+
+  usecase notifiaffectparti : void { 
+    stereotype actor = 'system'; 
+    activity: skip; 
+  }
+
+  usecase notifiaffectparti  : void { 
+    stereotype actor = 'system'; 
+    activity: skip; 
+  }
+
+  usecase haveabil  : void { 
+    stereotype actor = 'nurs staff memb'; 
+    activity: skip; 
+  }
+
+  usecase haveabil  : void { 
+    stereotype actor = 'nurs staff memb'; 
+    activity: skip; 
+  }
+
+  usecase haveabil : void  { 
+    stereotype actor = 'nurs staff memb'; 
+    activity: skip; 
+  }
+
+  usecase haveabil : void  { 
+    stereotype actor = 'nurs staff memb'; 
+    activity: skip; 
+  }
+
+  usecase haveabil : void  { 
+    stereotype actor = 'nurs staff memb'; 
+    activity: skip; 
+  }
+
+} 

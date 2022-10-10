@@ -1,0 +1,791 @@
+package app {
+  class Administrator extends Person {
+  stereotype originator="1";
+
+
+
+
+  }
+
+
+
+  class Nursing {
+  stereotype originator="1";
+  stereotype modifiedFeatures="18";
+  stereotype modifiedFeatures="26";
+
+
+    attribute date : String;
+    attribute status : String;
+
+
+  }
+
+
+
+  class Staff {
+  stereotype originator="1";
+
+
+
+
+  }
+
+
+
+  class Members {
+  stereotype originator="1";
+
+
+
+
+  }
+
+
+
+  class ProgramAdministratorNursingStaffMembers {
+  stereotype originator="1";
+
+
+
+
+  }
+
+
+
+  class System {
+  stereotype originator="2";
+  stereotype modifiedFeatures="2";
+
+
+    attribute month : String;
+    attribute year : String;
+
+
+  }
+
+
+
+  class Department {
+  stereotype originator="3";
+
+
+
+
+  }
+
+
+
+  class Administrators/Nursing {
+  stereotype originator="4";
+
+
+
+
+  }
+
+
+
+  class Study {
+  stereotype originator="4";
+
+
+
+
+  }
+
+
+
+  class ProgramAdministrators/NursingStaffMembers {
+  stereotype originator="4";
+
+
+
+
+  }
+
+
+
+  class Program {
+  stereotype originator="4";
+
+
+
+
+  }
+
+
+
+  class Class {
+  stereotype originator="8";
+  stereotype modifiedFeatures="17";
+
+
+    attribute name : String;
+    attribute number : double;
+    attribute day : String;
+    attribute time : double;
+
+
+  }
+
+
+
+  class Student extends Person {
+  stereotype originator="9";
+
+
+
+
+  }
+
+
+
+  class Member {
+  stereotype originator="10";
+
+
+
+
+  }
+
+
+
+  class Administrator/Nursing {
+  stereotype originator="11";
+
+
+
+
+  }
+
+
+
+  class ProgramAdministrator/NursingStaffMember {
+  stereotype originator="13";
+
+
+
+
+  }
+
+
+
+  class StaffMember {
+  stereotype originator="14";
+
+
+
+
+  }
+
+
+
+  class Timeline {
+  stereotype originator="14";
+
+
+
+
+  }
+
+
+
+  class Location {
+  stereotype originator="16";
+
+
+
+
+  }
+
+
+
+  class Instructor extends Person {
+  stereotype originator="17";
+
+
+
+
+  }
+
+
+
+  class Credit {
+  stereotype originator="18";
+
+
+
+
+  }
+
+
+
+  class Party {
+  stereotype originator="20";
+  stereotype modifiedFeatures="20";
+
+
+    attribute week : String;
+
+
+  }
+
+
+
+  class Schedule {
+  stereotype originator="20";
+
+
+
+
+  }
+
+
+
+  class Person {
+  stereotype originator="24";
+  stereotype modifiedFeatures="24";
+
+
+    attribute information : String;
+    attribute address : String;
+
+
+  }
+
+
+
+  class Phone {
+  stereotype originator="26";
+
+
+
+
+  }
+
+
+
+
+
+  usecase addClinicalClassesOrSectionsToASequenceOfClasses : void {
+
+    parameter programadministratornursingstaffmembersx : ProgramAdministratorNursingStaffMembers;
+
+    stereotype originator="1";
+    stereotype actor="ProgramAdministratorNursingStaffMembers";
+    stereotype create;
+
+
+  }
+
+
+
+
+  usecase addANewCohortToTheSystemIdentifiedByStartMonthAndYear : System {
+
+    parameter programadministratornursingstaffmembersx : ProgramAdministratorNursingStaffMembers;
+    parameter monthx : String;
+    parameter yearx : String;
+
+    stereotype originator="2";
+    stereotype actor="ProgramAdministratorNursingStaffMembers";
+    stereotype create;
+
+
+    ::
+      true => System->exists( systemx | result = systemx );
+
+
+  }
+
+
+
+
+  usecase addNewClassesForTheNursingDepartmentIntoTheSystem : Nursing {
+
+    parameter programadministratornursingstaffmembersx : ProgramAdministratorNursingStaffMembers;
+
+    stereotype originator="3";
+    stereotype actor="ProgramAdministratorNursingStaffMembers";
+    stereotype create;
+
+
+    ::
+      true => Nursing->exists( nursingx | result = nursingx );
+
+
+  }
+
+
+
+
+  usecase createANewProgramOfStudy : Program {
+
+    parameter programadministrators/nursingstaffmembersx : ProgramAdministrators/NursingStaffMembers;
+
+    stereotype originator="4";
+    stereotype actor="ProgramAdministrators/NursingStaffMembers";
+    stereotype create;
+
+
+    ::
+      true => Program->exists( programx | result = programx );
+
+
+  }
+
+
+
+
+  usecase haveTheAbilityToSpecifyWhichClassesAreRequiredForAProgramOfStudy : void {
+
+    parameter programadministratornursingstaffmembersx : ProgramAdministratorNursingStaffMembers;
+
+    stereotype originator="5";
+    stereotype actor="ProgramAdministratorNursingStaffMembers";
+    stereotype other;
+
+
+  }
+
+
+
+
+  usecase displayAReportOfNeededClassesForAGivenQuarterForAllCohortsOfAllProgramsForProgramAdministrators/NursingStaffMembersPlanningPurposes : void {
+
+    parameter systemx : System;
+    parameter programx : Program;
+    parameter administrators/nursingx : Administrators/Nursing;
+    parameter staffx : Staff;
+    parameter membersx : Members;
+
+    stereotype originator="6";
+    stereotype actor="System";
+    stereotype read;
+
+
+    ::
+      true => programx->display();
+
+
+    ::
+      true => administrators/nursingx->display();
+
+
+    ::
+      true => staffx->display();
+
+
+    ::
+      true => membersx->display();
+
+
+  }
+
+
+
+
+  usecase addANewClinicalSiteIntoTheSystem : System {
+
+    parameter programadministratornursingstaffmembersx : ProgramAdministratorNursingStaffMembers;
+
+    stereotype originator="7";
+    stereotype actor="ProgramAdministratorNursingStaffMembers";
+    stereotype create;
+
+
+    ::
+      true => System->exists( systemx | result = systemx );
+
+
+  }
+
+
+
+
+  usecase addANewClinicalLabSectionForAnExistingClinicalClassIntoTheSystem : Class {
+
+    parameter programadministratornursingstaffmembersx : ProgramAdministratorNursingStaffMembers;
+
+    stereotype originator="8";
+    stereotype actor="ProgramAdministratorNursingStaffMembers";
+    stereotype create;
+
+
+    ::
+      true => Class->exists( classx | result = classx );
+
+
+  }
+
+
+
+
+  usecase addAStudentHasRegisteredForAClinicalClassToAClinicalLabSectionForThatClass : Student {
+
+    parameter programadministratornursingstaffmembersx : ProgramAdministratorNursingStaffMembers;
+
+    stereotype originator="9";
+    stereotype actor="ProgramAdministratorNursingStaffMembers";
+    stereotype create;
+
+
+    ::
+      true => Student->exists( studentx | result = studentx );
+
+
+  }
+
+
+
+
+  usecase allowAProgramAdministratorOrNursingStaffMemberToRemoveAStudentFromAClinicalLabSection : void {
+
+    parameter systemx : System;
+    parameter memberx : Member;
+    parameter studentx : Student;
+
+    stereotype originator="10";
+    stereotype actor="System";
+    stereotype other;
+    stereotype delete;
+
+
+  }
+
+
+
+
+  usecase allowAProgramAdministrator/NursingStaffMemberToMoveAStudentFromOneClinicalLabSectionToAnotherClinicalLabSectionCorrespondingToTheSameClinicalClass : void {
+
+    parameter systemx : System;
+    parameter studentx : Student;
+    parameter classx : Class;
+
+    stereotype originator="11";
+    stereotype actor="System";
+    stereotype other;
+    stereotype edit;
+
+
+  }
+
+
+
+
+  usecase cancelAClinicalLabSectionOnlyIfThereAreNoStudentsRegisteredForThatClinicalLabSection : void {
+
+    parameter programadministrators/nursingstaffmembersx : ProgramAdministrators/NursingStaffMembers;
+    parameter studentx : Student;
+
+    stereotype originator="12";
+    stereotype actor="ProgramAdministrators/NursingStaffMembers";
+    stereotype delete;
+
+
+  }
+
+
+
+
+  usecase addANewNursingStudentToTheSystem : Nursing {
+
+    parameter programadministrator/nursingstaffmemberx : ProgramAdministrator/NursingStaffMember;
+
+    stereotype originator="13";
+    stereotype actor="ProgramAdministrator/NursingStaffMember";
+    stereotype create;
+
+
+    ::
+      true => Nursing->exists( nursingx | result = nursingx );
+
+
+  }
+
+
+
+
+  usecase haveTheAbilityToManageTheProgressOfAPartTimeStudentWhichIncludesModifyingTheirSequenceOfClassesAndTimelineOfClasses : void {
+
+    parameter staffmemberx : StaffMember;
+    parameter timex : double;
+    parameter studentx : Student;
+    parameter timelinex : Timeline;
+
+    stereotype originator="14";
+    stereotype actor="StaffMember";
+    stereotype other;
+    stereotype edit;
+
+
+  }
+
+
+
+
+  usecase displayAPrintableSummaryForIndividualCohortsWhichWillIncludeTheStudentsEnlistedTheProgramOfStudySequenceOfClassesCohortProgressThroughTheProgramAndTimelineOfCompletion : void {
+
+    parameter systemx : System;
+    parameter studentx : Student;
+    parameter programx : Program;
+    parameter studyx : Study;
+    parameter timelinex : Timeline;
+
+    stereotype originator="15";
+    stereotype actor="System";
+    stereotype read;
+    stereotype other;
+
+
+    ::
+      true => studentx->display();
+
+
+    ::
+      true => programx->display();
+
+
+    ::
+      true => studyx->display();
+
+
+    ::
+      true => timelinex->display();
+
+
+  }
+
+
+
+
+  usecase displayAPrintableSummaryForIndividualClinicalSitesWhichWillIncludeInformationOnLabsBeingHeldAtThatSiteForTheGivenQuarterClinicalSiteGeneralInformationOnLabsHeldAtThatLocationDatesAndTimesOfAllLabsHeldThere : void {
+
+    parameter systemx : System;
+    parameter locationx : Location;
+
+    stereotype originator="16";
+    stereotype actor="System";
+    stereotype read;
+    stereotype other;
+
+
+    ::
+      true => locationx->display();
+
+
+  }
+
+
+
+
+  usecase displayAPrintableSummaryForIndividualClinicalLabsWhichWillIncludeButNotBeLimitedToClassNameClassNumberLabSectionListingOfStudentsEnrolledInstructorDaySTimeAndLocation : void {
+
+    parameter systemx : System;
+    parameter classx : Class;
+    parameter studentx : Student;
+    parameter instructorx : Instructor;
+    parameter locationx : Location;
+
+    stereotype originator="17";
+    stereotype actor="System";
+    stereotype read;
+    stereotype other;
+
+
+    ::
+      true => classx->display();
+
+
+    ::
+      true => studentx->display();
+
+
+    ::
+      true => instructorx->display();
+
+
+    ::
+      true => locationx->display();
+
+
+  }
+
+
+
+
+  usecase displayAPrintableSummaryForIndividualNursingStudentsWhichWillIncludeButNotBeLimitedToStudentNameStudentIDAdmissionDateClassesCreditsGPAAndTheCohortThatTheStudentIsEnrolledIn : void {
+
+    parameter systemx : System;
+    parameter nursingx : Nursing;
+    parameter studentx : Student;
+    parameter creditx : Credit;
+
+    stereotype originator="18";
+    stereotype actor="System";
+    stereotype read;
+    stereotype other;
+
+
+    ::
+      true => nursingx->display();
+
+
+    ::
+      true => studentx->display();
+
+
+    ::
+      true => creditx->display();
+
+
+  }
+
+
+
+
+  usecase displayAPrintableSummaryOfTheSystemLog : void {
+
+    parameter systemx : System;
+
+    stereotype originator="19";
+    stereotype actor="System";
+    stereotype read;
+
+
+    ::
+      true => systemx->display();
+
+
+  }
+
+
+
+
+  usecase notifyAffectedPartiesWhenChangesOccurAffectingCohortsIncludingButNotLimitedToChangesToTheSequenceForACohortScheduleLabCancelledThisWeekDueToInstructorIllness : void {
+
+    parameter systemx : System;
+    parameter schedulex : Schedule;
+
+    stereotype originator="20";
+    stereotype actor="System";
+    stereotype other;
+
+
+  }
+
+
+
+
+  usecase notifyAffectedPartiesWhenChangesOccurAffectingSpecificStudentsIncludingButNotLimitedToChangingAStudent : void {
+
+    parameter systemx : System;
+    parameter studentx : Student;
+
+    stereotype originator="21";
+    stereotype actor="System";
+    stereotype other;
+    stereotype edit;
+
+
+  }
+
+
+
+
+  usecase haveTheAbilityToModifyInformationRelatingToCohortsIncludingCohortIdentifierProgramOfStudyPreferredSequenceOfClassesAndQuartersThatACohortWillBeTakingSpecificClasses : void {
+
+    parameter programadministrators/nursingstaffmembersx : ProgramAdministrators/NursingStaffMembers;
+    parameter informationx : String;
+    parameter programx : Program;
+    parameter studyx : Study;
+
+    stereotype originator="22";
+    stereotype actor="ProgramAdministrators/NursingStaffMembers";
+    stereotype other;
+    stereotype edit;
+
+
+  }
+
+
+
+
+  usecase haveTheAbilityToModifyInformationRelatingToAProgramOfStudyWithinTheNursingDepartmentIncludingTheProgramOfStudyNameAndRequiredClassesForThatProgramOfStudy : void {
+
+    parameter programadministrators/nursingstaffmembersx : ProgramAdministrators/NursingStaffMembers;
+    parameter informationx : String;
+    parameter programx : Program;
+    parameter studyx : Study;
+    parameter nursingx : Nursing;
+    parameter departmentx : Department;
+
+    stereotype originator="23";
+    stereotype actor="ProgramAdministrators/NursingStaffMembers";
+    stereotype other;
+    stereotype edit;
+
+
+  }
+
+
+
+
+  usecase haveTheAbilityToModifyInformationRelatingToAClinicalSiteIncludingTheClinicalSiteNameSiteContactPersonContactInformationAndAddress : void {
+
+    parameter programadministrators/nursingstaffmembersx : ProgramAdministrators/NursingStaffMembers;
+    parameter informationx : String;
+    parameter personx : Person;
+    parameter addressx : String;
+
+    stereotype originator="24";
+    stereotype actor="ProgramAdministrators/NursingStaffMembers";
+    stereotype other;
+    stereotype edit;
+
+
+  }
+
+
+
+
+  usecase haveTheAbilityToModifyInformationRelatingToAClinicalLabSectionIncludingTheClinicalSiteNameTheDepartment/sectionForTheLabTheClassInstructorDayAndTimeOfLabAndContactInformation : void {
+
+    parameter programadministrators/nursingstaffmembersx : ProgramAdministrators/NursingStaffMembers;
+    parameter classx : Class;
+    parameter instructorx : Instructor;
+
+    stereotype originator="25";
+    stereotype actor="ProgramAdministrators/NursingStaffMembers";
+    stereotype other;
+    stereotype edit;
+
+
+  }
+
+
+
+
+  usecase haveTheAbilityToModifyInformationRelatingToANursingStudentIncludingStudentIDStudentNamePhoneNumberE-mailStatusFullTimeOrPartTimeAndProgramOfStudy : void {
+
+    parameter programadministrators/nursingstaffmembersx : ProgramAdministrators/NursingStaffMembers;
+    parameter nursingx : Nursing;
+    parameter studentx : Student;
+    parameter phonex : Phone;
+    parameter statusx : String;
+    parameter programx : Program;
+    parameter studyx : Study;
+
+    stereotype originator="26";
+    stereotype actor="ProgramAdministrators/NursingStaffMembers";
+    stereotype other;
+    stereotype edit;
+
+
+  }
+
+
+
+}
+
