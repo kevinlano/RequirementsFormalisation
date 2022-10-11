@@ -1,0 +1,25 @@
+AgileUML solution: 
+
+!! Class name Resources NNPS should be singular noun with initial capital
+!! Class name Staging VBG should be singular noun with initial capital
+!! Class name AND CC should be singular noun with initial capital
+>>> Class validity score: 0.9615384615384616
+>>> Attribute validity score: 1.0
+>>> Usecase validity score: 1.0
+>>> Total number of flaws = 3
+
+
+Simple heuristic solution: 
+
+!! Class name User_testing VBG should be singular noun with initial capital
+!! Class name Users NNS should be singular noun with initial capital
+>>> Class validity score: 0.9574468085106383
+>>> Usecase validity score: 1.0
+>>> Total number of flaws = 2
+
+
+HH19 solution: 
+
+>python checkModelNames.py --model fabsHH19Solution.km3
+>>> Usecase validity score: 1.0
+>>> Total number of flaws = 0
