@@ -1,0 +1,2308 @@
+package app {
+  class Resources {
+  stereotype originator="1";
+
+
+
+
+  }
+
+
+
+  class UIDesigner {
+  stereotype originator="1";
+
+
+
+
+  }
+
+
+
+  class Page {
+  stereotype originator="1";
+
+
+
+
+  }
+
+
+
+  class User {
+  stereotype originator="2";
+  stereotype modifiedFeatures="22";
+
+
+    attribute summary : String;
+
+
+  }
+
+
+
+  class DABS {
+  stereotype originator="3";
+
+
+
+
+  }
+
+
+
+  class FABS {
+  stereotype originator="3";
+
+
+
+
+  }
+
+
+
+  class Homepage {
+  stereotype originator="4";
+
+
+
+
+  }
+
+
+
+  class Developer {
+  stereotype originator="6";
+
+
+
+
+  }
+
+
+
+  class DevOps {
+  stereotype originator="8";
+
+
+
+
+  }
+
+
+
+  class New {
+  stereotype originator="8";
+  stereotype modifiedFeatures="8";
+
+
+    attribute data : String;
+
+
+  }
+
+
+
+  class Relic {
+  stereotype originator="8";
+
+
+
+
+  }
+
+
+
+  class Application {
+  stereotype originator="8";
+
+
+
+
+  }
+
+
+
+  class DevOpsEngineer {
+  stereotype originator="8";
+
+
+
+
+  }
+
+
+
+  class BrokerUser {
+  stereotype originator="11";
+
+
+
+
+  }
+
+
+
+  class Message {
+  stereotype originator="11";
+
+
+
+
+  }
+
+
+
+  class Text {
+  stereotype originator="11";
+
+
+
+
+  }
+
+
+
+  class File {
+  stereotype originator="12";
+
+
+
+
+  }
+
+
+
+  class Website {
+  stereotype originator="13";
+
+
+
+
+  }
+
+
+
+  class WebsiteUser {
+  stereotype originator="13";
+
+
+
+
+  }
+
+
+
+  class Owner {
+  stereotype originator="14";
+
+
+
+
+  }
+
+
+
+  class System {
+  stereotype originator="14";
+
+
+
+
+  }
+
+
+
+  class Broker {
+  stereotype originator="15";
+
+
+
+
+  }
+
+
+
+  class Table {
+  stereotype originator="15";
+
+
+
+
+  }
+
+
+
+  class Account {
+  stereotype originator="15";
+
+
+
+
+  }
+
+
+
+  class GTAS {
+  stereotype originator="16";
+
+
+
+
+  }
+
+
+
+  class Database {
+  stereotype originator="16";
+
+
+
+
+  }
+
+
+
+  class D {
+  stereotype originator="17";
+
+
+
+
+  }
+
+
+
+  class Files {
+  stereotype originator="17";
+
+
+
+
+  }
+
+
+
+  class Request {
+  stereotype originator="17";
+
+
+
+
+  }
+
+
+
+  class Agency {
+  stereotype originator="19";
+
+
+
+
+  }
+
+
+
+  class AgencyUser {
+  stereotype originator="19";
+
+
+
+
+  }
+
+
+
+  class Tech {
+  stereotype originator="21";
+
+
+
+
+  }
+
+
+
+  class Thursday {
+  stereotype originator="21";
+
+
+
+
+  }
+
+
+
+  class SME {
+  stereotype originator="22";
+
+
+
+
+  }
+
+
+
+  class UI {
+  stereotype originator="22";
+
+
+
+
+  }
+
+
+
+  class Schedule {
+  stereotype originator="24";
+
+
+
+
+  }
+
+
+
+  class Audit {
+  stereotype originator="26";
+
+
+
+
+  }
+
+
+
+  class DataUser {
+  stereotype originator="28";
+
+
+
+
+  }
+
+
+
+  class FundingAgencyCode {
+  stereotype originator="30";
+
+
+
+
+  }
+
+
+
+  class Button {
+  stereotype originator="33";
+
+
+
+
+  }
+
+
+
+  class Staging {
+  stereotype originator="35";
+  stereotype modifiedFeatures="35";
+
+
+    attribute mAX : double;
+
+
+  }
+
+
+
+  class Element {
+  stereotype originator="36";
+
+
+
+
+  }
+
+
+
+  class Financial {
+  stereotype originator="39";
+
+
+
+
+  }
+
+
+
+  class Assistance {
+  stereotype originator="39";
+
+
+
+
+  }
+
+
+
+  class CFDA {
+  stereotype originator="40";
+
+
+
+
+  }
+
+
+
+  class Code {
+  stereotype originator="40";
+  stereotype modifiedFeatures="82";
+
+
+    attribute information : String;
+
+
+  }
+
+
+
+  class SAM {
+  stereotype originator="41";
+
+
+
+
+  }
+
+
+
+  class Domain {
+  stereotype originator="42";
+
+
+
+
+  }
+
+
+
+  class BrokerTeamMember {
+  stereotype originator="44";
+
+
+
+
+  }
+
+
+
+  class SQL {
+  stereotype originator="44";
+
+
+
+
+  }
+
+
+
+  class Office {
+  stereotype originator="47";
+
+
+
+
+  }
+
+
+
+  class Field {
+  stereotype originator="48";
+
+
+
+
+  }
+
+
+
+  class PublishedAwardFinancialAssistance {
+  stereotype originator="48";
+
+
+
+
+  }
+
+
+
+  class DAIMS {
+  stereotype originator="49";
+
+
+
+
+  }
+
+
+
+  class FREC {
+  stereotype originator="50";
+
+
+
+
+  }
+
+
+
+  class DUNS {
+  stereotype originator="52";
+  stereotype modifiedFeatures="53";
+
+
+    attribute date : String;
+
+
+  }
+
+
+
+  class Match {
+  stereotype originator="55";
+
+
+
+
+  }
+
+
+
+  class Schema {
+  stereotype originator="55";
+
+
+
+
+  }
+
+
+
+  class FederalActionObligation {
+  stereotype originator="57";
+
+
+
+
+  }
+
+
+
+  class Atom {
+  stereotype originator="57";
+
+
+
+
+  }
+
+
+
+  class Feed {
+  stereotype originator="57";
+
+
+
+
+  }
+
+
+
+  class Legal {
+  stereotype originator="58";
+
+
+
+
+  }
+
+
+
+  class Work {
+  stereotype originator="58";
+
+
+
+
+  }
+
+
+
+  class Entity {
+  stereotype originator="58";
+
+
+
+
+  }
+
+
+
+  class SAMPLE {
+  stereotype originator="59";
+
+
+
+
+  }
+
+
+
+  class FABSUser {
+  stereotype originator="59";
+
+
+
+
+  }
+
+
+
+  class Point {
+  stereotype originator="59";
+
+
+
+
+  }
+
+
+
+  class FPDS {
+  stereotype originator="62";
+
+
+
+
+  }
+
+
+
+  class AND {
+  stereotype originator="64";
+  stereotype modifiedFeatures="64";
+
+
+    attribute time : double;
+
+
+  }
+
+
+
+  class Feature {
+  stereotype originator="66";
+
+
+
+
+  }
+
+
+
+  class Tester {
+  stereotype originator="66";
+
+
+
+
+  }
+
+
+
+  class Format {
+  stereotype originator="73";
+
+
+
+
+  }
+
+
+
+  class Group {
+  stereotype originator="75";
+
+
+
+
+  }
+
+
+
+  class Transaction {
+  stereotype originator="80";
+
+
+
+
+  }
+
+
+
+  class IG {
+  stereotype originator="86";
+
+
+
+
+  }
+
+
+
+  class Dashboard {
+  stereotype originator="86";
+
+
+
+
+  }
+
+
+
+  class Label {
+  stereotype originator="94";
+
+
+
+
+  }
+
+
+
+  class Submission {
+  stereotype originator="94";
+
+
+
+
+  }
+
+
+
+
+
+  usecase wantToRedesignTheResourcesPage : void {
+
+    parameter uidesignerx : UIDesigner;
+    parameter pagex : Page;
+
+    stereotype originator="1";
+    stereotype actor="UIDesigner";
+    stereotype other;
+
+
+  }
+
+
+
+
+  usecase wantToReportToTheAgenciesAboutUserTesting : void {
+
+    parameter uidesignerx : UIDesigner;
+    parameter userx : User;
+
+    stereotype originator="2";
+    stereotype actor="UIDesigner";
+    stereotype other;
+
+
+  }
+
+
+
+
+  usecase wantToMoveToRound2OfDABSOrFABSLandingPageEdits : void {
+
+    parameter uidesignerx : UIDesigner;
+    parameter dabsx : DABS;
+    parameter fabsx : FABS;
+    parameter pagex : Page;
+
+    stereotype originator="3";
+    stereotype actor="UIDesigner";
+    stereotype other;
+    stereotype edit;
+
+
+  }
+
+
+
+
+  usecase wantToMoveToRound2OfHomepageEdits : void {
+
+    parameter uidesignerx : UIDesigner;
+    parameter homepagex : Homepage;
+
+    stereotype originator="4";
+    stereotype actor="UIDesigner";
+    stereotype other;
+    stereotype edit;
+
+
+  }
+
+
+
+
+  usecase wantToMoveToRound3OfTheHelpPageEdits : void {
+
+    parameter uidesignerx : UIDesigner;
+    parameter pagex : Page;
+
+    stereotype originator="5";
+    stereotype actor="UIDesigner";
+    stereotype other;
+    stereotype edit;
+
+
+  }
+
+
+
+
+  usecase wantToBeAbleToLogBetter : void {
+
+    parameter developerx : Developer;
+
+    stereotype originator="6";
+    stereotype actor="Developer";
+    stereotype other;
+
+
+  }
+
+
+
+
+  usecase wantToAddTheUpdatesOnAFABSSubmissionToBeModifiedWhenThePublishStatusChanges : FABS {
+
+    parameter developerx : Developer;
+
+    stereotype originator="7";
+    stereotype actor="Developer";
+    stereotype other;
+    stereotype create;
+
+
+    ::
+      true => FABS->exists( fabsx | result = fabsx );
+
+
+  }
+
+
+
+
+  usecase wantNewRelicToProvideUsefulDataAcrossAllApplications : void {
+
+    parameter devopsengineerx : DevOpsEngineer;
+
+    stereotype originator="8";
+    stereotype actor="DevOpsEngineer";
+    stereotype other;
+
+
+  }
+
+
+
+
+  usecase wantToMoveToRound2OfTheHelpPageEdits : void {
+
+    parameter uidesignerx : UIDesigner;
+    parameter pagex : Page;
+
+    stereotype originator="9";
+    stereotype actor="UIDesigner";
+    stereotype other;
+    stereotype edit;
+
+
+  }
+
+
+
+
+  usecase wantToUploadAndValidateTheErrorMessageToHaveAccurateText : void {
+
+    parameter brokeruserx : BrokerUser;
+    parameter messagex : Message;
+    parameter textx : Text;
+
+    stereotype originator="11";
+    stereotype actor="BrokerUser";
+    stereotype other;
+    stereotype edit;
+
+
+  }
+
+
+
+
+  usecase wantTheD1FileGenerationToBeSyncedWithTheFPDSDataLoad : void {
+
+    parameter brokeruserx : BrokerUser;
+    parameter filex : File;
+
+    stereotype originator="12";
+    stereotype actor="BrokerUser";
+    stereotype other;
+
+
+  }
+
+
+
+
+  usecase wantToAccessPublishedFABSFiles : void {
+
+    parameter websiteuserx : WebsiteUser;
+    parameter fabsx : FABS;
+    parameter filex : File;
+
+    stereotype originator="13";
+    stereotype actor="WebsiteUser";
+    stereotype other;
+    stereotype read;
+
+
+    ::
+      true => fabsx->display();
+
+
+    ::
+      true => filex->display();
+
+
+  }
+
+
+
+
+  usecase wantToBeSureThatUSAspendingOnlySendGrantRecordsToMySystem : System {
+
+    parameter ownerx : Owner;
+    parameter systemx : System;
+
+    stereotype originator="14";
+    stereotype actor="Owner";
+    stereotype other;
+    stereotype create;
+
+
+    ::
+      true => System->exists( systemx | result = systemx );
+
+
+  }
+
+
+
+
+  usecase wantToUpdateTheBrokerValidationRuleTableToAccountForTheRuleUpdatesInDB-2213 : void {
+
+    parameter developerx : Developer;
+    parameter brokerx : Broker;
+    parameter tablex : Table;
+    parameter accountx : Account;
+
+    stereotype originator="15";
+    stereotype actor="Developer";
+    stereotype other;
+    stereotype edit;
+
+
+  }
+
+
+
+
+  usecase wantToAddTheGTASWindowDataToTheDatabase : GTAS {
+
+    parameter developerx : Developer;
+    parameter databasex : Database;
+
+    stereotype originator="16";
+    stereotype actor="Developer";
+    stereotype other;
+    stereotype create;
+
+
+    ::
+      true => GTAS->exists( gtasx | result = gtasx );
+
+
+  }
+
+
+
+
+  usecase wantDFilesGenerationRequestsToBeManagedAndCached : void {
+
+    parameter developerx : Developer;
+
+    stereotype originator="17";
+    stereotype actor="Developer";
+    stereotype other;
+
+
+  }
+
+
+
+
+  usecase wantToAccessTheRawAgencyPublishedFilesFromFABSViaUSAspending : void {
+
+    parameter userx : User;
+    parameter filesx : Files;
+    parameter fabsx : FABS;
+
+    stereotype originator="18";
+    stereotype actor="User";
+    stereotype other;
+    stereotype read;
+
+
+    ::
+      true => filesx->display();
+
+
+    ::
+      true => fabsx->display();
+
+
+  }
+
+
+
+
+  usecase wantToBeAbleToIncludeALargeNumberOfFlexfieldsWithoutPerformanceImpact : void {
+
+    parameter agencyuserx : AgencyUser;
+
+    stereotype originator="19";
+    stereotype actor="AgencyUser";
+    stereotype other;
+
+
+  }
+
+
+
+
+  usecase wantToHelpCreateContentMockups : void {
+
+    parameter brokeruserx : BrokerUser;
+
+    stereotype originator="20";
+    stereotype actor="BrokerUser";
+    stereotype other;
+
+
+  }
+
+
+
+
+  usecase wantToTrackTheIssuesThatComeUpInTechThursday : void {
+
+    parameter uidesignerx : UIDesigner;
+    parameter techx : Tech;
+    parameter thursdayx : Thursday;
+
+    stereotype originator="21";
+    stereotype actor="UIDesigner";
+    stereotype other;
+    stereotype read;
+
+
+    ::
+      true => techx->display();
+
+
+    ::
+      true => thursdayx->display();
+
+
+  }
+
+
+
+
+  usecase wantToCreateAUserTestingSummaryFromTheUISME : User {
+
+    parameter ownerx : Owner;
+    parameter summaryx : String;
+    parameter uix : UI;
+
+    stereotype originator="22";
+    stereotype actor="Owner";
+    stereotype other;
+    stereotype create;
+
+
+    ::
+      true => User->exists( userx | result = userx );
+
+
+  }
+
+
+
+
+  usecase wantToBeginUserTesting : void {
+
+    parameter uidesignerx : UIDesigner;
+
+    stereotype originator="23";
+    stereotype actor="UIDesigner";
+    stereotype other;
+
+
+  }
+
+
+
+
+  usecase wantToScheduleUserTesting : void {
+
+    parameter uidesignerx : UIDesigner;
+    parameter schedulex : Schedule;
+    parameter userx : User;
+
+    stereotype originator="24";
+    stereotype actor="UIDesigner";
+    stereotype other;
+    stereotype edit;
+
+
+  }
+
+
+
+
+  usecase wantToDesignAScheduleFromTheUISME : void {
+
+    parameter ownerx : Owner;
+
+    stereotype originator="25";
+    stereotype actor="Owner";
+    stereotype other;
+
+
+  }
+
+
+
+
+  usecase wantToDesignAnAuditFromTheUISME : void {
+
+    parameter ownerx : Owner;
+    parameter auditx : Audit;
+
+    stereotype originator="26";
+    stereotype actor="Owner";
+    stereotype other;
+
+
+  }
+
+
+
+
+  usecase wantToPreventUsersFromDoublePublishingFABSSubmissionsAfterRefreshing : void {
+
+    parameter developerx : Developer;
+    parameter fabsx : FABS;
+
+    stereotype originator="27";
+    stereotype actor="Developer";
+    stereotype other;
+    stereotype read;
+
+
+    ::
+      true => fabsx->display();
+
+
+  }
+
+
+
+
+  usecase wantToReceiveUpdatesToFABSRecords : void {
+
+    parameter datauserx : DataUser;
+    parameter fabsx : FABS;
+
+    stereotype originator="28";
+    stereotype actor="DataUser";
+    stereotype other;
+    stereotype read;
+
+
+    ::
+      true => fabsx->display();
+
+
+  }
+
+
+
+
+  usecase wantToUpdateTheFABSSampleFileToRemoveFundingAgencyCodeAfterFABSIsUpdatedToNoRequireTheHeader : void {
+
+    parameter developerx : Developer;
+    parameter fabsx : FABS;
+    parameter filex : File;
+    parameter fundingagencycodex : FundingAgencyCode;
+
+    stereotype originator="30";
+    stereotype actor="Developer";
+    stereotype other;
+    stereotype edit;
+
+
+  }
+
+
+
+
+  usecase wantToEnsureThatDeletedFSRSRecordsAreNotIncludedInSubmissions : void {
+
+    parameter agencyuserx : AgencyUser;
+
+    stereotype originator="31";
+    stereotype actor="AgencyUser";
+    stereotype other;
+
+
+  }
+
+
+
+
+  usecase wantToSeeUpdatedFinancialAssistanceDataDaily : void {
+
+    parameter websiteuserx : WebsiteUser;
+
+    stereotype originator="32";
+    stereotype actor="WebsiteUser";
+    stereotype other;
+    stereotype read;
+
+
+  }
+
+
+
+
+  usecase wantThePublishButtonInFABSToDeactivateAfterIClickItWhileTheDerivationsAreHappening : void {
+
+    parameter userx : User;
+    parameter buttonx : Button;
+    parameter fabsx : FABS;
+
+    stereotype originator="33";
+    stereotype actor="User";
+    stereotype other;
+    stereotype read;
+
+
+    ::
+      true => buttonx->display();
+
+
+    ::
+      true => fabsx->display();
+
+
+  }
+
+
+
+
+  usecase wantToEnsureThatAttemptsToCorrectOrDeleteNon-existentRecordsDo : void {
+
+    parameter developerx : Developer;
+
+    stereotype originator="34";
+    stereotype actor="Developer";
+    stereotype other;
+
+
+  }
+
+
+
+
+  usecase wantToResetTheEnvironmentToOnlyTakeStagingMAXPermissions : void {
+
+    parameter ownerx : Owner;
+    parameter stagingx : Staging;
+    parameter mAXx : double;
+
+    stereotype originator="35";
+    stereotype actor="Owner";
+    stereotype other;
+    stereotype edit;
+
+
+  }
+
+
+
+
+  usecase wantTheFlexfieldsInMySubmissionFileToAppearInTheWarningAndErrorFilesWhenTheOnlyErrorIsAMissingRequiredElement : void {
+
+    parameter userx : User;
+    parameter elementx : Element;
+
+    stereotype originator="36";
+    stereotype actor="User";
+    stereotype other;
+
+
+  }
+
+
+
+
+  usecase wantToHaveAccurateAndCompleteDataRelatedToPPoPCodeAndPPoPCongressionalDistrict : void {
+
+    parameter userx : User;
+
+    stereotype originator="37";
+    stereotype actor="User";
+    stereotype other;
+
+
+  }
+
+
+
+
+  usecase wantTheFABSValidationRulesToAcceptZeroAndBlankForLoanRecords : void {
+
+    parameter agencyuserx : AgencyUser;
+
+    stereotype originator="38";
+    stereotype actor="AgencyUser";
+    stereotype other;
+
+
+  }
+
+
+
+
+  usecase wantFABSDeployedIntoProduction : Financial {
+
+    parameter agencyuserx : AgencyUser;
+
+    stereotype originator="39";
+    stereotype actor="AgencyUser";
+    stereotype other;
+    stereotype create;
+
+
+    ::
+      true => Financial->exists( financialx | result = financialx );
+
+
+  }
+
+
+
+
+  usecase wantToClarifyToUsersExactlyIsTriggeringTheCFDAErrorCodeInEachCase : void {
+
+    parameter developerx : Developer;
+    parameter codex : Code;
+
+    stereotype originator="40";
+    stereotype actor="Developer";
+    stereotype other;
+
+
+  }
+
+
+
+
+  usecase wantToBeConfidentThatTheDataComingFromSAMIsComplete : void {
+
+    parameter agencyuserx : AgencyUser;
+
+    stereotype originator="41";
+    stereotype actor="AgencyUser";
+    stereotype other;
+
+
+  }
+
+
+
+
+  usecase wantMyDomainModelsToBeIndexedProperly : void {
+
+    parameter developerx : Developer;
+    parameter domainx : Domain;
+
+    stereotype originator="42";
+    stereotype actor="Developer";
+    stereotype other;
+
+
+  }
+
+
+
+
+  usecase wantTheFABSValidationRulesToAcceptZeroAndBlankForNon-loanRecords : void {
+
+    parameter agencyuserx : AgencyUser;
+
+    stereotype originator="43";
+    stereotype actor="AgencyUser";
+    stereotype other;
+
+
+  }
+
+
+
+
+  usecase wantToMakeSomeUpdatesToTheSQLCodesForClarity : void {
+
+    parameter brokerteammemberx : BrokerTeamMember;
+    parameter sqlx : SQL;
+    parameter codex : Code;
+
+    stereotype originator="44";
+    stereotype actor="BrokerTeamMember";
+    stereotype other;
+    stereotype edit;
+
+
+  }
+
+
+
+
+  usecase wantToHaveAllDerivedDataElementsDerivedProperly : void {
+
+    parameter agencyuserx : AgencyUser;
+
+    stereotype originator="45";
+    stereotype actor="AgencyUser";
+    stereotype other;
+
+
+  }
+
+
+
+
+  usecase wantToAddThe00And00FORGNPPoPCodeCasesToTheDerivationLogic : void {
+
+    parameter brokerteammemberx : BrokerTeamMember;
+
+    stereotype originator="46";
+    stereotype actor="BrokerTeamMember";
+    stereotype other;
+    stereotype create;
+
+
+  }
+
+
+
+
+  usecase wantToSeeTheOfficeNamesDerivedFromOfficeCodes : void {
+
+    parameter datauserx : DataUser;
+    parameter officex : Office;
+    parameter codex : Code;
+
+    stereotype originator="47";
+    stereotype actor="DataUser";
+    stereotype other;
+    stereotype read;
+
+
+    ::
+      true => officex->display();
+
+
+    ::
+      true => codex->display();
+
+
+  }
+
+
+
+
+  usecase wantTheHistoricalFABSLoaderToDeriveFields : void {
+
+    parameter brokeruserx : BrokerUser;
+    parameter fieldx : Field;
+
+    stereotype originator="48";
+    stereotype actor="BrokerUser";
+    stereotype other;
+    stereotype read;
+
+
+    ::
+      true => fieldx->display();
+
+
+  }
+
+
+
+
+  usecase wantToEnsureTheBrokerResourcesValidationsAndP&PPagesAreUpdatedAppropriatelyForTheLaunchOfFABSAndDAIMSV1.1 : void {
+
+    parameter brokerteammemberx : BrokerTeamMember;
+
+    stereotype originator="49";
+    stereotype actor="BrokerTeamMember";
+    stereotype other;
+
+
+  }
+
+
+
+
+  usecase wantTheDataLoadedFromHistoricalFABSToIncludeTheFRECDerivations : void {
+
+    parameter developerx : Developer;
+
+    stereotype originator="50";
+    stereotype actor="Developer";
+    stereotype other;
+
+
+  }
+
+
+
+
+  usecase asAUserIDo : void {
+
+    parameter userx : User;
+
+    stereotype originator="51";
+    stereotype actor="User";
+
+
+  }
+
+
+
+
+  usecase wantTheDUNSValidationsToAcceptRecordsWhoseActionTypesAreBCOrDAndTheDUNSIsRegisteredInSAMEvenThoughItMayHaveExpired : void {
+
+    parameter userx : User;
+
+    stereotype originator="52";
+    stereotype actor="User";
+    stereotype other;
+
+
+  }
+
+
+
+
+  usecase wantTheDUNSValidationsToAcceptRecordsWhoseActionDatesAreBeforeTheCurrentRegistrationDateInSAMButAfterTheInitialRegistrationDate : void {
+
+    parameter userx : User;
+
+    stereotype originator="53";
+    stereotype actor="User";
+    stereotype other;
+
+
+  }
+
+
+
+
+  usecase wantToDeriveFundingAgencyCode : void {
+
+    parameter brokerteammemberx : BrokerTeamMember;
+    parameter fundingagencycodex : FundingAgencyCode;
+
+    stereotype originator="54";
+    stereotype actor="BrokerTeamMember";
+    stereotype other;
+    stereotype read;
+
+
+    ::
+      true => fundingagencycodex->display();
+
+
+  }
+
+
+
+
+  usecase wantTheMaximumLengthAllowedForLegalEntityAddressLine3ToMatchSchemaV1.1 : void {
+
+    parameter agencyuserx : AgencyUser;
+    parameter matchx : Match;
+    parameter schemax : Schema;
+
+    stereotype originator="55";
+    stereotype actor="AgencyUser";
+    stereotype other;
+
+
+  }
+
+
+
+
+  usecase wantToUseTheSchemaV1.1HeadersInMyFABSFile : void {
+
+    parameter agencyuserx : AgencyUser;
+
+    stereotype originator="56";
+    stereotype actor="AgencyUser";
+    stereotype other;
+
+
+  }
+
+
+
+
+  usecase wantToMapTheFederalActionObligationProperlyToTheAtomFeed : void {
+
+    parameter agencyuserx : AgencyUser;
+
+    stereotype originator="57";
+    stereotype actor="AgencyUser";
+    stereotype other;
+
+
+  }
+
+
+
+
+  usecase wantToHavePPoPZIP+4WorkTheSameAsTheLegalEntityZIPValidations : void {
+
+    parameter brokeruserx : BrokerUser;
+    parameter workx : Work;
+    parameter entityx : Entity;
+
+    stereotype originator="58";
+    stereotype actor="BrokerUser";
+    stereotype other;
+
+
+  }
+
+
+
+
+  usecase wantToLinkTheSAMPLEFILEOnTheYouWantToSubmitDialogToPointToTheCorrectFile : void {
+
+    parameter fabsuserx : FABSUser;
+    parameter samplex : SAMPLE;
+    parameter filex : File;
+    parameter pointx : Point;
+
+    stereotype originator="59";
+    stereotype actor="FABSUser";
+    stereotype other;
+    stereotype edit;
+
+
+  }
+
+
+
+
+  usecase wantFPDSDataToBeUp-to-dateDaily : void {
+
+    parameter agencyuserx : AgencyUser;
+
+    stereotype originator="60";
+    stereotype actor="AgencyUser";
+    stereotype other;
+
+
+  }
+
+
+
+
+  usecase wantToDetermineHowAgenciesWillGenerateAndValidateDFilesFromFABSAndFPDSData : void {
+
+    parameter developerx : Developer;
+
+    stereotype originator="62";
+    stereotype actor="Developer";
+    stereotype other;
+
+
+  }
+
+
+
+
+  usecase wantToGenerateAndValidateDFilesFromFABSAndFPDSData : D {
+
+    parameter userx : User;
+
+    stereotype originator="63";
+    stereotype actor="User";
+    stereotype other;
+    stereotype create;
+
+
+    ::
+      true => D->exists( dx | result = dx );
+
+
+  }
+
+
+
+
+  usecase wantTheHeaderInformationBoxToShowUpdatedDateANDTime : void {
+
+    parameter agencyuserx : AgencyUser;
+    parameter andx : AND;
+
+    stereotype originator="64";
+    stereotype actor="AgencyUser";
+    stereotype other;
+    stereotype read;
+
+
+    ::
+      true => andx->display();
+
+
+  }
+
+
+
+
+  usecase wantToReceiveAHelpfulFile-levelErrorWhenIUploadAFileWithTheWrongExtension : void {
+
+    parameter agencyuserx : AgencyUser;
+    parameter filex : File;
+
+    stereotype originator="65";
+    stereotype actor="AgencyUser";
+    stereotype other;
+    stereotype read;
+
+
+    ::
+      true => filex->display();
+
+
+  }
+
+
+
+
+  usecase wantToHaveAccessToTestFeaturesInEnvironmentsOtherThanStaging : void {
+
+    parameter testerx : Tester;
+
+    stereotype originator="66";
+    stereotype actor="Tester";
+    stereotype other;
+
+
+  }
+
+
+
+
+  usecase wantToSubmissionErrorsToAccuratelyRepresentFABSErrors : void {
+
+    parameter fabsuserx : FABSUser;
+
+    stereotype originator="67";
+    stereotype actor="FABSUser";
+    stereotype other;
+
+
+  }
+
+
+
+
+  usecase wantTheFrontendURLsToAccuratelyReflectThePageIMNotConfused : void {
+
+    parameter fabsuserx : FABSUser;
+
+    stereotype originator="68";
+    stereotype actor="FABSUser";
+    stereotype other;
+
+
+  }
+
+
+
+
+  usecase wantAllHistoricalFinancialAssistanceDataLoadedForFABSGo-live : void {
+
+    parameter agencyuserx : AgencyUser;
+
+    stereotype originator="69";
+    stereotype actor="AgencyUser";
+    stereotype other;
+
+
+  }
+
+
+
+
+  usecase wantTheHistoricalFPDSDataLoaderToIncludeBothExtractedHistoricalDataAndFPDSFeedData : void {
+
+    parameter developerx : Developer;
+
+    stereotype originator="70";
+    stereotype actor="Developer";
+    stereotype other;
+
+
+  }
+
+
+
+
+  usecase wantHistoricalFPDSDataLoaded : void {
+
+    parameter agencyuserx : AgencyUser;
+
+    stereotype originator="71";
+    stereotype actor="AgencyUser";
+    stereotype other;
+
+
+  }
+
+
+
+
+  usecase wantToAccuratelySeeCreatedASubmission : void {
+
+    parameter agencyuserx : AgencyUser;
+
+    stereotype originator="72";
+    stereotype actor="AgencyUser";
+    stereotype other;
+    stereotype read;
+
+
+  }
+
+
+
+
+  usecase wantToGetFileFInTheCorrectFormat : void {
+
+    parameter agencyuserx : AgencyUser;
+    parameter formatx : Format;
+
+    stereotype originator="73";
+    stereotype actor="AgencyUser";
+    stereotype other;
+
+
+  }
+
+
+
+
+  usecase wantToUnderstandMyFile-levelErrors : void {
+
+    parameter agencyuserx : AgencyUser;
+
+    stereotype originator="74";
+    stereotype actor="AgencyUser";
+    stereotype other;
+
+
+  }
+
+
+
+
+  usecase wantToProvideFABSGroupsThatFunctionUnderTheFRECParadigm : void {
+
+    parameter developerx : Developer;
+
+    stereotype originator="75";
+    stereotype actor="Developer";
+    stereotype other;
+
+
+  }
+
+
+
+
+  usecase wantToEnsureThatFABSIsDerivingFieldsProperlyThroughARobustTestFilePlusAFollowCheck : void {
+
+    parameter testerx : Tester;
+
+    stereotype originator="76";
+    stereotype actor="Tester";
+    stereotype other;
+
+
+  }
+
+
+
+
+  usecase wantZero-paddedFields : void {
+
+    parameter ownerx : Owner;
+
+    stereotype originator="77";
+    stereotype actor="Owner";
+    stereotype other;
+
+
+  }
+
+
+
+
+  usecase wantToSubmitRecordsForIndividualRecipientsWithoutReceivingADUNSError : DUNS {
+
+    parameter brokeruserx : BrokerUser;
+
+    stereotype originator="78";
+    stereotype actor="BrokerUser";
+    stereotype other;
+    stereotype create;
+
+
+    ::
+      true => DUNS->exists( dunsx | result = dunsx );
+
+
+  }
+
+
+
+
+  usecase wantMoreInformationAboutHowManyRowsWillBePublishedPriorToDecidingWhetherToPublish : void {
+
+    parameter userx : User;
+
+    stereotype originator="79";
+    stereotype actor="User";
+    stereotype other;
+    stereotype read;
+
+
+  }
+
+
+
+
+  usecase wantToPreventDuplicateTransactionsFromBeingPublishedAndDealWithTheTimeGapBetweenValidationAndThePublishingDecision : void {
+
+    parameter developerx : Developer;
+    parameter transactionx : Transaction;
+    parameter andx : AND;
+
+    stereotype originator="80";
+    stereotype actor="Developer";
+    stereotype other;
+    stereotype edit;
+
+
+  }
+
+
+
+
+  usecase wantToSubmitACitywideAsAPPoPZIPAndPassValidations : AND {
+
+    parameter fabsuserx : FABSUser;
+
+    stereotype originator="81";
+    stereotype actor="FABSUser";
+    stereotype other;
+    stereotype create;
+
+
+    ::
+      true => AND->exists( andx | result = andx );
+
+
+  }
+
+
+
+
+  usecase wantToHaveUpdatedErrorCodesThatAccuratelyReflectTheLogicAndProvideEnoughInformation : void {
+
+    parameter brokeruserx : BrokerUser;
+
+    stereotype originator="82";
+    stereotype actor="BrokerUser";
+    stereotype other;
+
+
+  }
+
+
+
+
+  usecase wantToLeaveTheLast4DigitsOfTheZIPWithoutAnError : void {
+
+    parameter agencyuserx : AgencyUser;
+
+    stereotype originator="83";
+    stereotype actor="AgencyUser";
+    stereotype other;
+
+
+  }
+
+
+
+
+  usecase wantToMakeSureTheHistoricalDataIncludesAllNecessaryColumns : void {
+
+    parameter fabsuserx : FABSUser;
+
+    stereotype originator="84";
+    stereotype actor="FABSUser";
+    stereotype other;
+    stereotype edit;
+
+
+  }
+
+
+
+
+  usecase wantToAccessTwoAdditionalFieldsFromTheFPDSDataPull : void {
+
+    parameter datauserx : DataUser;
+    parameter fieldx : Field;
+    parameter fpdsx : FPDS;
+
+    stereotype originator="85";
+    stereotype actor="DataUser";
+    stereotype other;
+    stereotype read;
+
+
+    ::
+      true => fieldx->display();
+
+
+    ::
+      true => fpdsx->display();
+
+
+  }
+
+
+
+
+  usecase wantAdditionalHelpfulInfoInTheSubmissionDashboard : void {
+
+    parameter fabsuserx : FABSUser;
+    parameter dashboardx : Dashboard;
+
+    stereotype originator="86";
+    stereotype actor="FABSUser";
+    stereotype other;
+
+
+  }
+
+
+
+
+  usecase wantToDownloadTheUploadedFABSFile : void {
+
+    parameter fabsuserx : FABSUser;
+    parameter fabsx : FABS;
+    parameter filex : File;
+
+    stereotype originator="87";
+    stereotype actor="FABSUser";
+    stereotype other;
+    stereotype read;
+
+
+    ::
+      true => fabsx->display();
+
+
+    ::
+      true => filex->display();
+
+
+  }
+
+
+
+
+  usecase wantToQuicklyAccessBrokerApplicationData : void {
+
+    parameter developerx : Developer;
+    parameter brokerx : Broker;
+    parameter applicationx : Application;
+
+    stereotype originator="88";
+    stereotype actor="Developer";
+    stereotype other;
+    stereotype read;
+
+
+    ::
+      true => brokerx->display();
+
+
+    ::
+      true => applicationx->display();
+
+
+  }
+
+
+
+
+  usecase wantToDetermineTheBestWayToLoadHistoricalFPDSData : void {
+
+    parameter developerx : Developer;
+
+    stereotype originator="89";
+    stereotype actor="Developer";
+    stereotype other;
+
+
+  }
+
+
+
+
+  usecase wantTheLanguageOnFABSPagesToBeAppropriateForMe : void {
+
+    parameter fabsuserx : FABSUser;
+
+    stereotype originator="90";
+    stereotype actor="FABSUser";
+    stereotype other;
+
+
+  }
+
+
+
+
+  usecase wantDABSBannerMessagesAndViceVersa : void {
+
+    parameter fabsuserx : FABSUser;
+
+    stereotype originator="91";
+    stereotype actor="FABSUser";
+    stereotype other;
+
+
+  }
+
+
+
+
+  usecase wantToHaveRead-onlyAccessToDABS : void {
+
+    parameter fabsuserx : FABSUser;
+
+    stereotype originator="92";
+    stereotype actor="FABSUser";
+    stereotype other;
+
+
+  }
+
+
+
+
+  usecase wantToHaveMyValidationsRunInAReasonableAmountOfTime : void {
+
+    parameter fabsuserx : FABSUser;
+
+    stereotype originator="93";
+    stereotype actor="FABSUser";
+    stereotype other;
+
+
+  }
+
+
+
+
+  usecase wantToSeeCorrectStatusLabelsOnTheSubmissionDashboard : void {
+
+    parameter fabsuserx : FABSUser;
+    parameter labelx : Label;
+    parameter submissionx : Submission;
+    parameter dashboardx : Dashboard;
+
+    stereotype originator="94";
+    stereotype actor="FABSUser";
+    stereotype other;
+    stereotype read;
+
+
+    ::
+      true => labelx->display();
+
+
+    ::
+      true => submissionx->display();
+
+
+    ::
+      true => dashboardx->display();
+
+
+  }
+
+
+
+}
+

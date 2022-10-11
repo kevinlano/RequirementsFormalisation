@@ -1,0 +1,588 @@
+package FABSucs.txt {
+class Resources_page { }
+
+class Page_edits { }
+
+class Help_page_edits { }
+
+class Broker_user { }
+
+class Error_message { }
+
+class Accurate_text { }
+
+class D1_file_generation { }
+
+class File { }
+
+class Website_user { }
+
+class Owner { }
+
+class System { }
+
+class Broker_validation_rule_table { }
+
+class Database { }
+
+class User { }
+
+class Agency_user { }
+
+class User_testing { }
+
+class Schedule { }
+
+class Potential_timeline { }
+
+class Audit { }
+
+class Users { }
+
+class Data_user { }
+
+class Fabs_sample_file { }
+
+class Publish_button { }
+
+class Submission_file { }
+
+class Required_element { }
+
+class Cfda_error_code { }
+
+class Domain_models { }
+
+class Broker_team_member { }
+
+class Office { }
+
+class Office_codes { }
+
+class Publishedawardfinancialassistance_table { }
+
+class Schema_headers { }
+
+class Fabs_file { }
+
+class Fabs_user { }
+
+class Correct_file { }
+
+class Nonprod_feature { }
+
+class Work { }
+
+class Page { }
+
+class Correct_format { }
+
+class Fabs_groups { }
+
+class Robust_test_file { }
+
+class Submission_dashboard { }
+
+class Uploaded_fabs_file { }
+
+class Uploaded_file { }
+
+class Access_broker_application_data { }
+
+class Dabs_banner_messages { }
+
+class Application { }
+
+usecase redesign_the_Resources_page_so_that_it_matches_the_new_Broker_design_styles : void { 
+  stereotype actor="UI_designer";
+  stereotype "other";
+  activity: skip;
+}
+
+usecase report_to_the_Agencies_about_user_testing_so_that_they_are_aware_of_their_contributions_to_making_Broker_a_better_UX : void { 
+  stereotype actor="UI_designer";
+  stereotype "other";
+  activity: skip;
+}
+
+usecase move_on_to_round_2_of_DABS_or_FABS_landing_page_edits_so_that_I_can_get_approvals_from_leadership : void { 
+  stereotype actor="UI_designer";
+  stereotype "edit";
+  activity: skip;
+}
+
+usecase move_on_to_round_2_of_Homepage_edits_so_that_I_can_get_approvals_from_leadership : void { 
+  stereotype actor="UI_designer";
+  stereotype "edit";
+  activity: skip;
+}
+
+usecase move_on_to_round_3_of_the_Help_page_edits_so_that_I_can_get_approvals_from_leadership : void { 
+  stereotype actor="UI_designer";
+  stereotype "edit";
+  activity: skip;
+}
+
+usecase log_better_so_that_I_can_troubleshoot_issues_with_particular_submissions_and_functions : void { 
+  stereotype actor="Developer_able";
+  stereotype "other";
+  activity: skip;
+}
+
+usecase add_the_updates_on_a_FABS_submission_to_be_modified_when_the_publishStatus_changes_so_that_I_know_when_the_status_of_the_submission_has_changed : void { 
+  stereotype actor="Developer";
+  stereotype "create";
+  activity: skip;
+}
+
+usecase provide_useful_data_across_all_applications : void { 
+  stereotype actor="DevOps_engineer_New_Relic";
+  stereotype "other";
+  activity: skip;
+}
+
+usecase move_on_to_round_2_of_the_Help_page_edits_so_that_I_can_get_approvals_from_leadership : void { 
+  stereotype actor="UI_designer";
+  stereotype "edit";
+  activity: skip;
+}
+
+usecase move_on_to_round_2_of_Homepage_edits_so_that_I_can_get_approvals_from_leadership : void { 
+  stereotype actor="UI_designer";
+  stereotype "edit";
+  activity: skip;
+}
+
+usecase regenerate_a_file_if_no_data_has_been_updated : void { 
+  stereotype actor="Broker_user_D1_file_generation_FPDS_data_load";
+  stereotype "other";
+  activity: skip;
+}
+
+usecase see_the_new_files_as_they_come_in : void { 
+  stereotype actor="Website_user_access_FABS_files";
+  stereotype "read";
+  activity: skip;
+}
+
+usecase send_grant_records_to_my_system : void { 
+  stereotype actor="owner_sure";
+  stereotype "create";
+  activity: skip;
+}
+
+usecase update_the_Broker_validation_rule_table_to_account_for_the_rule_updates_in : void { 
+  stereotype actor="Developer";
+  stereotype "edit";
+  activity: skip;
+}
+
+usecase add_the_GTAS_window_data_to_the_database_so_that_I_can_ensure_the_site_is_locked_down_during_the_GTAS_submission_period : void { 
+  stereotype actor="Developer";
+  stereotype "create";
+  activity: skip;
+}
+
+usecase cause_performance_issues : void { 
+  stereotype actor="Developer_D_Files_generation_requests_and_duplicate_requests";
+  stereotype "other";
+  activity: skip;
+}
+
+usecase include_a_large_number_of_flexfields_without_performance_impact : void { 
+  stereotype actor="Agency_user_able";
+  stereotype "other";
+  activity: skip;
+}
+
+usecase help_create_content_mockups_so_that_I_can_submit_my_data_efficiently : void { 
+  stereotype actor="Broker_user";
+  stereotype "other";
+  activity: skip;
+}
+
+usecase track_the_issues_that_come_up_in_Tech_Thursday_so_that_I_know_what_to_test_and_what_want_s_to_be_fixed : void { 
+  stereotype actor="UI_designer";
+  stereotype "read";
+  activity: skip;
+}
+
+usecase create_a_user_testing_summary_from_the_UI_SME_so_that_I_can_know_what_UI_improvements_we_will_follow_through_on : void { 
+  stereotype actor="Owner";
+  stereotype "create";
+  activity: skip;
+}
+
+usecase begin_user_testing_so_that_I_can_validate_stakeholder_UI_improvement_requests : void { 
+  stereotype actor="UI_designer";
+  stereotype "other";
+  activity: skip;
+}
+
+usecase schedule_user_testing_so_that_I_can_give_the_testers_advanced_notice_to_ensure : void { 
+  stereotype actor="UI_designer";
+  stereotype "edit";
+  activity: skip;
+}
+
+usecase design_a_schedule_from_the_UI_SME_so_that_I_know_the_potential_timeline_of_the_UI_improvements_wanted : void { 
+  stereotype actor="Owner";
+  stereotype "other";
+  activity: skip;
+}
+
+usecase design_an_audit_from_the_UI_SME_so_that_I_know_the_potential_scope_of_the_UI_improvements_wanted : void { 
+  stereotype actor="Owner";
+  stereotype "other";
+  activity: skip;
+}
+
+usecase prevent_users_from_double_publishing_FABS_submissions_after_refreshing_so_that_there_are_no_duplicates : void { 
+  stereotype actor="Developer";
+  stereotype "other";
+  activity: skip;
+}
+
+usecase receive_updates_to_FABS_records : void { 
+  stereotype actor="data_user";
+  stereotype "read";
+  activity: skip;
+}
+
+usecase include_a_large_number_of_flexfields_without_performance_impact : void { 
+  stereotype actor="Agency_user_able";
+  stereotype "other";
+  activity: skip;
+}
+
+usecase update_the_FABS_sample_file_to_remove_FundingAgencyCode_after_FABS_is_updated_to_no_longer_require_the_header : void { 
+  stereotype actor="Developer";
+  stereotype "edit";
+  activity: skip;
+}
+
+usecase ensure_that_deleted_FSRS_records_are_not_included_in_submissions : void { 
+  stereotype actor="agency_user";
+  stereotype "other";
+  activity: skip;
+}
+
+usecase see_updated_financial_assistance_data_daily : void { 
+  stereotype actor="website_user";
+  stereotype "read";
+  activity: skip;
+}
+
+usecase deactivate_after_I_click_it_while_the_derivations_are_happening_so_that_I_can_not_click_it_multiple_times_for_the_same_submission : void { 
+  stereotype actor="user_publish_button_FABS";
+  stereotype "other";
+  activity: skip;
+}
+
+usecase ensure_that_attempts_to_correct_or_delete_records_do_create_new_published_data : void { 
+  stereotype actor="Developer";
+  stereotype "other";
+  activity: skip;
+}
+
+usecase reset_the_environment_to_only_take_Staging_MAX_permissions_so_that_I_can_ensure_that_the_FABS_testers_no_longer_have_access : void { 
+  stereotype actor="Owner";
+  stereotype "edit";
+  activity: skip;
+}
+
+usecase appear_in_the_warning_and_error_files_when_the_only_error_is_a_missing_required_element : void { 
+  stereotype actor="user_flexfields_submission_file";
+  stereotype "other";
+  activity: skip;
+}
+
+usecase accept_zero_and_blank_for_loan_records : void { 
+  stereotype actor="agency_user_FABS_validation_rules";
+  stereotype "other";
+  activity: skip;
+}
+
+usecase submit_my_Financial_Assistance_data : void { 
+  stereotype actor="Agency_user_FABS_production";
+  stereotype "create";
+  activity: skip;
+}
+
+usecase clarify_to_users_what_exactly_is_triggering_the_CFDA_error_code_in_each_case : void { 
+  stereotype actor="Developer";
+  stereotype "other";
+  activity: skip;
+}
+
+usecase get_validation_results_back_in_a_reasonable_amount_of_time : void { 
+  stereotype actor="Developer_domain_models_indexed";
+  stereotype "read";
+  activity: skip;
+}
+
+usecase accept_zero_and_blank_for_records : void { 
+  stereotype actor="agency_user_FABS_validation_rules";
+  stereotype "other";
+  activity: skip;
+}
+
+usecase make_some_updates_to_the_SQL_codes_for_clarity : void { 
+  stereotype actor="broker_team_member";
+  stereotype "edit";
+  activity: skip;
+}
+
+usecase add_the_00_and_00FORGN_PPoPCode_cases_to_the_derivation_logic : void { 
+  stereotype actor="broker_team_member";
+  stereotype "create";
+  activity: skip;
+}
+
+usecase see_the_office_names_derived_from_office_codes_so_that_I_can_have_appropriate_context_for_understanding_them : void { 
+  stereotype actor="data_user";
+  stereotype "read";
+  activity: skip;
+}
+
+usecase derive_fields_so_that_my_agency_codes_are_correct_in_the_PublishedAwardFinancialAssistance_table : void { 
+  stereotype actor="broker_user_historical_FABS_loader";
+  stereotype "read";
+  activity: skip;
+}
+
+usecase ensure_the_Broker_resources_validations_and_P_P_pages_are_updated_appropriately_for_the_launch_of_FABS_and_DAIMS : void { 
+  stereotype actor="broker_team_member";
+  stereotype "other";
+  activity: skip;
+}
+
+usecase include_the_FREC_derivations_so_that_I_can_have_consistent_FREC_data_for : void { 
+  stereotype actor="Developer_data_historical_FABS";
+  stereotype "other";
+  activity: skip;
+}
+
+usecase want_to_see_NASA_grants_displayed_as_contracts : void { 
+  stereotype actor="user";
+  stereotype "other";
+  activity: skip;
+}
+
+usecase accept_records_whose_ActionTypes_are_B_C_or_D_and_the_DUNS_is_registered_in_SAM_even_though_it_may_have_expired : void { 
+  stereotype actor="user_DUNS_validations";
+  stereotype "other";
+  activity: skip;
+}
+
+usecase accept_records_whose_ActionDates_are_before_the_current_registration_date_in_SAM_but_after_the_initial_registration_date : void { 
+  stereotype actor="user_DUNS_validations";
+  stereotype "other";
+  activity: skip;
+}
+
+usecase derive_FundingAgencyCode_so_that_the_data_quality_and_completeness_improves : void { 
+  stereotype actor="broker_team_member";
+  stereotype "read";
+  activity: skip;
+}
+
+usecase match_Schema : void { 
+  stereotype actor="agency_user_maximum_length_LegalEntityAddressLine3";
+  stereotype "other";
+  activity: skip;
+}
+
+usecase use_the_schema_headers_in_my_FABS_file : void { 
+  stereotype actor="agency_user";
+  stereotype "other";
+  activity: skip;
+}
+
+usecase map_the_FederalActionObligation_properly_to_the_Atom_Feed : void { 
+  stereotype actor="agency_user";
+  stereotype "other";
+  activity: skip;
+}
+
+usecase work_the_same_as_the_Legal_Entity_ZIP_validations : void { 
+  stereotype actor="Broker_user_PPoPZIP+4";
+  stereotype "other";
+  activity: skip;
+}
+
+usecase link_the_SAMPLE_FILE_on_the_What_you_want_to_submit_dialog_to_point_to_the_correct_file_so_that_I_have_an_accurate_reference_for_my_agency_submissions : void { 
+  stereotype actor="FABS_user";
+  stereotype "edit";
+  activity: skip;
+}
+
+usecase determine_how_agencies_will_generate_and_validate_D_Files_from_FABS_and_FPDS_data : void { 
+  stereotype actor="Developer";
+  stereotype "other";
+  activity: skip;
+}
+
+usecase generate_and_validate_D_Files_from_FABS_and_FPDS_data : void { 
+  stereotype actor="user";
+  stereotype "create";
+  activity: skip;
+}
+
+usecase show_updated_date_AND_time_so_that_I_know_when_it_was_updated : void { 
+  stereotype actor="Agency_user_header_information_box";
+  stereotype "read";
+  activity: skip;
+}
+
+usecase receive_a_more_helpful_error_when_I_upload_a_file_with_the_wrong_extension : void { 
+  stereotype actor="Agency_user";
+  stereotype "read";
+  activity: skip;
+}
+
+usecase test_features_in_environments_other_than_Staging_so_that_I_can_test_any_nonProd_feature_in_any_environment : void { 
+  stereotype actor="tester_access";
+  stereotype "read";
+  activity: skip;
+}
+
+usecase submission_errors_to_accurately_represent_FABS_errors_so_that_I_know_why_my_submission_did_work : void { 
+  stereotype actor="FABS_user";
+  stereotype "other";
+  activity: skip;
+}
+
+usecase reflect_the_page_I_accessing_so_that_I_not_confused : void { 
+  stereotype actor="FABS_user_frontend_URLs";
+  stereotype "other";
+  activity: skip;
+}
+
+usecase include_both_extracted_historical_data_and_FPDS_feed_data : void { 
+  stereotype actor="Developer_historical_FPDS_data_loader";
+  stereotype "other";
+  activity: skip;
+}
+
+usecase see_who_created_a_submission_so_that_I_not_confused_about_who_last_updated_a_submission : void { 
+  stereotype actor="Agency_user";
+  stereotype "read";
+  activity: skip;
+}
+
+usecase get_File_F_in_the_correct_format : void { 
+  stereotype actor="agency_user";
+  stereotype "read";
+  activity: skip;
+}
+
+usecase understand_my_errors : void { 
+  stereotype actor="Agency_user_better";
+  stereotype "other";
+  activity: skip;
+}
+
+usecase provide_FABS_groups_that_function_under_the_FREC_paradigm : void { 
+  stereotype actor="Developer";
+  stereotype "other";
+  activity: skip;
+}
+
+usecase ensure_that_FABS_is_deriving_fields_properly_through_a_robust_test_file_plus_a_follow_up_check : void { 
+  stereotype actor="tester";
+  stereotype "other";
+  activity: skip;
+}
+
+usecase justify_padding : void { 
+  stereotype actor="owner_zero-padded_fields";
+  stereotype "other";
+  activity: skip;
+}
+
+usecase submit_records_for_individual_recipients_without_receiving_a_DUNS_error : void { 
+  stereotype actor="Broker_user";
+  stereotype "create";
+  activity: skip;
+}
+
+usecase publish : void { 
+  stereotype actor="user_more_information_many_rows";
+  stereotype "read";
+  activity: skip;
+}
+
+usecase prevent_duplicate_transactions_from_being_published_and_deal_with_the_time_gap_between_validation_and_the_publishing_decision : void { 
+  stereotype actor="Developer";
+  stereotype "other";
+  activity: skip;
+}
+
+usecase submit_a_citywide_as_a_PPoPZIP_and_pass_validations : void { 
+  stereotype actor="FABS_user";
+  stereotype "create";
+  activity: skip;
+}
+
+usecase reflect_the_logic_and_provide_enough_information_so_that_I_can_fix_my_submission : void { 
+  stereotype actor="Broker_user_error";
+  stereotype "other";
+  activity: skip;
+}
+
+usecase leave_off_the_last_4_digits_of_the_ZIP_without_an_error_so_that_I_can_complete_my_submissions : void { 
+  stereotype actor="agency_user";
+  stereotype "other";
+  activity: skip;
+}
+
+usecase make_sure_the_historical_data_includes_all_necessary_columns_so_that_the_information_in_the_database_is_correct : void { 
+  stereotype actor="FABS_user";
+  stereotype "edit";
+  activity: skip;
+}
+
+usecase better_manage_submissions_and_IG_requests : void { 
+  stereotype actor="FABS_user_additional_helpful_info_submission_dashboard";
+  stereotype "other";
+  activity: skip;
+}
+
+usecase download_the_uploaded_FABS_file_so_that_I_can_get_the_uploaded_file : void { 
+  stereotype actor="FABS_user";
+  stereotype "read";
+  activity: skip;
+}
+
+usecase investigate_issues : void { 
+  stereotype actor="Developer_access_Broker_application_data";
+  stereotype "other";
+  activity: skip;
+}
+
+usecase determine_the_best_way_to_load_historical_FPDS_data_so_that_I_can_load_all_FPDS_data_since_2007 : void { 
+  stereotype actor="Developer";
+  stereotype "other";
+  activity: skip;
+}
+
+usecase want_DABS_banner_messages_and_vice_versa_so_that_I_have_the_appropriate_information_for_my_application : void { 
+  stereotype actor="FABS_user";
+  stereotype "other";
+  activity: skip;
+}
+
+usecase view_DABS_pages_without_wanting_two_sets_of_permissions : void { 
+  stereotype actor="FABS_user_read-only_access_DABS";
+  stereotype "read";
+  activity: skip;
+}
+
+usecase see_correct_status_labels_on_the_Submission_Dashboard_so_that_I_can_quickly_see_my_submission_history : void { 
+  stereotype actor="FABS_user";
+  stereotype "read";
+  activity: skip;
+}
+
+}

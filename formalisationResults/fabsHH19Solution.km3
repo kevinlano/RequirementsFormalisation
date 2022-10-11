@@ -1,0 +1,324 @@
+package fabsHH19 { 
+
+usecase redesignresourcpag : void { 
+  stereotype actor='ui design';
+  activity: skip; 
+}
+
+usecase addupdat : void {
+  stereotype actor='develop';
+  activity: skip; 
+}
+
+usecase providusedata : void {
+  stereotype actor='devop engin'; 
+  activity: skip; 
+} 
+
+usecase wantnewrel : void {
+  stereotype actor='devop engin'; 
+  activity: skip; 
+}
+
+usecase uploaderrormessag {
+  stereotype actor='broker us';
+  activity: skip; 
+} 
+
+usecase wantfabfil {
+  stereotype actor='websit us'; 
+  activity: skip; 
+}
+
+usecase updatbrokervalidruletabl {
+  stereotype actor='develop'; 
+  activity: skip; 
+}
+
+usecase wantdfilegenerrequest : void { 
+  stereotype actor='develop'; 
+  activity: skip; 
+}
+
+usecase accessfile : void {
+  stereotype actor='user'; 
+  activity: skip; 
+}
+
+usecase trackissu : void {
+  stereotype actor='ui design'; 
+  activity: skip; 
+}
+
+usecase beginusertest : void {
+  stereotype actor='ui design'; 
+  activity: skip; 
+} 
+
+usecase designschedul : void {
+  stereotype actor='owner'; 
+  activity: skip; 
+}
+
+usecase designaudit : void {
+  stereotype actor='owner'; 
+  activity: skip; 
+}
+
+usecase preventuser : void {
+  stereotype actor='develop'; 
+  activity: skip; 
+}
+
+usecase receivupdat : void {
+  stereotype actor='data us'; 
+  activity: skip; 
+}
+
+usecase updatfabsamplfil : void {
+  stereotype actor='develop'; 
+  activity: skip; 
+}
+
+usecase seefinanciassistdata : void {
+  stereotype actor='websit us'; 
+  activity: skip; 
+}
+
+usecase wantpublish : void {
+  stereotype actor='user'; 
+  activity: skip; 
+}
+
+usecase resetenviron : void {
+  stereotype actor='owner'; 
+  activity: skip; 
+}
+
+usecase wantflaxs : void {
+  stereotype actor='user'; 
+  activity: skip; 
+}
+
+usecase wantfabvalidrul : void {
+  stereotype actor='agenc us'; 
+  activity: skip; 
+}
+
+usecase wantfab : void {
+  stereotype actor='agenc us'; 
+  activity: skip; 
+}
+
+usecase wantdomainmodel : void {
+  stereotype actor='develop'; 
+  activity: skip; 
+}
+
+usecase wantfabvalidrul : void {
+  stereotype actor='agenc us'; 
+  activity: skip; 
+}
+
+usecase makeupdat : void {
+  stereotype actor='broker team memb'; 
+  activity: skip; 
+}
+
+usecase haveall : void {
+  stereotype actor='agenc us'; 
+  activity: skip; 
+}
+
+usecase add00***** : void {
+  stereotype actor='broker team memb'; 
+  activity: skip; 
+}
+
+usecase seeofficnam : void {
+  stereotype actor='data us'; 
+  activity: skip; 
+}
+
+usecase wanthistorfabload : void {
+  stereotype actor='broker us'; 
+  activity: skip; 
+}
+
+usecase ensurbrokerresourcvalid : void {
+  stereotype actor='broker team memb'; 
+  activity: skip; 
+}
+
+usecase wantdata : void {
+  stereotype actor='develop'; 
+  activity: skip; 
+}
+
+usecase wantdunvalid : void {
+  stereotype actor='user'; 
+  activity: skip; 
+}
+
+usecase wantdunvalid : void {
+  stereotype actor='user'; 
+  activity: skip; 
+}
+
+usecase derivfundingagencycod : void {
+  stereotype actor='broker team memb'; 
+  activity: skip; 
+}
+
+usecase wantmaximumlength : void {
+  stereotype actor='agenc us'; 
+  activity: skip; 
+}
+
+usecase useschemav1 : void {
+  stereotype actor='agenc us';
+  activity: skip; 
+}
+
+usecase mapfederalactionoblig : void {
+  stereotype actor='agenc us'; 
+  activity: skip; 
+}
+
+usecase havework : void {
+  stereotype actor='broker us'; 
+  activity: skip; 
+}
+
+usecase submit"dialog : void {
+  stereotype actor='fab us'; 
+  activity: skip; 
+}
+
+usecase wantfpddata : void {
+  stereotype actor='agenc us'; 
+  activity: skip; 
+}
+
+usecase accessfile : void {
+  stereotype actor='user'; 
+  activity: skip; 
+}
+
+usecase generdfile : void {
+  stereotype actor='user'; 
+  activity: skip; 
+}
+
+usecase wantheaderinformbox : void {
+  stereotype actor='agenc us'; 
+  activity: skip; 
+}
+
+usecase haveaccess : void {
+  stereotype actor='tester'; 
+  activity: skip; 
+}
+
+usecase submiterror : void {
+  stereotype actor='fab us'; 
+  activity: skip; 
+}
+
+usecase wantfrontendurl : void {
+  stereotype actor='fab us'; 
+  activity: skip; 
+}
+
+usecase getfilef : void {
+  stereotype actor='agenc us'; 
+  activity: skip; 
+}
+
+usecase understandmy : void {
+  stereotype actor='agenc us'; 
+  activity: skip; 
+}
+
+usecase providfabgroup : void {
+  stereotype actor='develop'; 
+  activity: skip; 
+}
+
+usecase wantzero-padfield : void {
+  stereotype actor='owner'; 
+  activity: skip; 
+}
+
+usecase submitrecord : void {
+  stereotype actor='broker us'; 
+  activity: skip; 
+}
+
+usecase wantmoreinform : void {
+  stereotype actor='user'; 
+  activity: skip; 
+}
+
+usecase preventduplictransact : void { 
+ stereotype actor='develop'; 
+  activity: skip; 
+}
+
+usecase submitcitywid : void { 
+ stereotype actor='fab us'; 
+  activity: skip; 
+}
+
+usecase haveerrorcod : void { 
+ stereotype actor='fab us'; 
+  activity: skip; 
+}
+
+usecase leavdigit : void { 
+ stereotype actor='agenc us'; 
+  activity: skip; 
+}
+
+usecase accessadditfield : void { 
+ stereotype actor='data us'; 
+  activity: skip; 
+}
+
+usecase wanthelpinfo : void { 
+ stereotype actor='fab us'; 
+  activity: skip; 
+}
+
+usecase accessbrokerapplicdata : void { 
+ stereotype actor='develop'; 
+  activity: skip; 
+} 
+
+usecase determinbestway : void { 
+ stereotype actor='develop'; 
+  activity: skip; 
+}
+
+usecase wantlanguag : void { 
+ stereotype actor='fab us'; 
+  activity: skip; 
+}
+
+usecase dabbannermessag : void { 
+ stereotype actor='fab us'; 
+  activity: skip; 
+}
+
+usecase dabpage : void { 
+ stereotype actor='fab us'; 
+  activity: skip; 
+}
+
+usecase seecorrectstatulabel : void { 
+ stereotype actor='fab us'; 
+  activity: skip; 
+}
+
+} 
+
