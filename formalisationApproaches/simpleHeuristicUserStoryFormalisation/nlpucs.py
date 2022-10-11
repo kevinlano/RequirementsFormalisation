@@ -9,6 +9,7 @@ from nltk.parse.corenlp import GenericCoreNLPParser
 from nltk.tree import *
 from nltk.metrics import edit_distance
 
+import argparse
 
 
 
@@ -198,6 +199,19 @@ def className(np) :
   return clsname.capitalize()
   
 
+
+
+# Main program
+
+parser = argparse.ArgumentParser()
+parser.add_argument('--source', type=str,
+                    default='source.txt', 
+                    help='Source file name source.txt')
+
+args = parser.parse_args()
+
+filename = args.source
+
 verbs = nltk.data.load('verbs.pickle')
 # print(verbs)
 
@@ -209,31 +223,22 @@ attributenouns = word_tokenize(nouns2)
 
 # dataset = nltk.data.load('inputData.txt')
 
-dataset = nltk.data.load('k3ucs.txt')
+dataset = nltk.data.load(filename)
 # print(dataset)
 
 sq = sent_tokenize(dataset)
 # print(sq)
 
-# grammar = nltk.data.load('grammars/book_grammars/discourse.fcfg')
-
-# parser = nltk.parse.RecursiveDescentParser(grammar)
-# parser = GenericCoreNLPParser()
-# psents = GenericCoreNLPParser.parse_all(parser,ss)
 
 ssq = [word_tokenize(t) for t in sq]
-# print(ssq)
-
-# sentence1 = 'a person barks'.split()
-
-# for t in parser.parse(ssq[0]):
-#   print(t)
 
 
 possq = [pos_tag(st) for st in ssq]
 # print(possq)
 
 cnames = []
+
+print("package " + filename + " {")
 
 for sq in possq : 
   ents = entities(sq)
@@ -261,12 +266,15 @@ for sq in vbsq :
   if len(rem) > 0 : 
     tple = rem[0]
     category = verbCategory(tple[0],verbs)
-  print("usecase " + ucname + " : void { ")
-  print("  stereotype actor=\"" + actr + "\";")
-  print("  stereotype \"" + category + "\";")
-  print("  activity: skip;\n}")
-  print("")
+  ucname = ucname.strip()
+  if len(ucname) > 0 : 
+    print("usecase " + ucname + " : void { ")
+    print("  stereotype actor=\"" + actr + "\";")
+    print("  stereotype \"" + category + "\";")
+    print("  activity: skip;\n}")
+    print("")
 
+print("}")
 
 
 
