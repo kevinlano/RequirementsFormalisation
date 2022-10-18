@@ -1,4 +1,9 @@
-This directory contains the AgileUML tools for RF of behavioural models. 
+This directory contains the AgileUML tools for RF of behavioural models. This is described in the paper
+
+"Automated Requirements Formalisation for Agile MDE", K. Lano et al, at MDEIntelligence 2021, MODELS 2021. 
+https://www.researchgate.net/publication/357212983_Automated_Requirements_Formalisation_for_Agile_MDE
+
+
 The tool is opened as 
 java -jar umlrsds.jar
 
