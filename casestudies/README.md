@@ -1,4 +1,4 @@
-This directory contains the source text/images of evaluation cases for requirements formalisation tools. 
+This directory contains the source text/images of semi-formal evaluation cases for requirements formalisation tools. 
 
 These are of two kinds: cases of user stories; cases of data requirements.
 
