@@ -1,0 +1,187 @@
+As_IN a_DT UI_NN designer_NN ,_, I_PRP want_VBP to_TO redesign_VB the_DT Resources_NNP page_NN ,_, so_IN that_IN it_PRP matches_VBZ the_DT new_JJ Broker_NNP design_NN styles_NNS ._.
+
+As_IN a_DT UI_NN designer_NN ,_, I_PRP want_VBP to_TO report_VB to_TO the_DT Agencies_NNPS about_IN user_NN testing_NN ,_, so_IN that_IN they_PRP are_VBP aware_JJ of_IN their_PRP$ contributions_NNS to_TO making_VBG Broker_NNP a_DT better_JJR UX_NN ._.
+
+As_IN a_DT UI_NN designer_NN ,_, I_PRP want_VBP to_TO move_VB on_RP to_TO round_VB 2_CD of_IN DABS_NNP or_CC FABS_NNP landing_NN page_NN edits_VBZ ,_, so_IN that_IN I_PRP can_MD get_VB approvals_NNS from_IN leadership_NN ._.
+
+As_IN a_DT UI_NN designer_NN ,_, I_PRP want_VBP to_TO move_VB on_RP to_TO round_VB 2_CD of_IN Homepage_FW edits_FW ,_, so_IN that_IN I_PRP can_MD get_VB approvals_NNS from_IN leadership_NN ._.
+
+As_IN a_DT UI_NN designer_NN ,_, I_PRP want_VBP to_TO move_VB on_RP to_TO round_VB 3_CD of_IN the_DT Help_NN page_NN edits_VBZ ,_, so_IN that_IN I_PRP can_MD get_VB approvals_NNS from_IN leadership_NN ._.
+
+As_IN a_DT Developer_NNP ,_, I_PRP want_VBP to_TO be_VB able_JJ to_TO log_VB better_JJR ,_, so_IN that_IN I_PRP can_MD troubleshoot_VB issues_NNS with_IN particular_JJ submissions_NNS and_CC functions_NNS ._.
+
+As_IN a_DT Developer_NNP ,_, I_PRP want_VBP to_TO add_VB the_DT updates_NNS on_IN a_DT FABS_NNP submission_NN to_TO be_VB modified_VBN when_WRB the_DT publishStatus_NN changes_NNS ,_, so_IN that_IN I_PRP know_VBP when_WRB the_DT status_NN of_IN the_DT submission_NN has_VBZ changed_VBN ._.
+
+As_IN a_DT DevOps_NNP engineer_NN ,_, I_PRP want_VBP New_NNP Relic_NNP to_TO provide_VB useful_JJ data_NNS across_IN all_DT applications_NNS ._.
+
+As_IN a_DT UI_NN designer_NN ,_, I_PRP want_VBP to_TO move_VB on_RP to_TO round_VB 2_CD of_IN the_DT Help_NN page_NN edits_VBZ ,_, so_IN that_IN I_PRP can_MD get_VB approvals_NNS from_IN leadership_NN ._.
+
+As_IN a_DT UI_NN designer_NN ,_, I_PRP want_VBP to_TO move_VB on_RP to_TO round_VB 2_CD of_IN Homepage_FW edits_FW ,_, so_IN that_IN I_PRP can_MD get_VB approvals_NNS from_IN leadership_NN ._.
+
+As_IN a_DT Broker_NNP user_NN ,_, I_PRP want_VBP to_TO Upload_VB and_CC Validate_VB the_DT error_NN message_NN to_TO have_VB accurate_JJ text_NN ._.
+
+As_IN a_DT Broker_NNP user_NN ,_, I_PRP want_VBP the_DT D1_NN file_NN generation_NN to_TO be_VB synced_VBN with_IN the_DT FPDS_NN data_NNS load_NN ,_, so_IN that_IN I_PRP do_VBP n't_RB have_VB to_TO regenerate_VB a_DT file_NN if_IN no_DT data_NNS has_VBZ been_VBN updated_VBN ._.
+
+As_IN a_DT Website_NNP user_NN ,_, I_PRP want_VBP to_TO access_VB published_VBN FABS_NNP files_NNS ,_, so_IN that_IN I_PRP can_MD see_VB the_DT new_JJ files_NNS as_IN they_PRP come_VBP in_RP ._.
+
+As_IN an_DT owner_NN ,_, I_PRP want_VBP to_TO be_VB sure_JJ that_IN USAspending_VBG only_RB send_VB grant_NN records_NNS to_TO my_PRP$ system_NN ._.
+
+As_IN a_DT Developer_NNP ,_, I_PRP want_VBP to_TO update_VB the_DT Broker_NNP validation_NN rule_NN table_NN to_TO account_VB for_IN the_DT rule_NN updates_NNS in_IN DB-2213_NN ._.
+
+As_IN a_DT Developer_NNP ,_, I_PRP want_VBP to_TO add_VB the_DT GTAS_NNP window_NN data_NNS to_TO the_DT database_NN ,_, so_IN that_IN I_PRP can_MD ensure_VB the_DT site_NN is_VBZ locked_VBN down_RP during_IN the_DT GTAS_NN submission_NN period_NN ._.
+
+As_IN a_DT Developer_NNP ,_, I_PRP want_VBP D_NNP Files_NNP generation_NN requests_NNS to_TO be_VB managed_VBN and_CC cached_VBN ,_, so_IN that_DT duplicate_VBP requests_NNS do_VBP not_RB cause_VB performance_NN issues_NNS ._.
+
+As_IN a_DT user_NN ,_, I_PRP want_VBP to_TO access_VB the_DT raw_JJ agency_NN published_VBN files_NNS from_IN FABS_NNS via_IN USAspending_NN ._.
+
+As_IN an_DT Agency_NNP user_NN ,_, I_PRP want_VBP to_TO be_VB able_JJ to_TO include_VB a_DT large_JJ number_NN of_IN flexfields_NNS without_IN performance_NN impact_NN ._.
+
+As_IN a_DT Broker_NNP user_NN ,_, I_PRP want_VBP to_TO help_VB create_VB content_NN mockups_NNS ,_, so_IN that_IN I_PRP can_MD submit_VB my_PRP$ data_NNS efficiently_RB ._.
+
+As_IN a_DT UI_NN designer_NN ,_, I_PRP want_VBP to_TO track_VB the_DT issues_NNS that_WDT come_VBP up_RB in_IN Tech_NNP Thursday_NNP ,_, so_IN that_IN I_PRP know_VBP what_WP to_TO test_VB and_CC what_WP want_VBP s_NNS to_TO be_VB fixed_VBN ._.
+
+As_IN an_DT Owner_NNP ,_, I_PRP want_VBP to_TO create_VB a_DT user_NN testing_NN summary_NN from_IN the_DT UI_NNP SME_NNP ,_, so_IN that_IN I_PRP can_MD know_VB what_WP UI_NN improvements_NNS we_PRP will_MD follow_VB through_RP on_IN ._.
+
+As_IN a_DT UI_NN designer_NN ,_, I_PRP want_VBP to_TO begin_VB user_NN testing_NN ,_, so_IN that_IN I_PRP can_MD validate_VB stakeholder_NN UI_NN improvement_NN requests_NNS ._.
+
+As_IN a_DT UI_NN designer_NN ,_, I_PRP want_VBP to_TO schedule_VB user_NN testing_NN ,_, so_IN that_IN I_PRP can_MD give_VB the_DT testers_NNS advanced_VBD notice_NN to_TO ensure_VB buy-in_NN ._.
+
+As_IN an_DT Owner_NNP ,_, I_PRP want_VBP to_TO design_VB a_DT schedule_NN from_IN the_DT UI_NNP SME_NNP ,_, so_IN that_IN I_PRP know_VBP the_DT potential_JJ timeline_NN of_IN the_DT UI_NN improvements_NNS wanted_VBD ._.
+
+As_IN an_DT Owner_NNP ,_, I_PRP want_VBP to_TO design_VB an_DT audit_NN from_IN the_DT UI_NNP SME_NNP ,_, so_IN that_IN I_PRP know_VBP the_DT potential_JJ scope_NN of_IN the_DT UI_NN improvements_NNS wanted_VBD ._.
+
+As_IN a_DT Developer_NNP ,_, I_PRP want_VBP to_TO prevent_VB users_NNS from_IN double_RB publishing_VBG FABS_NNP submissions_NNS after_IN refreshing_VBG ,_, so_IN that_IN there_EX are_VBP no_DT duplicates_NNS ._.
+
+As_IN an_DT data_NN user_NN ,_, I_PRP want_VBP to_TO receive_VB updates_NNS to_TO FABS_NNP records_NNS ._.
+
+As_IN an_DT Agency_NNP user_NN ,_, I_PRP want_VBP to_TO be_VB able_JJ to_TO include_VB a_DT large_JJ number_NN of_IN flexfields_NNS without_IN performance_NN impact_NN ._.
+
+As_IN a_DT Developer_NNP ,_, I_PRP want_VBP to_TO update_VB the_DT FABS_NNP sample_NN file_NN to_TO remove_VB FundingAgencyCode_NNP after_IN FABS_NNP is_VBZ updated_VBN to_TO no_DT longer_RBR require_VB the_DT header_NN ._.
+
+As_IN an_DT agency_NN user_NN ,_, I_PRP want_VBP to_TO ensure_VB that_IN deleted_VBN FSRS_NN records_NNS are_VBP not_RB included_VBN in_IN submissions_NNS ._.
+
+As_IN a_DT website_NN user_NN ,_, I_PRP want_VBP to_TO see_VB updated_VBN financial_JJ assistance_NN data_NNS daily_RB ._.
+
+As_IN a_DT user_NN ,_, I_PRP want_VBP the_DT publish_VB button_NN in_IN FABS_NNP to_TO deactivate_VB after_IN I_PRP click_VBP it_PRP while_IN the_DT derivations_NNS are_VBP happening_VBG ,_, so_IN that_IN I_PRP can_MD not_RB click_VB it_PRP multiple_JJ times_NNS for_IN the_DT same_JJ submission_NN ._.
+
+As_IN a_DT Developer_NNP ,_, I_PRP want_VBP to_TO ensure_VB that_IN attempts_NNS to_TO correct_VB or_CC delete_VB non-existent_JJ records_NNS do_VBP n't_RB create_VB new_JJ published_VBN data_NNS ._.
+
+As_IN an_DT Owner_NNP ,_, I_PRP want_VBP to_TO reset_VB the_DT environment_NN to_TO only_RB take_VB Staging_NNP MAX_NNP permissions_NNS ,_, so_IN that_IN I_PRP can_MD ensure_VB that_IN the_DT FABS_NNP testers_NNS no_RB longer_RB have_VB access_NN ._.
+
+As_IN a_DT user_NN ,_, I_PRP want_VBP the_DT flexfields_NNS in_IN my_PRP$ submission_NN file_NN to_TO appear_VB in_IN the_DT warning_NN and_CC error_NN files_NNS when_WRB the_DT only_JJ error_NN is_VBZ a_DT missing_VBG required_VBN element_NN ._.
+
+As_IN a_DT user_NN ,_, I_PRP want_VBP to_TO have_VB accurate_JJ and_CC complete_JJ data_NNS related_VBN to_TO PPoPCode_NN and_CC PPoPCongressionalDistrict_NN ._.
+
+As_IN an_DT agency_NN user_NN ,_, I_PRP want_VBP the_DT FABS_NNP validation_NN rules_NNS to_TO accept_VB zero_NN and_CC blank_NN for_IN loan_NN records_NNS ._.
+
+As_IN an_DT Agency_NNP user_NN ,_, I_PRP want_VBP FABS_NNS deployed_VBN into_IN production_NN ,_, so_IN I_PRP can_MD submit_VB my_PRP$ Financial_NNP Assistance_NNP data_NNS ._.
+
+As_IN a_DT Developer_NNP ,_, I_PRP want_VBP to_TO clarify_VB to_TO users_NNS what_WP exactly_RB is_VBZ triggering_VBG the_DT CFDA_NNP error_NN code_NN in_IN each_DT case_NN ._.
+
+As_IN an_DT agency_NN user_NN ,_, I_PRP want_VBP to_TO be_VB confident_JJ that_IN the_DT data_NNS coming_VBG from_IN SAM_NNP is_VBZ complete_JJ ._.
+
+As_IN a_DT Developer_NNP ,_, I_PRP want_VBP my_PRP$ domain_NN models_NNS to_TO be_VB indexed_VBN properly_RB ,_, so_IN that_IN I_PRP can_MD get_VB validation_NN results_NNS back_RB in_IN a_DT reasonable_JJ amount_NN of_IN time_NN ._.
+
+As_IN an_DT agency_NN user_NN ,_, I_PRP want_VBP the_DT FABS_NNP validation_NN rules_NNS to_TO accept_VB zero_NN and_CC blank_NN for_IN non-loan_JJ records_NNS ._.
+
+As_IN a_DT broker_NN team_NN member_NN ,_, I_PRP want_VBP to_TO make_VB some_DT updates_NNS to_TO the_DT SQL_NNP codes_NNS for_IN clarity_NN ._.
+
+As_IN an_DT agency_NN user_NN ,_, I_PRP want_VBP to_TO have_VB all_DT derived_VBN data_NNS elements_NNS derived_VBN properly_RB ._.
+
+As_IN a_DT broker_NN team_NN member_NN ,_, I_PRP want_VBP to_TO add_VB the_DT 00_CD *****_SYM and_CC 00FORGN_FW PPoPCode_FW cases_NNS to_TO the_DT derivation_NN logic_NN ._.
+
+As_IN a_DT data_NN user_NN ,_, I_PRP want_VBP to_TO see_VB the_DT office_NN names_NNS derived_VBN from_IN office_NN codes_NNS ,_, so_IN that_IN I_PRP can_MD have_VB appropriate_JJ context_NN for_IN understanding_VBG them_PRP ._.
+
+As_IN a_DT broker_NN user_NN ,_, I_PRP want_VBP the_DT historical_JJ FABS_NNS loader_VBP to_TO derive_VB fields_NNS ,_, so_IN that_IN my_PRP$ agency_NN codes_NNS are_VBP correct_JJ in_IN the_DT PublishedAwardFinancialAssistance_NNP table_NN ._.
+
+As_IN a_DT broker_NN team_NN member_NN ,_, I_PRP want_VBP to_TO ensure_VB the_DT Broker_NNP resources_NNS ,_, validations_NNS ,_, and_CC P&P_NN pages_NNS are_VBP updated_VBN appropriately_RB for_IN the_DT launch_NN of_IN FABS_NNP and_CC DAIMS_NNP v1_NN .1_NN ._.
+
+As_IN a_DT Developer_NNP ,_, I_PRP want_VBP the_DT data_NNS loaded_VBN from_IN historical_JJ FABS_NNS to_TO include_VB the_DT FREC_NNP derivations_NNS ,_, so_IN that_IN I_PRP can_MD have_VB consistent_JJ FREC_NNP data_NNS for_IN USASpending.gov_NN ._.
+
+As_IN a_DT user_NN ,_, I_PRP do_VBP n't_RB want_VB to_TO see_VB NASA_NNP grants_NNS displayed_VBD as_IN contracts_NNS ._.
+
+As_IN a_DT user_NN ,_, I_PRP want_VBP the_DT DUNS_NNP validations_NNS to_TO accept_VB records_NNS whose_WP$ ActionTypes_NNS are_VBP B_NN ,_, C_NN ,_, or_CC D_NN and_CC the_DT DUNS_NNP is_VBZ registered_VBN in_IN SAM_NNP ,_, even_RB though_IN it_PRP may_MD have_VB expired_VBN ._.
+
+As_IN a_DT user_NN ,_, I_PRP want_VBP the_DT DUNS_NNP validations_NNS to_TO accept_VB records_NNS whose_WP$ ActionDates_NNS are_VBP before_IN the_DT current_JJ registration_NN date_NN in_IN SAM_NNP ,_, but_CC after_IN the_DT initial_JJ registration_NN date_NN ._.
+
+As_IN a_DT broker_NN team_NN member_NN ,_, I_PRP want_VBP to_TO derive_VB FundingAgencyCode_NNP ,_, so_IN that_IN the_DT data_NNS quality_NN and_CC completeness_NN improves_VBZ ._.
+
+As_IN an_DT agency_NN user_NN ,_, I_PRP want_VBP the_DT maximum_NN length_NN allowed_VBD for_IN LegalEntityAddressLine3_NN to_TO match_VB Schema_FW v1_FW .1_NN ._.
+
+As_IN an_DT agency_NN user_NN ,_, I_PRP want_VBP to_TO use_VB the_DT schema_NN v1_NN .1_CD headers_NNS in_IN my_PRP$ FABS_NNS file_VBP ._.
+
+As_IN a_DT agency_NN user_NN ,_, I_PRP want_VBP to_TO map_VB the_DT FederalActionObligation_NNP properly_RB to_TO the_DT Atom_NNP Feed_NNP ._.
+
+As_IN a_DT Broker_NNP user_NN ,_, I_PRP want_VBP to_TO have_VB PPoPZIP_NN +4_CD work_NN the_DT same_JJ as_IN the_DT Legal_NNP Entity_NNP ZIP_NN validations_NNS ._.
+
+As_IN a_DT FABS_NNP user_NN ,_, I_PRP want_VBP to_TO link_VB the_DT SAMPLE_NNP FILE_NNP on_IN the_DT ``_`` What_WP you_PRP want_VBP to_TO submit_VB ''_'' dialog_NN to_TO point_NN to_TO the_DT correct_JJ file_NN ,_, so_IN that_IN I_PRP have_VBP an_DT accurate_JJ reference_NN for_IN my_PRP$ agency_NN submissions_NNS ._.
+
+As_IN an_DT Agency_NNP user_NN ,_, I_PRP want_VBP FPDS_NN data_NNS to_TO be_VB up-to-date_JJ daily_RB ._.
+
+As_IN a_DT user_NN ,_, I_PRP want_VBP to_TO access_VB the_DT raw_JJ agency_NN published_VBN files_NNS from_IN FABS_NNS via_IN USAspending_NN ._.
+
+As_IN a_DT Developer_NNP ,_, I_PRP want_VBP to_TO determine_VB how_WRB agencies_NNS will_MD generate_VB and_CC validate_VB D_NN Files_NNS from_IN FABS_NNP and_CC FPDS_NNP data_NNS ._.
+
+As_IN a_DT user_NN ,_, I_PRP want_VBP to_TO generate_VB and_CC validate_VB D_NN Files_NNS from_IN FABS_NNP and_CC FPDS_NNP data_NNS ._.
+
+As_IN an_DT Agency_NNP user_NN ,_, I_PRP want_VBP the_DT header_NN information_NN box_NN to_TO show_VB updated_VBN date_NN AND_NNP time_NN ,_, so_IN that_IN I_PRP know_VBP when_WRB it_PRP was_VBD updated_VBN ._.
+
+As_IN an_DT Agency_NNP user_NN ,_, I_PRP want_VBP to_TO receive_VB a_DT more_RBR helpful_JJ file-level_JJ error_NN when_WRB I_PRP upload_VBP a_DT file_NN with_IN the_DT wrong_JJ extension_NN ._.
+
+As_IN a_DT tester_NN ,_, I_PRP want_VBP to_TO have_VB access_NN to_TO test_NN features_NNS in_IN environments_NNS other_JJ than_IN Staging_NNP ,_, so_IN that_IN I_PRP can_MD test_VB any_DT nonProd_JJ feature_NN in_IN any_DT environment_NN ._.
+
+As_IN a_DT FABS_NNP user_NN ,_, I_PRP want_VBP to_TO submission_NN errors_NNS to_TO accurately_RB represent_VB FABS_NN errors_NNS ,_, so_IN that_IN I_PRP know_VBP why_WRB my_PRP$ submission_NN did_VBD n't_RB work_VB ._.
+
+As_IN a_DT FABS_NNP user_NN ,_, I_PRP want_VBP the_DT frontend_NN URLs_NNS to_TO more_RBR accurately_RB reflect_VB the_DT page_NN I_PRP 'm_VBP accessing_VBG ,_, so_IN that_IN I_PRP 'm_VBP not_RB confused_VBN ._.
+
+As_IN an_DT Agency_NNP user_NN ,_, I_PRP want_VBP all_DT historical_JJ Financial_NNP Assistance_NNP data_NNS loaded_VBN for_IN FABS_FW go-live_FW ._.
+
+As_IN a_DT Developer_NNP ,_, I_PRP want_VBP the_DT historical_JJ FPDS_NN data_NNS loader_VBP to_TO include_VB both_DT extracted_VBN historical_JJ data_NNS and_CC FPDS_NNS feed_VBP data_NNS ._.
+
+As_IN an_DT Agency_NNP user_NN ,_, I_PRP want_VBP historical_JJ FPDS_NN data_NNS loaded_VBN ._.
+
+As_IN an_DT Agency_NNP user_NN ,_, I_PRP want_VBP to_TO accurately_RB see_VB who_WP created_VBD a_DT submission_NN ,_, so_IN that_IN I_PRP 'm_VBP not_RB confused_VBN about_IN who_WP last_RB updated_VBD a_DT submission_NN ._.
+
+As_IN an_DT agency_NN user_NN ,_, I_PRP want_VBP to_TO get_VB File_JJ F_NN in_IN the_DT correct_JJ format_NN ._.
+
+As_IN an_DT Agency_NNP user_NN ,_, I_PRP want_VBP to_TO better_RBR understand_VB my_PRP$ file-level_JJ errors_NNS ._.
+
+As_IN a_DT Developer_NNP ,_, I_PRP want_VBP to_TO provide_VB FABS_NN groups_NNS that_WDT function_VBP under_IN the_DT FREC_NN paradigm_NN ._.
+
+As_IN a_DT tester_NN ,_, I_PRP want_VBP to_TO ensure_VB that_IN FABS_NNP is_VBZ deriving_VBG fields_NNS properly_RB through_IN a_DT robust_JJ test_NN file_NN plus_CC a_DT follow_VB up_RP check_NN ._.
+
+As_IN an_DT owner_NN ,_, I_PRP only_RB want_VBP zero-padded_JJ fields_NNS ,_, so_IN that_IN I_PRP can_MD justify_VB padding_NN ._.
+
+As_IN a_DT Broker_NNP user_NN ,_, I_PRP want_VBP to_TO submit_VB records_NNS for_IN individual_JJ recipients_NNS without_IN receiving_VBG a_DT DUNS_NN error_NN ._.
+
+As_IN a_DT user_NN ,_, I_PRP want_VBP more_JJR information_NN about_IN how_WRB many_JJ rows_NNS will_MD be_VB published_VBN prior_RB to_TO deciding_VBG whether_IN to_TO publish_VB ._.
+
+As_IN a_DT Developer_NNP ,_, I_PRP want_VBP to_TO prevent_VB duplicate_VB transactions_NNS from_IN being_VBG published_VBN and_CC deal_NN with_IN the_DT time_NN gap_NN between_IN validation_NN and_CC the_DT publishing_NN decision_NN ._.
+
+As_IN a_DT FABS_NNP user_NN ,_, I_PRP want_VBP to_TO submit_VB a_DT citywide_JJ as_IN a_DT PPoPZIP_NN and_CC pass_NN validations_NNS ._.
+
+As_IN a_DT Broker_NNP user_NN ,_, I_PRP want_VBP to_TO have_VB updated_VBN error_NN codes_NNS that_WDT accurately_RB reflect_VBP the_DT logic_NN and_CC provide_VB enough_JJ information_NN ,_, so_IN that_IN I_PRP can_MD fix_VB my_PRP$ submission_NN ._.
+
+As_IN an_DT agency_NN user_NN ,_, I_PRP want_VBP to_TO leave_VB off_RP the_DT last_JJ 4_CD digits_NNS of_IN the_DT ZIP_NN without_IN an_DT error_NN ,_, so_IN that_IN I_PRP can_MD complete_VB my_PRP$ submissions_NNS ._.
+
+As_IN a_DT FABS_NNP user_NN ,_, I_PRP want_VBP to_TO make_VB sure_JJ the_DT historical_JJ data_NNS includes_VBZ all_DT necessary_JJ columns_NNS ,_, so_IN that_IN the_DT information_NN in_IN the_DT database_NN is_VBZ correct_JJ ._.
+
+As_IN a_DT data_NN user_NN ,_, I_PRP want_VBP to_TO access_VB two_CD additional_JJ fields_NNS from_IN the_DT FPDS_NN data_NNS pull_VBP ._.
+
+As_IN a_DT FABS_NNP user_NN ,_, I_PRP want_VBP additional_JJ helpful_JJ info_NN in_IN the_DT submission_NN dashboard_NN ,_, so_IN that_IN I_PRP can_MD better_RB manage_VB submissions_NNS and_CC IG_NNP requests_NNS ._.
+
+As_IN a_DT FABS_NNP user_NN ,_, I_PRP want_VBP to_TO download_VB the_DT uploaded_JJ FABS_NNS file_VBP ,_, so_IN that_IN I_PRP can_MD get_VB the_DT uploaded_JJ file_NN ._.
+
+As_IN a_DT Developer_NNP I_PRP want_VBP to_TO quickly_RB access_VB Broker_NNP application_NN data_NNS ,_, so_IN that_IN I_PRP can_MD investigate_VB issues_NNS ._.
+
+As_IN a_DT Developer_NNP ,_, I_PRP want_VBP to_TO determine_VB the_DT best_JJS way_NN to_TO load_VB historical_JJ FPDS_NN data_NNS ,_, so_IN that_IN I_PRP can_MD load_VB all_DT FPDS_NN data_NNS since_IN 2007_CD ._.
+
+As_IN a_DT FABS_NNP user_NN ,_, I_PRP want_VBP the_DT language_NN on_IN FABS_NNP pages_NNS to_TO be_VB appropriate_JJ for_IN me_PRP ,_, so_IN that_IN I_PRP am_VBP not_RB confused_VBN ._.
+
+As_IN a_DT FABS_NNP user_NN ,_, I_PRP do_VBP not_RB want_VB DABS_NNP banner_NN messages_NNS and_CC vice_NN versa_RB ,_, so_IN that_IN I_PRP have_VBP the_DT appropriate_JJ information_NN for_IN my_PRP$ application_NN ._.
+
+As_IN a_DT FABS_NNP user_NN ,_, I_PRP want_VBP to_TO have_VB read-only_JJ access_NN to_TO DABS_NNP ,_, so_IN that_IN I_PRP can_MD view_VB DABS_NNP pages_NNS without_IN wanting_VBG two_CD sets_NNS of_IN permissions_NNS ._.
+
+As_IN a_DT FABS_NNP user_NN ,_, I_PRP want_VBP to_TO have_VB my_PRP$ validations_NNS run_VBP in_IN a_DT reasonable_JJ amount_NN of_IN time_NN ._.
+
+As_IN a_DT FABS_NNP user_NN ,_, I_PRP want_VBP to_TO see_VB correct_JJ status_NN labels_NNS on_IN the_DT Submission_NNP Dashboard_NNP ,_, so_IN that_IN I_PRP can_MD quickly_RB see_VB my_PRP$ submission_NN history_NN ._.

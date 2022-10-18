@@ -1,0 +1,265 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<THESAURUS>
+<CONCEPT>
+<DESCRIPTOR>Educator</DESCRIPTOR>
+<NT>Teacher</NT>
+<NT>Pedagogue</NT>
+<NT>Trainer</NT>
+<NT>Instructor</NT>
+<NT>Tutor</NT>
+<NT>Professor</NT>
+<NT>Don</NT>
+<NT>Master</NT>
+<NT>Headmaster</NT>
+</CONCEPT>
+
+<CONCEPT>
+<DESCRIPTOR>Educatee</DESCRIPTOR>
+<NT>Student</NT>
+<NT>Pupil</NT>
+<NT>Trainee</NT>
+<NT>Instructee</NT>
+<NT>Tutee</NT>
+<NT>Undergraduate</NT>
+<NT>Postgraduate</NT>
+<NT>Master</NT>
+<NT>Learner</NT>
+<NT>Apprentice</NT>
+<NT>Sophomore</NT>
+<NT>Freshman</NT>
+<NT>Junior</NT>
+<NT>Senior</NT>
+<NT>Sixth-former</NT>
+<NT>Fifth-former</NT>
+</CONCEPT>
+
+<CONCEPT>
+<DESCRIPTOR>Educational Institution</DESCRIPTOR>
+<NT>School</NT>
+<NT>College</NT>
+<NT>University</NT>
+<NT>Polytechnic</NT>
+<NT>High School</NT>
+<NT>Junior School</NT>
+<NT>Secondary School</NT>
+<NT>Primary School</NT>
+<NT>Grammar School</NT>
+<NT>Technical College</NT>
+<NT>Art College</NT>
+</CONCEPT>
+
+<CONCEPT>
+<DESCRIPTOR>Educational Programme</DESCRIPTOR>
+<NT>Course</NT>
+<NT>Degree</NT>
+<NT>Diploma</NT>
+<NT>Studies</NT>
+</CONCEPT>
+
+<CONCEPT>
+<DESCRIPTOR>Relationship</DESCRIPTOR>
+<PT>Association</PT>
+<PT>Relationship</PT>
+<NT>Relation</NT>
+<NT>Directed association</NT>
+<NT>Directed relationship</NT>
+<NT>Undirected association</NT>
+<NT>Bidirectional association</NT>
+<NT>Qualified association</NT>
+<NT>Ordered association</NT>
+<NT>Reference</NT>
+</CONCEPT>
+
+<CONCEPT>
+<DESCRIPTOR>Aggregation</DESCRIPTOR>
+<PT>Aggregation</PT>
+<PT>Composition</PT>
+</CONCEPT>
+
+
+<CONCEPT>
+<DESCRIPTOR>Inheritance</DESCRIPTOR>
+<PT>Inheritance</PT>
+<NT>Specialisation</NT>
+<NT>Generalisation</NT>
+<NT>Subtyping</NT>
+<NT>Subclassing</NT>
+<NT>Abstraction</NT>
+<NT>Refinement</NT>
+</CONCEPT>
+
+
+<CONCEPT>
+<DESCRIPTOR>Class</DESCRIPTOR>
+<PT>Entity</PT>
+<PT>Class</PT>
+<NT>Class type</NT>
+<NT>Concrete class</NT>
+<NT>Abstract class</NT>
+</CONCEPT>
+
+
+
+<CONCEPT>
+<DESCRIPTOR>Property</DESCRIPTOR>
+<PT>Property</PT>
+<PT>Attribute</PT>
+<NT>Feature</NT>
+</CONCEPT>
+
+
+<CONCEPT>
+<DESCRIPTOR>Variable</DESCRIPTOR>
+<NT>Slot</NT>
+<NT>Field</NT>
+<NT>Member</NT>
+<NT>Pointer</NT>
+<NT>Address</NT>
+<NT>Data item</NT>
+<NT>Variable</NT>
+<NT>Instance variable</NT>
+<NT>Parameter</NT>
+</CONCEPT>
+
+
+<CONCEPT>
+<DESCRIPTOR>Type</DESCRIPTOR>
+<PT>Type</PT>
+<NT>Domain</NT>
+<NT>Basic type</NT>
+<NT>Primitive type</NT>
+<NT>Datatype</NT>
+<NT>Data type</NT>
+<NT>Format</NT>
+<NT>Data format</NT>
+<NT>Range</NT>
+<NT>Enumeration</NT>
+</CONCEPT>
+
+
+<CONCEPT>
+<DESCRIPTOR>Comment</DESCRIPTOR>
+<PT>Comment</PT>
+<NT>Annotation</NT>
+<NT>Note</NT>
+<NT>Label</NT>
+</CONCEPT>
+
+
+<CONCEPT>
+<DESCRIPTOR>Element</DESCRIPTOR>
+<NT>Instance</NT>
+<NT>Object</NT>
+<NT>Element</NT>
+</CONCEPT>
+
+
+<CONCEPT>
+<DESCRIPTOR>Maximum</DESCRIPTOR>
+<NT>Largest</NT>
+<NT>Maximum</NT>
+<NT>Max</NT>
+<NT>Upper</NT>
+</CONCEPT>
+
+<CONCEPT>
+<DESCRIPTOR>Minimum</DESCRIPTOR>
+<NT>Smallest</NT>
+<NT>Minimum</NT>
+<NT>Min</NT>
+<NT>Lower</NT>
+</CONCEPT>
+
+<CONCEPT>
+<DESCRIPTOR>Owner</DESCRIPTOR>
+<NT>Owner</NT>
+<NT>Owning</NT>
+<NT>Container</NT>
+<NT>Containing</NT>
+</CONCEPT>
+
+<CONCEPT>
+<DESCRIPTOR>Value</DESCRIPTOR>
+<PT>Literal</PT>
+<PT>Value</PT>
+<NT>Data</NT>
+</CONCEPT>
+
+<CONCEPT>
+<DESCRIPTOR>Changeability</DESCRIPTOR>
+<PT>Changeability</PT>
+<PT>Changeable</PT>
+<NT>Modifiable</NT>
+<NT>Updateable</NT>
+</CONCEPT>
+
+<CONCEPT>
+<DESCRIPTOR>Generalization</DESCRIPTOR>
+<PT>Generalization</PT>
+<PT>Supertype</PT>
+<PT>Generalisation</PT>
+<NT>Abstraction</NT>
+<NT>Supertypes</NT>
+</CONCEPT>
+
+<CONCEPT>
+<DESCRIPTOR>Specialization</DESCRIPTOR>
+<PT>Specialization</PT>
+<PT>Subtype</PT>
+<PT>Specialisation</PT>
+<NT>Refinement</NT>
+<NT>Subtypes</NT>
+<NT>Extension</NT>
+</CONCEPT>
+
+<CONCEPT>
+<DESCRIPTOR>Goal</DESCRIPTOR>
+<PT>Target</PT>
+<PT>Goal</PT>
+<NT>Aim</NT>
+</CONCEPT>
+
+<CONCEPT>
+<DESCRIPTOR>Creator</DESCRIPTOR>
+<PT>Author</PT>
+<PT>Creator</PT>
+<NT>Writer</NT>
+</CONCEPT>
+
+<CONCEPT>
+<DESCRIPTOR>Description</DESCRIPTOR>
+<PT>Description</PT>
+<PT>Summary</PT>
+<NT>Abstract</NT>
+</CONCEPT>
+
+<CONCEPT>
+<DESCRIPTOR>Male</DESCRIPTOR>
+<PT>Man</PT>
+<PT>Male</PT>
+<NT>Father</NT>
+<NT>Husband</NT>
+<NT>Son</NT>
+<NT>Sons</NT>
+</CONCEPT>
+
+<CONCEPT>
+<DESCRIPTOR>Female</DESCRIPTOR>
+<PT>Woman</PT>
+<PT>Female</PT>
+<NT>Mother</NT>
+<NT>Wife</NT>
+<NT>Daughter</NT>
+<NT>Daughters</NT>
+</CONCEPT>
+
+<CONCEPT>
+<DESCRIPTOR>Name</DESCRIPTOR>
+<PT>Name</PT>
+<NT>Label</NT>
+<NT>Title</NT>
+</CONCEPT>
+
+</THESAURUS>
+
+

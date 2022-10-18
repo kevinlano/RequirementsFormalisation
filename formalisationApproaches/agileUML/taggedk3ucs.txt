@@ -1,0 +1,51 @@
+Program_NNP Administrators_NNPS and_CC Nursing_NNP Staff_NNP Members_NNP shall_MD be_VB able_JJ to_TO add_VB clinical_JJ classes_NNS or_CC sections_NNS to_TO a_DT sequence_NN of_IN classes_NNS ._.
+
+Program_NNP Administrators_NNPS and_CC Nursing_NNP Staff_NNP Members_NNP shall_MD be_VB able_JJ to_TO add_VB a_DT new_JJ cohort_NN to_TO the_DT system_NN identified_VBN by_IN start_NN month_NN and_CC year_NN ._.
+
+Program_NNP Administrators_NNPS and_CC Nursing_NNP Staff_NNP Members_NNP shall_MD be_VB able_JJ to_TO add_VB new_JJ classes_NNS for_IN the_DT nursing_NN department_NN into_IN the_DT system_NN ._.
+
+Program_NNP Administrators/Nursing_NNP Staff_NNP Members_NNP shall_MD be_VB able_JJ to_TO create_VB a_DT new_JJ Program_NNP of_IN Study_NNP ._.
+
+Program_NNP Administrators_NNPS and_CC Nursing_NNP Staff_NNP Members_NNP shall_MD have_VB the_DT ability_NN to_TO specify_VB which_WDT classes_NNS are_VBP required_VBN for_IN a_DT Program_NNP of_IN Study_NNP ._.
+
+The_DT system_NN shall_MD be_VB able_JJ to_TO display_VB a_DT report_NN of_IN needed_VBN classes_NNS for_IN a_DT given_VBN quarter_NN for_IN all_DT cohorts_NNS of_IN all_DT programs_NNS for_IN Program_NNP Administrators/Nursing_NNP Staff_NNP Members_NNP planning_NN purposes_NNS ._.
+
+Program_NNP Administrators_NNPS and_CC Nursing_NNP Staff_NNP Members_NNP shall_MD be_VB able_JJ to_TO add_VB a_DT new_JJ clinical_JJ site_NN into_IN the_DT system_NN ._.
+
+Program_NNP Administrators_NNPS and_CC Nursing_NNP Staff_NNP Members_NNP shall_MD be_VB able_JJ to_TO add_VB a_DT new_JJ clinical_JJ lab_NN section_NN for_IN an_DT existing_VBG clinical_JJ class_NN into_IN the_DT System_NNP ._.
+
+Program_NNP Administrators_NNPS and_CC Nursing_NNP Staff_NNP Members_NNP shall_MD be_VB able_JJ to_TO add_VB a_DT student_NN who_WP has_VBZ registered_VBN for_IN a_DT clinical_JJ class_NN to_TO a_DT clinical_JJ lab_NN section_NN for_IN that_DT class_NN ._.
+
+The_DT system_NN shall_MD allow_VB a_DT Program_NNP Administrator_NNP or_CC Nursing_NNP staff_NN member_NN to_TO remove_VB a_DT student_NN from_IN a_DT clinical_JJ lab_NN section_NN ._.
+
+The_DT system_NN shall_MD allow_VB a_DT Program_NNP Administrator/Nursing_NNP Staff_NNP Member_NNP to_TO move_VB a_DT student_NN from_IN one_CD clinical_JJ lab_NN section_NN to_TO another_DT clinical_JJ lab_NN section_NN corresponding_VBG to_TO the_DT same_JJ clinical_JJ class_NN ._.
+
+Program_NNP Administrators/Nursing_NNP Staff_NNP Members_NNP shall_MD be_VB able_JJ to_TO cancel_VB a_DT clinical_JJ lab_NN section_NN only_RB if_IN there_EX are_VBP no_DT students_NNS registered_VBN for_IN that_DT clinical_JJ lab_NN section_NN ._.
+
+A_DT Program_NNP Administrator/Nursing_NNP Staff_NNP Member_NNP shall_MD be_VB able_JJ to_TO add_VB a_DT new_JJ nursing_NN student_NN to_TO the_DT system_NN ._.
+
+A_DT staff_NN member_NN shall_MD have_VB the_DT ability_NN to_TO manage_VB the_DT progress_NN of_IN a_DT part_NN time_NN student_NN which_WDT includes_VBZ modifying_VBG their_PRP$ sequence_NN of_IN classes_NNS and_CC timeline_NN of_IN classes_NNS ._.
+
+The_DT system_NN shall_MD be_VB able_JJ to_TO display_VB a_DT printable_JJ summary_NN for_IN individual_JJ cohorts_NNS which_WDT will_MD include_VB the_DT students_NNS enlisted_VBD the_DT Program_NN of_IN study_NN sequence_NN of_IN classes_NNS cohort_NN progress_NN through_IN the_DT program_NN and_CC timeline_NN of_IN completion_NN ._.
+
+The_DT system_NN shall_MD be_VB able_JJ to_TO display_VB a_DT printable_JJ summary_NN for_IN individual_JJ clinical_JJ sites_NNS which_WDT will_MD include_VB information_NN on_IN labs_NNS being_VBG held_VBN at_IN that_DT site_NN for_IN the_DT given_VBN quarter_NN -LRB-_-LRB- Clinical_JJ site_NN general_JJ information_NN on_IN labs_NNS held_VBN at_IN that_DT location_NN dates_NNS and_CC times_NNS of_IN all_DT labs_NNS held_VBD there_EX -RRB-_-RRB- ._.
+
+The_DT system_NN shall_MD be_VB able_JJ to_TO display_VB a_DT printable_JJ summary_NN for_IN individual_JJ clinical_JJ labs_NNS which_WDT will_MD include_VB -LRB-_-LRB- but_CC not_RB be_VB limited_VBN to_TO -RRB-_-RRB- class_NN name_NN class_NN number_NN lab_NN section_NN listing_NN of_IN students_NNS enrolled_VBD instructor_NN day_NN -LRB-_-LRB- s_NNS -RRB-_-RRB- time_NN and_CC location_NN ._.
+
+The_DT system_NN shall_MD be_VB able_JJ to_TO display_VB a_DT printable_JJ summary_NN for_IN individual_JJ nursing_NN students_NNS which_WDT will_MD include_VB -LRB-_-LRB- but_CC not_RB be_VB limited_VBN to_TO -RRB-_-RRB- student_NN name_NN student_NN ID_NN admission_NN date_NN classes_NNS credits_NNS GPA_NN and_CC the_DT cohort_NN that_IN the_DT student_NN is_VBZ enrolled_VBN in_IN ._.
+
+The_DT system_NN shall_MD be_VB able_JJ to_TO display_VB a_DT printable_JJ summary_NN of_IN the_DT system_NN log_NN ._.
+
+The_DT system_NN will_MD notify_VB affected_JJ parties_NNS when_WRB changes_NNS occur_VBP affecting_VBG cohorts_NNS including_VBG but_CC not_RB limited_VBN to_TO changes_NNS to_TO the_DT sequence_NN for_IN a_DT cohort_NN 's_POS program_NN of_IN study_NN and_CC changes_NNS to_TO a_DT given_VBN week_NN 's_POS schedule_NN -LRB-_-LRB- lab_NN cancelled_VBN this_DT week_NN due_JJ to_TO instructor_NN illness_NN -RRB-_-RRB- ._.
+
+The_DT system_NN will_MD notify_VB affected_JJ parties_NNS when_WRB changes_NNS occur_VBP affecting_VBG specific_JJ students_NNS including_VBG but_CC not_RB limited_JJ to_TO changing_VBG a_DT student_NN 's_POS status_NN from_IN full_JJ time_NN to_TO part_NN time_NN and_CC moving_VBG a_DT student_NN to_TO a_DT different_JJ clinical_JJ section_NN ._.
+
+Program_NNP Administrators/Nursing_NNP Staff_NNP Members_NNP shall_MD have_VB the_DT ability_NN to_TO modify_VB information_NN relating_VBG to_TO cohorts_NNS including_VBG cohort_NN identifier_NN program_NN of_IN study_NN preferred_JJ sequence_NN of_IN classes_NNS and_CC quarters_NNS that_IN a_DT cohort_NN will_MD be_VB taking_VBG specific_JJ classes_NNS ._.
+
+Program_NNP Administrators/Nursing_NNP Staff_NNP Members_NNP shall_MD have_VB the_DT ability_NN to_TO modify_VB information_NN relating_VBG to_TO a_DT Program_NNP of_IN Study_NNP within_IN the_DT Nursing_NNP Department_NNP including_VBG the_DT Program_NN of_IN study_NN name_NN and_CC required_VBN classes_NNS for_IN that_DT Program_NNP of_IN Study_NNP ._.
+
+Program_NNP Administrators/Nursing_NNP Staff_NNP Members_NNP shall_MD have_VB the_DT ability_NN to_TO modify_VB information_NN relating_VBG to_TO a_DT Clinical_JJ Site_NN including_VBG the_DT clinical_JJ site_NN name_NN site_NN contact_NN person_NN contact_NN information_NN and_CC address_NN ._.
+
+Program_NNP Administrators/Nursing_NNP Staff_NNP Members_NNP shall_MD have_VB the_DT ability_NN to_TO modify_VB information_NN relating_VBG to_TO a_DT Clinical_JJ Lab_NN Section_NN including_VBG the_DT clinical_JJ site_NN name_NN the_DT department/section_NN for_IN the_DT lab_NN the_DT class_NN instructor_NN day_NN and_CC time_NN of_IN lab_NN and_CC contact_NN information_NN ._.
+
+Program_NNP Administrators/Nursing_NNP Staff_NNP Members_NNP shall_MD have_VB the_DT ability_NN to_TO modify_VB information_NN relating_VBG to_TO a_DT Nursing_NNP Student_NNP including_VBG student_NN ID_NN student_NN name_NN phone_NN number_NN e-mail_NN status_NN -LRB-_-LRB- full_JJ time_NN or_CC part_NN time_NN -RRB-_-RRB- and_CC program_NN of_IN study_NN ._.
