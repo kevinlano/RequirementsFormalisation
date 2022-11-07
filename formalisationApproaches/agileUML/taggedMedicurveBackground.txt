@@ -1,0 +1,192 @@
+The_DT Barthel_NNP scale_NN is_VBZ an_DT ordinal_JJ scale_NN used_VBN to_TO measure_VB performance_NN in_IN activities_NNS of_IN daily_JJ living_NN -LRB-_-LRB- ADL_NN -RRB-_-RRB- ._.
+
+Each_DT performance_NN item_NN is_VBZ rated_VBN on_IN this_DT scale_NN with_IN a_DT given_VBN number_NN of_IN points_NNS assigned_VBN to_TO each_DT level_NN or_CC ranking_NN ._.
+-LSB-_-LRB- 1_CD -RSB-_-RRB- It_PRP uses_VBZ ten_CD variables_NNS describing_VBG ADL_NN and_CC mobility_NN ._.
+
+A_DT higher_JJR number_NN is_VBZ associated_VBN with_IN a_DT greater_JJR likelihood_NN of_IN being_VBG able_JJ to_TO live_VB at_IN home_NN with_IN a_DT degree_NN of_IN independence_NN following_VBG discharge_NN from_IN hospital_NN ._.
+
+The_DT amount_NN of_IN time_NN and_CC physical_JJ assistance_NN required_VBN to_TO perform_VB each_DT item_NN are_VBP used_VBN in_IN determining_VBG the_DT assigned_JJ value_NN of_IN each_DT item_NN ._.
+
+External_JJ factors_NNS within_IN the_DT environment_NN affect_VB the_DT score_NN of_IN each_DT item_NN ._.
+If_IN adaptations_NNS outside_IN the_DT standard_JJ home_NN environment_NN are_VBP met_VBN during_IN assessment_NN ,_, the_DT participant_NN 's_POS score_NN will_MD be_VB lower_JJR if_IN these_DT conditions_NNS are_VBP not_RB available_JJ ._.
+
+If_IN adaptations_NNS to_TO the_DT environment_NN are_VBP made_VBN ,_, they_PRP should_MD be_VB described_VBN in_IN detail_NN and_CC attached_VBN to_TO the_DT Barthel_NNP index_NN ._.
+-LSB-_-LRB- 2_LS -RSB-_-RRB- The_DT scale_NN was_VBD introduced_VBN in_IN 1965_CD ,_, -LSB-_-LRB- 3_CD -RSB-_-RRB- and_CC yielded_VBD a_DT score_NN of_IN 0_CD 100_CD -LRB-_-LRB- Mahoney_NNP ,_, F.I._NNP &_CC Barthel_NNP ,_, D.W._NNP ,_, 1965_CD ._.
+
+Functional_JJ Evaluation_NN :_: The_DT Barthel_NNP Index_NNP ._.
+
+Maryland_NNP state_NN medical_JJ journal_NN ,_, 14_CD ,_, pp._FW 61_CD 65_CD ._. -RRB-_-RRB- ._.
+
+Collin_NNP et_FW al._FW -LRB-_-LRB- 1988_CD -RRB-_-RRB- argued_VBD that_IN the_DT original_JJ scoring_VBG system_NN gave_VBD an_DT exaggerated_JJ impression_NN of_IN accuracy_NN and_CC subsequently_RB proposed_VBD a_DT modification_NN where_WRB each_DT domain_NN was_VBD scored_VBN in_IN one-point_JJ increments_NNS with_IN a_DT full_JJ score_NN of_IN 20_CD indicating_VBG functional_JJ independence_NN -LRB-_-LRB- Collin_NNP ,_, C._NNP et_FW al._FW ,_, 1988_CD ._.
+
+The_DT Barthel_NNP ADL_NNP Index_NNP :_: a_DT reliability_NN study_NN ._.
+
+International_JJ disability_NN studies_NNS ,_, 10_CD -LRB-_-LRB- 2_CD -RRB-_-RRB- ,_, pp._FW 61_CD 63_CD ._. -RRB-_-RRB- ._.
+
+The_DT sensitized_VBN version_NN sharply_RB discriminates_VBZ between_IN good_JJ and_CC better_JJ and_CC poor_JJ and_CC poorer_JJR performances_NNS ._.
+
+Its_PRP$ effectiveness_NN is_VBZ not_RB just_RB with_IN in-patient_JJ rehabilitation_NN but_CC home_NN care_NN ,_, nursing_NN care_NN ,_, skilled_JJ nursing_NN ,_, and_CC community_NN ._.
+
+The_DT Barthel_NNP index_NN signifies_VBZ one_CD of_IN the_DT first_JJ contributions_NNS to_TO the_DT functional_JJ status_NN literature_NN and_CC it_PRP represents_VBZ occupational_JJ therapists_NNS '_POS lengthy_JJ period_NN of_IN inclusion_NN of_IN functional_JJ mobility_NN and_CC ADL_NN measurement_NN within_IN their_PRP$ scope_NN of_IN practice_NN ._.
+-LSB-_-LRB- 1_LS -RSB-_-RRB- The_DT scale_NN is_VBZ regarded_VBN as_IN reliable_JJ ,_, although_IN its_PRP$ use_NN in_IN clinical_JJ trials_NNS in_IN stroke_NN medicine_NN is_VBZ inconsistent_JJ ._.
+-LSB-_-LRB- 4_CD -RSB-_-RRB- It_PRP has_VBZ however_RB ,_, been_VBN used_VBN extensively_RB to_TO monitor_VB functional_JJ changes_NNS in_IN individuals_NNS receiving_VBG in-patient_JJ rehabilitation_NN ,_, mainly_RB in_IN predicting_VBG the_DT functional_JJ outcomes_NNS related_VBN to_TO stroke_NN ._.
+
+The_DT Barthel_NNP index_NN has_VBZ been_VBN shown_VBN to_TO have_VB portability_NN and_CC has_VBZ been_VBN used_VBN in_IN 16_CD major_JJ diagnostic_JJ conditions_NNS as_RB well_RB as_IN different_JJ clinical_JJ settings_NNS -LRB-_-LRB- e.g._FW ,_, nursing_NN homes_NNS -RRB-_-RRB- with_IN satisfactory_JJ reliability_NN and_CC validity_NN ._.
+-LSB-_-LRB- 5_CD -RSB-_-RRB- The_DT Barthel_NNP index_NN has_VBZ demonstrated_VBN high_JJ inter-rater_NN reliability_NN -LRB-_-LRB- 0.95_CD -RRB-_-RRB- and_CC test_NN retest_NN reliability_NN -LRB-_-LRB- 0.89_CD -RRB-_-RRB- as_RB well_RB as_IN high_JJ correlations_NNS -LRB-_-LRB- 0.74_CD 0.8_CD -RRB-_-RRB- with_IN other_JJ measures_NNS of_IN physical_JJ disability_NN ._.
+-LSB-_-LRB- 1_CD -RSB-_-RRB- Copyright_NNP Information_NNP :_: 
+
+Contents_NNS 1_CD Variables_NNS 2_CD See_NNP also_RB 3_CD References_NNS 4_CD External_JJ links_NN Variables_NNS The_DT ten_CD variables_NNS addressed_VBN in_IN the_DT Barthel_NNP scale_NN are_VBP :_: -LSB-_-LRB- 3_LS -RSB-_-RRB- Presence_NN or_CC absence_NN of_IN fecal_JJ incontinence_NN Presence_NN or_CC absence_NN of_IN urinary_JJ incontinence_NN Help_NN needed_VBN with_IN grooming_JJ Help_NN needed_VBN with_IN toilet_NN use_NN Help_NN needed_VBN with_IN feeding_NN Help_NN needed_VBN with_IN transfers_NNS -LRB-_-LRB- e.g._FW from_IN chair_NN to_TO bed_NN -RRB-_-RRB- Help_NN needed_VBN with_IN walking_NN Help_NN needed_VBN with_IN dressing_VBG Help_NN needed_VBN with_IN climbing_VBG stairs_NNS Help_VB needed_VBN with_IN bathing_NN FUNCTIONAL_NNP EVALUATION_NNP :_: THE_DT BARTHEL_NNP INDEX_NNP A_NNP simple_JJ index_NN of_IN independence_NN useful_JJ in_IN scoring_VBG improvement_NN in_IN the_DT rehabilitation_NN of_IN the_DT chronically_RB ill_JJ the_DT chronic_JJ disease_NN hospitals_NNS in_IN Maryland_NNP FLORENCE_NNP I._NNP MAHONEY_NNP ,_, M.D._NNP -LRB-_-LRB- Montebello_NNP State_NNP Hospital_NNP ,_, Deer_NNS 's_POS Head_NNP Hospital_NNP ,_, and_CC AND_NNP Western_NNP Maryland_NNP Hospital_NNP -RRB-_-RRB- have_VBP been_VBN using_VBG a_DT simple_JJ index_NN DOROTHEA_NNP W._NNP BARTHEL_NNP ,_, BA_NN ,_, PT_NN of_IN independence_NN to_TO score_VB the_DT ability_NN of_IN a_DT patient_NN with_IN a_DT neuromuscular_JJ or_CC musculoskeletal_JJ disorder_NN to_TO care_VB for_IN himself_PRP ,_, and_CC by_IN repeating_VBG the_DT test_NN periodically_RB ,_, to_TO assess_VB his_PRP$ improvement_NN ._.
+
+The_DT Index_NNP -LRB-_-LRB- BI_NNP -RRB-_-RRB- has_VBZ also_RB been_VBN taught_VBN to_TO many_JJ nurses_NNS ,_, who_WP have_VBP been_VBN helpful_JJ in_IN evaluating_VBG patients_NNS prior_RB to_TO admission_NN to_TO these_DT hospitals_NNS and_CC after_IN discharge_NN ._.
+
+The_DT values_NNS assigned_VBN to_TO each_DT item_NN are_VBP based_VBN on_IN time_NN and_CC amount_NN of_IN actual_JJ physical_JJ assistance_NN required_VBN if_IN a_DT patient_NN is_VBZ unable_JJ to_TO perform_VB the_DT activity_NN ._.
+
+Full_JJ credit_NN is_VBZ not_RB given_VBN for_IN an_DT activity_NN if_IN the_DT patient_NN needs_VBZ even_RB minimal_JJ help_NN and/or_CC supervision_NN ,_, ie_FW ,_, if_IN he_PRP can_MD not_RB safely_RB perform_VB the_DT activity_NN without_IN someone_NN present_JJ in_IN the_DT room_NN with_IN him_PRP ._.
+
+Because_IN of_IN the_DT time_NN required_VBN to_TO attend_VB an_DT incontinent_JJ patient_NN and_CC since_IN he_PRP is_VBZ not_RB socially_RB acceptable_JJ ,_, continence_NN was_VBD weighted_VBN heavily_RB ._.
+
+Environmental_JJ conditions_NNS may_MD affect_VB the_DT patient_NN s_NN score_NN ._.
+
+If_IN he_PRP has_VBZ special_JJ requirements_NNS -LRB-_-LRB- other_JJ than_IN the_DT usual_JJ home_NN setting_NN -RRB-_-RRB- ,_, his_PRP$ score_NN will_MD be_VB lower_JJR when_WRB they_PRP are_VBP not_RB met_VBN ._.
+
+Examples_NNS are_VBP :_: doorways_NNS wide_JJ enough_RB for_IN easy_JJ access_NN by_IN wheelchair_NN ;_: all_DT rooms_NNS on_IN the_DT same_JJ level_NN if_IN he_PRP can_MD not_RB walk_VB ;_: grab_NN bars_NNS at_IN the_DT toilet_NN and_CC tub_NN ._.
+
+To_TO be_VB more_RBR valuable_JJ ,_, an_DT explanation_NN of_IN special_JJ environmental_JJ requirements_NNS should_MD accompany_VB the_DT BI_NN of_IN each_DT patient_NN when_WRB these_DT are_VBP indicated_VBN ._.
+
+Each_DT patient_NN s_NN BI_NN is_VBZ scored_VBN at_IN the_DT beginning_NN of_IN treatment_NN in_IN the_DT Rehabilitation_NNP Service_NNP -LRB-_-LRB- PM&R_NNP -RRB-_-RRB- ,_, at_IN intervals_NNS during_IN the_DT course_NN of_IN his_PRP$ rehabilitation_NN ,_, and_CC at_IN the_DT time_NN of_IN maximum_NN benefit_NN ._.
+
+In_IN this_DT way_NN ,_, it_PRP is_VBZ possible_JJ to_TO determine_VB how_WRB well_RB and_CC how_WRB rapidly_RB he_PRP has_VBZ progressed_VBN toward_IN independence_NN ._.
+
+Sometimes_RB improvement_NN does_VBZ not_RB show_VB up_RP because_IN the_DT presence_NN of_IN another_DT person_NN may_MD still_RB be_VB required_VBN even_RB though_IN he_PRP does_VBZ not_RB actually_RB give_VB physical_JJ assistance_NN ._.
+
+Usually_RB lack_NN of_IN improvement_NN in_IN the_DT BI_NN after_IN a_DT reasonable_JJ period_NN of_IN treatment_NN indicates_VBZ poor_JJ potential_NN for_IN rehabilitation_NN ._.
+
+BARTHEL_FW INDEX_FW With_IN Help_NN Independent_NNP 1_CD ._.
+Feeding_NNP -LRB-_-LRB- if_IN food_NN needs_VBZ to_TO be_VB cut_VBN up_RP =_JJ help_NN -RRB-_-RRB- 5_CD 10_CD 2_CD ._.
+Moving_VBG from_IN wheelchair_NN to_TO bed_NN and_CC return_NN -LRB-_-LRB- includes_VBZ sitting_VBG up_RP in_IN bed_NN -RRB-_-RRB- 5-10_CD 15_CD 3_CD ._.
+
+Personal_JJ toilet_NN -LRB-_-LRB- wash_NN face_NN ,_, comb_NN hair_NN ,_, shave_VB ,_, clean_JJ teeth_NNS -RRB-_-RRB- 0_CD 5_CD 4_CD ._.
+
+Getting_VBG on_IN and_CC off_IN toilet_NN -LRB-_-LRB- handling_NN clothes_NNS ,_, wipe_VB ,_, flush_NN -RRB-_-RRB- 5_CD 10_CD 5_CD ._.
+
+Bathing_NN self_NN 0_CD 5_CD 6_CD ._.
+
+Walking_VBG on_IN level_NN surface_NN -LRB-_-LRB- or_CC if_IN unable_JJ to_TO walk_VB ,_, propel_VB wheelchair_NN -RRB-_-RRB- 0_CD *_SYM 5_CD *_NN *_NN score_NN only_RB if_IN unable_JJ to_TO walk_VB 7_CD ._.
+
+Ascend_NN and_CC descend_NN stairs_NNS 5_CD 10_CD 8_CD ._.
+Dressing_VBG -LRB-_-LRB- includes_VBZ tying_VBG shoes_NNS ,_, fastening_VBG fasteners_NNS -RRB-_-RRB- 5_CD 10_CD 9_CD ._.
+
+Controlling_VBG bowels_NNS 5_CD 10_CD 10_CD ._.
+
+Controlling_VBG bladder_NN 5_CD 10_CD A_NN patient_NN scoring_VBG 100_CD BI_NN is_VBZ continent_NN ,_, feeds_VBZ himself_PRP ,_, dresses_NNS himself_PRP ,_, gets_VBZ up_RP out_IN of_IN bed_NN and_CC chairs_NNS ,_, bathes_VBZ himself_PRP ,_, walks_VBZ at_IN least_JJS a_DT block_NN ,_, and_CC can_MD ascend_VB and_CC descend_VB stairs_NNS ._.
+
+This_DT does_VBZ not_RB mean_VB that_IN he_PRP is_VBZ able_JJ to_TO live_VB alone_RB :_: he_PRP may_MD not_RB be_VB able_JJ to_TO cook_VB ,_, keep_VB house_NN ,_, and_CC meet_VB the_DT public_NN ,_, but_CC he_PRP is_VBZ able_JJ to_TO get_VB along_RB without_IN attendant_JJ care_NN ._.
+
+DEFINITION_NN AND_CC DISCUSSION_NN OF_IN SCORING_NN 1_CD ._.
+Feeding_NNP 10_CD =_JJ Independent_NNP ._.
+
+The_DT patient_NN can_MD feed_VB himself_PRP a_DT meal_NN from_IN a_DT tray_NN or_CC table_NN when_WRB someone_NN puts_VBZ the_DT food_NN within_IN his_PRP$ reach_NN ._.
+
+He_PRP must_MD put_VB on_IN an_DT assistive_JJ device_NN if_IN this_DT is_VBZ needed_VBN ,_, cut_VB up_RP the_DT food_NN ,_, use_NN salt_NN and_CC pepper_NN ,_, spread_NN butter_NN ,_, etc._NN ._.
+
+He_PRP must_MD accomplish_VB this_DT in_IN a_DT reasonable_JJ time_NN ._.
+5_CD =_JJ Some_DT help_NN is_VBZ necessary_JJ -LRB-_-LRB- with_IN cutting_VBG up_RP food_NN ,_, etc._NN ,_, as_IN listed_VBN above_IN -RRB-_-RRB- ._.
+2_CD ._.
+
+Moving_VBG from_IN wheelchair_NN to_TO bed_NN and_CC return_NN 15_CD =_JJ Independent_NNP in_IN all_DT phases_NNS of_IN this_DT activity_NN ._.
+Patient_NN can_MD safely_RB approach_VB the_DT bed_NN in_IN his_PRP$ wheelchair_NN ,_, lock_NN brakes_NNS ,_, lift_NN footrests_NNS ,_, move_VB safely_RB to_TO bed_NN ,_, lie_VB down_RP ,_, come_VBN to_TO a_DT sitting_VBG position_NN on_IN the_DT side_NN of_IN the_DT bed_NN ,_, change_VB the_DT position_NN of_IN the_DT wheelchair_NN ,_, if_IN necessary_JJ ,_, to_TO transfer_VB back_RB into_IN it_PRP safely_RB ,_, and_CC return_NN to_TO the_DT wheelchair_NN ._.
+10_CD =_JJ Either_NNP some_DT minimal_JJ help_NN is_VBZ needed_VBN in_IN some_DT step_NN of_IN this_DT activity_NN or_CC the_DT patient_NN needs_VBZ to_TO be_VB reminded_VBN or_CC supervised_VBN for_IN safety_NN of_IN one_CD or_CC more_JJR parts_NNS of_IN this_DT activity_NN ._.
+5_CD =_JJ Patient_NN can_MD come_VB to_TO a_DT sitting_VBG position_NN without_IN the_DT help_NN of_IN a_DT second_JJ person_NN but_CC needs_VBZ to_TO be_VB lifted_VBN out_IN of_IN bed_NN ,_, or_CC if_IN he_PRP transfers_VBZ with_IN a_DT great_JJ deal_NN of_IN help_NN ._.
+
+Doing_VBG personal_JJ toilet_NN 5_CD =_JJ Patient_NN can_MD wash_VB hands_NNS and_CC face_NN ,_, comb_NN hair_NN ,_, clean_JJ teeth_NNS ,_, and_CC shave_VB ._.
+
+He_PRP may_MD use_VB any_DT kind_NN of_IN razor_NN but_CC must_MD put_VB in_IN blade_NN or_CC plug_NN in_IN razor_NN without_IN help_NN as_RB well_RB as_IN get_VB it_PRP from_IN drawer_NN or_CC cabinet_NN ._.
+
+Female_JJ patients_NNS must_MD put_VB on_IN own_JJ makeup_NN ,_, if_IN used_VBN ,_, but_CC need_MD not_RB braid_VB or_CC style_NN hair_NN ._.
+4_LS ._.
+
+Getting_VBG on_IN and_CC off_IN toilet_NN 10_CD =_JJ Patient_NN is_VBZ able_JJ to_TO get_VB on_IN and_CC off_IN toilet_NN ,_, fasten_NN and_CC unfasten_JJ clothes_NNS ,_, prevent_VBP soiling_NN of_IN clothes_NNS ,_, and_CC use_NN toilet_NN paper_NN without_IN help_NN ._.
+
+He_PRP may_MD use_VB a_DT wall_NN bar_NN or_CC other_JJ stable_JJ object_NN for_IN support_NN if_IN needed_VBN ._.
+
+If_IN it_PRP is_VBZ necessary_JJ to_TO use_VB a_DT bed_NN pan_NN instead_RB of_IN a_DT toilet_NN ,_, he_PRP must_MD be_VB able_JJ to_TO place_VB it_PRP on_IN a_DT chair_NN ,_, empty_VB it_PRP ,_, and_CC clean_VB it_PRP ._.
+
+Patient_NN needs_VBZ help_NN because_IN of_IN imbalance_NN or_CC in_IN handling_VBG clothes_NNS or_CC in_IN using_VBG toilet_NN paper_NN ._.
+5_CD ._.
+
+Bathing_NN self_NN 5_CD =_JJ Patient_NN may_MD use_VB a_DT bath_NN tub_NN ,_, a_DT shower_NN ,_, or_CC take_VB a_DT complete_JJ sponge_NN bath_NN ._.
+He_PRP must_MD be_VB able_JJ to_TO do_VB all_PDT the_DT steps_NNS involved_VBN in_IN whichever_WDT method_NN is_VBZ employed_VBN without_IN another_DT person_NN being_VBG present_JJ ._.
+6_CD ._.
+
+Walking_VBG on_IN a_DT level_NN surface_NN 15_CD =_JJ Patient_NN can_MD walk_VB at_IN least_JJS 50_CD yards_NNS without_IN help_NN or_CC supervision_NN ._.
+
+He_PRP may_MD wear_VB braces_NNS or_CC prostheses_NNS and_CC use_NN crutches_NNS ,_, canes_NNS ,_, or_CC a_DT walkerette_NN but_CC not_RB a_DT rolling_JJ walker_NN ._.
+
+He_PRP must_MD be_VB able_JJ to_TO lock_VB and_CC unlock_VB braces_NNS if_IN used_VBN ,_, assume_VB the_DT standing_NN position_NN and_CC sit_VB down_RP ,_, get_VB the_DT necessary_JJ mechanical_JJ aides_NNS into_IN position_NN for_IN use_NN ,_, and_CC dispose_VB of_IN them_PRP when_WRB he_PRP sits_VBZ ._.
+-LRB-_-LRB- Putting_VBG on_IN and_CC taking_VBG off_RP braces_NNS is_VBZ scored_VBN under_IN dressing_VBG ._. -RRB-_-RRB-
+
+10_CD =_JJ Patient_NN needs_VBZ help_NN or_CC supervision_NN in_IN any_DT of_IN the_DT above_JJ but_CC can_MD walk_VB at_IN least_JJS 50_CD yards_NNS with_IN a_DT little_JJ help_NN ._.
+6a_NN ._.
+
+Propelling_VBG a_DT wheelchair_NN 5_CD =_JJ If_IN a_DT patient_NN can_MD not_RB ambulate_VB but_CC can_MD propel_VB a_DT wheelchair_NN independently_RB ._.
+
+He_PRP must_MD be_VB able_JJ to_TO go_VB around_IN corners_NNS ,_, turn_VB around_RP ,_, maneuver_VBP the_DT chair_NN to_TO a_DT table_NN ,_, bed_NN ,_, toilet_NN ,_, etc._NN ._.
+
+He_PRP must_MD be_VB able_JJ to_TO push_VB a_DT chair_NN at_IN least_JJS 50_CD yards_NNS ._.
+
+Do_VBP not_RB score_VB this_DT item_NN if_IN the_DT patient_NN gets_VBZ score_NN for_IN walking_NN ._.
+7_CD ._.
+
+Ascending_VBG and_CC descending_VBG stairs_NNS 10_CD =_JJ Patient_NN is_VBZ able_JJ to_TO go_VB up_RB and_CC down_RB a_DT flight_NN of_IN stairs_NNS safely_RB without_IN help_NN or_CC supervision_NN ._.
+
+He_PRP may_MD and_CC should_MD use_VB handrails_NNS ,_, canes_NNS ,_, or_CC crutches_NNS when_WRB needed_VBN ._.
+
+He_PRP must_MD be_VB able_JJ to_TO carry_VB canes_NNS or_CC crutches_NNS as_IN he_PRP ascends_VBZ or_CC descends_VBZ stairs_NNS ._.
+
+5_CD =_JJ Patient_NN needs_VBZ help_NN with_IN or_CC supervision_NN of_IN any_DT one_CD of_IN the_DT above_JJ items_NNS ._.
+
+8_CD ._.
+
+Dressing_VBG and_CC undressing_VBG 10_CD =_JJ Patient_NN is_VBZ able_JJ to_TO put_VB on_RP and_CC remove_VB and_CC fasten_VB all_DT clothing_NN ,_, and_CC tie_NN shoe_NN laces_NNS -LRB-_-LRB- unless_IN it_PRP is_VBZ necessary_JJ to_TO use_VB adaptations_NNS for_IN this_DT -RRB-_-RRB- ._.
+
+The_DT activity_NN includes_VBZ putting_VBG on_RP and_CC removing_VBG and_CC fastening_VBG corset_NN or_CC braces_NNS when_WRB these_DT are_VBP prescribed_JJ ._.
+
+Such_JJ special_JJ clothing_NN as_IN suspenders_NNS ,_, loafer_NN shoes_NNS ,_, dresses_NNS that_WDT open_VBP down_RP the_DT front_NN may_MD be_VB used_VBN when_WRB necessary_JJ ._.
+
+5_CD =_JJ Patient_NN needs_VBZ help_NN in_IN putting_VBG on_RP and_CC removing_VBG or_CC fastening_VBG any_DT clothing_NN ._.
+
+He_PRP must_MD do_VB at_IN least_JJS half_PDT the_DT work_NN himself_PRP ._.
+
+He_PRP must_MD accomplish_VB this_DT in_IN a_DT reasonable_JJ time_NN ._.
+
+Women_NNP need_MD not_RB be_VB scored_VBN on_IN use_NN of_IN a_DT brassiere_NN or_CC girdle_NN unless_IN these_DT are_VBP prescribed_JJ garments_NNS ._.
+
+9_CD ._.
+
+Continence_NN of_IN bowels_NNS 10_CD =_JJ Patient_NN is_VBZ able_JJ to_TO control_VB his_PRP$ bowels_NNS and_CC have_VBP no_DT accidents_NNS ._.
+
+He_PRP can_MD use_VB a_DT suppository_NN or_CC take_VB an_DT enema_NN when_WRB necessary_JJ -LRB-_-LRB- as_IN for_IN spinal_JJ cord_NN injury_NN patients_NNS who_WP have_VBP had_VBN bowel_NN training_NN -RRB-_-RRB- ._.
+5_CD =_JJ Patient_NN needs_VBZ help_NN in_IN using_VBG a_DT suppository_NN or_CC taking_VBG an_DT enema_NN or_CC has_VBZ occasional_JJ accidents_NNS ._.
+10_CD ._.
+
+Controlling_VBG bladder_NN 10_CD =_JJ Patient_NN is_VBZ able_JJ to_TO control_VB his_PRP$ bladder_NN day_NN and_CC night_NN ._.
+
+Spinal_JJ cord_NN injury_NN patients_NNS who_WP wear_VBP an_DT external_JJ device_NN and_CC leg_NN bag_NN must_MD put_VB them_PRP on_IN independently_RB ,_, clean_JJ and_CC empty_JJ bag_NN ,_, and_CC stay_VB dry_JJ day_NN and_CC night_NN ._.
+
+5_CD =_JJ Patient_NN has_VBZ occasional_JJ accidents_NNS or_CC can_MD not_RB wait_VB for_IN the_DT bed_NN pan_NN or_CC get_VB to_TO the_DT toilet_NN in_IN time_NN or_CC needs_VBZ help_NN with_IN an_DT external_JJ device_NN ._.
+
+A_DT score_NN of_IN 0_CD is_VBZ given_VBN in_IN all_DT of_IN the_DT above_JJ activities_NNS when_WRB the_DT patient_NN can_MD not_RB meet_VB the_DT criteria_NNS as_IN defined_VBN above_IN ._.
+
+The_DT advantage_NN of_IN the_DT BI_NNP is_VBZ its_PRP$ simplicity_NN ._.
+
+It_PRP is_VBZ useful_JJ in_IN evaluating_VBG a_DT patient_NN 's_POS state_NN of_IN independence_NN before_IN treatment_NN ,_, his_PRP$ progress_NN as_IN he_PRP undergoes_VBZ treatment_NN ,_, and_CC his_PRP$ status_NN when_WRB he_PRP reaches_VBZ maximum_NN benefit_NN ._.
+
+It_PRP can_MD easily_RB be_VB understood_VBN by_IN all_DT who_WP work_VBP with_IN a_DT patient_NN and_CC can_MD accurately_RB and_CC quickly_RB be_VB scored_VBN by_IN anyone_NN who_WP adheres_VBZ to_TO the_DT definitions_NNS of_IN items_NNS listed_VBN above_IN ._.
+
+The_DT total_JJ score_NN is_VBZ not_RB as_IN significant_JJ or_CC meaningful_JJ as_IN the_DT breakdown_NN into_IN individual_JJ items_NNS ,_, since_IN these_DT indicate_VBP where_WRB the_DT deficiencies_NNS are_VBP ._.
+
+Any_DT applicant_NN to_TO a_DT chronic_JJ hospital_NN who_WP scores_NNS 100_CD BI_NN should_MD be_VB evaluated_VBN carefully_RB before_IN admission_NN to_TO see_VB whether_IN such_JJ hospitalization_NN is_VBZ indicated_VBN ._.
+
+Discharged_VBN patients_NNS with_IN 100_CD BI_NN should_MD not_RB require_VB further_JJ physical_JJ therapy_NN but_CC may_MD benefit_VB from_IN a_DT home_NN visit_NN to_TO see_VB whether_IN any_DT environmental_JJ adjustments_NNS are_VBP indicated_VBN ._.
+
+Encouragement_NN by_IN family_NN and_CC others_NNS may_MD be_VB necessary_JJ for_IN a_DT patient_NN to_TO maintain_VB his_PRP$ degree_NN of_IN independence_NN ._.
