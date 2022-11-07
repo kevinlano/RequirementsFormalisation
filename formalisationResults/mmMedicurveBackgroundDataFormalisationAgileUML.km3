@@ -1,0 +1,1100 @@
+package app {
+  class Barthel {
+  stereotype originator="1";
+
+
+
+
+  }
+
+
+
+  class Activity {
+  stereotype originator="1";
+  stereotype modifiedBy="101";
+  stereotype modifiedBy="118";
+
+
+    attribute corset : String;
+    attribute patient : Patient;
+    attribute criteria : Sequence(String);
+
+
+  }
+
+
+
+  class BarthelScale {
+  stereotype originator="1";
+
+
+
+
+  }
+
+
+
+  class Point {
+  stereotype originator="2";
+
+
+
+
+  }
+
+
+
+  class PerformanceItem {
+  stereotype originator="2";
+  stereotype modifiedBy="2";
+
+
+
+    reference rated : Scale;
+
+  }
+
+
+
+  class Scale {
+  stereotype originator="2";
+  stereotype modifiedBy="2";
+
+
+    attribute number : double;
+    attribute points : Set(Point);
+    attribute level : String;
+    attribute ranking : String;
+
+
+  }
+
+
+
+  class Variable {
+  stereotype originator="3";
+
+
+
+
+  }
+
+
+
+  class HigherNumber {
+  stereotype originator="4";
+  stereotype modifiedBy="4";
+
+
+
+    reference likelihood : Likelihood;
+
+  }
+
+
+
+  class Likelihood {
+  stereotype originator="4";
+
+
+
+
+  }
+
+
+
+  class AmountTimePhysicalAssistanceItem {
+  stereotype originator="5";
+
+
+
+
+  }
+
+
+
+  class Time {
+  stereotype originator="5";
+  stereotype modifiedBy="5";
+
+
+    attribute assistance : String;
+    attribute item : String;
+    attribute value : String;
+
+
+  }
+
+
+
+  class ExternalFactorsEnvironment {
+  stereotype originator="6";
+  stereotype modifiedBy="6";
+
+
+
+    reference affect : Score;
+
+  }
+
+
+
+  class Score {
+  stereotype originator="6";
+  stereotype modifiedBy="118";
+
+
+
+    reference given[*] : Activity;
+
+  }
+
+
+
+  class Item {
+  stereotype originator="6";
+  stereotype modifiedBy="31";
+
+
+    attribute time : double;
+    attribute amount : double;
+    attribute assistance : Assistance;
+    attribute patient : Patient;
+    attribute activity : Activity;
+
+
+  }
+
+
+
+  class Environment {
+  stereotype originator="6";
+  stereotype modifiedBy="6";
+
+
+    attribute score : double;
+    attribute item : Item;
+
+
+  }
+
+
+
+  class Mahoney {
+  stereotype originator="9";
+
+
+
+
+  }
+
+
+
+  class F.I. {
+  stereotype originator="9";
+
+
+
+
+  }
+
+
+
+  class D.W. {
+  stereotype originator="9";
+
+
+
+
+  }
+
+
+
+  class Index {
+  stereotype originator="10";
+  stereotype modifiedBy="30";
+
+
+    attribute manyNurses : Set(String);
+    attribute patients : Set(Patient);
+    attribute prior : String;
+    attribute admission : String;
+    attribute hospitals : Set(String);
+    attribute discharge : String;
+
+
+  }
+
+
+
+  class Maryland {
+  stereotype originator="11";
+
+
+
+
+  }
+
+
+
+  class Collin {
+  stereotype originator="13";
+
+
+
+
+  }
+
+
+
+  class C. {
+  stereotype originator="13";
+
+
+
+
+  }
+
+
+
+  class Scoringsystem {
+  stereotype originator="13";
+  stereotype modifiedBy="13";
+
+
+    attribute impression : String;
+    attribute accuracy : String;
+    attribute modification : String;
+    attribute domain : String;
+    attribute point : Point;
+    attribute increments : String;
+    attribute score : Score;
+    attribute independence : String;
+    attribute Collin : Collin;
+    attribute C. : C.;
+
+
+  }
+
+
+
+  class ADL {
+  stereotype originator="14";
+
+
+
+
+  }
+
+
+
+  class SensitizedVersion {
+  stereotype originator="17";
+  stereotype modifiedBy="17";
+
+
+
+    reference discriminates[*] : Performance;
+
+  }
+
+
+
+  class Performance {
+  stereotype originator="17";
+
+
+
+
+  }
+
+
+
+  class BarthelIndex {
+  stereotype originator="22";
+  stereotype modifiedBy="22";
+  stereotype modifiedBy="28";
+
+
+    attribute portability : String;
+    attribute majordiagnosticConditions : Set(String);
+    attribute nursing : String;
+    attribute satisfactoryReliability : String;
+    attribute validity : String;
+    attribute purposes : String;
+
+
+  }
+
+
+
+  class State {
+  stereotype originator="24";
+
+
+
+
+  }
+
+
+
+  class Medical {
+  stereotype originator="24";
+
+
+
+
+  }
+
+
+
+  class Society {
+  stereotype originator="24";
+
+
+
+
+  }
+
+
+
+  class Med {
+  stereotype originator="26";
+
+
+
+
+  }
+
+
+
+  class Permission {
+  stereotype originator="28";
+
+
+
+
+  }
+
+
+
+  class BI {
+  stereotype originator="30";
+
+
+
+
+  }
+
+
+
+  class Nurse {
+  stereotype originator="30";
+
+
+
+
+  }
+
+
+
+  class Patient {
+  stereotype originator="30";
+  stereotype modifiedBy="34";
+  stereotype modifiedBy="67";
+  stereotype modifiedBy="79";
+  stereotype modifiedBy="88";
+  stereotype modifiedBy="98";
+  stereotype modifiedBy="103";
+  stereotype modifiedBy="110";
+  stereotype modifiedBy="121";
+  stereotype modifiedBy="124";
+
+
+    attribute score : double;
+    attribute position : String;
+    attribute help : Help;
+    attribute person : String;
+    attribute bed : Bed;
+    attribute deal : String;
+    attribute supervision : String;
+    attribute yards : Sequence(double);
+    attribute items : Set(Item);
+    attribute clothing : String;
+    attribute suppository : Suppository;
+    attribute enema : String;
+    attribute accidents : Set(Accident);
+    attribute anyone : String;
+    attribute definitions : Sequence(String);
+    attribute BI : BI;
+    attribute therapy : String;
+    attribute home : String;
+    attribute visit : Visit;
+    attribute adjustments : String;
+
+    reference needs : Help;
+
+  }
+
+
+
+  class ValuesItem {
+  stereotype originator="31";
+  stereotype modifiedBy="31";
+
+
+
+    reference based : Amount;
+
+  }
+
+
+
+  class Amount {
+  stereotype originator="31";
+
+
+
+
+  }
+
+
+
+  class Assistance {
+  stereotype originator="31";
+
+
+
+
+  }
+
+
+
+  class EnvironmentalCondition {
+  stereotype originator="34";
+  stereotype modifiedBy="34";
+
+
+
+    reference affect : Patient;
+
+  }
+
+
+
+  class Room {
+  stereotype originator="36";
+
+
+
+
+  }
+
+
+
+  class Rehabilitation {
+  stereotype originator="38";
+
+
+
+
+  }
+
+
+
+  class PM&R {
+  stereotype originator="38";
+
+
+
+
+  }
+
+
+
+  class PatientBI {
+  stereotype originator="38";
+  stereotype modifiedBy="38";
+
+
+
+    reference scored : Beginning;
+
+  }
+
+
+
+  class Beginning {
+  stereotype originator="38";
+  stereotype modifiedBy="38";
+
+
+    attribute treatment : Treatment;
+    attribute Rehabilitation : Rehabilitation;
+    attribute Service : String;
+    attribute PM&R : PM&R;
+    attribute intervals : Sequence(String);
+    attribute course : String;
+    attribute time : double;
+    attribute benefit : String;
+
+
+  }
+
+
+
+  class Treatment {
+  stereotype originator="38";
+
+
+
+
+  }
+
+
+
+  class FI {
+  stereotype originator="42";
+
+
+
+
+  }
+
+
+
+  class D. {
+  stereotype originator="42";
+
+
+
+
+  }
+
+
+
+  class Functional {
+  stereotype originator="42";
+
+
+
+
+  }
+
+
+
+  class Help {
+  stereotype originator="45";
+  stereotype modifiedBy="79";
+
+
+    attribute imbalance : Imbalance;
+    attribute clothes : Set(Clothe);
+    attribute toilet : String;
+    attribute paper : Paper;
+
+
+  }
+
+
+
+  class Independent {
+  stereotype originator="45";
+
+
+
+
+  }
+
+
+
+  class Controlling {
+  stereotype originator="54";
+
+
+
+
+  }
+
+
+
+  class SCORING {
+  stereotype originator="57";
+
+
+
+
+  }
+
+
+
+  class Meal {
+  stereotype originator="59";
+  stereotype modifiedBy="59";
+
+
+    attribute tray : String;
+    attribute table : String;
+    attribute someone : String;
+    attribute food : String;
+    attribute reach : String;
+
+
+  }
+
+
+
+  class Device {
+  stereotype originator="60";
+  stereotype modifiedBy="60";
+  stereotype modifiedBy="113";
+
+
+    attribute food : String;
+    attribute salt : String;
+    attribute pepper : String;
+    attribute butter : String;
+    attribute leg : String;
+    attribute bag : String;
+    attribute day : String;
+    attribute night : Night;
+
+
+  }
+
+
+
+  class Bed {
+  stereotype originator="65";
+  stereotype modifiedBy="65";
+
+
+    attribute wheelchair : String;
+    attribute lock : String;
+    attribute brakes : String;
+    attribute lift : String;
+    attribute footrests : String;
+    attribute move : String;
+    attribute bed : Bed;
+    attribute position : String;
+    attribute side : String;
+
+
+  }
+
+
+
+  class Kind {
+  stereotype originator="73";
+  stereotype modifiedBy="73";
+
+
+    attribute razor : String;
+    attribute blade : String;
+    attribute plug : String;
+    attribute help : Help;
+    attribute drawer : String;
+    attribute cabinet : String;
+
+
+  }
+
+
+
+  class FemalePatient {
+  stereotype originator="74";
+  stereotype modifiedBy="74";
+
+
+
+    reference put : Hair;
+
+  }
+
+
+
+  class Hair {
+  stereotype originator="74";
+
+
+
+
+  }
+
+
+
+  class Makeup {
+  stereotype originator="74";
+  stereotype modifiedBy="74";
+
+
+    attribute style : String;
+    attribute hair : Hair;
+
+
+  }
+
+
+
+  class Wallbar {
+  stereotype originator="77";
+  stereotype modifiedBy="77";
+
+
+    attribute object : String;
+    attribute support : String;
+
+
+  }
+
+
+
+  class Imbalance {
+  stereotype originator="79";
+
+
+
+
+  }
+
+
+
+  class Clothe {
+  stereotype originator="79";
+
+
+
+
+  }
+
+
+
+  class Paper {
+  stereotype originator="79";
+
+
+
+
+  }
+
+
+
+  class Able {
+  stereotype originator="82";
+
+
+
+
+  }
+
+
+
+  class Brace {
+  stereotype originator="85";
+  stereotype modifiedBy="85";
+
+
+    attribute prostheses : Sequence(String);
+    attribute crutches : Sequence(String);
+    attribute canes : Sequence(String);
+    attribute walkerette : String;
+    attribute walker : String;
+
+
+  }
+
+
+
+  class Corner {
+  stereotype originator="91";
+
+
+
+
+  }
+
+
+
+  class Handrail {
+  stereotype originator="96";
+  stereotype modifiedBy="96";
+
+
+    attribute canes : Sequence(String);
+    attribute crutches : Sequence(String);
+
+
+  }
+
+
+
+  class Supervision {
+  stereotype originator="98";
+
+
+
+
+  }
+
+
+
+  class SuchSpecialClothingSuspendersLoaferShoesDressesFront {
+  stereotype originator="102";
+
+
+
+
+  }
+
+
+
+  class Suspender {
+  stereotype originator="102";
+  stereotype modifiedBy="102";
+
+
+    attribute loafer : String;
+    attribute shoes : String;
+    attribute dresses : Sequence(String);
+    attribute front : String;
+
+
+  }
+
+
+
+  class Work {
+  stereotype originator="104";
+
+
+
+
+  }
+
+
+
+  class Women {
+  stereotype originator="106";
+  stereotype modifiedBy="106";
+
+
+
+    reference scored : Use;
+
+  }
+
+
+
+  class Use {
+  stereotype originator="106";
+  stereotype modifiedBy="106";
+
+
+    attribute brassiere : String;
+    attribute girdle : Girdle;
+    attribute garments : Sequence(String);
+
+
+  }
+
+
+
+  class Girdle {
+  stereotype originator="106";
+
+
+
+
+  }
+
+
+
+  class Suppository {
+  stereotype originator="109";
+  stereotype modifiedBy="109";
+
+
+    attribute enema : String;
+    attribute cord : String;
+    attribute injury : String;
+    attribute patients : Set(Patient);
+    attribute bowel : String;
+    attribute training : String;
+
+
+  }
+
+
+
+  class Accident {
+  stereotype originator="110";
+
+
+
+
+  }
+
+
+
+  class ControllingBladder {
+  stereotype originator="112";
+
+
+
+
+  }
+
+
+
+  class SpinalCordInjuryPatientsExternalDeviceLegBag {
+  stereotype originator="113";
+  stereotype modifiedBy="113";
+
+
+
+    reference put : Night;
+
+  }
+
+
+
+  class Night {
+  stereotype originator="113";
+
+
+
+
+  }
+
+
+
+  class Advantage {
+  stereotype originator="119";
+
+
+
+
+  }
+
+
+
+  class Hospital {
+  stereotype originator="123";
+  stereotype modifiedBy="123";
+
+
+    attribute scores : Set(Score);
+    attribute BI : BI;
+    attribute admission : String;
+    attribute hospitalization : String;
+
+
+  }
+
+
+
+  class PatientsBI {
+  stereotype originator="124";
+  stereotype modifiedBy="124";
+
+
+
+    reference require : Visit;
+
+  }
+
+
+
+  class Visit {
+  stereotype originator="124";
+
+
+
+
+  }
+
+
+
+  class EncouragementFamilyOther {
+  stereotype originator="125";
+
+
+
+
+  }
+
+
+
+  class Family {
+  stereotype originator="125";
+  stereotype modifiedBy="125";
+
+
+    attribute others : Sequence(String);
+    attribute patient : Patient;
+    attribute degree : String;
+    attribute independence : String;
+
+
+  }
+
+
+
+
+
+  usecase mustBeAbleToDoAllTheStepsInvolvedInWhicheverMethodIsEmployedWithoutAnotherPersonBeingPresent : void {
+
+    parameter ablex : Able;
+
+    stereotype originator="82";
+    stereotype actor="Able";
+
+
+  }
+
+
+
+
+  usecase usedAssumeTheStandingPositionAndSitGetTheNecessaryMechanicalAidesIntoPositionForUseAndDisposeOfThemWhenHeSits : void {
+
+    parameter ablex : Able;
+
+    stereotype originator="86";
+    stereotype actor="Able";
+    stereotype other;
+    stereotype read;
+
+
+  }
+
+
+
+
+  usecase mustBeAbleToGoAroundCornersTurnManeuverTheChairToATableBedToiletEtc. : void {
+
+    parameter ablex : Able;
+
+    stereotype originator="91";
+    stereotype actor="Able";
+
+
+  }
+
+
+
+
+  usecase pushAChairAtLeast50Yards : void {
+
+    parameter ablex : Able;
+
+    stereotype originator="92";
+    stereotype actor="Able";
+    stereotype other;
+
+
+  }
+
+
+
+}
+

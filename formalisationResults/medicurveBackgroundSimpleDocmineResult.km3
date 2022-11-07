@@ -1,0 +1,312 @@
+package app {
+class Degree { 
+  attribute higher_number : String;
+  attribute greater_likelihood : String;
+  attribute home : String;
+  attribute independence : String;
+  attribute discharge : String;
+  attribute hospital : String;
+  attribute encouragement : String;
+  attribute others : String;
+  reference family : Family;
+  reference patient : Patient;
+}
+
+class Journal { 
+  attribute maryland_state : String;
+  attribute pp : String;
+}
+
+class Original_scoring_system { 
+  attribute exaggerated_impression : String;
+  attribute accuracy : String;
+  attribute modification : String;
+  attribute increments : String;
+  attribute full_score : String;
+  attribute functional_independence : String;
+  attribute collin : String;
+  reference domain : Domain;
+}
+
+class Domain { 
+  attribute exaggerated_impression : String;
+  attribute accuracy : String;
+  attribute modification : String;
+  attribute increments : String;
+  attribute full_score : String;
+  attribute functional_independence : String;
+  attribute collin : String;
+  reference original_scoring_system : Original_scoring_system;
+}
+
+class International_disability_studies { 
+  attribute pp : String;
+}
+
+class Patient { 
+  attribute montebello_state_hospital : String;
+  attribute deer : String;
+  attribute head_hospital : String;
+  attribute and_western_maryland_hospital : String;
+  attribute simple_index_dorothea_barthel : String;
+  attribute ba : String;
+  attribute pt : String;
+  attribute independence : String;
+  attribute ability : String;
+  attribute musculoskeletal_disorder : String;
+  attribute test : String;
+  attribute improvement : String;
+  attribute values : String;
+  attribute item : String;
+  attribute time : String;
+  attribute amount : String;
+  attribute actual_physical_assistance : String;
+  attribute minimal_help : String;
+  attribute supervision : String;
+  attribute ie : String;
+  attribute someone_present : String;
+  attribute explanation : String;
+  attribute special_environmental_requirements : String;
+  attribute bi : String;
+  attribute meal : String;
+  attribute tray : String;
+  attribute someone : String;
+  attribute food : String;
+  attribute reach : String;
+  attribute wheelchair : String;
+  attribute score : String;
+  attribute above_activities : String;
+  attribute criteria : String;
+  attribute state : String;
+  attribute treatment : String;
+  attribute progress : String;
+  attribute status : String;
+  attribute maximum_benefit : String;
+  attribute anyone : String;
+  attribute definitions : String;
+  attribute items : String;
+  attribute encouragement : String;
+  attribute others : String;
+  reference activity : Activity;
+  reference full_credit : Full_credit;
+  reference room : Room;
+  reference table : Table;
+  reference family : Family;
+  reference degree : Degree;
+}
+
+class Patients { 
+  attribute index : String;
+  attribute bi : String;
+  attribute many_nurses : String;
+  attribute admission : String;
+  attribute hospitals : String;
+  attribute discharge : String;
+  attribute further_physical_therapy : String;
+  attribute environmental_adjustments : String;
+  reference home_visit : Home_visit;
+}
+
+class Activity { 
+  attribute values : String;
+  attribute item : String;
+  attribute time : String;
+  attribute amount : String;
+  attribute actual_physical_assistance : String;
+  attribute minimal_help : String;
+  attribute supervision : String;
+  attribute ie : String;
+  attribute someone_present : String;
+  attribute wheelchair : String;
+  attribute bed : String;
+  attribute independent : String;
+  attribute phases : String;
+  attribute step : String;
+  attribute safety : String;
+  attribute more_parts : String;
+  attribute corset : String;
+  attribute braces : String;
+  reference patient : Patient;
+  reference full_credit : Full_credit;
+  reference room : Room;
+  reference patient_needs : Patient_needs;
+}
+
+class Full_credit { 
+  attribute minimal_help : String;
+  attribute supervision : String;
+  attribute ie : String;
+  attribute someone_present : String;
+  reference activity : Activity;
+  reference patient : Patient;
+  reference room : Room;
+}
+
+class Room { 
+  attribute minimal_help : String;
+  attribute supervision : String;
+  attribute ie : String;
+  attribute someone_present : String;
+  reference full_credit : Full_credit;
+  reference activity : Activity;
+  reference patient : Patient;
+}
+
+class Incontinent_patient { 
+  attribute time : String;
+  attribute continence : String;
+}
+
+class Course { 
+  attribute bi : String;
+  attribute beginning : String;
+  attribute treatment : String;
+  attribute rehabilitation_service : String;
+  attribute pm : String;
+  attribute intervals : String;
+  attribute rehabilitation : String;
+  attribute time : String;
+  attribute maximum_benefit : String;
+}
+
+class Person { 
+  attribute improvement : String;
+  attribute presence : String;
+  attribute physical_assistance : String;
+  attribute steps : String;
+  attribute whichever_method : String;
+}
+
+class A_patient { 
+  attribute bladder : String;
+  attribute bi : String;
+  attribute bed : String;
+  attribute chairs : String;
+  attribute bathes : String;
+  attribute walks : String;
+  attribute stairs : String;
+  reference block : Block;
+}
+
+class Block { 
+  attribute bladder : String;
+  attribute bi : String;
+  attribute bed : String;
+  attribute chairs : String;
+  attribute bathes : String;
+  attribute walks : String;
+  attribute stairs : String;
+  reference a_patient : A_patient;
+}
+
+class House { 
+  attribute public : String;
+  attribute attendant_care : String;
+}
+
+class Table { 
+  attribute meal : String;
+  attribute tray : String;
+  attribute someone : String;
+  attribute food : String;
+  attribute reach : String;
+  attribute corners : String;
+  attribute chair : String;
+  attribute bed : String;
+  attribute toilet : String;
+  reference patient : Patient;
+}
+
+class Assistive_device { 
+  attribute food : String;
+  attribute use_salt : String;
+  attribute pepper : String;
+  attribute spread_butter : String;
+}
+
+class Position { 
+  attribute patient : String;
+  attribute bed : String;
+  attribute wheelchair : String;
+  attribute lock_brakes : String;
+  attribute lift_footrests : String;
+  attribute side : String;
+  attribute return : String;
+  attribute help : String;
+  attribute great_deal : String;
+  attribute braces : String;
+  attribute necessary_mechanical_aides : String;
+  attribute use : String;
+  attribute dispose : String;
+  reference second_person : OclAny;
+}
+
+class Patient_needs { 
+  attribute minimal_help : String;
+  attribute step : String;
+  attribute safety : String;
+  attribute more_parts : String;
+  reference activity : Activity;
+}
+
+class Female_patients { 
+  attribute own_makeup : String;
+  attribute style_hair : String;
+}
+
+class Other_stable_object { 
+  attribute wall_bar : String;
+  attribute support : String;
+}
+
+class Flight { 
+  attribute stairs : String;
+  attribute patient : String;
+  attribute help : String;
+  attribute supervision : String;
+}
+
+class Work { 
+}
+
+class Spinal_cord_injury_patients { 
+  attribute suppository : String;
+  attribute enema : String;
+  attribute training : String;
+  attribute leg_bag : String;
+  attribute empty_bag : String;
+  attribute dry_day : String;
+  attribute night : String;
+  reference external_device : External_device;
+}
+
+class External_device { 
+  attribute leg_bag : String;
+  attribute empty_bag : String;
+  attribute dry_day : String;
+  attribute night : String;
+  attribute patient : String;
+  attribute occasional_accidents : String;
+  attribute bed_pan : String;
+  attribute toilet : String;
+  attribute time : String;
+  attribute needs : String;
+  reference spinal_cord_injury_patients : Spinal_cord_injury_patients;
+}
+
+class Home_visit { 
+  attribute bi : String;
+  attribute further_physical_therapy : String;
+  attribute environmental_adjustments : String;
+  reference patients : Patients;
+}
+
+class Family { 
+  attribute encouragement : String;
+  attribute others : String;
+  attribute independence : String;
+  reference patient : Patient;
+  reference degree : Degree;
+}
+
+}

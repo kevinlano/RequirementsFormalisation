@@ -1,0 +1,2289 @@
+package app {
+  class Barthel {
+  stereotype originator="1";
+  stereotype modifiedFeatures="15";
+
+
+    attribute information : String;
+
+
+  }
+
+
+
+  class Activity {
+  stereotype originator="1";
+
+
+
+
+  }
+
+
+
+  class BarthelScale {
+  stereotype originator="1";
+
+
+
+
+  }
+
+
+
+  class Point {
+  stereotype originator="2";
+
+
+
+
+  }
+
+
+
+  class Variable {
+  stereotype originator="2";
+
+
+
+
+  }
+
+
+
+  class PerformanceItem {
+  stereotype originator="2";
+
+
+
+
+  }
+
+
+
+  class HigherNumber {
+  stereotype originator="3";
+
+
+
+
+  }
+
+
+
+  class Amount {
+  stereotype originator="4";
+
+
+
+
+  }
+
+
+
+  class ExternalFactor {
+  stereotype originator="5";
+
+
+
+
+  }
+
+
+
+  class Mahoney {
+  stereotype originator="6";
+
+
+
+
+  }
+
+
+
+  class F.I. {
+  stereotype originator="6";
+
+
+
+
+  }
+
+
+
+  class D.W. {
+  stereotype originator="6";
+
+
+
+
+  }
+
+
+
+  class Adaptation {
+  stereotype originator="6";
+
+
+
+
+  }
+
+
+
+  class Index {
+  stereotype originator="7";
+
+
+
+
+  }
+
+
+
+  class FunctionalEvaluation {
+  stereotype originator="7";
+
+
+
+
+  }
+
+
+
+  class Maryland {
+  stereotype originator="8";
+
+
+
+
+  }
+
+
+
+  class MarylandStateMedicalJournal {
+  stereotype originator="8";
+
+
+
+
+  }
+
+
+
+  class Collin {
+  stereotype originator="9";
+
+
+
+
+  }
+
+
+
+  class C. {
+  stereotype originator="9";
+
+
+
+
+  }
+
+
+
+  class ADL {
+  stereotype originator="10";
+
+
+
+
+  }
+
+
+
+  class BarthelADLIndex {
+  stereotype originator="10";
+
+
+
+
+  }
+
+
+
+  class InternationalDisabilityStudy {
+  stereotype originator="11";
+
+
+
+
+  }
+
+
+
+  class Version {
+  stereotype originator="12";
+
+
+
+
+  }
+
+
+
+  class Effectiveness {
+  stereotype originator="13";
+
+
+
+
+  }
+
+
+
+  class BarthelIndex {
+  stereotype originator="14";
+
+
+
+
+  }
+
+
+
+  class Copyright {
+  stereotype originator="15";
+
+
+
+
+  }
+
+
+
+  class See {
+  stereotype originator="16";
+
+
+
+
+  }
+
+
+
+  class FUNCTIONAL {
+  stereotype originator="16";
+
+
+
+
+  }
+
+
+
+  class EVALUATION {
+  stereotype originator="16";
+
+
+
+
+  }
+
+
+
+  class A {
+  stereotype originator="16";
+  stereotype modifiedFeatures="42";
+  stereotype modifiedFeatures="51";
+
+
+    attribute minimal : double;
+    attribute second : double;
+    attribute least : double;
+    attribute yards : double;
+
+
+  }
+
+
+
+  class FLORENCE {
+  stereotype originator="16";
+
+
+
+
+  }
+
+
+
+  class I. {
+  stereotype originator="16";
+
+
+
+
+  }
+
+
+
+  class M.D. {
+  stereotype originator="16";
+
+
+
+
+  }
+
+
+
+  class Montebello {
+  stereotype originator="16";
+
+
+
+
+  }
+
+
+
+  class State {
+  stereotype originator="16";
+
+
+
+
+  }
+
+
+
+  class Hospital {
+  stereotype originator="16";
+
+
+
+
+  }
+
+
+
+  class Content {
+  stereotype originator="16";
+
+
+
+
+  }
+
+
+
+  class BI {
+  stereotype originator="17";
+
+
+
+
+  }
+
+
+
+  class Nurse extends Person {
+  stereotype originator="17";
+
+
+
+
+  }
+
+
+
+  class Patient extends Person {
+  stereotype originator="17";
+
+
+
+
+  }
+
+
+
+  class IndexBI {
+  stereotype originator="17";
+
+
+
+
+  }
+
+
+
+  class Value {
+  stereotype originator="18";
+
+
+
+
+  }
+
+
+
+  class FullCredit {
+  stereotype originator="19";
+
+
+
+
+  }
+
+
+
+  class Room {
+  stereotype originator="19";
+
+
+
+
+  }
+
+
+
+  class Time {
+  stereotype originator="20";
+
+
+
+
+  }
+
+
+
+  class EnvironmentalCondition {
+  stereotype originator="21";
+
+
+
+
+  }
+
+
+
+  class SpecialRequirement {
+  stereotype originator="22";
+
+
+
+
+  }
+
+
+
+  class Example {
+  stereotype originator="23";
+
+
+
+
+  }
+
+
+
+  class Valuable {
+  stereotype originator="24";
+
+
+
+
+  }
+
+
+
+  class Rehabilitation {
+  stereotype originator="25";
+
+
+
+
+  }
+
+
+
+  class PM&R {
+  stereotype originator="25";
+
+
+
+
+  }
+
+
+
+  class PatientSBI {
+  stereotype originator="25";
+
+
+
+
+  }
+
+
+
+  class Way {
+  stereotype originator="26";
+
+
+
+
+  }
+
+
+
+  class Improvement {
+  stereotype originator="27";
+
+
+
+
+  }
+
+
+
+  class Person {
+  stereotype originator="27";
+
+
+
+
+  }
+
+
+
+  class Lack {
+  stereotype originator="28";
+
+
+
+
+  }
+
+
+
+  class Independent {
+  stereotype originator="29";
+
+
+
+
+  }
+
+
+
+  class Feeding {
+  stereotype originator="29";
+
+
+
+
+  }
+
+
+
+  class HelpIndependent {
+  stereotype originator="29";
+
+
+
+
+  }
+
+
+
+  class PersonalToiletWashFaceCombHair {
+  stereotype originator="30";
+
+
+
+
+  }
+
+
+
+  class BathingSelf {
+  stereotype originator="32";
+
+
+
+
+  }
+
+
+
+  class AscendDescendStair {
+  stereotype originator="34";
+
+
+
+
+  }
+
+
+
+  class Bowel {
+  stereotype originator="35";
+
+
+
+
+  }
+
+
+
+  class Bladder {
+  stereotype originator="36";
+  stereotype modifiedFeatures="74";
+
+
+    attribute day : String;
+
+
+  }
+
+
+
+  class Block {
+  stereotype originator="36";
+
+
+
+
+  }
+
+
+
+  class Able {
+  stereotype originator="37";
+
+
+
+
+  }
+
+
+
+  class House {
+  stereotype originator="37";
+
+
+
+
+  }
+
+
+
+  class DEFINITIONDISCUSSION {
+  stereotype originator="38";
+
+
+
+
+  }
+
+
+
+  class Device {
+  stereotype originator="40";
+
+
+
+
+  }
+
+
+
+  class ReasonableTime {
+  stereotype originator="41";
+
+
+
+
+  }
+
+
+
+  class Either {
+  stereotype originator="42";
+
+
+
+
+  }
+
+
+
+  class Wheelchair {
+  stereotype originator="42";
+
+
+
+
+  }
+
+
+
+  class Position {
+  stereotype originator="42";
+
+
+
+
+  }
+
+
+
+  class PersonalToilet {
+  stereotype originator="43";
+
+
+
+
+  }
+
+
+
+  class FemalePatient {
+  stereotype originator="45";
+
+
+
+
+  }
+
+
+
+  class Object {
+  stereotype originator="47";
+
+
+
+
+  }
+
+
+
+  class Necessary {
+  stereotype originator="48";
+
+
+
+
+  }
+
+
+
+  class Place {
+  stereotype originator="48";
+
+
+
+
+  }
+
+
+
+  class Brace {
+  stereotype originator="52";
+
+
+
+
+  }
+
+
+
+  class =Patient {
+  stereotype originator="54";
+
+
+
+
+  }
+
+
+
+  class Corner {
+  stereotype originator="56";
+
+
+
+
+  }
+
+
+
+  class Item {
+  stereotype originator="58";
+
+
+
+
+  }
+
+
+
+  class Stair {
+  stereotype originator="59";
+
+
+
+
+  }
+
+
+
+  class SuchSpecialClothing {
+  stereotype originator="66";
+
+
+
+
+  }
+
+
+
+  class Least {
+  stereotype originator="68";
+
+
+
+
+  }
+
+
+
+  class Women {
+  stereotype originator="70";
+
+
+
+
+  }
+
+
+
+  class Continence {
+  stereotype originator="72";
+
+
+
+
+  }
+
+
+
+  class SpinalCordInjuryPatient {
+  stereotype originator="75";
+
+
+
+
+  }
+
+
+
+  class Score {
+  stereotype originator="77";
+
+
+
+
+  }
+
+
+
+  class Advantage {
+  stereotype originator="78";
+
+
+
+
+  }
+
+
+
+  class Useful {
+  stereotype originator="79";
+
+
+
+
+  }
+
+
+
+  class TotalScore {
+  stereotype originator="81";
+
+
+
+
+  }
+
+
+
+  class Applicant {
+  stereotype originator="82";
+
+
+
+
+  }
+
+
+
+  class Visit {
+  stereotype originator="83";
+
+
+
+
+  }
+
+
+
+  class Encouragement {
+  stereotype originator="84";
+
+
+
+
+  }
+
+
+
+  class Degree {
+  stereotype originator="84";
+
+
+
+
+  }
+
+
+
+
+
+  usecase usedToMeasurePerformanceInActivitiesOfDailyLivingADL : void {
+
+    parameter barthelscalex : BarthelScale;
+    parameter activityx : Activity;
+
+    stereotype originator="1";
+    stereotype actor="BarthelScale";
+    stereotype other;
+    stereotype read;
+
+
+    ::
+      true => activityx->display();
+
+
+  }
+
+
+
+
+  usecase assignedToEachLevelOrRanking1ItUsesTenVariablesDescribingADLAndMobility : void {
+
+    parameter performanceitemx : PerformanceItem;
+    parameter variablex : Variable;
+
+    stereotype originator="2";
+    stereotype actor="PerformanceItem";
+    stereotype edit;
+    stereotype other;
+
+
+  }
+
+
+
+
+  usecase isAssociatedWithAGreaterLikelihoodOfBeingAbleToLiveAtHomeWithADegreeOfIndependenceFollowingDischargeFromHospital : void {
+
+    parameter highernumberx : HigherNumber;
+
+    stereotype originator="3";
+    stereotype actor="HigherNumber";
+
+
+  }
+
+
+
+
+  usecase requiredToPerformEachItemAreUsedInDeterminingTheAssignedValueOfEachItem : void {
+
+    parameter amountx : Amount;
+
+    stereotype originator="4";
+    stereotype actor="Amount";
+    stereotype read;
+    stereotype other;
+
+
+  }
+
+
+
+
+  usecase withinTheEnvironmentAffectTheScoreOfEachItemIfAdaptationsOutsideTheStandardHomeEnvironmentAreMetDuringAssessmentTheParticipant : void {
+
+    parameter externalfactorx : ExternalFactor;
+
+    stereotype originator="5";
+    stereotype actor="ExternalFactor";
+
+
+  }
+
+
+
+
+  usecase ifAdaptationsToTheEnvironmentAreMadeTheyShouldBeDescribedInDetailAndAttachedToTheBarthelIndexTheScaleWasIntroducedIn19653AndYieldedAScoreOf0100MahoneyF.I.&BarthelD.W.1965 : void {
+
+    parameter adaptationx : Adaptation;
+
+    stereotype originator="6";
+    stereotype actor="Adaptation";
+
+
+  }
+
+
+
+
+  usecase functionalEvaluationTheBarthelIndex : void {
+
+    parameter functionalevaluationx : FunctionalEvaluation;
+
+    stereotype originator="7";
+    stereotype actor="FunctionalEvaluation";
+
+
+  }
+
+
+
+
+  usecase marylandstatemedicaljournal14pp.6165 : void {
+
+    parameter marylandstatemedicaljournalx : MarylandStateMedicalJournal;
+
+    stereotype originator="8";
+    stereotype actor="MarylandStateMedicalJournal";
+
+
+  }
+
+
+
+
+  usecase indicatingFunctionalIndependenceCollinC.EtAl.1988 : void {
+
+    parameter collinx : Collin;
+
+    stereotype originator="9";
+    stereotype actor="Collin";
+    stereotype other;
+
+
+  }
+
+
+
+
+  usecase theBarthelADLIndexareliabilitystudy : void {
+
+    parameter bartheladlindexx : BarthelADLIndex;
+
+    stereotype originator="10";
+    stereotype actor="BarthelADLIndex";
+
+
+  }
+
+
+
+
+  usecase internationaldisabilitystudies102pp.6163 : void {
+
+    parameter internationaldisabilitystudyx : InternationalDisabilityStudy;
+
+    stereotype originator="11";
+    stereotype actor="InternationalDisabilityStudy";
+
+
+  }
+
+
+
+
+  usecase sensitizedVersionSharplyDiscriminatesBetweenGoodAndBetterAndPoorAndPoorerPerformances : void {
+
+    parameter versionx : Version;
+
+    stereotype originator="12";
+    stereotype actor="Version";
+
+
+  }
+
+
+
+
+  usecase isNotJustWithIn-patientRehabilitationButHomeCareNursingCareSkilledNursingAndCommunity : void {
+
+    parameter effectivenessx : Effectiveness;
+
+    stereotype originator="13";
+    stereotype actor="Effectiveness";
+
+
+  }
+
+
+
+
+  usecase signifiesOneOfTheFirstContributionsToTheFunctionalStatusLiteratureAndItRepresentsOccupationalTherapists : void {
+
+    parameter barthelindexx : BarthelIndex;
+    parameter statusx : String;
+
+    stereotype originator="14";
+    stereotype actor="BarthelIndex";
+    stereotype edit;
+    stereotype other;
+
+
+  }
+
+
+
+
+  usecase shownToHavePortabilityAndHasBeenUsedIn16MajorDiagnosticConditionsAsWellAsDifferentClinicalSettingsE.g.NursingHomesWithSatisfactoryReliabilityAndValidity5TheBarthelIndexHasDemonstratedHighInter-raterReliability0.95AndTestRetestReliability0.89AsWellAsHighCorrelations0.740.8WithOtherMeasuresOfPhysicalDisability1CopyrightInformation : void {
+
+    parameter barthelindexx : BarthelIndex;
+    parameter barthelx : Barthel;
+    parameter indexx : Index;
+    parameter copyrightx : Copyright;
+
+    stereotype originator="15";
+    stereotype actor="BarthelIndex";
+    stereotype read;
+    stereotype other;
+
+
+    ::
+      true => barthelx->display();
+
+
+    ::
+      true => indexx->display();
+
+
+    ::
+      true => copyrightx->display();
+
+
+  }
+
+
+
+
+  usecase seeAlso3References4ExternalLinksVariablesTheTenVariablesAddressedInTheBarthelScaleArePresenceOrAbsenceOfFecalIncontinencePresenceOrAbsenceOfUrinaryIncontinenceHelpNeededWithGroomingHelpNeededWithToiletUseHelpNeededWithFeedingHelpNeededWithTransfersE.g.FromChairToBedHelpNeededWithWalkingHelpNeededWithDressingHelpNeededWithClimbingStairsHelpNeededWithBathingFUNCTIONALEVALUATIONTHEBARTHELINDEXASimpleIndexOfIndependenceUsefulInScoringImprovementInTheRehabilitationOfTheChronicallyIllTheChronicDiseaseHospitalsInMarylandFLORENCEI.MAHONEYM.D.MontebelloStateHospitalDeer : Barthel {
+
+    parameter contentx : Content;
+    parameter variablex : Variable;
+    parameter barthelx : Barthel;
+    parameter functionalx : FUNCTIONAL;
+    parameter evaluationx : EVALUATION;
+    parameter indexx : Index;
+    parameter ax : A;
+    parameter hospitalx : Hospital;
+    parameter marylandx : Maryland;
+    parameter florencex : FLORENCE;
+    parameter i.x : I.;
+    parameter mahoneyx : Mahoney;
+    parameter m.d.x : M.D.;
+    parameter montebellox : Montebello;
+    parameter statex : State;
+
+    stereotype originator="16";
+    stereotype actor="Content";
+    stereotype read;
+    stereotype create;
+
+
+    ::
+      true => variablex->display();
+
+
+    ::
+      true => Barthel->exists( barthelx | result = barthelx );
+
+
+    ::
+      true => barthelx->display();
+
+
+    ::
+      true => functionalx->display();
+
+
+    ::
+      true => evaluationx->display();
+
+
+    ::
+      true => indexx->display();
+
+
+    ::
+      true => ax->display();
+
+
+    ::
+      true => hospitalx->display();
+
+
+    ::
+      true => marylandx->display();
+
+
+    ::
+      true => florencex->display();
+
+
+    ::
+      true => i.x->display();
+
+
+    ::
+      true => mahoneyx->display();
+
+
+    ::
+      true => m.d.x->display();
+
+
+    ::
+      true => montebellox->display();
+
+
+    ::
+      true => statex->display();
+
+
+  }
+
+
+
+
+  usecase haveBeenHelpfulInEvaluatingPatientsPriorToAdmissionToTheseHospitalsAndAfterDischarge : void {
+
+    parameter indexbix : IndexBI;
+
+    stereotype originator="17";
+    stereotype actor="IndexBI";
+    stereotype other;
+
+
+  }
+
+
+
+
+  usecase assignedToEachItemAreBasedOnTimeAndAmountOfActualPhysicalAssistanceRequiredIfAPatientIsUnableToPerformTheActivity : void {
+
+    parameter valuex : Value;
+    parameter timex : double;
+    parameter amountx : Amount;
+    parameter ax : A;
+    parameter patientx : Patient;
+    parameter activityx : Activity;
+
+    stereotype originator="18";
+    stereotype actor="Value";
+    stereotype edit;
+    stereotype read;
+
+
+    ::
+      true => ax->display();
+
+
+    ::
+      true => patientx->display();
+
+
+    ::
+      true => activityx->display();
+
+
+  }
+
+
+
+
+  usecase performTheActivityWithoutSomeonePresentInTheRoomWithHim : void {
+
+    parameter fullcreditx : FullCredit;
+    parameter roomx : Room;
+
+    stereotype originator="19";
+    stereotype actor="FullCredit";
+    stereotype other;
+
+
+  }
+
+
+
+
+  usecase requiredToAttendAnIncontinentPatientAndSinceHeIsNotSociallyAcceptableContinenceWasWeightedHeavily : void {
+
+    parameter timex : Time;
+    parameter patientx : Patient;
+
+    stereotype originator="20";
+    stereotype actor="Time";
+    stereotype read;
+    stereotype other;
+
+
+    ::
+      true => patientx->display();
+
+
+  }
+
+
+
+
+  usecase mayAffectThePatientSScore : void {
+
+    parameter environmentalconditionx : EnvironmentalCondition;
+
+    stereotype originator="21";
+    stereotype actor="EnvironmentalCondition";
+
+
+  }
+
+
+
+
+  usecase settingHisScoreWillBeLowerWhenTheyAreNotMet : void {
+
+    parameter specialrequirementx : SpecialRequirement;
+    parameter scorex : double;
+    parameter lowerx : double;
+
+    stereotype originator="22";
+    stereotype actor="SpecialRequirement";
+    stereotype edit;
+
+
+  }
+
+
+
+
+  usecase walkGrabBarsAtTheToiletAndTub : void {
+
+    parameter examplex : Example;
+
+    stereotype originator="23";
+    stereotype actor="Example";
+    stereotype other;
+
+
+  }
+
+
+
+
+  usecase indicated : void {
+
+    parameter valuablex : Valuable;
+
+    stereotype originator="24";
+    stereotype actor="Valuable";
+    stereotype other;
+
+
+  }
+
+
+
+
+  usecase isScoredAtTheBeginningOfTreatmentInTheRehabilitationServicePM&RAtIntervalsDuringTheCourseOfHisRehabilitationAndAtTheTimeOfMaximumBenefit : void {
+
+    parameter patientsbix : PatientSBI;
+
+    stereotype originator="25";
+    stereotype actor="PatientSBI";
+
+
+  }
+
+
+
+
+  usecase determineHowWellAndHowRapidlyHeHasProgressedTowardIndependence : void {
+
+    parameter wayx : Way;
+
+    stereotype originator="26";
+    stereotype actor="Way";
+    stereotype other;
+
+
+  }
+
+
+
+
+  usecase showBecauseThePresenceOfAnotherPersonMayStillBeRequiredEvenThoughHeDoesNotActuallyGivePhysicalAssistance : void {
+
+    parameter improvementx : Improvement;
+    parameter personx : Person;
+
+    stereotype originator="27";
+    stereotype actor="Improvement";
+    stereotype read;
+
+
+    ::
+      true => personx->display();
+
+
+  }
+
+
+
+
+  usecase indicatesPoorPotentialForRehabilitation : void {
+
+    parameter lackx : Lack;
+
+    stereotype originator="28";
+    stereotype actor="Lack";
+    stereotype other;
+
+
+  }
+
+
+
+
+  usecase cut=Help5102MovingFromWheelchairToBedAndReturnIncludesSittingInBed5-10153 : void {
+
+    parameter helpindependentx : HelpIndependent;
+
+    stereotype originator="29";
+    stereotype actor="HelpIndependent";
+    stereotype delete;
+
+
+  }
+
+
+
+
+  usecase shaveCleanTeeth054 : void {
+
+    parameter personaltoiletwashfacecombhairx : PersonalToiletWashFaceCombHair;
+
+    stereotype originator="30";
+    stereotype actor="PersonalToiletWashFaceCombHair";
+
+
+  }
+
+
+
+
+  usecase gettingOnOffToiletHandlingClothesWipeFlush5105 : void {
+
+
+    stereotype originator="31";
+    stereotype read;
+
+
+  }
+
+
+
+
+  usecase bathingself056 : void {
+
+    parameter bathingselfx : BathingSelf;
+
+    stereotype originator="32";
+    stereotype actor="BathingSelf";
+
+
+  }
+
+
+
+
+  usecase walkingOnLevelSurfaceOrIfUnableToWalkPropelWheelchair05**ScoreOnlyIfUnableToWalk7 : void {
+
+
+    stereotype originator="33";
+    stereotype other;
+
+
+  }
+
+
+
+
+  usecase dressingIncludesTyingShoesFasteningFasteners5109 : void {
+
+    parameter ascenddescendstairx : AscendDescendStair;
+
+    stereotype originator="34";
+    stereotype actor="AscendDescendStair";
+
+
+  }
+
+
+
+
+  usecase controllingBowels51010 : void {
+
+    parameter bowelx : Bowel;
+
+    stereotype originator="35";
+    stereotype actor="Bowel";
+
+
+  }
+
+
+
+
+  usecase getsOutOfBedAndChairsBathesHimselfWalksAtLeastABlockAndCanAscendAndDescendStairs : void {
+
+    parameter bladderx : Bladder;
+    parameter ax : A;
+    parameter blockx : Block;
+
+    stereotype originator="36";
+    stereotype actor="Bladder";
+    stereotype read;
+    stereotype other;
+
+
+    ::
+      true => ax->display();
+
+
+    ::
+      true => blockx->display();
+
+
+  }
+
+
+
+
+  usecase keepHouseAndMeetThePublicButHeIsAbleToGetAlongWithoutAttendantCare : void {
+
+    parameter ablex : Able;
+    parameter housex : House;
+
+    stereotype originator="37";
+    stereotype actor="Able";
+    stereotype other;
+
+
+  }
+
+
+
+
+  usecase oFSCORING1Feeding10=Independent : void {
+
+    parameter definitiondiscussionx : DEFINITIONDISCUSSION;
+
+    stereotype originator="38";
+    stereotype actor="DEFINITIONDISCUSSION";
+
+
+  }
+
+
+
+
+  usecase canFeedHimselfAMealFromATrayOrTableWhenSomeonePutsTheFoodWithinHisReach : void {
+
+    parameter patientx : Patient;
+
+    stereotype originator="39";
+    stereotype actor="Patient";
+
+
+  }
+
+
+
+
+  usecase putOnAnAssistiveDeviceIfThisIsNeededCutTheFoodUseSaltAndPepperSpreadButterEtc. : void {
+
+    parameter devicex : Device;
+
+    stereotype originator="40";
+    stereotype other;
+    stereotype delete;
+
+
+  }
+
+
+
+
+  usecase cuttingFoodEtc.AsListedAbove2 : void {
+
+    parameter reasonabletimex : ReasonableTime;
+
+    stereotype originator="41";
+    stereotype actor="ReasonableTime";
+    stereotype delete;
+    stereotype read;
+
+
+  }
+
+
+
+
+  usecase moveSafelyToBedLieComeToASittingPositionOnTheSideOfTheBedChangeThePositionOfTheWheelchairIfNecessaryToTransferBackIntoItSafelyAndReturnToTheWheelchair10=EitherSomeMinimalHelpIsNeededInSomeStepOfThisActivityOrThePatientNeedsToBeRemindedOrSupervisedForSafetyOfOneOrMorePartsOfThisActivity5=PatientCanComeToASittingPositionWithoutTheHelpOfASecondPersonButNeedsToBeLiftedOutOfBedOrIfHeTransfersWithAGreatDealOfHelp : void {
+
+    parameter wheelchairx : Wheelchair;
+    parameter ax : A;
+    parameter positionx : Position;
+    parameter eitherx : Either;
+    parameter minimalx : double;
+    parameter activityx : Activity;
+    parameter patientx : Patient;
+    parameter secondx : double;
+    parameter personx : Person;
+
+    stereotype originator="42";
+    stereotype actor="Wheelchair";
+    stereotype edit;
+
+
+  }
+
+
+
+
+  usecase doingPersonalToilet5=PatientCanWashHandsAndFaceCombHairCleanTeethAndShave : void {
+
+    parameter personaltoiletx : PersonalToilet;
+
+    stereotype originator="43";
+    stereotype actor="PersonalToilet";
+
+
+  }
+
+
+
+
+  usecase useAnyKindOfRazorButMustPutInBladeOrPlugInRazorWithoutHelpAsWellAsGetItFromDrawerOrCabinet : void {
+
+
+    stereotype originator="44";
+    stereotype other;
+
+
+  }
+
+
+
+
+  usecase putOnOwnMakeupIfUsedButNeedNotBraidOrStyleHair : void {
+
+    parameter femalepatientx : FemalePatient;
+
+    stereotype originator="45";
+    stereotype actor="FemalePatient";
+    stereotype other;
+
+
+  }
+
+
+
+
+  usecase gettingOnOffToilet10=PatientIsAbleToGetOnAndOffToiletFastenAndUnfastenClothesPreventSoilingOfClothesAndUseToiletPaperWithoutHelp : void {
+
+    parameter patientx : Patient;
+    parameter ablex : Able;
+
+    stereotype originator="46";
+    stereotype read;
+    stereotype other;
+
+
+    ::
+      true => patientx->display();
+
+
+    ::
+      true => ablex->display();
+
+
+  }
+
+
+
+
+  usecase useAWallBarOrOtherStableObjectForSupportIfNeeded : void {
+
+    parameter objectx : Object;
+
+    stereotype originator="47";
+    stereotype other;
+
+
+  }
+
+
+
+
+  usecase useABedPanInsteadOfAToiletHeMustBeAbleToPlaceItOnAChairEmptyItAndCleanIt : void {
+
+    parameter necessaryx : Necessary;
+    parameter placex : Place;
+
+    stereotype originator="48";
+    stereotype actor="Necessary";
+    stereotype other;
+
+
+  }
+
+
+
+
+  usecase needsHelpBecauseOfImbalanceOrInHandlingClothesOrInUsingToiletPaper5 : void {
+
+    parameter patientx : Patient;
+
+    stereotype originator="49";
+    stereotype actor="Patient";
+
+
+  }
+
+
+
+
+  usecase useABathTubAShowerOrTakeACompleteSpongeBathHeMustBeAbleToDoAllTheStepsInvolvedInWhicheverMethodIsEmployedWithoutAnotherPersonBeingPresent6 : void {
+
+    parameter bathingselfx : BathingSelf;
+
+    stereotype originator="50";
+    stereotype actor="BathingSelf";
+    stereotype other;
+
+
+  }
+
+
+
+
+  usecase walkingOnALevelSurface15=PatientCanWalkAtLeast50YardsWithoutHelpOrSupervision : void {
+
+
+    stereotype originator="51";
+    stereotype other;
+
+
+  }
+
+
+
+
+  usecase mayWearBracesOrProsthesesAndUseCrutchesCanesOrAWalkeretteButNotARollingWalker : void {
+
+    parameter bracex : Brace;
+
+    stereotype originator="52";
+    stereotype actor="Brace";
+
+
+  }
+
+
+
+
+  usecase usedAssumeTheStandingPositionAndSitGetTheNecessaryMechanicalAidesIntoPositionForUseAndDisposeOfThemWhenHeSitsPuttingOnAndTakingBracesIsScoredUnderDressing : void {
+
+    parameter ablex : Able;
+
+    stereotype originator="53";
+    stereotype actor="Able";
+    stereotype other;
+
+
+  }
+
+
+
+
+  usecase walkAtLeast50YardsWithALittleHelp6a : void {
+
+    parameter =patientx : =Patient;
+
+    stereotype originator="54";
+    stereotype actor="=Patient";
+    stereotype other;
+
+
+  }
+
+
+
+
+  usecase propellingAWheelchair5=IfAPatientCanNotAmbulateButCanPropelAWheelchairIndependently : void {
+
+    parameter wheelchairx : Wheelchair;
+
+    stereotype originator="55";
+    stereotype actor="Wheelchair";
+
+
+  }
+
+
+
+
+  usecase mustBeAbleToGoAroundCornersTurnManeuverTheChairToATableBedToiletEtc. : void {
+
+    parameter ablex : Able;
+
+    stereotype originator="56";
+    stereotype actor="Able";
+
+
+  }
+
+
+
+
+  usecase pushAChairAtLeast50Yards : void {
+
+    parameter ablex : Able;
+
+    stereotype originator="57";
+    stereotype actor="Able";
+    stereotype other;
+
+
+  }
+
+
+
+
+  usecase getsScoreForWalking7 : void {
+
+    parameter itemx : Item;
+
+    stereotype originator="58";
+    stereotype actor="Item";
+    stereotype read;
+
+
+  }
+
+
+
+
+  usecase ascendingDescendingStairs10=PatientIsAbleToGoUpAndDownAFlightOfStairsSafelyWithoutHelpOrSupervision : void {
+
+    parameter stairx : Stair;
+
+    stereotype originator="59";
+    stereotype actor="Stair";
+
+
+  }
+
+
+
+
+  usecase useHandrailsCanesOrCrutchesWhenNeeded : void {
+
+
+    stereotype originator="60";
+    stereotype other;
+
+
+  }
+
+
+
+
+  usecase mustBeAbleToCarryCanesOrCrutchesAsHeAscendsOrDescendsStairs : void {
+
+    parameter ablex : Able;
+
+    stereotype originator="61";
+    stereotype actor="Able";
+
+
+  }
+
+
+
+
+  usecase needsHelpWithOrSupervisionOfAnyOneOfTheAboveItems : void {
+
+    parameter =patientx : =Patient;
+
+    stereotype originator="62";
+    stereotype actor="=Patient";
+
+
+  }
+
+
+
+
+  usecase 8 : void {
+
+
+    stereotype originator="63";
+
+
+  }
+
+
+
+
+  usecase putAndRemoveAndFastenAllClothingAndTieShoeLacesUnlessItIsNecessaryToUseAdaptationsForThis : void {
+
+    parameter =patientx : =Patient;
+    parameter necessaryx : Necessary;
+    parameter adaptationx : Adaptation;
+
+    stereotype originator="64";
+    stereotype actor="=Patient";
+    stereotype other;
+    stereotype delete;
+
+
+  }
+
+
+
+
+  usecase removingFasteningCorsetOrBracesWhenTheseArePrescribed : void {
+
+    parameter activityx : Activity;
+    parameter bracex : Brace;
+
+    stereotype originator="65";
+    stereotype actor="Activity";
+    stereotype delete;
+
+
+  }
+
+
+
+
+  usecase openTheFrontMayBeUsedWhenNecessary : void {
+
+    parameter suchspecialclothingx : SuchSpecialClothing;
+    parameter necessaryx : Necessary;
+
+    stereotype originator="66";
+    stereotype actor="SuchSpecialClothing";
+    stereotype edit;
+    stereotype other;
+
+
+  }
+
+
+
+
+  usecase removingOrFasteningAnyClothing : void {
+
+    parameter =patientx : =Patient;
+
+    stereotype originator="67";
+    stereotype actor="=Patient";
+    stereotype delete;
+
+
+  }
+
+
+
+
+  usecase mustDoAtLeastHalfTheWorkHimself : void {
+
+    parameter leastx : Least;
+
+    stereotype originator="68";
+    stereotype actor="Least";
+
+
+  }
+
+
+
+
+  usecase mustAccomplishThisInAReasonableTime : void {
+
+    parameter reasonabletimex : ReasonableTime;
+
+    stereotype originator="69";
+    stereotype actor="ReasonableTime";
+
+
+  }
+
+
+
+
+  usecase needNotBeScoredOnUseOfABrassiereOrGirdleUnlessTheseArePrescribedGarments : void {
+
+    parameter womenx : Women;
+
+    stereotype originator="70";
+    stereotype actor="Women";
+
+
+  }
+
+
+
+
+  usecase 9 : void {
+
+
+    stereotype originator="71";
+
+
+  }
+
+
+
+
+  usecase controlHisBowelsAndHaveNoAccidents : void {
+
+    parameter continencex : Continence;
+
+    stereotype originator="72";
+    stereotype actor="Continence";
+    stereotype other;
+
+
+  }
+
+
+
+
+  usecase useASuppositoryOrTakeAnEnemaWhenNecessaryAsForSpinalCordInjuryPatientsHaveHadBowelTraining5=PatientNeedsHelpInUsingASuppositoryOrTakingAnEnemaOrHasOccasionalAccidents10 : void {
+
+
+    stereotype originator="73";
+    stereotype other;
+
+
+  }
+
+
+
+
+  usecase controlHisBladderDayAndNight : void {
+
+    parameter bladderx : Bladder;
+
+    stereotype originator="74";
+    stereotype actor="Bladder";
+    stereotype other;
+
+
+  }
+
+
+
+
+  usecase putThemOnIndependentlyCleanAndEmptyBagAndStayDryDayAndNight : void {
+
+    parameter spinalcordinjurypatientx : SpinalCordInjuryPatient;
+
+    stereotype originator="75";
+    stereotype actor="SpinalCordInjuryPatient";
+    stereotype other;
+
+
+  }
+
+
+
+
+  usecase getToTheToiletInTimeOrNeedsHelpWithAnExternalDevice : void {
+
+    parameter =patientx : =Patient;
+
+    stereotype originator="76";
+    stereotype actor="=Patient";
+    stereotype other;
+
+
+  }
+
+
+
+
+  usecase meetTheCriteriaAsDefinedAbove : void {
+
+    parameter scorex : Score;
+
+    stereotype originator="77";
+    stereotype actor="Score";
+    stereotype other;
+
+
+  }
+
+
+
+
+  usecase ofTheBIIsItsSimplicity : void {
+
+    parameter advantagex : Advantage;
+
+    stereotype originator="78";
+    stereotype actor="Advantage";
+
+
+  }
+
+
+
+
+  usecase isUsefulInEvaluatingAPatient : void {
+
+    parameter usefulx : Useful;
+
+    stereotype originator="79";
+    stereotype actor="Useful";
+
+
+  }
+
+
+
+
+  usecase listedAbove : void {
+
+    parameter patientx : Patient;
+
+    stereotype originator="80";
+    stereotype actor="Patient";
+    stereotype read;
+
+
+  }
+
+
+
+
+  usecase indicateWhereTheDeficienciesAre : void {
+
+    parameter totalscorex : TotalScore;
+
+    stereotype originator="81";
+    stereotype actor="TotalScore";
+    stereotype other;
+
+
+  }
+
+
+
+
+  usecase seeWhetherSuchHospitalizationIsIndicated : void {
+
+    parameter applicantx : Applicant;
+
+    stereotype originator="82";
+    stereotype actor="Applicant";
+    stereotype read;
+    stereotype other;
+
+
+  }
+
+
+
+
+  usecase requireFurtherPhysicalTherapyButMayBenefitFromAHomeVisitToSeeWhetherAnyEnvironmentalAdjustmentsAreIndicated : void {
+
+    parameter patientx : Patient;
+    parameter ax : A;
+    parameter visitx : Visit;
+    parameter seex : See;
+
+    stereotype originator="83";
+    stereotype actor="Patient";
+    stereotype read;
+
+
+    ::
+      true => ax->display();
+
+
+    ::
+      true => visitx->display();
+
+
+    ::
+      true => seex->display();
+
+
+  }
+
+
+
+
+  usecase maintainHisDegreeOfIndependence : void {
+
+    parameter encouragementx : Encouragement;
+    parameter degreex : Degree;
+
+    stereotype originator="84";
+    stereotype actor="Encouragement";
+    stereotype other;
+
+
+  }
+
+
+
+}
+
