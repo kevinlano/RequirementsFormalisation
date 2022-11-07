@@ -7,3 +7,7 @@ A reference solution k3ucsReferenceModel.km3 is also provided.
 fabsucs*.txt are the evaluations of the above three approaches for the FABS user story case study. 
 
 No reference model is yet available for this case. 
+
+medicurveBackground*.txt provide the evaluations of three approaches (AgileUML data and behaviour formalisation, and simple heuristic) for the medical background case study. 
+
+A reference model is also provided. 
