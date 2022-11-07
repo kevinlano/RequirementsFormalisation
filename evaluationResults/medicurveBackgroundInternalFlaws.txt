@@ -1,0 +1,44 @@
+>python checkModelNames.py --model mmMedicurveBackgroundDataFormalisationAgileUML.km3
+!! Attribute name Collin should have initial lower case letter
+!! Attribute name C. should have initial lower case letter
+!! Attribute name BI should have initial lower case letter
+!! Attribute name Rehabilitation should have initial lower case letter
+!! Attribute name Service should have initial lower case letter
+!! Attribute name PM should have initial lower case letter
+!! Attribute name BI should have initial lower case letter
+>>> Class validity score: 1.0
+>>> Attribute validity score: 0.9465648854961832
+>>> Usecase validity score: 1.0
+>>> Total number of flaws = 7
+
+
+
+
+
+
+>python checkModelNames.py --model mmMedicurveBackgroundBehaviourFormalisationAgileUML.km3
+!! Class name A DT should be singular noun with initial capital
+!! Class name I PRP should be singular noun with initial capital
+!! Class name Either DT should be singular noun with initial capital
+!! Class name =Patient NN should be singular noun with initial capital
+!! Class name SuchSpecialClothing VBG should be singular noun with initial capital
+!! Use case name 8 should have initial lower case letter
+!! Use case name 9 should have initial lower case letter
+>>> Class validity score: 0.9479166666666666
+>>> Attribute validity score: 1.0
+>>> Usecase validity score: 0.9761904761904762
+>>> Total number of flaws = 7
+
+
+
+>python checkModelNames.py --model medicurveBackgroundSimpleDocmineResult.km3
+!! Class name International_disability_studies NNS should be singular noun with initial capital
+!! Class name Patients NNS should be singular noun with initial capital
+!! Class name Female_patients NNS should be singular noun with initial capital
+!! Class name Spinal_cord_injury_patients NNS should be singular noun with initial capital
+>>> Class validity score: 0.8571428571428571
+>>> Attribute validity score: 1.0
+>>> Total number of flaws = 4
+
+
+

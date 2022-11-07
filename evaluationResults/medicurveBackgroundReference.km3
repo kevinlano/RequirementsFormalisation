@@ -1,0 +1,39 @@
+package medicurveReferenceModel
+{ class Patient
+  { attribute continent : boolean; 
+    reference chronicDisease : Set(ChronicDisease);
+    reference evaluations : Sequence(Evaluation) ;
+  }
+
+  enumeration EvaluationTime { literal priorToAdmission; literal afterDischarge; literal other; }
+
+  enumeration PhysicalAssistanceLevel { literal independent; literal supervisionNeeded; literal someMinimalHelp; literal moderateHelp; literal considerableHelp; literal unableToAchieve; }
+
+abstract class ChronicDisease { }
+
+class NeuromuscularDisorder extends ChronicDisease { }
+
+class MusculoskeletalDisorder extends ChronicDisease { }
+
+class BarthelIndex { attribute score : int; 
+  reference forPatient : Patient; 
+  reference items : Sequence(BIItem);
+}
+
+class Evaluation {
+  attribute timePoint : EvaluationTime;
+  attribute periodic : boolean ;
+  attribute interval : double ;
+  reference forPatient : Patient ;
+  reference evaluationResult : BarthelIndex; 
+} 
+
+class BIItem {
+  attribute name : String;
+  attribute score : int;
+  attribute physicalAssistance : PhysicalAssistanceLevel;
+  attribute environmentalConditions : String;
+  attribute description : String;
+}
+}
+

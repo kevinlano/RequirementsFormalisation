@@ -1,0 +1,40 @@
+>>> classes comparison: medicurveBackgroundReference <: medicurveBackgroundSimpleDocmineResult = 0.14285714285714285 attributes: 0.03076923076923077
+>>> classes comparison: medicurveBackgroundSimpleDocmineResult <: medicurveBackgroundReference = 0.03571428571428571 attributes 0.005128205128205128
+>>> Similarity of medicurveBackgroundReference classes and medicurveBackgroundSimpleDocmineResult classes is: 0.00510204081632653
+>>> Similarity of medicurveBackgroundReference attributes and medicurveBackgroundSimpleDocmineResult attributes is: 1.5779092702169627E-4
+
+>>> use cases comparison: medicurveBackgroundReference <: medicurveBackgroundSimpleDocmineResult = 1
+>>> use cases comparison: medicurveBackgroundSimpleDocmineResult <: medicurveBackgroundReference = 1
+>>> Similarity of medicurveBackgroundReference use cases and medicurveBackgroundSimpleDocmineResult use cases is: 1.0
+
+
+
+
+
+
+
+>>> classes comparison: medicurveBackgroundReference <: mmMedicurveBackgroundBehaviourFormalisation = 0.42857142857142855 attributes: 0.0
+>>> classes comparison: mmMedicurveBackgroundBehaviourFormalisation <: medicurveBackgroundReference = 0.03125 attributes 0.0
+>>> Similarity of medicurveBackgroundReference classes and mmMedicurveBackgroundBehaviourFormalisation classes is: 0.013392857142857142
+>>> Similarity of medicurveBackgroundReference attributes and mmMedicurveBackgroundBehaviourFormalisation attributes is: 0.0
+
+>>> use cases comparison: medicurveBackgroundReference <: mmMedicurveBackgroundBehaviourFormalisation = 1
+>>> use cases comparison: mmMedicurveBackgroundBehaviourFormalisation <: medicurveBackgroundReference = 0.0
+>>> Similarity of medicurveBackgroundReference use cases and mmMedicurveBackgroundBehaviourFormalisation use cases is: 0.0
+
+
+
+
+
+
+
+
+>>> classes comparison: medicurveBackgroundReference <: mmMedicurveBackgroundDataFormalisation = 0.2857142857142857 attributes: 0.06191452991452991
+>>> classes comparison: mmMedicurveBackgroundDataFormalisation <: medicurveBackgroundReference = 0.023529411764705882 attributes 0.017391304347826087
+>>> Similarity of medicurveBackgroundReference classes and mmMedicurveBackgroundDataFormalisation classes is: 0.006722689075630252
+>>> Similarity of medicurveBackgroundReference attributes and mmMedicurveBackgroundDataFormalisation attributes is: 0.0010767744332961723
+
+>>> use cases comparison: medicurveBackgroundReference <: mmMedicurveBackgroundDataFormalisation = 1
+>>> use cases comparison: mmMedicurveBackgroundDataFormalisation <: medicurveBackgroundReference = 0.0
+>>> Similarity of medicurveBackgroundReference use cases and mmMedicurveBackgroundDataFormalisation use cases is: 0.0
+
