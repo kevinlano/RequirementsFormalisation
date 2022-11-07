@@ -1,4 +1,4 @@
-This directory contains the AgileUML tools for RF of behavioural models. This is described in the paper
+This directory contains the AgileUML tools for RF of behavioural and data models. This is described in the paper
 
 "Automated Requirements Formalisation for Agile MDE", K. Lano et al, at MDEIntelligence 2021, MODELS 2021. 
 https://www.researchgate.net/publication/357212983_Automated_Requirements_Formalisation_for_Agile_MDE
@@ -23,5 +23,13 @@ The POS-tagged file can be produced by Stanford NLP or Apache NLP, eg:
 
 java -mx300m -classpath stanford-postagger.jar edu.stanford.nlp.tagger.maxent.MaxentTagger -model models/english-bidirectional-distsim.tagger -textFile infile.txt > outfile.txt
 
+
+
+
+The "File" menu option "Formalise data requirements" takes as input a tagged and parsed file output/nlpout.txt with the format produced by Stanford NLP parsing: 
+
+java -Xms1800m -cp "*" edu.stanford.nlp.pipeline.StanfordCoreNLP -annotators tokenize,ssplit,pos,lemma,ner,parse -file input.txt
+
+The output/background.txt glossary is also needed. The resulting model is written to output/mm.km3
 
 
