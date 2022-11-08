@@ -1,0 +1,145 @@
+The Barthel scale is an ordinal scale used to measure performance in activities of daily living (ADL). Each performance item is rated on this scale with a given number of points assigned to each level or ranking.[1] It uses ten variables describing ADL and mobility. A higher number is associated with a greater likelihood of being able to live at home with a degree of independence following discharge from hospital. The amount of time and physical assistance required to perform each item are used in determining the assigned value of each item. External factors within the environment affect the score of each item. If adaptations outside the standard home environment are met during assessment, the participant's score will be lower if these conditions are not available. If adaptations to the environment are made, they should be described in detail and attached to the Barthel index.[2]
+
+The scale was introduced in 1965,[3] and yielded a score of 0–100 (Mahoney, F.I. & Barthel, D.W., 1965. Functional Evaluation: The Barthel Index. Maryland state medical journal, 14, pp. 61–65.). Collin et al. (1988) argued that the original scoring system gave an exaggerated impression of accuracy and subsequently proposed a modification where each domain was scored in one-point increments with a full score of 20 indicating functional independence (Collin, C. et al., 1988. The Barthel ADL Index: a reliability study. International disability studies, 10(2), pp. 61–63.). The sensitized version sharply discriminates between good and better and poor and poorer performances. Its effectiveness is not just with in-patient rehabilitation but home care, nursing care, skilled nursing, and community. The Barthel index signifies one of the first contributions to the functional status literature and it represents occupational therapists' lengthy period of inclusion of functional mobility and ADL measurement within their scope of practice.[1] The scale is regarded as reliable, although its use in clinical trials in stroke medicine is inconsistent.[4] It has however, been used extensively to monitor functional changes in individuals receiving in-patient rehabilitation, mainly in predicting the functional outcomes related to stroke. The Barthel index has been shown to have portability and has been used in 16 major diagnostic conditions as well as different clinical settings (e.g., nursing homes) with satisfactory reliability and validity.[5] The Barthel index has demonstrated high inter-rater reliability (0.95) and test–retest reliability (0.89) as well as high correlations (0.74–0.8) with other measures of physical disability.[1]
+
+Copyright Information: The Maryland State Medical Society holds the copyright for the Barthel Index. It may be used freely for noncommercial purposes with the following citation: Mahoney FI, Barthel D. "Functional evaluation: the Barthel Index." Maryland State Med Journal 1965;14:56-61. Used with permission. Permission is required to modify the Barthel Index or to use it for commercial purposes.
+Contents
+
+    1 Variables
+    2 See also
+    3 References
+    4 External links
+
+Variables
+
+The ten variables addressed in the Barthel scale are:[3]
+
+    Presence or absence of fecal incontinence
+    Presence or absence of urinary incontinence
+    Help needed with grooming
+    Help needed with toilet use
+    Help needed with feeding
+    Help needed with transfers (e.g. from chair to bed)
+    Help needed with walking
+    Help needed with dressing
+    Help needed with climbing stairs
+    Help needed with bathing
+
+FUNCTIONAL EVALUATION:
+THE BARTHEL INDEX
+A simple index of independence useful in scoring improvement
+in the rehabilitation of the chronically ill
+
+the chronic disease hospitals in Maryland FLORENCE I. MAHONEY, M.D.
+(Montebello State Hospital, Deer's Head Hospital, and AND
+Western Maryland Hospital) have been using a simple index DOROTHEA W. BARTHEL, BA, PT
+of independence to score the ability of a patient with a neuromuscular
+or musculoskeletal disorder to care for himself, and
+by repeating the test periodically, to assess his improvement. The Index (BI) has also been taught to many nurses, who have
+been helpful in evaluating patients prior to admission to these hospitals and after discharge.
+The values assigned to each item are based on time and amount of actual physical assistance required if a patient is
+unable to perform the activity. Full credit is not given for an activity if the patient needs even minimal help and/or
+supervision, ie, if he cannot safely perform the activity without someone present in the room with him. Because of the time
+required to attend an incontinent patient and since he is not socially acceptable, continence was weighted heavily.
+Environmental conditions may affect the patient’s score. If he has special requirements (other than the usual home
+setting), his score will be lower when they are not met. Examples are: doorways wide enough for easy access by wheelchair;
+all rooms on the same level if he cannot walk; grab bars at the toilet and tub.
+To be more valuable, an explanation of special environmental requirements should accompany the BI of each patient
+when these are indicated.
+Each patient’s BI is scored at the beginning of treatment in the Rehabilitation Service (PM&R), at intervals during
+the course of his rehabilitation, and at the time of maximum benefit. In this way, it is possible to determine how well and how
+rapidly he has progressed toward independence. Sometimes improvement does not show up because the presence of another
+person may still be required even though he does not actually give physical assistance. Usually lack of improvement in the BI
+after a reasonable period of treatment indicates poor potential for rehabilitation.
+S
+Mahoney FI, Barthel D. “Functional evaluation: The Barthel Index.” Maryland State Medical Journal 1965;14:56-61. Used with permission.
+BARTHEL INDEX
+With Help Independent
+1. Feeding (if food needs to be cut up = help) 5 10
+2. Moving from wheelchair to bed and return
+(includes sitting up in bed) 5-10 15
+3. Personal toilet (wash face, comb hair, shave,
+clean teeth) 0 5
+4. Getting on and off toilet (handling clothes,
+wipe, flush) 5 10
+5. Bathing self 0 5
+6. Walking on level surface (or if unable to
+walk, propel wheelchair) 0* 5*
+*score only if unable to walk
+7. Ascend and descend stairs 5 10
+8. Dressing (includes tying shoes, fastening fasteners) 5 10
+9. Controlling bowels 5 10
+10. Controlling bladder 5 10
+A patient scoring 100 BI is continent, feeds himself, dresses himself, gets up out of bed and chairs, bathes himself,
+walks at least a block, and can ascend and descend stairs. This does not mean that he is able to live alone: he may not be able
+to cook, keep house, and meet the public, but he is able to get along without attendant care.
+DEFINITION AND DISCUSSION OF SCORING
+1. Feeding
+10 = Independent. The patient can feed himself a meal from a tray or table when someone puts the food within his
+reach. He must put on an assistive device if this is needed, cut up the food, use salt and pepper, spread butter,
+etc. He must accomplish this in a reasonable time.
+5 = Some help is necessary (with cutting up food, etc., as listed above).
+2. Moving from wheelchair to bed and return
+15 = Independent in all phases of this activity. Patient can safely approach the bed in his wheelchair, lock brakes, lift
+footrests, move safely to bed, lie down, come to a sitting position on the side of the bed, change the position of
+the wheelchair, if necessary, to transfer back into it safely, and return to the wheelchair.
+10 = Either some minimal help is needed in some step of this activity or the patient needs to be reminded or
+supervised for safety of one or more parts of this activity.
+5 = Patient can come to a sitting position without the help of a second person but needs to be lifted out of bed, or if
+he transfers with a great deal of help.
+Mahoney FI, Barthel D. “Functional evaluation: The Barthel Index.” Maryland State Medical Journal 1965;14:56-61. Used with permission.
+3. Doing personal toilet
+5 = Patient can wash hands and face, comb hair, clean teeth, and shave. He may use any kind of razor but must put
+in blade or plug in razor without help as well as get it from drawer or cabinet. Female patients must put on own
+makeup, if used, but need not braid or style hair.
+4. Getting on and off toilet
+10 = Patient is able to get on and off toilet, fasten and unfasten clothes, prevent soiling of clothes, and use toilet paper
+without help. He may use a wall bar or other stable object for support if needed. If it is necessary to use a bed
+pan instead of a toilet, he must be able to place it on a chair, empty it, and clean it. Patient needs help because
+of imbalance or in handling clothes or in using toilet paper.
+5. Bathing self
+5 = Patient may use a bath tub, a shower, or take a complete sponge bath. He must be able to do all the steps
+involved in whichever method is employed without another person being present.
+6. Walking on a level surface
+15 = Patient can walk at least 50 yards without help or supervision. He may wear braces or prostheses and use crutches,
+canes, or a walkerette but not a rolling walker. He must be able to lock and unlock braces if used, assume the
+standing position and sit down, get the necessary mechanical aides into position for use, and dispose of them when
+he sits. (Putting on and taking off braces is scored under dressing.)
+10 = Patient needs help or supervision in any of the above but can walk at least 50 yards with a little help.
+6a. Propelling a wheelchair
+5 = If a patient cannot ambulate but can propel a wheelchair independently. He must be able to go around corners,
+turn around, maneuver the chair to a table, bed, toilet, etc. He must be able to push a chair at least 50 yards. Do
+not score this item if the patient gets score for walking.
+7. Ascending and descending stairs
+10 = Patient is able to go up and down a flight of stairs safely without help or supervision. He may and should use
+handrails, canes, or crutches when needed. He must be able to carry canes or crutches as he ascends or descends
+stairs.
+5 = Patient needs help with or supervision of any one of the above items.
+8. Dressing and undressing
+10 = Patient is able to put on and remove and fasten all clothing, and tie shoe laces (unless it is necessary to use
+adaptations for this). The activity includes putting on and removing and fastening corset or braces when these are
+prescribed. Such special clothing as suspenders, loafer shoes, dresses that open down the front may be used when
+necessary.
+5 = Patient needs help in putting on and removing or fastening any clothing. He must do at least half the work himself.
+He must accomplish this in a reasonable time.
+Women need not be scored on use of a brassiere or girdle unless these are prescribed garments.
+9. Continence of bowels
+10 = Patient is able to control his bowels and have no accidents. He can use a suppository or take an enema when
+necessary (as for spinal cord injury patients who have had bowel training).
+5 = Patient needs help in using a suppository or taking an enema or has occasional accidents.
+10. Controlling bladder
+10 = Patient is able to control his bladder day and night. Spinal cord injury patients who wear an external device and
+leg bag must put them on independently, clean and empty bag, and stay dry day and night.
+5 = Patient has occasional accidents or can not wait for the bed pan or get to the toilet in time or needs help with an
+external device.
+Mahoney FI, Barthel D. “Functional evaluation: The Barthel Index.” Maryland State Medical Journal 1965;14:56-61. Used with permission.
+A score of 0 is given in all of the above activities when the patient cannot meet the criteria as defined above.
+The advantage of the BI is its simplicity. It is useful in evaluating a patient's state of independence before treatment,
+his progress as he undergoes treatment, and his status when he reaches maximum benefit. It can easily be understood by all
+who work with a patient and can accurately and quickly be scored by anyone who adheres to the definitions of items listed
+above. The total score is not as significant or meaningful as the breakdown into individual items, since these indicate where
+the deficiencies are.
+Any applicant to a chronic hospital who scores 100 BI should be evaluated carefully before admission to see whether
+such hospitalization is indicated. Discharged patients with 100 BI should not require further physical therapy but may benefit
+from a home visit to see whether any environmental adjustments are indicated. Encouragement by family and others may be
+necessary for a patient to maintain his degree of independence.
