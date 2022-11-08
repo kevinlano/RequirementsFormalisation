@@ -1,0 +1,61 @@
+  var item1 : BIItem ;
+  item1.description := "Feeding (if food needs to be cut up = help)" ;
+  item1.scoreWithMajorHelp := 5 ;
+  item1.scoreWithSomeHelp := 5 ;
+  item1.scoreIndependent := 10 ;
+
+  var item2 : BIItem ;
+  item2.description := "Moving from wheelchair to bed and return (includes sitting up in bed)" ;
+  item2.scoreWithMajorHelp := 5 ;
+  item2.scoreWithSomeHelp := 10 ;
+  item2.scoreIndependent := 15 ;
+
+  var item3 : BIItem ;
+  item3.description := "Personal toilet (wash face, comb hair, shave, clean teeth)" ;
+  item3.scoreWithMajorHelp := 0 ;
+  item3.scoreWithSomeHelp := 0 ;
+  item3.scoreIndependent := 5 ;
+
+  var item4 : BIItem ;
+  item4.description := "Getting on and off toilet (handling clothes, wipe, flush)" ;
+  item4.scoreWithMajorHelp := 5 ;
+  item4.scoreWithSomeHelp := 5 ;
+  item4.scoreIndependent := 10 ;
+
+  var item5 : BIItem ;
+  item5.description := "Bathing self" ;
+  item5.scoreWithMajorHelp := 0 ;
+  item5.scoreWithSomeHelp := 0 ;
+  item5.scoreIndependent := 5 ;
+
+  var item6 : BIItem ;
+  item6.description := "Walking on level surface (or if unable to walk, propel wheelchair)" ;
+  item6.scoreWithMajorHelp := 0 ;
+  item6.scoreWithSomeHelp := 10 ;
+  item6.scoreIndependent := 15 ;
+
+  var item7 : BIItem ;
+  item7.description := "Ascend and descend stairs" ;
+  item7.scoreWithMajorHelp := 5 ;
+  item7.scoreWithSomeHelp := 5 ;
+  item7.scoreIndependent := 10 ;
+
+  var item8 : BIItem ;
+  item8.description := "Dressing (includes tying shoes, fastening fasteners)" ;
+  item8.scoreWithMajorHelp := 5 ;
+  item8.scoreWithSomeHelp := 5 ;
+  item8.scoreIndependent := 10 ;
+
+  var item9 : BIItem ;
+  item9.description := "Controlling bowels" ;
+  item9.scoreWithMajorHelp := 5 ;
+  item9.scoreWithSomeHelp := 5 ;
+  item9.scoreIndependent := 10 ;
+
+  var item10 : BIItem ;
+  item10.description := "Controlling bladder" ;
+  item10.scoreWithMajorHelp := 5 ;
+  item10.scoreWithSomeHelp := 5 ;
+  item10.scoreIndependent := 10 ;
+
+
