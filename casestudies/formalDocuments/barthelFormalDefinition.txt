@@ -1,0 +1,10 @@
+1. Feeding (if food needs to be cut up = help)    5      10
+2. Moving from wheelchair to bed and return (includes sitting up in bed)   5-10 15
+3. Personal toilet (wash face, comb hair, shave, clean teeth)  0   5
+4. Getting on and off toilet (handling clothes, wipe, flush)   5   10
+5. Bathing self                                   0      5
+6. Walking on level surface (or if unable to walk, propel wheelchair)  0-10   15
+7. Ascend and descend stairs                      5     10
+8. Dressing (includes tying shoes, fastening fasteners)   5    10
+9. Controlling bowels                             5     10
+10. Controlling bladder                           5     10
