@@ -17,3 +17,8 @@ HH19 model:
 >>> Verb completeness score: 0.4
 >>> Noun completeness score: 0.0
 
+Elal18 model: 
+
+>>> Verb completeness score: 1.0
+>>> Noun completeness score: 0.07692307692307693
+

@@ -1,4 +1,4 @@
-Comparison of AgileUML, HH19 and simple heuristic solutions wrt manually-created reference model, using compareModels.bat script.
+Comparison of AgileUML, HH19, Elal18 and simple heuristic solutions wrt manually-created reference model, using compareModels.bat script.
 
 
 >>> classes comparison: mmk3ucsReferenceModel <: k3ucsAgileUML = 0.11864406779661017 attributes: 0.036076318143187444
@@ -33,3 +33,12 @@ Comparison of AgileUML, HH19 and simple heuristic solutions wrt manually-created
 >>> use cases comparison: k3ucsHeuristicResult <: mmk3ucsReferenceModel = 0.7142173608173956
 >>> Similarity of mmk3ucsReferenceModel use cases and k3ucsHeuristicResult use cases is: 0.5695535419054583
 
+
+>>> classes comparison: mmk3ucsReferenceModel <: Elal18k3ucs = 0.0 attributes: 0.0
+>>> classes comparison: Elal18k3ucs <: mmk3ucsReferenceModel = 1
+>>> Similarity of mmk3ucsReferenceModel classes and Elal18k3ucs classes is: 0.0
+>>> Similarity of mmk3ucsReferenceModel attributes and Elal18k3ucs attributes is: 0.0
+
+>>> use cases comparison: mmk3ucsReferenceModel <: Elal18k3ucs = 0.0
+>>> use cases comparison: Elal18k3ucs <: mmk3ucsReferenceModel = 1
+>>> Similarity of mmk3ucsReferenceModel use cases and Elal18k3ucs use cases is: 0.0

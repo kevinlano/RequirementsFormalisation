@@ -17,3 +17,24 @@ C:\Users\klano\Documents\icse\nlpDSL>python checkModelNames.py --model mmk3ucsAg
 >>> Usecase validity score: 1.0
 >>> Total number of flaws = 3
 
+C:\Users\klano\Documents\icse\nlpDSL>python checkModelNames.py --model Elal18k3ucs.km3
+!! Use case name NursingStaffMembersbeaddsequence should have initial lower case letter
+!! Use case name NursingStaffMembersbeaddcohortsystemidentifiedmonthyear should have initial lower case letter
+!! Use case name NursingStaffMembersbeaddnursingdepartmentsystem should have initial lower case letter
+!! Use case name Administrators/NursingStaffMembersbecreateProgramStudy should have initial lower case letter
+!! Use case name NursingStaffMembershaveabilityspecifyarerequiredProgramStudy should have initial lower case letter
+!! Use case name NursingStaffMembersbeaddsitesystem should have initial lower case letter
+!! Use case name NursingStaffMembersbeaddlabsectionexistingclassSystem should have initial lower case letter
+!! Use case name NursingStaffMembersbeaddstudenthasregisteredclasslabsectionclass should have initial lower case letter
+!! Use case name Administrators/NursingStaffMembersbecancellabsectionarelabsection should have initial lower case letter
+!! Use case name Administrator/NursingStaffMemberbeaddnursingstudentsystem should have initial lower case letter
+!! Use case name Administrators/NursingStaffMembershaveabilitymodifyinformationrelatingincludingcohortprogramstudysequencecohortbetaking should have initial lower case letter
+!! Use case name Administrators/NursingStaffMembershaveabilitymodifyinformationrelatingProgramStudyNursingDepartmentincludingProgramstudynameProgramStudy should have initial lower case letter
+!! Use case name Administrators/NursingStaffMembershaveabilitymodifyinformationrelatingSiteincludingsitenamesitecontactpersoninformationaddress should have initial lower case letter
+!! Use case name Administrators/NursingStaffMembershaveabilitymodifyinformationrelatingLabSectionincludingsitenamedepartment/sectionlabclassinstructordaytimelabcontactinformation should have initial lower case letter
+!! Use case name Administrators/NursingStaffMembershaveabilitymodifyinformationrelatingNursingStudentincludingstudentIDstudentnamephonenumberstatustimeparttimeprogramstudy should have initial lower case letter
+!! Class name system NN should be singular noun with initial capital
+!! Class name staff NN should be singular noun with initial capital
+>>> Class validity score: 0.3333333333333333
+>>> Usecase validity score: 0.4230769230769231
+>>> Total number of flaws = 17
