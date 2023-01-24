@@ -1,0 +1,62 @@
+package appElal18 { 
+
+class Program { }
+
+class system { }
+
+class staff { }
+
+usecase NursingStaffMembersbeaddsequence { actor = Program; }
+
+usecase NursingStaffMembersbeaddcohortsystemidentifiedmonthyear { actor = Program; }
+
+usecase NursingStaffMembersbeaddnursingdepartmentsystem { actor = Program; }
+
+usecase Administrators/NursingStaffMembersbecreateProgramStudy { actor = Program; }
+
+usecase NursingStaffMembershaveabilityspecifyarerequiredProgramStudy { actor = Program; }
+
+usecase bedisplayreportgivenquarterProgramAdministrators/NursingStaffMembersplanning { actor = system; }
+
+usecase NursingStaffMembersbeaddsitesystem { actor = Program; }
+
+usecase NursingStaffMembersbeaddlabsectionexistingclassSystem { actor = Program; }
+
+usecase NursingStaffMembersbeaddstudenthasregisteredclasslabsectionclass { actor = Program; }
+
+usecase allowProgramAdministratorNursingstaffmemberremovestudentlabsection { actor = system; }
+
+usecase allowProgramAdministrator/NursingStaffMembermovestudentlabsectionlabsectioncorrespondingclass { actor = system; }
+
+usecase Administrators/NursingStaffMembersbecancellabsectionarelabsection { actor = Program; }
+
+usecase Administrator/NursingStaffMemberbeaddnursingstudentsystem { actor = Program; }
+
+usecase memberhaveabilitymanageprogressparttimestudentincludesmodifyingsequencetimeline { actor = staff; }
+
+usecase bedisplaysummaryincludeProgramstudysequencecohortprogressprogramtimelinecompletion { actor = system; }
+
+usecase bedisplaysummaryincludeinformationlabsbeingheldsitegivenquarterClinicalsiteinformationheldlocationheld { actor = system; }
+
+usecase bedisplaysummarylabsincludebelimitedclassnameclassnumbersectionlistinginstructordaytimelocation { actor = system; }
+
+usecase bedisplaysummarynursingincludebelimitedstudentnamestudentIDadmissiondateclassesGPAcohortstudentisenrolled { actor = system; }
+
+usecase bedisplaysummarysystemlog { actor = system; }
+
+usecase notifyoccuraffectingincludingsequencecohortprogramstudygivenweekschedulelabcancelledweekinstructorillness { actor = system; }
+
+usecase notifyoccuraffectingincludingchangingstudentstatustimeparttimemovingstudentsection { actor = system; }
+
+usecase Administrators/NursingStaffMembershaveabilitymodifyinformationrelatingincludingcohortprogramstudysequencecohortbetaking { actor = Program; }
+
+usecase Administrators/NursingStaffMembershaveabilitymodifyinformationrelatingProgramStudyNursingDepartmentincludingProgramstudynameProgramStudy { actor = Program; }
+
+usecase Administrators/NursingStaffMembershaveabilitymodifyinformationrelatingSiteincludingsitenamesitecontactpersoninformationaddress { actor = Program; }
+
+usecase Administrators/NursingStaffMembershaveabilitymodifyinformationrelatingLabSectionincludingsitenamedepartment/sectionlabclassinstructordaytimelabcontactinformation { actor = Program; }
+
+usecase Administrators/NursingStaffMembershaveabilitymodifyinformationrelatingNursingStudentincludingstudentIDstudentnamephonenumberstatustimeparttimeprogramstudy { actor = Program; }
+
+
+}
