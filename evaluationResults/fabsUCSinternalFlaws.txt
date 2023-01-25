@@ -23,3 +23,17 @@ HH19 solution:
 >python checkModelNames.py --model fabsHH19Solution.km3
 >>> Usecase validity score: 1.0
 >>> Total number of flaws = 0
+
+Elal18 solution: 
+
+>python checkModelNames.py --model Elal18fabs.km3
+
+!! Class name owner NN should be singular noun with initial capital
+!! Class name data NNS should be singular noun with initial capital
+!! Class name agency NN should be singular noun with initial capital
+!! Class name user NN should be singular noun with initial capital
+!! Class name broker NN should be singular noun with initial capital
+!! Class name tester NN should be singular noun with initial capital
+>>> Class validity score: 0.5714285714285714
+>>> Usecase validity score: 1.0
+>>> Total number of flaws = 6
