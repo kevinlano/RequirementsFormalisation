@@ -1,0 +1,207 @@
+class UI { }
+
+class Developer { }
+
+class DevOps { }
+
+class Broker { }
+
+class Website { }
+
+class owner { }
+
+class Agency { }
+
+class Owner { }
+
+class data { }
+
+class agency { }
+
+class user { }
+
+class broker { }
+
+class FABS { }
+
+class tester { }
+
+usecase designerwantredesignResourcespagematchesBrokerdesign { actor = UI; }
+
+usecase designerwantreportAgenciestestingaremakingBrokerUX { actor = UI; }
+
+usecase designerwantmoveroundDABSFABSpagegetleadership { actor = UI; }
+
+usecase designerwantmoveroundHomepagegetleadership { actor = UI; }
+
+usecase designerwantmoveroundHelppagegetleadership { actor = UI; }
+
+usecase wantbelogtroubleshoot { actor = Developer; }
+
+usecase wantaddFABSsubmissionbemodifiedpublishStatusknowstatussubmissionhaschanged { actor = Developer; }
+
+usecase engineerwantNewRelicprovide { actor = DevOps; }
+
+usecase designerwantmoveroundHelppagegetleadership { actor = UI; }
+
+usecase designerwantmoveroundHomepagegetleadership { actor = UI; }
+
+usecase userwantUploadValidateerrormessagehavetext { actor = Broker; }
+
+usecase userwantD1filegenerationbesyncedFPDSloaddohaveregeneratefiledatahasbeenupdated { actor = Broker; }
+
+usecase userwantaccesspublishedFABSseecome { actor = Website; }
+
+usecase wantbeUSAspendingsendgrantsystem { actor = owner; }
+
+usecase wantupdateBrokervalidationruletableaccountruleupdatesDB-2213 { actor = Developer; }
+
+usecase wantaddGTASwindowdatabaseensuresiteislockedGTASsubmissionperiod { actor = Developer; }
+
+usecase wantFilesgenerationbemanagedcachedduplicatedocauseperformance { actor = Developer; }
+
+usecase userwantbeincludenumberperformanceimpact { actor = Agency; }
+
+usecase userwanthelpcreatesubmit { actor = Broker; }
+
+usecase designerwanttrackcomeTechThursdayknowtestwantsbefixed { actor = UI; }
+
+usecase wantcreatetestingsummaryUISMEknowUIimprovementsfollow { actor = Owner; }
+
+usecase designerwantbegintestingvalidatestakeholderUIimprovement { actor = UI; }
+
+usecase designerwantscheduletestinggivenoticeensurebuy-in { actor = UI; }
+
+usecase wantdesignscheduleUISMEknowtimelineUI { actor = Owner; }
+
+usecase wantdesignauditUISMEknowscopeUI { actor = Owner; }
+
+usecase wantpreventpublishingFABSrefreshingare { actor = Developer; }
+
+usecase userwantreceiveFABS { actor = data; }
+
+usecase userwantbeincludenumberperformanceimpact { actor = Agency; }
+
+usecase wantupdateFABSsamplefileremoveFundingAgencyCodeFABSisupdatedrequireheader { actor = Developer; }
+
+usecase userwantensureFSRSareincluded { actor = agency; }
+
+usecase wantseeassistance { actor = user; }
+
+usecase wantbuttonFABSdeactivateclickarehappeningclicksubmission { actor = user; }
+
+usecase wantensurecorrectdeletedocreatepublished { actor = Developer; }
+
+usecase wantresetenvironmenttakeStagingMAXensureFABStestershaveaccess { actor = Owner; }
+
+usecase wantsubmissionfileappearwarningerrorerrorismissingelement { actor = user; }
+
+usecase wanthaveaccuraterelatedPPoPCodePPoPCongressionalDistrict { actor = user; }
+
+usecase userwantFABSvalidationacceptblankloan { actor = agency; }
+
+usecase userwantdeployedproductionsubmitFinancialAssistancedata { actor = Agency; }
+
+usecase wantclarifyistriggeringCFDAerrorcodecase { actor = Developer; }
+
+usecase userwantbecomingSAMis { actor = agency; }
+
+usecase wantdomainbegetvalidationamounttime { actor = Developer; }
+
+usecase userwantFABSvalidationacceptblank { actor = agency; }
+
+usecase teammemberwantmakeSQLclarity { actor = broker; }
+
+usecase userwanthavederived { actor = agency; }
+
+usecase teammemberwantadd*****PPoPCodederivationlogic { actor = broker; }
+
+usecase userwantseeofficederivedofficehavecontextunderstanding { actor = data; }
+
+usecase userwantFABSloaderderiveagencyarePublishedAwardFinancialAssistancetable { actor = broker; }
+
+usecase teammemberwantensureBrokerPPareupdatedlaunchFABSDAIMSv1.1 { actor = broker; }
+
+usecase wantFABSincludeFREChaveFRECdataUSASpending.gov { actor = Developer; }
+
+usecase dowantseeNASA { actor = user; }
+
+usecase wantDUNSacceptareBCDDUNSisregisteredSAMhaveexpired { actor = user; }
+
+usecase wantDUNSacceptareregistrationdateSAMregistrationdate { actor = user; }
+
+usecase teammemberwantderiveFundingAgencyCodequalitycompleteness { actor = broker; }
+
+usecase userwantlengthallowedLegalEntityAddressLine3matchSchemav1.1 { actor = agency; }
+
+usecase userwantuseschemav1.1FABSfile { actor = agency; }
+
+usecase userwantmapFederalActionObligationAtomFeed { actor = agency; }
+
+usecase userwanthavePPoPZIP+4workLegalEntityZIP { actor = Broker; }
+
+usecase userwantlinkSAMPLEFILEwantsubmitdialogpointcorrectfilehavereferenceagency { actor = FABS; }
+
+usecase userwantFPDSbe { actor = Agency; }
+
+usecase wantdeterminegeneratevalidateDFilesFABSFPDS { actor = Developer; }
+
+usecase wantgeneratevalidateDFilesFABSFPDS { actor = user; }
+
+usecase userwantheaderinformationboxshowdateANDtimeknowupdated { actor = Agency; }
+
+usecase userwantreceiveerroruploadfileextension { actor = Agency; }
+
+usecase wanthaveaccesstestStagingtestfeatureenvironment { actor = tester; }
+
+usecase userwantsubmissionrepresentFABSknowsubmissionwork { actor = FABS; }
+
+usecase userwantfrontendURLsreflectpage'maccessing'mconfused { actor = FABS; }
+
+usecase wantFPDSloaderincludeFPDS { actor = Developer; }
+
+usecase userwantseesubmission'mconfusedsubmission { actor = Agency; }
+
+usecase userwantgetFileFformat { actor = agency; }
+
+usecase userwantunderstand { actor = Agency; }
+
+usecase wantprovideFABSfunctionFRECparadigm { actor = Developer; }
+
+usecase wantensureFABSisderivingtestfilecheck { actor = tester; }
+
+usecase wantjustifypadding { actor = owner; }
+
+usecase userwantsubmitreceivingDUNSerror { actor = Broker; }
+
+usecase wantinformationbepublisheddecidingpublish { actor = user; }
+
+usecase wantpreventbeingpublisheddealtimegapvalidationpublishingdecision { actor = Developer; }
+
+usecase userwantsubmitcitywidePPoPZIPpass { actor = FABS; }
+
+usecase userwanthaveupdatederrorcodesreflectlogicprovideinformationfixsubmission { actor = Broker; }
+
+usecase userwantleaveZIPerrorcomplete { actor = agency; }
+
+usecase userwantmakeincludesinformationdatabaseis { actor = FABS; }
+
+usecase userwanthelpfulinfosubmissiondashboardbettermanageIG { actor = FABS; }
+
+usecase userwantdownloadFABSfilegetfile { actor = FABS; }
+
+usecase wantaccessBrokerapplicationinvestigate { actor = Developer; }
+
+usecase wantdeterminewayloadFPDSdataloadFPDS { actor = Developer; }
+
+usecase userwantlanguageFABSbeamconfused { actor = FABS; }
+
+usecase userdowantDABSbannerviceversahaveinformationapplication { actor = FABS; }
+
+usecase userwanthaveaccessDABSviewDABSwanting { actor = FABS; }
+
+usecase userwanthaverunamounttime { actor = FABS; }
+
+usecase userwantseestatusSubmissionDashboardseesubmissionhistory { actor = FABS; }
+
+
