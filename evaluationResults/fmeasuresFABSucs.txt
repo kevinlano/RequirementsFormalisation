@@ -1,0 +1,488 @@
+Expected use cases (94):
+>>> use case redesignTheResourcesPage has return type void
+>>> use case reportToTheAgency has return type void
+>>> use case move2Round2 has return type void
+>>> use case move2Round3 has return type void
+>>> use case beginUserTesting has return type void
+>>> use case scheduleUserTesting has return type void
+>>> use case issueTracking has return type void
+>>> use case logBetter has return type void
+>>> use case addUpdatesFABSsubmission_modifiedWhenPublishStatusChanges has return type void
+>>> use case updateBrokerValidation has return type void
+>>> use case addGTASWindowDataToTheDatabase has parameters []
+>>> use case fileGeneration has parameters []
+>>> use case dFilesGenerationRequestsToBeManagedAndCached has parameters []
+>>> use case preventUsersDoublePublishingFABSsubmissions has parameters []
+>>> use case updateFABSSampleFileToRemoveFundingAgencyCodeAfterFABSisUpdated has parameters []
+>>> use case ensureAttemptsToCorrectOrDeleteNonExistentRecordsDontCreateNewPublishedData has parameters []
+>>> use case clarifyToUsersWhatTriggersCFDAErrorCode has parameters []
+>>> use case indexDomainModels has parameters []
+>>> use case determineHowAgenciesWillGenerateAndValidateDFilesFromFABSandFPDSdata has parameters []
+>>> use case dataLoadedFromHistoricalFABStoIncludeFRECderivations has parameters []
+>>> use case historicalFPDSDataLoaderToIncludeExtractedHistoricalDataAndFPDSFeedData has parameters []
+>>> use case provideFABSGroupsThatFunctionUnderFRECParadigm has parameters []
+>>> use case quicklyAccessBrokerApplicationData has parameters []
+>>> use case determineBestWay2LoadHistoricalFPDSData has parameters []
+>>> use case preventDuplication_transactionsBeingPublished has parameters []
+>>> use case newRelicToProvideUsefulDataAcrossAllAppliations has parameters []
+>>> use case uploadAndValidateTheErrorMessage has parameters []
+>>> use case d1FileGenerationToBeSyncedWithFPDSDataLoad has parameters []
+>>> use case helpToCreateContentMockups has parameters []
+>>> use case makeSomeUpdatesToSQLCodesForClarity has parameters []
+>>> use case addPPoPCodeCasesToDerivationLogic has parameters []
+>>> use case historicalFABSLoaderToDeriveFields has parameters []
+>>> use case ensureBrokerResourcesValidatesPandPpagesAreUpdatedAppropriately has parameters []
+>>> use case updateSQL has parameters []
+>>> use case deriveFundingAgencyCode has parameters []
+>>> use case submitRecordsForIndividualRecipiants has parameters []
+>>> use case havePPoPZIP4workTheSameAsLegalEntityZIPvalidations has parameters []
+>>> use case haveUpdatedErrorCodesThatAccuratelyReflectLogicAndProvideEnoughInformation has parameters []
+>>> use case accessPublishedFABSFiles has parameters []
+>>> use case seeUpdatedFinancialAssistanceDataDaily has parameters []
+>>> use case sureThatUSASpendingOnlySendsGrantRecordsToMySystem has parameters []
+>>> use case createUserTestingSummaryFromUI_SME has parameters []
+>>> use case designScheduleFromUI_SME has parameters []
+>>> use case designAuditFromUI_SME has parameters []
+>>> use case resetEnvironmentToOnlyTakeStagingMAXPermissions has parameters []
+>>> use case onlyWantZeroPaddedFields has parameters []
+>>> use case publishButtonToDeactivateAfterIClickItWhileDerivationsAreHappening has parameters []
+>>> use case wantFlexFieldsInSubmissionFileToAppearInWarningAndErrorFiles has parameters []
+>>> use case wantToHaveAccurateAndCompletePPoPCodePoPPCongressionalDistrictData has parameters []
+>>> use case doNotWantToSeeNASAGrantsDisplayedAsContracts has parameters []
+>>> use case wantDUNSValidationsToAcceptRecordsWithActionTypeBCorD has parameters []
+>>> use case wantDUNSValidationsToAcceptRecordsWithActionDateBeforeCurrentRegistration has parameters []
+>>> use case generateAndValidateDFiles has parameters []
+>>> use case wantMoreInformationAboutNumberOfRowsToBePublished has parameters []
+>>> use case accessRawAgencyPublishedFilesFromFABS has parameters []
+>>> use case includeLargeNumberOfFlexfieldsWithoutPerformanceImpact has parameters []
+>>> use case ensureThatdeletedFSRSRecordsAreExcludedFromSubmissions has parameters []
+>>> use case wantFABSValidationRulesToAcceptZeroAndBlankForLoanRecords has parameters []
+>>> use case wantFABSValidationRulesToAcceptZeroAndBlankForNonLoanRecords has parameters []
+>>> use case wantFABSDeployedIntoProduction has parameters []
+>>> use case wantToBeConfidentThatDataFromSAMIsComplete has parameters []
+>>> use case allDeriveDataElementsDerivedProperly has parameters []
+>>> use case maximumLengthAllowedForLegalEntityAddressLine3ToMatchSchemav1p1 has parameters []
+>>> use case useSchemaV1p1Headers has parameters []
+>>> use case mapFederalActionObligationToAtomFeed has parameters []
+>>> use case wantFPDSDataToBeUpToDateDaily has parameters []
+>>> use case headerInformationBoxToShowUpdatedDateANDTime has parameters []
+>>> use case receiveMoreHelpfulFileLevelError has parameters []
+>>> use case allHistoricalFinancialAssistanceDataLoaded has parameters []
+>>> use case loadHistoricalFPDSData has parameters []
+>>> use case accuratelySeeSubmissionCreator has parameters []
+>>> use case getFileFInCorrectFormat has parameters []
+>>> use case betterUnderstandFileLevelErrors has parameters []
+>>> use case leaveOffLast4DigitsOfZIPWithoutError has parameters []
+>>> use case seeOfficeNamesDerivedFromOfficeCodes has parameters []
+>>> use case accessTwoAdditionalFPDSFieldsFromFPDSDataPull has parameters []
+>>> use case receiveFABSUpdates has parameters []
+>>> use case showOfficeNamesDerivedFromCodes has parameters []
+>>> use case accessAdditionalFieldsFromFPDSPull has parameters []
+>>> use case receiveUpdatesToFABSRecords has parameters []
+>>> use case linkSampleFileOnWhatYouWantToSubmitDialogToPointToCorrectFile has parameters []
+>>> use case submissionErrorsToAccuratelyRepresentFABSErrors has parameters []
+>>> use case wantFrontendURLsToMoreAccuratelyReflectPageIamAccessing has parameters []
+>>> use case ensureHistoricalDataIncludesAllNecessaryColumns has parameters []
+>>> use case additionalHelpfulInfoInSubmissionDashboard has parameters []
+>>> use case downloadUploadedFABSFile has parameters []
+>>> use case languageOnFABSPagesToBeAppropriate has parameters []
+>>> use case doNotWantDABSbannerMessagesAndViceVersa has parameters []
+>>> use case wantReadOnlyAccessToDABS has parameters []
+>>> use case validationsRunInReasonableTime has parameters []
+>>> use case seeCorrectStatusLabelsOnSubmissionDashboard has parameters []
+>>> use case submitCitywideAsPPoPZIP has parameters []
+>>> use case accessTestFeaturesInEnvironmentsOtherThanStaging has parameters []
+>>> use case ensureFABSIsDerivingFieldsProperlyThroughRobustTestFilePlusFollowupCheck has parameters []
+
+Elal18: 
+>>> use case redesignTheResourcesPage *
+>>> use case reportToTheAgency *
+>>> use case move2Round2 
+>>> use case move2Round3 
+>>> use case beginUserTesting 
+>>> use case scheduleUserTesting *
+>>> use case issueTracking
+>>> use case logBetter 
+>>> use case addUpdatesFABSsubmission_modifiedWhenPublishStatusChanges *
+>>> use case updateBrokerValidation *
+>>> use case addGTASWindowDataToTheDatabase *
+>>> use case fileGeneration *
+>>> use case dFilesGenerationRequestsToBeManagedAndCached *
+>>> use case preventUsersDoublePublishingFABSsubmissions 
+>>> use case updateFABSSampleFileToRemoveFundingAgencyCodeAfterFABSisUpdate *
+>>> use case ensureAttemptsToCorrectOrDeleteNonExistentRecordsDontCreateNewPublishedData 
+>>> use case clarifyToUsersWhatTriggersCFDAErrorCode *
+>>> use case indexDomainModels
+>>> use case determineHowAgenciesWillGenerateAndValidateDFilesFromFABSandFPDSdata *
+>>> use case dataLoadedFromHistoricalFABStoIncludeFRECderivations
+>>> use case historicalFPDSDataLoaderToIncludeExtractedHistoricalDataAndFPDSFeedData 
+>>> use case provideFABSGroupsThatFunctionUnderFRECParadigm *
+>>> use case quicklyAccessBrokerApplicationData 
+>>> use case determineBestWay2LoadHistoricalFPDSData *
+>>> use case preventDuplication_transactionsBeingPublished 
+>>> use case newRelicToProvideUsefulDataAcrossAllAppliations *
+>>> use case uploadAndValidateTheErrorMessage *
+>>> use case d1FileGenerationToBeSyncedWithFPDSDataLoad *
+>>> use case helpToCreateContentMockups
+>>> use case makeSomeUpdatesToSQLCodesForClarity *
+>>> use case addPPoPCodeCasesToDerivationLogic *
+>>> use case historicalFABSLoaderToDeriveFields 
+>>> use case ensureBrokerResourcesValidatesPandPpagesAreUpdatedAppropriately 
+>>> use case updateSQL 
+>>> use case deriveFundingAgencyCode *
+>>> use case submitRecordsForIndividualRecipiants 
+>>> use case havePPoPZIP4workTheSameAsLegalEntityZIPvalidations 
+>>> use case haveUpdatedErrorCodesThatAccuratelyReflectLogicAndProvideEnoughInformation *
+>>> use case accessPublishedFABSFiles *
+>>> use case seeUpdatedFinancialAssistanceDataDaily 
+>>> use case sureThatUSASpendingOnlySendsGrantRecordsToMySystem *
+>>> use case createUserTestingSummaryFromUI_SME *
+>>> use case designScheduleFromUI_SME 
+>>> use case designAuditFromUI_SME *
+>>> use case resetEnvironmentToOnlyTakeStagingMAXPermissions *
+>>> use case onlyWantZeroPaddedFields
+>>> use case publishButtonToDeactivateAfterIClickItWhileDerivationsAreHappening *
+>>> use case wantFlexFieldsInSubmissionFileToAppearInWarningAndErrorFiles 
+>>> use case wantToHaveAccurateAndCompletePPoPCodePoPPCongressionalDistrictData *
+>>> use case doNotWantToSeeNASAGrantsDisplayedAsContracts
+>>> use case wantDUNSValidationsToAcceptRecordsWithActionTypeBCorD *
+>>> use case wantDUNSValidationsToAcceptRecordsWithActionDateBeforeCurrentRegistration 
+>>> use case generateAndValidateDFiles *
+>>> use case wantMoreInformationAboutNumberOfRowsToBePublished 
+>>> use case accessRawAgencyPublishedFilesFromFABS 
+>>> use case includeLargeNumberOfFlexfieldsWithoutPerformanceImpact
+>>> use case ensureThatdeletedFSRSRecordsAreExcludedFromSubmissions 
+>>> use case wantFABSValidationRulesToAcceptZeroAndBlankForLoanRecords *
+>>> use case wantFABSValidationRulesToAcceptZeroAndBlankForNonLoanRecords *
+>>> use case wantFABSDeployedIntoProduction 
+>>> use case wantToBeConfidentThatDataFromSAMIsComplete 
+>>> use case allDeriveDataElementsDerivedProperly
+>>> use case maximumLengthAllowedForLegalEntityAddressLine3ToMatchSchemav1p1 *
+>>> use case useSchemaV1p1Headers *
+>>> use case mapFederalActionObligationToAtomFeed *
+>>> use case wantFPDSDataToBeUpToDateDaily 
+>>> use case headerInformationBoxToShowUpdatedDateANDTime 
+>>> use case receiveMoreHelpfulFileLevelError
+>>> use case allHistoricalFinancialAssistanceDataLoaded
+>>> use case loadHistoricalFPDSData
+>>> use case accuratelySeeSubmissionCreator
+>>> use case getFileFInCorrectFormat *
+>>> use case betterUnderstandFileLevelErrors
+>>> use case leaveOffLast4DigitsOfZIPWithoutError *
+>>> use case seeOfficeNamesDerivedFromOfficeCodes *
+>>> use case accessTwoAdditionalFPDSFieldsFromFPDSDataPull
+>>> use case receiveFABSUpdates
+>>> use case showOfficeNamesDerivedFromCodes
+>>> use case accessAdditionalFieldsFromFPDSPull
+>>> use case receiveUpdatesToFABSRecords
+>>> use case linkSampleFileOnWhatYouWantToSubmitDialogToPointToCorrectFile 
+>>> use case submissionErrorsToAccuratelyRepresentFABSErrors 
+>>> use case wantFrontendURLsToMoreAccuratelyReflectPageIamAccessing 
+>>> use case ensureHistoricalDataIncludesAllNecessaryColumns 
+>>> use case additionalHelpfulInfoInSubmissionDashboard *
+>>> use case downloadUploadedFABSFile *
+>>> use case languageOnFABSPagesToBeAppropriate *
+>>> use case doNotWantDABSbannerMessagesAndViceVersa *
+>>> use case wantReadOnlyAccessToDABS
+>>> use case validationsRunInReasonableTime
+>>> use case seeCorrectStatusLabelsOnSubmissionDashboard *
+>>> use case submitCitywideAsPPoPZIP *
+>>> use case accessTestFeaturesInEnvironmentsOtherThanStaging
+>>> use case ensureFABSIsDerivingFieldsProperlyThroughRobustTestFilePlusFollowupCheck
+
+valid: 43*0.5 = 21.5/94 = 0.23
+
+
+Simple heuristic:
+redesignTheResourcesPage +
+reportToTheAgency +
+move2Round2 +
+move2Round3 +
+beginUserTesting +
+scheduleUserTesting +
+issueTracking
+logBetter +
+addUpdatesFABSsubmission_modifiedWhenPublishStatusChanges +
+updateBrokerValidation +
+addGTASWindowDataToTheDatabase +
+fileGeneration 
+dFilesGenerationRequestsToBeManagedAndCached
+preventUsersDoublePublishingFABSsubmissions +
+ updateFABSSampleFileToRemoveFundingAgencyCodeAfterFABSisUpdate+
+ensureAttemptsToCorrectOrDeleteNonExistentRecordsDontCreateNewPublishedData +
+clarifyToUsersWhatTriggersCFDAErrorCode +
+indexDomainModels
+determineHowAgenciesWillGenerateAndValidateDFilesFromFABSandFPDSdata +
+dataLoadedFromHistoricalFABStoIncludeFRECderivations
+historicalFPDSDataLoaderToIncludeExtractedHistoricalDataAndFPDSFeedData *
+provideFABSGroupsThatFunctionUnderFRECParadigm +
+quicklyAccessBrokerApplicationData 
+determineBestWay2LoadHistoricalFPDSData +
+preventDuplication_transactionsBeingPublished + newRelicToProvideUsefulDataAcrossAllAppliations *
+uploadAndValidateTheErrorMessage
+d1FileGenerationToBeSyncedWithFPDSDataLoad 
+helpToCreateContentMockups +
+makeSomeUpdatesToSQLCodesForClarity +
+addPPoPCodeCasesToDerivationLogic
+historicalFABSLoaderToDeriveFields *
+ensureBrokerResourcesValidatesPandPpagesAreUpdatedAppropriately 
+updateSQL 
+deriveFundingAgencyCode +
+submitRecordsForIndividualRecipiants +
+havePPoPZIP4workTheSameAsLegalEntityZIPvalidations 
+haveUpdatedErrorCodesThatAccuratelyReflectLogicAndProvideEnoughInformation
+accessPublishedFABSFiles
+seeUpdatedFinancialAssistanceDataDaily +
+sureThatUSASpendingOnlySendsGrantRecordsToMySystem
+createUserTestingSummaryFromUI_SME +
+designScheduleFromUI_SME +
+designAuditFromUI_SME +
+resetEnvironmentToOnlyTakeStagingMAXPermissions +
+onlyWantZeroPaddedFields
+publishButtonToDeactivateAfterIClickItWhileDerivationsAreHappening *
+wantFlexFieldsInSubmissionFileToAppearInWarningAndErrorFiles *
+wantToHaveAccurateAndCompletePPoPCodePoPPCongressionalDistrictData
+doNotWantToSeeNASAGrantsDisplayedAsContracts
+wantDUNSValidationsToAcceptRecordsWithActionTypeBCorD *
+wantDUNSValidationsToAcceptRecordsWithActionDateBeforeCurrentRegistration *
+generateAndValidateDFiles *
+wantMoreInformationAboutNumberOfRowsToBePublished 
+accessRawAgencyPublishedFilesFromFABS 
+includeLargeNumberOfFlexfieldsWithoutPerformanceImpact +
+ensureThatdeletedFSRSRecordsAreExcludedFromSubmissions +
+wantFABSValidationRulesToAcceptZeroAndBlankForLoanRecords *
+wantFABSValidationRulesToAcceptZeroAndBlankForNonLoanRecords
+wantFABSDeployedIntoProduction 
+wantToBeConfidentThatDataFromSAMIsComplete 
+allDeriveDataElementsDerivedProperly
+maximumLengthAllowedForLegalEntityAddressLine3ToMatchSchemav1p1
+useSchemaV1p1Headers *
+mapFederalActionObligationToAtomFeed +
+wantFPDSDataToBeUpToDateDaily 
+headerInformationBoxToShowUpdatedDateANDTime *
+receiveMoreHelpfulFileLevelError +
+allHistoricalFinancialAssistanceDataLoaded
+loadHistoricalFPDSData *
+accuratelySeeSubmissionCreator *
+getFileFInCorrectFormat +
+betterUnderstandFileLevelErrors *
+leaveOffLast4DigitsOfZIPWithoutError +
+seeOfficeNamesDerivedFromOfficeCodes +
+accessTwoAdditionalFPDSFieldsFromFPDSDataPull
+receiveFABSUpdates 
+showOfficeNamesDerivedFromCodes
+accessAdditionalFieldsFromFPDSPull
+receiveUpdatesToFABSRecords +
+linkSampleFileOnWhatYouWantToSubmitDialogToPointToCorrectFile +
+submissionErrorsToAccuratelyRepresentFABSErrors +
+wantFrontendURLsToMoreAccuratelyReflectPageIamAccessing *
+ensureHistoricalDataIncludesAllNecessaryColumns +
+additionalHelpfulInfoInSubmissionDashboard *
+downloadUploadedFABSFile +
+languageOnFABSPagesToBeAppropriate
+doNotWantDABSbannerMessagesAndViceVersa *
+wantReadOnlyAccessToDABS *
+validationsRunInReasonableTime *
+seeCorrectStatusLabelsOnSubmissionDashboard +
+submitCitywideAsPPoPZIP +
+accessTestFeaturesInEnvironmentsOtherThanStaging *
+ensureFABSIsDerivingFieldsProperlyThroughRobustTestFilePlusFollowupCheck +
+
+
+correct: 42 + 0.5*20 = 52/94 = 0.553
+ 
+
+HH19:
+redesignTheResourcesPage *
+reportToTheAgency
+move2Round2
+move2Round3
+beginUserTesting +
+scheduleUserTesting
+issueTracking
+logBetter
+addUpdatesFABSsubmission_modifiedWhenPublishStatusChanges *
+updateBrokerValidation *
+addGTASWindowDataToTheDatabase
+fileGeneration 
+dFilesGenerationRequestsToBeManagedAndCached *
+preventUsersDoublePublishingFABSsubmissions
+updateFABSSampleFileToRemoveFundingAgencyCodeAfterFABSisUpdate
+ensureAttemptsToCorrectOrDeleteNonExistentRecordsDontCreateNewPublishedData
+clarifyToUsersWhatTriggersCFDAErrorCode
+indexDomainModels *
+determineHowAgenciesWillGenerateAndValidateDFilesFromFABSandFPDSdata
+dataLoadedFromHistoricalFABStoIncludeFRECderivations
+historicalFPDSDataLoaderToIncludeExtractedHistoricalDataAndFPDSFeedData
+provideFABSGroupsThatFunctionUnderFRECParadigm
+quicklyAccessBrokerApplicationData *
+determineBestWay2LoadHistoricalFPDSData *
+preventDuplication_transactionsBeingPublished * newRelicToProvideUsefulDataAcrossAllAppliations
+uploadAndValidateTheErrorMessage *
+d1FileGenerationToBeSyncedWithFPDSDataLoad 
+helpToCreateContentMockups
+makeSomeUpdatesToSQLCodesForClarity
+addPPoPCodeCasesToDerivationLogic
+historicalFABSLoaderToDeriveFields *
+ensureBrokerResourcesValidatesPandPpagesAreUpdatedAppropriately *
+updateSQL 
+deriveFundingAgencyCode +
+submitRecordsForIndividualRecipiants
+havePPoPZIP4workTheSameAsLegalEntityZIPvalidations 
+haveUpdatedErrorCodesThatAccuratelyReflectLogicAndProvideEnoughInformation
+accessPublishedFABSFiles
+seeUpdatedFinancialAssistanceDataDaily *
+sureThatUSASpendingOnlySendsGrantRecordsToMySystem
+createUserTestingSummaryFromUI_SME
+designScheduleFromUI_SME *
+designAuditFromUI_SME *
+resetEnvironmentToOnlyTakeStagingMAXPermissions *
+onlyWantZeroPaddedFields *
+publishButtonToDeactivateAfterIClickItWhileDerivationsAreHappening
+wantFlexFieldsInSubmissionFileToAppearInWarningAndErrorFiles
+wantToHaveAccurateAndCompletePPoPCodePoPPCongressionalDistrictData
+doNotWantToSeeNASAGrantsDisplayedAsContracts
+wantDUNSValidationsToAcceptRecordsWithActionTypeBCorD
+wantDUNSValidationsToAcceptRecordsWithActionDateBeforeCurrentRegistration
+generateAndValidateDFiles
+wantMoreInformationAboutNumberOfRowsToBePublished * 
+accessRawAgencyPublishedFilesFromFABS 
+includeLargeNumberOfFlexfieldsWithoutPerformanceImpact
+ensureThatdeletedFSRSRecordsAreExcludedFromSubmissions
+wantFABSValidationRulesToAcceptZeroAndBlankForLoanRecords
+wantFABSValidationRulesToAcceptZeroAndBlankForNonLoanRecords
+wantFABSDeployedIntoProduction 
+wantToBeConfidentThatDataFromSAMIsComplete 
+allDeriveDataElementsDerivedProperly
+maximumLengthAllowedForLegalEntityAddressLine3ToMatchSchemav1p1 *
+useSchemaV1p1Headers *
+mapFederalActionObligationToAtomFeed *
+wantFPDSDataToBeUpToDateDaily 
+headerInformationBoxToShowUpdatedDateANDTime 
+receiveMoreHelpfulFileLevelError
+allHistoricalFinancialAssistanceDataLoaded
+loadHistoricalFPDSData
+accuratelySeeSubmissionCreator
+getFileFInCorrectFormat *
+betterUnderstandFileLevelErrors
+leaveOffLast4DigitsOfZIPWithoutError
+seeOfficeNamesDerivedFromOfficeCodes
+accessTwoAdditionalFPDSFieldsFromFPDSDataPull *
+receiveFABSUpdates 
+showOfficeNamesDerivedFromCodes
+accessAdditionalFieldsFromFPDSPull
+receiveUpdatesToFABSRecords
+linkSampleFileOnWhatYouWantToSubmitDialogToPointToCorrectFile 
+submissionErrorsToAccuratelyRepresentFABSErrors
+wantFrontendURLsToMoreAccuratelyReflectPageIamAccessing
+ensureHistoricalDataIncludesAllNecessaryColumns
+additionalHelpfulInfoInSubmissionDashboard
+downloadUploadedFABSFile
+languageOnFABSPagesToBeAppropriate
+doNotWantDABSbannerMessagesAndViceVersa
+wantReadOnlyAccessToDABS
+validationsRunInReasonableTime
+seeCorrectStatusLabelsOnSubmissionDashboard *
+submitCitywideAsPPoPZIP *
+accessTestFeaturesInEnvironmentsOtherThanStaging
+ensureFABSIsDerivingFieldsProperlyThroughRobustTestFilePlusFollowupCheck
+
+2 + 25*0.5 = 14.5/94 = 0.15
+ 
+AgileUML:
+redesignTheResourcesPage *
+reportToTheAgency +
+move2Round2 +
+move2Round3 +
+beginUserTesting +
+scheduleUserTesting +
+issueTracking +
+logBetter +
+addUpdatesFABSsubmission_modifiedWhenPublishStatusChanges +
+updateBrokerValidation +
+addGTASWindowDataToTheDatabase +
+fileGeneration 
+dFilesGenerationRequestsToBeManagedAndCached +
+preventUsersDoublePublishingFABSsubmissions +
+updateFABSSampleFileToRemoveFundingAgencyCodeAfterFABSisUpdate +
+ensureAttemptsToCorrectOrDeleteNonExistentRecordsDontCreateNewPublishedData *
+clarifyToUsersWhatTriggersCFDAErrorCode +
+indexDomainModels *
+determineHowAgenciesWillGenerateAndValidateDFilesFromFABSandFPDSdata +
+dataLoadedFromHistoricalFABStoIncludeFRECderivations +
+historicalFPDSDataLoaderToIncludeExtractedHistoricalDataAndFPDSFeedData +
+provideFABSGroupsThatFunctionUnderFRECParadigm +
+quicklyAccessBrokerApplicationData +
+determineBestWay2LoadHistoricalFPDSData +
+preventDuplication_transactionsBeingPublished + newRelicToProvideUsefulDataAcrossAllApplications +
+uploadAndValidateTheErrorMessage +
+d1FileGenerationToBeSyncedWithFPDSDataLoad +
+helpToCreateContentMockups +
+makeSomeUpdatesToSQLCodesForClarity +
+addPPoPCodeCasesToDerivationLogic *
+historicalFABSLoaderToDeriveFields +
+ensureBrokerResourcesValidatesPandPpagesAreUpdatedAppropriately *
+updateSQL 
+deriveFundingAgencyCode +
+submitRecordsForIndividualRecipiants +
+havePPoPZIP4workTheSameAsLegalEntityZIPvalidations *
+haveUpdatedErrorCodesThatAccuratelyReflectLogicAndProvideEnoughInformation +
+accessPublishedFABSFiles +
+seeUpdatedFinancialAssistanceDataDaily +
+sureThatUSASpendingOnlySendsGrantRecordsToMySystem +
+createUserTestingSummaryFromUI_SME +
+designScheduleFromUI_SME +
+designAuditFromUI_SME +
+resetEnvironmentToOnlyTakeStagingMAXPermissions +
+onlyWantZeroPaddedFields *
+publishButtonToDeactivateAfterIClickItWhileDerivationsAreHappening +
+wantFlexFieldsInSubmissionFileToAppearInWarningAndErrorFiles +
+wantToHaveAccurateAndCompletePPoPCodePoPPCongressionalDistrictData +
+doNotWantToSeeNASAGrantsDisplayedAsContracts
+wantDUNSValidationsToAcceptRecordsWithActionTypeBCorD *
+wantDUNSValidationsToAcceptRecordsWithActionDateBeforeCurrentRegistration +
+generateAndValidateDFiles +
+wantMoreInformationAboutNumberOfRowsToBePublished + 
+accessRawAgencyPublishedFilesFromFABS +
+includeLargeNumberOfFlexfieldsWithoutPerformanceImpact +
+ensureThatdeletedFSRSRecordsAreExcludedFromSubmissions +
+wantFABSValidationRulesToAcceptZeroAndBlankForLoanRecords +
+wantFABSValidationRulesToAcceptZeroAndBlankForNonLoanRecords *
+wantFABSDeployedIntoProduction +
+wantToBeConfidentThatDataFromSAMIsComplete +
+allDeriveDataElementsDerivedProperly +
+maximumLengthAllowedForLegalEntityAddressLine3ToMatchSchemav1p1 *
+useSchemaV1p1Headers *
+mapFederalActionObligationToAtomFeed +
+wantFPDSDataToBeUpToDateDaily *
+headerInformationBoxToShowUpdatedDateANDTime +
+receiveMoreHelpfulFileLevelError *
+allHistoricalFinancialAssistanceDataLoaded *
+loadHistoricalFPDSData +
+accuratelySeeSubmissionCreator +
+getFileFInCorrectFormat +
+betterUnderstandFileLevelErrors *
+leaveOffLast4DigitsOfZIPWithoutError *
+seeOfficeNamesDerivedFromOfficeCodes +
+accessTwoAdditionalFPDSFieldsFromFPDSDataPull +
+receiveFABSUpdates 
+showOfficeNamesDerivedFromCodes
+accessAdditionalFieldsFromFPDSPull
+receiveUpdatesToFABSRecords +
+linkSampleFileOnWhatYouWantToSubmitDialogToPointToCorrectFile +
+submissionErrorsToAccuratelyRepresentFABSErrors +
+wantFrontendURLsToMoreAccuratelyReflectPageIamAccessing +
+ensureHistoricalDataIncludesAllNecessaryColumns +
+additionalHelpfulInfoInSubmissionDashboard +
+downloadUploadedFABSFile +
+languageOnFABSPagesToBeAppropriate +
+doNotWantDABSbannerMessagesAndViceVersa
+wantReadOnlyAccessToDABS *
+validationsRunInReasonableTime +
+seeCorrectStatusLabelsOnSubmissionDashboard +
+submitCitywideAsPPoPZIP +
+accessTestFeaturesInEnvironmentsOtherThanStaging +
+ensureFABSIsDerivingFieldsProperlyThroughRobustTestFilePlusFollowupCheck +
+
+70 + 13*0.5 = 76.5
+76.5/94 = 0.81
