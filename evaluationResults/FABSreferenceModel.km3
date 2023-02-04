@@ -1,0 +1,612 @@
+package FABS {
+
+abstract class Person
+{ } 
+
+class UIDesigner extends Person
+{ } 
+
+class Developer extends Person
+{ }
+
+class DevOpsEngineer extends Person
+{ }
+
+abstract class User extends Person
+{ } 
+
+class BrokerTeamMember extends Person
+{ } 
+
+class BrokerUser extends User
+{ } 
+
+class AgencyUser extends User
+{ }
+
+class WebsiteUser extends User
+{  }
+
+class DataUser extends User
+{ } 
+
+class FABSUser extends User
+{ } 
+
+class Owner extends Person
+{ }
+
+class Tester extends Person
+{ } 
+
+class FABS_submission 
+{ attribute publishStatus : OclAny; } 
+
+
+
+usecase redesignTheResourcesPage 
+  : void { 
+    stereotype actor="UIDesigner";
+    stereotype comment="so that it matches the new Broker design styles";
+    
+   } 
+
+  usecase reportToTheAgency 
+  : void { 
+  	stereotype actor="UIDesigner";
+  	stereotype comment="so that they are aware of their contributions to making Broker a better UX";
+   } 
+
+  usecase move2Round2 
+  : void { 
+  	stereotype actor="UIDesigner";
+  	stereotype comment="so that I can get approvals from leadership"; 
+   } 
+
+ usecase move2Round3 
+  : void { 
+  	stereotype actor="UIDesigner";
+  	stereotype comment="so that I can get approvals from leadership";  
+   } 
+
+  usecase beginUserTesting 
+  : void { 
+  	stereotype actor="UIDesigner";
+  	stereotype comment="so that I can validate stakeholder UI improvement requests";
+   } 
+
+  usecase scheduleUserTesting 
+  : void { 
+  	stereotype actor="UIDesigner";
+  	stereotype comment="so that I can give the testers advanced notice to ensure buy-in"; 
+   } 
+
+  usecase issueTracking 
+  : void { 
+  	stereotype actor="UIDesigner";
+  	stereotype comment=", so that I know what to test and what wants to be fixed";  
+   } 
+
+  usecase logBetter 
+  : void { 
+  	stereotype actor="Developer";
+  	stereotype comment=" so that I can troubleshoot issues with particular submissions and functions";
+   } 
+
+  usecase addUpdatesFABSsubmission_modifiedWhenPublishStatusChanges 
+  : void { 
+  	stereotype actor="Developer";
+      stereotype comment=" so that I know when the status of the submission has changed";
+  } 
+
+  usecase updateBrokerValidation 
+  : void { 
+  	stereotype actor="Developer";
+stereotype comment="to account for the rule updates in DB-2213";
+   } 
+
+  usecase addGTASWindowDataToTheDatabase 
+  : void { 
+  	stereotype actor="Developer";
+stereotype comment=" so that I can ensure the site is locked down during the GTAS submission period";
+   } 
+
+  usecase fileGeneration 
+  : void { 
+  	stereotype actor="Developer;
+stereotype comment="so that duplicate requests do not cause performance issues";
+   } 
+
+  usecase dFilesGenerationRequestsToBeManagedAndCached 
+  : void { 
+  	stereotype actor="Developer";
+stereotype comment=" so that duplicate requests do not cause performance issues";
+   } 
+
+  usecase preventUsersDoublePublishingFABSsubmissions 
+  : void { 
+  	stereotype actor="Developer";
+stereotype comment="so that there are no duplicates";
+   }
+
+  usecase updateFABSSampleFileToRemoveFundingAgencyCodeAfterFABSisUpdated 
+  : void { 
+  	stereotype actor="Developer";
+   } 
+
+  usecase ensureAttemptsToCorrectOrDeleteNonExistentRecordsDontCreateNewPublishedData 
+  : void { 
+  	stereotype actor="Developer";
+   }
+
+  usecase clarifyToUsersWhatTriggersCFDAErrorCode 
+  : void { 
+  	stereotype actor="Developer";
+   }
+
+  usecase indexDomainModels 
+  : void { 
+  	stereotype actor="Developer";
+stereotype comment="so that I can get validation results back in a reasonable amount of time.";
+   }
+
+  usecase determineHowAgenciesWillGenerateAndValidateDFilesFromFABSandFPDSdata 
+  : void { 
+  	stereotype actor="Developer";
+   }
+
+  usecase dataLoadedFromHistoricalFABStoIncludeFRECderivations 
+  : void { 
+  	stereotype actor="Developer";
+stereotype comment="so that I can have consistent FREC data for USASpending.gov";
+  }
+
+  usecase historicalFPDSDataLoaderToIncludeExtractedHistoricalDataAndFPDSFeedData 
+  : void { 
+  	stereotype actor="Developer";
+   }
+
+  usecase provideFABSGroupsThatFunctionUnderFRECParadigm 
+  : void { 
+  	stereotype actor="Developer";
+   }
+
+  usecase quicklyAccessBrokerApplicationData 
+  : void { 
+  	stereotype actor="Developer";
+
+     stereotype comment="so that I can investigate issues";
+   }
+
+  usecase determineBestWay2LoadHistoricalFPDSData 
+  : void { 
+  	stereotype actor="Developer";
+
+     stereotype comment="so that I can load all FPDS data since 2007";
+   }
+
+  usecase preventDuplication_transactionsBeingPublished 
+  : void { 
+  	stereotype actor="Developer";
+
+     stereotype comment="deal with the time gap between validation and the publishing decision ";
+}
+
+
+  usecase newRelicToProvideUsefulDataAcrossAllAppliations 
+  : void { 
+  	stereotype actor="DevOpsEngineer";
+  	stereotype comment= "I want New Relic to provide useful data across all applications";
+   } 
+
+  usecase uploadAndValidateTheErrorMessage 
+  : void { 
+  	stereotype actor="BrokerUser";
+  	stereotype comment="I want to Upload and Validate the error message to have accurate text";
+   } 
+
+  usecase d1FileGenerationToBeSyncedWithFPDSDataLoad 
+  : void { 
+  	stereotype actor="BrokerUser";
+  	stereotype comment="I want the D1 file generation to be synced with the FPDS data load, so that I don't have to regenerate a file if no data has been updated.";
+   } 
+
+  usecase helpToCreateContentMockups 
+  : void { 
+  	stereotype actor="BrokerUser";
+stereotype comment="I want to help create content mockups, so that I can submit my data efficiently.";
+   } 
+
+
+  usecase makeSomeUpdatesToSQLCodesForClarity 
+  : void { 
+  	stereotype actor="BrokerTeamMember";
+  	stereotype comment="I want to make some updates to the SQL codes for clarity";
+   } 
+
+  usecase addPPoPCodeCasesToDerivationLogic
+  : void { 
+  	stereotype actor="BrokerTeamMember";
+  	stereotype comment="I want to add the 00***** and 00FORGN PPoPCode cases to the derivation logic";
+   } 
+
+
+  usecase historicalFABSLoaderToDeriveFields
+  : void { 
+  	stereotype actor="BrokerUser";
+  	stereotype comment="I want the historical FABS loader to derive fields, so that my agency codes are correct in the PublishedAwardFinancialAssistance table.";
+   } 
+
+
+  usecase ensureBrokerResourcesValidatesPandPpagesAreUpdatedAppropriately
+  : void { 
+  	stereotype actor="BrokerTeamMember";
+  	stereotype comment="I want to ensure the Broker resources, validations, and P&P pages are updated appropriately for the launch of FABS and DAIMS v1.1.";
+  } 
+
+
+  usecase updateSQL
+  : void { 
+  	stereotype actor="BrokerTeamMember";
+  	stereotype comment= "I want to make some updates to the SQL codes for clarity.";
+   } 
+
+
+
+  usecase deriveFundingAgencyCode
+  : void { 
+  	stereotype actor="BrokerTeamMember";
+  	stereotype comment= "I want to derive FundingAgencyCode, so that the data quality and completeness improves.";
+  } 
+
+  usecase submitRecordsForIndividualRecipiants
+  : void { 
+  	stereotype actor="BrokerUser";
+  	stereotype comment= "I want to submit records for individual recipients without receiving a DUNS error.";
+   } 
+
+  usecase havePPoPZIP4workTheSameAsLegalEntityZIPvalidations
+  : void { 
+  	stereotype actor="BrokerUser";
+  	stereotype comment= "I want to have PPoPZIP+4 work the same as the Legal Entity ZIP validations.";
+   } 
+
+
+  usecase haveUpdatedErrorCodesThatAccuratelyReflectLogicAndProvideEnoughInformation
+  : void { 
+  	stereotype actor="BrokerUser";
+  	stereotype comment= "I want to have updated error codes that accurately reflect the logic and provide enough information, so that I can fix my submission.";
+   } 
+
+
+  usecase accessPublishedFABSFiles
+  : void { 
+  	stereotype actor="WebsiteUser";
+  	stereotype comment="I want to access published FABS files, so that I can see the new files as they come in.";
+   } 
+
+  usecase seeUpdatedFinancialAssistanceDataDaily
+  : void { 
+  	stereotype actor="WebsiteUser";
+  	stereotype comment="I want to see updated financial assistance data daily.";
+   } 
+
+usecase sureThatUSASpendingOnlySendsGrantRecordsToMySystem
+  : void { 
+  	stereotype actor="Owner";
+  	stereotype comment="I want to be sure that USAspending only send grant records to my system.";
+   } 
+
+usecase createUserTestingSummaryFromUI_SME
+  : void { 
+  	stereotype actor="Owner";
+  	stereotype comment="I want to create a user testing summary from the UI SME, so that I can know what UI improvements we will follow through on.";
+   } 
+
+usecase designScheduleFromUI_SME
+  : void { 
+  	stereotype actor="Owner";
+  	stereotype comment="I want to design a schedule from the UI SME, so that I know the potential timeline of the UI improvements wanted.";
+   } 
+
+usecase designAuditFromUI_SME
+: void {
+  stereotype actor="Owner";
+  stereotype comment="so that I know the potential scope of the UI improvements wanted";
+}
+
+usecase resetEnvironmentToOnlyTakeStagingMAXPermissions
+: void {
+  stereotype actor="Owner";
+  stereotype comment="so that I can ensure that the FABS testers no longer have access";
+}
+
+usecase onlyWantZeroPaddedFields
+: void {
+  stereotype actor="Owner";
+  stereotype comment="so that I can justify padding";
+}
+
+usecase publishButtonToDeactivateAfterIClickItWhileDerivationsAreHappening
+: void {
+  stereotype actor="User";
+  stereotype comment="so that I cannot click it multiple times for the same submission";
+}
+
+usecase wantFlexFieldsInSubmissionFileToAppearInWarningAndErrorFiles
+: void {
+  stereotype actor="User";
+  stereotype comment="when the only error is a missing required element";
+}
+
+usecase wantToHaveAccurateAndCompletePPoPCodePoPPCongressionalDistrictData
+: void {
+  stereotype actor="User";
+  stereotype comment="want to have accurate and complete data related to PPoPCode and PPoPCongressionalDistrict";
+}
+
+usecase doNotWantToSeeNASAGrantsDisplayedAsContracts
+: void {
+  stereotype actor="User";
+  stereotype comment="don't want to see NASA grants displayed as contracts";
+}
+
+usecase wantDUNSValidationsToAcceptRecordsWithActionTypeBCorD
+: void {
+  stereotype actor="User";
+  stereotype comment="to accept records whose ActionTypes are B, C, or D and the DUNS is registered in SAM, even though it may have expired";
+}
+
+usecase wantDUNSValidationsToAcceptRecordsWithActionDateBeforeCurrentRegistration
+: void {
+  stereotype actor="User";
+  stereotype comment="to accept records whose ActionDates are before the current registration date in SAM, but after the initial registration date";
+}
+
+usecase generateAndValidateDFiles
+: void {
+  stereotype actor="User";
+  stereotype comment="to generate and validate D Files from FABS and FPDS data";
+}
+
+usecase wantMoreInformationAboutNumberOfRowsToBePublished
+: void {
+  stereotype actor="User";
+  stereotype comment="to have more information about how many rows will be published prior to deciding whether to publish";
+}
+
+usecase accessRawAgencyPublishedFilesFromFABS
+: void {
+  stereotype actor="User";
+  stereotype comment="I want to access the raw agency published files from FABS via USAspending"; 
+}
+
+
+
+usecase includeLargeNumberOfFlexfieldsWithoutPerformanceImpact
+: void {
+  stereotype actor="AgencyUser";
+  stereotype comment="This is duplicated in the requirements"; 
+}
+
+usecase ensureThatdeletedFSRSRecordsAreExcludedFromSubmissions
+: void {
+  stereotype actor="AgencyUser";
+  stereotype comment="so that deleted FSRS records are not included in submissions";
+}
+
+usecase wantFABSValidationRulesToAcceptZeroAndBlankForLoanRecords
+: void {
+  stereotype actor="AgencyUser";
+  stereotype comment="so that the FABS validation rules accept zero and blank for loan records";
+}
+
+usecase wantFABSValidationRulesToAcceptZeroAndBlankForNonLoanRecords
+: void {
+  stereotype actor="AgencyUser";
+  stereotype comment="so that the FABS validation rules accept zero and blank for non-loan records";
+}
+
+usecase wantFABSDeployedIntoProduction
+: void {
+  stereotype actor="AgencyUser";
+  stereotype comment="so that I can submit my Financial Assistance data";
+}
+
+usecase wantToBeConfidentThatDataFromSAMIsComplete
+: void {
+  stereotype actor="AgencyUser";
+  stereotype comment="so that I am confident that the data coming from SAM is complete";
+}
+
+
+usecase allDeriveDataElementsDerivedProperly
+: void {
+  stereotype actor="AgencyUser";
+  stereotype comment="so that all derived data elements are derived properly";
+}
+
+usecase maximumLengthAllowedForLegalEntityAddressLine3ToMatchSchemav1p1
+: void {
+  stereotype actor="AgencyUser";
+  stereotype comment="so that the maximum length allowed for LegalEntityAddressLine3 matches Schema v1.1";
+}
+
+usecase useSchemaV1p1Headers
+: void {
+  stereotype actor="AgencyUser";
+  stereotype comment="so that I want to use the schema v1.1 headers in my FABS file";
+}
+
+usecase mapFederalActionObligationToAtomFeed
+: void {
+  stereotype actor="AgencyUser";
+  stereotype comment="so that I want to map the FederalActionObligation properly to the Atom Feed";
+}
+
+usecase wantFPDSDataToBeUpToDateDaily
+: void {
+  stereotype actor="AgencyUser";
+  stereotype comment="so that FPDS data is up-to-date daily";
+}
+
+usecase headerInformationBoxToShowUpdatedDateANDTime
+: void {
+  stereotype actor="AgencyUser";
+  stereotype comment="so that I know when it was updated";
+}
+
+usecase receiveMoreHelpfulFileLevelError
+: void {
+  stereotype actor="AgencyUser";
+  stereotype comment="when I upload a file with the wrong extension";
+}
+
+usecase allHistoricalFinancialAssistanceDataLoaded
+: void {
+  stereotype actor="AgencyUser";
+  stereotype comment="for FABS go-live";
+}
+
+usecase loadHistoricalFPDSData
+: void {
+  stereotype actor="AgencyUser";
+  stereotype comment="want historical FPDS data loaded"; 
+}
+
+usecase accuratelySeeSubmissionCreator
+: void {
+  stereotype actor="AgencyUser";
+  stereotype comment="so that I'm not confused about who last updated a submission";
+}
+
+usecase getFileFInCorrectFormat
+: void {
+  stereotype actor="AgencyUser";
+  stereotype comment="to get File F in the correct format";
+}
+
+usecase betterUnderstandFileLevelErrors
+: void {
+  stereotype actor="AgencyUser";
+  stereotype comment="to better understand my file-level errors";
+}
+
+usecase leaveOffLast4DigitsOfZIPWithoutError
+: void {
+  stereotype actor="AgencyUser";
+  stereotype comment="so that I can complete my submissions";
+}
+
+usecase seeOfficeNamesDerivedFromOfficeCodes
+: void {
+  stereotype actor="DataUser";
+  stereotype comment="so that I can have appropriate context for understanding them";
+}
+
+usecase accessTwoAdditionalFPDSFieldsFromFPDSDataPull
+: void {
+  stereotype actor="DataUser";
+  stereotype comment="to access two additional fields from the FPDS data pull";
+}
+
+usecase receiveFABSUpdates
+: void {
+  stereotype actor="DataUser";
+  stereotype comment="to receive updates to FABS records";
+}
+
+
+usecase showOfficeNamesDerivedFromCodes : void {
+  stereotype actor="DataUser";
+  stereotype comment="so that I can have appropriate context for understanding them";
+}
+
+usecase accessAdditionalFieldsFromFPDSPull : void {
+  stereotype actor="DataUser";
+}
+
+usecase receiveUpdatesToFABSRecords : void {
+  stereotype actor="DataUser";
+}
+
+usecase linkSampleFileOnWhatYouWantToSubmitDialogToPointToCorrectFile : void {
+
+  stereotype actor="FABSUser";
+  stereotype comment="so that I have an accurate reference for my agency submissions";
+}
+
+usecase submissionErrorsToAccuratelyRepresentFABSErrors : void {
+  stereotype actor="FABSUser";
+  stereotype comment="so that I know why my submission didn't work";
+}
+
+usecase wantFrontendURLsToMoreAccuratelyReflectPageIamAccessing : void {
+  stereotype actor="FABSUser";
+  stereotype comment="so that I'm not confused";
+}
+
+usecase ensureHistoricalDataIncludesAllNecessaryColumns : void {
+  stereotype actor="FABSUser";
+  stereotype comment="so that the information in the database is correct";
+}
+
+usecase additionalHelpfulInfoInSubmissionDashboard : void {
+  stereotype actor="FABSUser";
+  stereotype comment="so that I can better manage submissions and IG requests";
+}
+
+usecase downloadUploadedFABSFile : void {
+  stereotype actor="FABSUser";
+  stereotype comment="so that I can get the uploaded file";
+}
+
+usecase languageOnFABSPagesToBeAppropriate : void {
+  stereotype actor="FABSUser";
+  stereotype comment="so that I am not confused";
+}
+
+usecase doNotWantDABSbannerMessagesAndViceVersa
+: void {
+  stereotype actor="FABSUser";
+  stereotype comment="so that I have the appropriate information for my application";
+}
+
+usecase wantReadOnlyAccessToDABS
+: void {
+  stereotype actor="FABSUser";
+  stereotype comment="so that I can view DABS pages without wanting two sets of permissions";
+}
+
+usecase validationsRunInReasonableTime
+: void {
+  stereotype actor="FABSUser";
+  stereotype comment="so that I can have my validations run in a reasonable amount of time";
+}
+
+usecase seeCorrectStatusLabelsOnSubmissionDashboard
+: void {
+  stereotype actor="FABSUser";
+  stereotype comment="so that I can quickly see my submission history";
+}
+
+usecase submitCitywideAsPPoPZIP
+: void {
+  stereotype actor="FABSUser";
+  stereotype comment="and pass validations";
+}
+
+usecase accessTestFeaturesInEnvironmentsOtherThanStaging
+: void {
+  stereotype actor="Tester";
+  stereotype comment="so that I can test any nonProd feature in any environment.";
+}
+
+usecase ensureFABSIsDerivingFieldsProperlyThroughRobustTestFilePlusFollowupCheck
+: void {
+  stereotype actor="Tester";
+  stereotype comment="so that I can ensure that FABS is deriving fields properly through a robust test file plus a follow up check.";
+}
+
+
+}
