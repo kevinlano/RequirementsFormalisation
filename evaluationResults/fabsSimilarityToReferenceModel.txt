@@ -1,0 +1,44 @@
+>>> classes comparison: FABSreferenceModel <: fabsHH19Solution = 0.0 attributes: 0.0
+>>> classes comparison: fabsHH19Solution <: FABSreferenceModel = 1
+>>> Similarity of FABSreferenceModel classes and fabsHH19Solution classes is: 0.0
+>>> Similarity of FABSreferenceModel attributes and fabsHH19Solution attributes is: 0.0
+
+>>> use cases comparison: FABSreferenceModel <: fabsHH19Solution = 0.7137993990593752
+>>> use cases comparison: fabsHH19Solution <: FABSreferenceModel = 0.8403898183833366
+>>> Similarity of FABSreferenceModel use cases and fabsHH19Solution use cases is: 0.5998697473376431
+
+
+
+
+>>> classes comparison: FABSreferenceModel <: fabsSolutionAgileUML = 0.1111111111111111 attributes: 0.0
+>>> classes comparison: fabsSolutionAgileUML <: FABSreferenceModel = 0.15384615384615385 attributes 0.0
+>>> Similarity of FABSreferenceModel classes and fabsSolutionAgileUML classes is: 0.017094017094017096
+>>> Similarity of FABSreferenceModel attributes and fabsSolutionAgileUML attributes is: 0.0
+
+>>> use cases comparison: FABSreferenceModel <: fabsSolutionAgileUML = 0.8729870012501598
+>>> use cases comparison: fabsSolutionAgileUML <: FABSreferenceModel = 0.8634607312011481
+>>> Similarity of FABSreferenceModel use cases and fabsSolutionAgileUML use cases is: 0.7537899944285605
+
+
+
+
+>>> classes comparison: FABSreferenceModel <: Elal18fabs = 0.037037037037037035 attributes: 0.0
+>>> classes comparison: Elal18fabs <: FABSreferenceModel = 0.35714285714285715 attributes 1.0
+>>> Similarity of FABSreferenceModel classes and Elal18fabs classes is: 0.013227513227513227
+>>> Similarity of FABSreferenceModel attributes and Elal18fabs attributes is: 0.0
+
+>>> use cases comparison: FABSreferenceModel <: Elal18fabs = 0.7289009635282131
+>>> use cases comparison: Elal18fabs <: FABSreferenceModel = 0.7692777370391427
+>>> Similarity of FABSreferenceModel use cases and Elal18fabs use cases is: 0.5607272837486345
+
+
+
+>>> classes comparison: FABSreferenceModel <: fabsResultSimpleHeuristic = 0.018518518518518517 attributes: 0.0
+>>> classes comparison: fabsResultSimpleHeuristic <: FABSreferenceModel = 0.0425531914893617 attributes 1.0
+>>> Similarity of FABSreferenceModel classes and fabsResultSimpleHeuristic classes is: 7.880220646178092E-4
+>>> Similarity of FABSreferenceModel attributes and fabsResultSimpleHeuristic attributes is: 0.0
+
+>>> use cases comparison: FABSreferenceModel <: fabsResultSimpleHeuristic = 0.7887833317140746
+>>> use cases comparison: fabsResultSimpleHeuristic <: FABSreferenceModel = 0.7189226757158512
+>>> Similarity of FABSreferenceModel use cases and fabsResultSimpleHeuristic use cases is: 0.5670742233959464
+
