@@ -8,3 +8,5 @@ Cases are divided into 3 categories: (i) unstructured documents, such as backgro
 A set of evaluation tools are also provided to carry out (i) comparison of produced models to a 'gold standard' or reference formalisation carried out by a human expert (accuracy check); (ii) comparison of the produced model to the original document to identify how much information has been captured (completeness check); (iii) internal quality check of the model to determine if it is a valid model and what its quality level is.
 
 Authors of RF approaches are welcome to contribute a description and tooling for their approach, and to apply their approach on the case studies. 
+
+The work of assembling cases, implementing approaches and writing reference models was carried out by Dr Kevin Lano (KCL), Dr Sobhan Yassipour-Tehrani (UCL), Yiqi Liu (Sheffield), Dr Shekoufeh Kolahdouz-Rahimi (Roehampton) and Muhammad Umar (KCL).
