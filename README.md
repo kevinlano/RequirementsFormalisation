@@ -9,4 +9,6 @@ A set of evaluation tools are also provided to carry out (i) comparison of produ
 
 Authors of RF approaches are welcome to contribute a description and tooling for their approach, and to apply their approach on the case studies. 
 
-The work of assembling cases, implementing approaches and writing reference models was carried out by Dr Kevin Lano (KCL), Dr Sobhan Yassipour-Tehrani (UCL), Yiqi Liu (Sheffield), Dr Shekoufeh Kolahdouz-Rahimi (Roehampton) and Muhammad Umar (KCL).
+The work of assembling cases, implementing approaches and writing reference models was carried out by Dr Kevin Lano (KCL), Dr Sobhan Yassipour-Tehrani (UCL), Yiqi Liu (Sheffield), Dr Shekoufeh Kolahdouz-Rahimi (Roehampton) and Muhammad Aminu Umar (KCL).
+
+The work was funded by the EPSRC in the project "Natural Language Processing for Automated Requirements Formalisation", PI Chenghua Lin, Sheffield University.
