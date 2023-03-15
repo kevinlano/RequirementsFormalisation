@@ -1,0 +1,107 @@
+1. Introduction
+
+This document presents the brief for the Stroke Recovery Assistant project. This information was gathered through gathering business requirements and meeting with project stakeholders. This document aims to provide an accurate insight into the purpose of the project, the high-level scope and the critical success factors.
+
+2. Overview
+
+2.1 Goals of the project
+
+The main goals of the project are:
+* To improve the quality of life of patients who have suffered a stroke
+* To forecast recovery paths based on historical data and prediction algorithms
+* To build a data warehouse of clinical data.
+
+2.2 Scope of the system
+
+* Provide a mobile app and web-based interface for basic data collection - to be used by doctors in the hospital
+* Provide an interface for doctors to estimate recovery curves - mobile app and web-based interface
+* Provide a mobile app and web-based interface (internal and external) for patients to:
+ - access information about recovery exercises/protocols
+ - provide user-generated information about their progress
+ - track their recovery progress
+* Build an algorithm for calculation of recovery curves based on historical data
+* Provide a system capable of handling big data sets and fast calculations
+* Provide an authentication mechanism for patients; doctors and caregivers
+* Provide access to clinical data for data mining purposes
+* Provide a secure data connection between end devices and the application/database servers
+* Provide a secure data repository for confidential data
+* Build a multiplatform solution - mobile, web
+* A single database for internal and external use
+* Hosting of the environments needed to provide this service
+
+Assumptions of the project:
+* The prediction algorithm has already been designed but it needs to be translated into software
+* Look and feel and user journeys to be designed
+
+2.3 Objectives and success criteria
+* Allow doctors to collect patients data while they are in the hospital
+* Allow doctors to calculate recovery curves based on the prediction software to decide on the particular rehab and treatment for the patient
+* Allow patients to check the recovery curves and a self-track interface with protocols for therapy and exercises; and the ability for patients to score themselves and see how well they are doing
+* Allow patients and caregivers to enter data about the recovery once the patients have left the hospital, and store the data to correct the curves.
+
+2.4 Interface Schema
+* add new user
+* login and welcome screen
+* add new patient
+* add new patient data
+* update existing patient data
+* patient-specific graphics
+* patient-specific numerics
+* group-level graphics
+* group-level numerics
+
+
+Supplementary Requirements
+
+3.1 Technical Requirements
+
+Number 	Title 				Description
+
+REQ-01	Mobile interface for		Develop a mobile app 
+           data collection            with basic forms for
+	           data capturing, like age, medical history, 
+			extension of brain damage, etc. Application
+			must be accessible from the hospitals over a 
+			secure channel. Compatible with iPad, 
+			iPhone, Android and Blackberry devices.
+
+REQ-02	Web Based interface		Develop a webpage with basic forms for 
+		For data collection		data capturing, like age, medical history,											extension of brain damage, etc. Webpage 
+			must be accessible from the hospitals over
+			a secure channel. Webpage should be 
+			compatible with the most used browsers.
+
+REQ-03	Application authenti-		Provide a secure authentication mechanism 
+	cation for doctors 			for doctors to add and consult patents’ 
+							data.
+
+REQ-04	Application	Provide a secure authentication mechanism
+	Authentication for	for patients and caregivers to add and 
+	Patient and caregivers		consult personal data.
+			
+
+REQ-05	Prediction algorithm		Build a software algorithm to be used during
+				recovery prediction calculations.
+
+REQ-06	Recovery curves		Display recovery curves based on stored and 
+	calculation			patient’s data by applying the algorithm in 
+						REQ-05.
+
+REQ-07	Mobile self track		Develop a mobile app with basic forms for
+	Interface	
+           data capturing and access to recovery curves and information about treatments and exercises. Application must be accessible from the hospitals over a secure channel. Application must be accessible from outside the hospital over a secure channel. Compatible with iPad, iPhone, Android and Blackberry devices. 		
+
+REQ-08	Web based self track		Develop a webpage with basic forms for 
+	Interface			data capturing and access to recovery 
+		curves and information about treatments		 		and exercises. Webpage must be accessible 				from the hospitals over a secure channel. 
+		Webpage must be accessible from outside 
+		the hospital over a secure channel. Page				should be compatible with the most used
+		browsers.
+
+REQ-09	Scalable and reliable		Provide a read/write database capable of 
+		database			handling big datasets.
+
+
+REQ-10	Analytics			Reporting layer for data mining purposes.
+
+
