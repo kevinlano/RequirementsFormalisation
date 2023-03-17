@@ -1,3 +1,3 @@
 This directory contains examples of unstructured documents, typically used for background information in requirements analysis. 
 
-The example medicurveBackgroundInformation.txt concerns background information for a medical system in the domain of stroke recovery. 
+The example medicurveBackgroundInformation.txt concerns background information for a medical system in the domain of stroke recovery. medicurveRequirements are the requirements specification for this system.
