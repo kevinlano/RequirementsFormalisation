@@ -1,0 +1,68 @@
+package app { 
+
+abstract class Person { 
+  attribute name : String; 
+} 
+
+class Patient extends Person { 
+   attribute patientNumber identity : String; 
+   attribute age : double; 
+   attribute gender : String; 
+} 
+
+class PatientCondition
+{ attribute name : String; 
+  attribute degree : double; 
+  attribute history : Sequence(double); 
+} 
+
+class Treatment
+{ attribute name : String; 
+  attribute notes : String; 
+} 
+
+class PatientGroup 
+{ reference patients [*] : Patient; }  
+
+class PatientData { 
+   reference forPatient : Patient; 
+   attribute admissionDate : String; 
+   attribute dischargeDate : String; 
+   attribute today : String;
+   attribute duration : double; 
+   attribute bathelIndex : double; 
+   attribute predictedBI : double; 
+   reference conditions [*] : PatientCondition; 
+} 
+
+class RecoveryCurve { 
+   reference forPatient : Patient; 
+   attribute curve : Sequence(double); 
+} 
+
+class Doctor extends Person { 
+  attribute specialisation : String; 
+} 
+
+class Caregiver extends Person { 
+} 
+
+usecase collectPatientData(d : Doctor, p : Patient) : PatientData { 
+} 
+
+usecase calculateRecoveryCurve(d : Doctor, p : Patient) : RecoveryCurve { 
+} 
+
+usecase adviseTreatment(d : Doctor, r : RecoveryCurve) : Treatment { } 
+
+
+usecase checkRecoveryCurve(p : Patient, r : RecoveryCurve) : RecoveryCurve { 
+} 
+
+usecase updateRecoveryCurve(p : Patient, c : Caregiver, r : RecoveryCurve) : RecoveryCurve { 
+} 
+
+
+}
+
+
