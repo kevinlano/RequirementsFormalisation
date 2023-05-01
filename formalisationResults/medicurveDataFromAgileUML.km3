@@ -1,0 +1,532 @@
+package app {
+  class StrokeRecoveryAssistant {
+  stereotype originator="2";
+
+
+
+
+  }
+
+
+
+  class IntroductionDocument {
+  stereotype originator="2";
+  stereotype modifiedBy="2";
+
+
+
+    reference presents : Brief;
+
+  }
+
+
+
+  class Brief {
+  stereotype originator="2";
+  stereotype modifiedBy="2";
+
+
+    attribute StrokeRecoveryAssistant : StrokeRecoveryAssistant := null;
+    attribute project : Project := null;
+
+
+  }
+
+
+
+  class Project {
+  stereotype originator="2";
+  stereotype modifiedBy="6";
+
+
+    attribute goals : String := "";
+    attribute project : Project := null;
+    attribute quality : String := "";
+    attribute life : String := "";
+    attribute patients : Set(Patient) := Set{};
+    attribute stroke : String := "";
+    attribute recovery : String := "";
+    attribute paths : String := "";
+    attribute data : String := "";
+    attribute prediction : String := "";
+    attribute algorithms : String := "";
+    attribute warehouse : String := "";
+
+
+  }
+
+
+
+  class Information {
+  stereotype originator="3";
+  stereotype modifiedBy="3";
+
+
+
+    reference gathered[*] : Requirement;
+
+  }
+
+
+
+  class Requirement {
+  stereotype originator="3";
+
+
+
+
+  }
+
+
+
+  class Meeting {
+  stereotype originator="3";
+
+
+
+
+  }
+
+
+
+  class Gatheringbusinessrequirement {
+  stereotype originator="3";
+  stereotype modifiedBy="3";
+
+
+    attribute meeting : Meeting := null;
+    attribute project : Project := null;
+    attribute stakeholders : String := "";
+
+
+  }
+
+
+
+  class Document {
+  stereotype originator="4";
+
+
+
+
+  }
+
+
+
+  class Insight {
+  stereotype originator="4";
+  stereotype modifiedBy="4";
+
+
+    attribute purpose : String := "";
+    attribute project : Project := null;
+    attribute level : String := "";
+    attribute scope : String := "";
+    attribute success : String := "";
+    attribute factors : String := "";
+
+
+  }
+
+
+
+  class Patient extends Person {
+
+
+
+
+  }
+
+
+
+  class OverviewGoalsProjectMainGoalsProject {
+  stereotype originator="6";
+
+
+
+
+  }
+
+
+
+  class InterfaceSchemaNewUserLoginWelcomeScreen {
+  stereotype originator="8";
+
+
+
+
+  }
+
+
+
+  class User extends Person {
+  stereotype originator="8";
+  stereotype modifiedBy="8";
+
+
+    attribute login : String := "";
+    attribute screen : String := "";
+    attribute patient : Patient := null;
+    attribute data : String := "";
+    attribute update : String := "";
+    attribute graphics : String := "";
+    attribute numerics : String := "";
+    attribute group : String := "";
+    attribute level : String := "";
+    attribute Requirements : Set(Requirement) := Set{};
+    attribute Number : String := "";
+    attribute Title : String := "";
+    attribute Description : String := "";
+    attribute REQ : String := "";
+    attribute Mobile : String := "";
+    attribute interface : String := "";
+    attribute app : String := "";
+    attribute collection : String := "";
+    attribute forms : String := "";
+    attribute capturing : String := "";
+    attribute age : double := 0.0;
+    attribute history : String := "";
+    attribute extension : String := "";
+    attribute brain : String := "";
+    attribute damage : String := "";
+
+
+  }
+
+
+
+  class Person {
+
+
+
+
+  }
+
+
+
+  class Hospital {
+  stereotype originator="9";
+  stereotype modifiedBy="9";
+
+
+    attribute channel : String := "";
+
+
+  }
+
+
+
+  class CompatibleIPadIPhoneAndroidBlackberry {
+  stereotype originator="10";
+
+
+
+
+  }
+
+
+
+  class IPad extends Device {
+  stereotype originator="10";
+  stereotype modifiedBy="10";
+
+
+    attribute iPhone : String := "";
+    attribute Android : String := "";
+    attribute Blackberry : String := "";
+    attribute devices : Set(Device) := Set{};
+
+
+  }
+
+
+
+  class Device {
+
+
+
+
+  }
+
+
+
+  class REQWeb {
+  stereotype originator="11";
+
+
+
+
+  }
+
+
+
+  class Interface extends Device {
+  stereotype originator="11";
+  stereotype modifiedBy="11";
+
+
+    attribute webpage : String := "";
+    attribute forms : String := "";
+    attribute data : String := "";
+    attribute collection : String := "";
+    attribute capturing : String := "";
+    attribute age : double := 0.0;
+    attribute history : String := "";
+    attribute extension : String := "";
+    attribute brain : String := "";
+    attribute damage : String := "";
+
+
+  }
+
+
+
+  class Webpage {
+  stereotype originator="12";
+
+
+
+
+  }
+
+
+
+  class Browser {
+  stereotype originator="13";
+
+
+
+
+  }
+
+
+
+  class Doctor extends Person {
+
+
+
+
+  }
+
+
+
+  class Authenticationmechanismcation {
+  stereotype originator="14";
+  stereotype modifiedBy="14";
+
+
+    attribute doctors : Set(Doctor) := Set{};
+    attribute patients : Set(Patient) := Set{};
+    attribute data : String := "";
+
+
+  }
+
+
+
+  class AuthenticationmechanismAuthentication {
+  stereotype originator="15";
+  stereotype modifiedBy="15";
+
+
+    attribute patients : Set(Patient) := Set{};
+    attribute caregivers : Sequence(String) := "";
+    attribute Patient : Patient := null;
+    attribute data : String := "";
+
+
+  }
+
+
+
+  class Recoverypredictioncalculation {
+  stereotype originator="16";
+
+
+
+
+  }
+
+
+
+  class REQRecoveryCurve {
+  stereotype originator="17";
+  stereotype modifiedBy="17";
+
+
+
+    reference Display[*] : Curve;
+
+  }
+
+
+
+  class Curve {
+  stereotype originator="17";
+
+
+
+
+  }
+
+
+
+  class Algorithm {
+  stereotype originator="17";
+
+
+
+
+  }
+
+
+
+  class REQ {
+  stereotype originator="17";
+
+
+
+
+  }
+
+
+
+  class Recoverycurve {
+  stereotype originator="17";
+  stereotype modifiedBy="17";
+
+
+    attribute calculation : String := "";
+    attribute patient : Patient := null;
+    attribute data : String := "";
+    attribute algorithm : Algorithm := null;
+    attribute REQ : REQ := null;
+
+
+  }
+
+
+
+  class REQMobileSelfTrack {
+  stereotype originator="18";
+
+
+
+
+  }
+
+
+
+  class App extends System {
+  stereotype originator="18";
+  stereotype modifiedBy="18";
+
+
+    attribute forms : String := "";
+    attribute Interface : Interface := null;
+    attribute data : String := "";
+    attribute capturing : String := "";
+    attribute access : String := "";
+    attribute recovery : String := "";
+    attribute curves : Set(Curve) := Set{};
+    attribute information : String := null;
+    attribute treatments : Sequence(String) := "";
+    attribute exercises : Sequence(String) := "";
+
+
+  }
+
+
+
+  class System {
+
+
+
+
+  }
+
+
+
+  class Selftrack {
+  stereotype originator="22";
+  stereotype modifiedBy="22";
+
+
+    attribute webpage : Webpage := null;
+    attribute forms : String := "";
+    attribute Interface : Interface := null;
+    attribute data : String := "";
+    attribute capturing : String := "";
+    attribute access : String := "";
+    attribute recovery : String := "";
+    attribute curves : Set(Curve) := Set{};
+    attribute information : String := null;
+    attribute treatments : Sequence(String) := "";
+    attribute exercises : Sequence(String) := "";
+
+
+  }
+
+
+
+  class Page {
+  stereotype originator="25";
+
+
+
+
+  }
+
+
+
+  class Dataset {
+  stereotype originator="26";
+
+
+
+
+  }
+
+
+
+  class REQScalableReliable {
+  stereotype originator="26";
+
+
+
+
+  }
+
+
+
+  class Read {
+  stereotype originator="26";
+  stereotype modifiedBy="26";
+
+
+    attribute write : String := "";
+    attribute database : String := "";
+    attribute datasets : Set(Dataset) := Set{};
+
+
+  }
+
+
+
+  class Layer {
+  stereotype originator="27";
+  stereotype modifiedBy="27";
+
+
+    attribute data : String := "";
+    attribute mining : String := "";
+    attribute purposes : String := "";
+
+
+  }
+
+
+
+
+}
+
