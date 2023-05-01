@@ -157,11 +157,56 @@
 <NT>PC</NT>
 <NT>Workstation</NT>
 <NT>Server</NT>
+<NT>Client</NT>
 <NT>Node</NT>
 <NT>Printer</NT>
 <NT>Phone</NT>
-<NT>Disk</NT>
+<NT>MobilePhone</NT>
+<NT>Mobile</NT>
+<NT>Phone</NT>
+<NT>Browser</NT>
+<NT>API</NT>
 <NT>Flashdrive</NT>
+</CONCEPT>
+
+<CONCEPT>
+<DESCRIPTOR>Interface</DESCRIPTOR>
+<POS>NN</POS>
+<SEM>class</SEM>
+<PT>Interface</PT>
+<NTG>Device</NTG>
+</CONCEPT>
+
+<CONCEPT>
+<DESCRIPTOR>iPhone</DESCRIPTOR>
+<POS>NN</POS>
+<SEM>class</SEM>
+<PT>iPhone</PT>
+<NTG>Device</NTG>
+</CONCEPT>
+
+<CONCEPT>
+<DESCRIPTOR>iPad</DESCRIPTOR>
+<POS>NN</POS>
+<SEM>class</SEM>
+<PT>iPad</PT>
+<NTG>Device</NTG>
+</CONCEPT>
+
+<CONCEPT>
+<DESCRIPTOR>Blackberry</DESCRIPTOR>
+<POS>NN</POS>
+<SEM>class</SEM>
+<PT>Blackberry</PT>
+<NTG>Device</NTG>
+</CONCEPT>
+
+<CONCEPT>
+<DESCRIPTOR>Android</DESCRIPTOR>
+<POS>NN</POS>
+<SEM>class</SEM>
+<PT>Android</PT>
+<NTG>Device</NTG>
 </CONCEPT>
 
 
@@ -741,6 +786,7 @@
 <NT>Office</NT>
 <NT>Shop</NT>
 <NT>Department</NT>
+<NT>Hospital</NT>
 </CONCEPT>
 
 
@@ -985,8 +1031,8 @@
 <SEM>class</SEM>
 <SEM>reference</SEM>
 <NTG>Person</NTG>
-<PT>Doctor</PT>
-<PT>Clinician</PT>
+<NT>Doctor</NT>
+<NT>Clinician</NT>
 <NT>GP</NT>
 <NT>Physician</NT>
 <NT>Medic</NT>
@@ -999,11 +1045,10 @@
 <DESCRIPTOR>Patient</DESCRIPTOR>
 <POS>NN</POS>
 <SEM>class</SEM>
-<SEM>reference</SEM>
 <NTG>Person</NTG>
-<PT>Patient</PT>
-<PT>Outpatient</PT>
-<PT>Inpatient</PT>
+<NT>Patient</NT>
+<NT>Outpatient</NT>
+<NT>Inpatient</NT>
 </CONCEPT>
 
 <CONCEPT>
