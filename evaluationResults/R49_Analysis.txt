@@ -1,0 +1,39 @@
+For simple heuristic formalisation process: 
+
+
+python compareModel2Source.py --source R49_Tcs.txt --model R49_simpleHeuristicResult.txt
+
+>>> Verb completeness score: 0.9655172413793104
+>>> Noun completeness score: 0.8
+
+python checkModelNames.py --model R49_simpleHeuristicResult.txt
+
+
+>>> Class validity score: 0.8636363636363636
+>>> Attribute validity score: 1.0
+>>> Usecase validity score: 1.0
+
+>>> Total number of flaws = 3
+
+
+
+For AgileUML formalisation process: 
+
+
+python compareModel2Source.py --source R49_Tcs.txt --model mmR49_agileuml.km3
+
+>>> Verb completeness score: 0.9310344827586207
+>>> Noun completeness score: 0.7333333333333333
+
+
+python checkModelNames.py --model mmR49_agileuml.km3
+
+>>> Class validity score: 0.9833333333333333
+>>> Attribute validity score: 0.7575757575757576
+>>> Usecase validity score: 1.0
+>>> Total number of flaws = 25
+
+
+For the R49 case, both the simple heuristic and AgileUML approaches are able to abstract suitable classes and use cases, however the simple heuristic approach does not recognise inheritance relationships between classes, and the classes tend to have too many attributes. The AgileUML approach creates some classes which are too general and not application-specific (such as Type and Communication). 
+
+

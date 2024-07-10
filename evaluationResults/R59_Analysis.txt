@@ -1,0 +1,37 @@
+R59 simple heuristic approach: 
+
+python compareModel2Source.py --source R59_Telescope.txt --model R59_simpleHeuristicResult.txt
+
+>>> Verb completeness score: 1.0
+>>> Noun completeness score: 0.24358974358974358
+
+python checkModelNames.py --model R59_simpleHeuristicResult.txt
+
+>>> Class validity score: 1.0
+>>> Attribute validity score: 1.0
+>>> Usecase validity score: 0.625
+>>> Total number of flaws = 3
+
+
+
+
+R59 agileuml: 
+
+python compareModel2Source.py --source R59_Telescope.txt --model mmR59_AgileUML.km3
+
+>>> Verb completeness score: 1.0
+>>> Noun completeness score: 0.7692307692307693
+
+python checkModelNames.py --model mmR59_AgileUML.km3
+
+>>> Class validity score: 0.9795918367346939
+>>> Attribute validity score: 0.734375
+>>> Usecase validity score: 1.0
+>>> Total number of flaws = 18
+
+
+This is a more challenging case than R49, because the description is in a less well-structured format, and also refers to a diagram, which is not included in the (text only) input to the requirements formalisation approaches. 
+
+The simple heuristic approach is able to abstract appropriate classes and use cases, however there are many missing attributes. The AgileUML approach creates more complete classes, however it does not recognise separate use cases, but combines the complete system functionality into a single use case. 
+ 
+
