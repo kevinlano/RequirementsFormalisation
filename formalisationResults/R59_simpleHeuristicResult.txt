@@ -1,0 +1,87 @@
+package R59_Telescope.txt {
+
+class Time_message { }
+
+class Software {
+  attribute sequence : String;
+  attribute figures : String;
+  attribute automatic_mode : String;
+  attribute observation : String;
+}
+
+class Siscattitude_message {
+  attribute sequence : String;
+  attribute indication : String;
+}
+
+class Message {
+  attribute ten_arc_minutes : String;
+  reference target_position : Target_position;
+}
+
+class Target_position {
+  attribute ten_arc_minutes : String;
+  reference message : Message;
+}
+
+class Activity {
+  attribute distance_remaining : String;
+  attribute arc_minutes : String;
+  reference previous_activity : Previous_activity;
+}
+
+class Previous_activity {
+  attribute distance_remaining : String;
+  attribute arc_minutes : String;
+  reference activity : Activity;
+}
+
+usecase relay_it_to_the_Spacecraft_Control_Unit_SCU_in_the_form_of_CCSDS_Source_Packets : void {
+  stereotype actor="Functions_FSW_following_primary_functions_Process_science_data_camera_and";
+  stereotype "other";
+  activity: skip;
+}
+
+usecase establish_the_current_instrument_state_and_camera_mode : void {
+  stereotype actor="Receive_commands_SCU";
+  stereotype "other";
+  activity: skip;
+}
+
+usecase Receive_a_time_message_from_the_SCU_and_synchronize_the_XCP_local_copy_of_the_spacecraft_clock : void {
+  stereotype actor="";
+  stereotype "other";
+  activity: skip;
+}
+
+usecase Control_the_heaters_on_the_telescope_tube_and_the_thermal_baffles : void {
+  stereotype actor="";
+  stereotype "other";
+  activity: skip;
+}
+
+usecase Read_the_TAM : void {
+  stereotype actor="";
+  stereotype "other";
+  activity: skip;
+}
+
+usecase false : void {
+  stereotype actor="sequence_SISCATTITUDE_message_IS_SETTLED_indication";
+  stereotype "other";
+  activity: skip;
+}
+
+usecase slew_is_greater_than_ten_arc_minutes_the_begins_the_first_of_up_to_three_activities_that_precede_an_observation : void {
+  stereotype actor="distance";
+  stereotype "other";
+  activity: skip;
+}
+
+usecase ten_arc_minutes_and_the_previous_activity_is_complete : void {
+  stereotype actor="activity_distance_remaining_greater";
+  stereotype "other";
+  activity: skip;
+}
+
+}

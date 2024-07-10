@@ -1,0 +1,1284 @@
+package app {
+
+
+  class Data {
+
+  stereotype originator="19";
+
+  }
+
+
+  class Validity {
+
+  stereotype originator="19";
+
+  stereotype modifiedBy="19";
+
+
+    attribute mission : Mission := null;
+
+    attribute plan : Plan := null;
+
+    attribute altitude : double := 0.0;
+
+    attribute constraints : Set(Constraint) := Set{};
+
+    attribute payload : String := "";
+
+    attribute data : Sequence(String) := null;
+
+    attribute range : String := "";
+
+    attribute airspace : String := "";
+
+    attribute restrictions : Set(Restriction) := Set{};
+
+    attribute fuel : String := "";
+
+    attribute limitations : Set(Limitation) := Set{};
+
+    attribute threat : Threat := null;
+
+    attribute link : Link := null;
+
+    attribute terrain : String := "";
+
+    attribute effects : Sequence(String) := "";
+
+    attribute Loss : String := "";
+  }
+
+
+  class Restriction {
+
+  stereotype originator="19";
+
+  }
+
+
+
+  class Limitation {
+
+  stereotype originator="19";
+
+  }
+
+
+
+  class TCSValidityMissionPlanAltitudeConstraintsPayloadConstraint extends Constraint {
+
+  stereotype originator="19";
+  stereotype modifiedBy="19";
+
+    reference link[*] : Constraint;
+  }
+
+
+
+  class Constraint {
+
+  stereotype originator="19";
+
+  }
+
+
+
+  class Operator {
+
+  stereotype originator="15";
+
+  stereotype modifiedBy="15";
+
+  stereotype modifiedBy="20";
+
+  stereotype modifiedBy="22";
+
+
+
+    attribute mission : Mission := null;
+
+    attribute plan : Plan := null;
+
+    attribute parameters : Set(Parameter) := Set{};
+
+    attribute AV : String := "";
+
+    attribute flight : Flight := null;
+
+    attribute payload : String := "";
+
+    attribute control : String := "";
+
+    attribute data : Sequence(String) := "";
+
+    attribute VCR : String := "";
+
+    attribute patterns : Sequence(String) := "";
+
+    attribute discrepancies : Sequence(String) := "";
+
+    attribute completion : Completion := null;
+
+    attribute check : String := "";
+
+    attribute LOL : LOL := null;
+
+    attribute delay : String := "";
+
+    attribute timer : String := "";
+
+    attribute planning : Planning := null;
+
+  }
+
+
+  class Completion {
+
+  stereotype originator="13";
+
+  stereotype modifiedBy="13";
+
+    attribute radar : String := "";
+
+    attribute cross-section : String := "";
+
+    attribute analysis : String := "";
+
+    attribute characterization : String := "";
+
+    attribute Government : String := "";
+
+    attribute UAV : UAV := null;
+
+    attribute type : String := "";
+
+    attribute TCS : TCS := null;
+
+    attribute signature : Signature := null;
+
+    attribute threat : Threat := null;
+
+    attribute lookup : String := "";
+
+    attribute table : String := "";
+
+    attribute database : Database := null;
+
+    attribute lethality : Lethality := null;
+
+    attribute capability : Capability := null;
+
+    attribute aircraft : Aircraft := null;
+
+    attribute flight : Flight := null;
+
+
+
+  }
+
+
+
+  class Retasking {
+
+  stereotype originator="14";
+
+  }
+
+
+   class Mission {
+
+  stereotype originator="1";
+
+  stereotype modifiedBy="1";
+
+  stereotype modifiedBy="14";
+
+    attribute operator : String := "";
+
+    attribute UAVMissionPlan : String := "";
+
+    attribute payload : String := "";
+
+    attribute retasking : Retasking := null;
+
+    attribute phases : Sequence(String) := "";
+
+     attribute execution : String := "";
+
+  stereotype originator="1";
+
+  stereotype modifiedFeatures="5";
+
+  stereotype modifiedFeatures="19";
+
+    attribute data : String := "";
+
+    attribute altitude : double := 0.0;
+
+    attribute range : double := 0.0;
+  }
+
+
+  class Minimum {
+
+  stereotype originator="9";
+
+  stereotype modifiedBy="9";
+
+
+
+    attribute mission : Mission := null;
+
+    attribute plans : Set(Plan) := Set{};
+
+    attribute names : String := "";
+
+    attribute retrieval : String := "";
+
+  }
+
+  class TCSMissionPlanningFunction extends MissionPlanningFunction {
+
+  stereotype originator="10";
+
+  }
+
+
+
+  class Planning {
+
+  stereotype originator="1";
+
+  }
+
+
+
+  class TCS {
+
+ stereotype originator="2";
+
+  stereotype modifiedBy="2";
+
+  stereotype modifiedBy="4";
+
+  stereotype modifiedBy="6";
+
+  stereotype modifiedBy="14";
+
+  stereotype modifiedBy="22";
+
+
+
+    attribute UAVMissionPlans : Set(String) := Set{};
+
+    attribute service : String := "";
+
+    attribute mission : Mission := null;
+
+    attribute systems : Set(System) := Set{};
+
+    attribute UAVMission : String := "";
+
+    attribute specificMission : String := "";
+
+    attribute otherTCSs : Set(String) := Set{};
+
+
+    reference permit : Mission;
+
+    reference allow : Operator;
+
+
+  }
+
+  class CI {
+
+  stereotype originator="5";
+
+  }
+
+  class TCSProcessingMissionPlanDataCI {
+
+  stereotype originator="5";
+
+  }
+
+
+
+  class Processing {
+
+  stereotype originator="5";
+
+  stereotype modifiedBy="5";
+
+    attribute mission : Mission := null;
+
+    attribute plan : Plan := null;
+
+    attribute data : Sequence(String) := "";
+
+    attribute CI : CI := null;
+
+  }
+
+
+  class Communication {
+
+  stereotype originator="8";
+
+  }
+
+
+
+  class UAV {
+
+  stereotype originator="1";
+
+  }
+
+
+
+  class MissionPlanningFunction {
+
+  stereotype originator="1";
+
+  }
+
+
+
+  class Plan {
+
+  stereotype originator="1";
+
+  }
+
+  class Process {
+  stereotype originator="2";
+
+  stereotype modifiedFeatures="2";
+
+    attribute systems : Set(System) := Set{};
+  }
+
+
+
+  class Tactical {
+
+  stereotype originator="3";
+
+  }
+
+  class Aircraft {
+
+  stereotype originator="3";
+
+  stereotype modifiedFeatures="13";
+
+    attribute signature : String := "";
+  }
+
+  class Signature {
+
+  stereotype originator="13";
+  }
+
+
+
+  class Database {
+
+  stereotype originator="13";
+
+  }
+
+
+  class TAMPS {
+
+  stereotype originator="3";
+
+  }
+
+
+
+ 
+  class Aviation {
+
+  stereotype originator="3";
+
+  }
+
+  class AMPS {
+
+  stereotype originator="3";
+
+  }
+
+
+  class Air {
+
+  stereotype originator="3";
+
+  }
+
+
+  class Force {
+
+  stereotype originator="3";
+
+  }
+
+
+  class Support {
+
+  stereotype originator="3";
+
+  }
+
+
+  class AFMSS {
+
+  stereotype originator="3";
+
+  }
+
+
+
+  class TCSMissionPlan extends MissionPlan {
+
+  stereotype originator="3";
+
+  stereotype modifiedBy="3";
+
+
+
+    attribute necessaryInformation : String := "";
+
+    attribute service : String := "";
+
+    attribute mission : Mission := null;
+
+    attribute systems : Set(System) := Set{};
+
+    attribute AircraftMission : String := "";
+
+    attribute PlanningSystem : String := "";
+
+    attribute TAMPS : String := "";
+
+    attribute AviationMission : String := "";
+
+    attribute AMPS : AMPS := null;
+
+    attribute AirForceMissionSupport : String := "";
+
+    attribute TacticalSystem : String := "";
+
+    attribute AFMSS : AFMSS := null;
+
+  }
+
+
+  class System {
+
+  stereotype originator="3";
+
+  stereotype modifiedFeatures="16";
+
+
+
+    attribute number : double := 0.0;
+
+    attribute information : String := "";
+
+  }
+
+
+
+  class Interface extends Device {
+
+  }
+
+
+
+  class Payload {
+
+  stereotype originator="8";
+
+  }
+
+
+  class MissionPlan {
+
+  stereotype originator="8";
+
+  stereotype modifiedBy="8";
+
+
+    attribute FlightRoute : String := "";
+
+    attribute Plan : Plan := null;
+
+    attribute AV : String := "";
+
+    attribute PayloadPlan : String := "";
+
+    attribute payload : String := "";
+
+    attribute CommunicationsPlan : Set(String) := Set{};
+  }
+
+
+  class Capability {
+
+  stereotype originator="13";
+
+  stereotype modifiedFeatures="16";
+
+
+
+    attribute number : double := 0.0;
+
+    attribute information : String := "";
+
+  }
+
+
+
+  class Flight {
+
+  stereotype originator="8";
+
+  }
+
+
+
+  class Route {
+
+  stereotype originator="8";
+
+  }
+
+
+  class User {
+
+  stereotype originator="10";
+ }
+
+
+
+  class Device {
+
+  stereotype originator="10";
+
+  }
+
+
+
+  class Objective {
+
+  stereotype originator="12";
+
+  }
+
+
+
+  class CompletionRadarCrosssectionAnalysisCharacterizationGovernmentUAVType {
+
+  stereotype originator="13";
+
+  stereotype modifiedBy="13";
+
+
+
+
+    reference utilize : Signature;
+
+
+  }
+
+  class Position {
+
+  stereotype originator="11";
+
+  }
+
+
+
+
+  class Government {
+
+  stereotype originator="13";
+
+
+
+
+
+  }
+
+
+
+
+
+  class Parameter {
+
+  stereotype originator="15";
+
+  }
+
+
+  class TCSOperatorMissionPlanParameter extends Parameter {
+
+  stereotype originator="15";
+
+  }
+
+
+
+
+  class AV {
+
+  stereotype originator="15";
+
+
+
+
+
+  }
+
+
+
+  class VCR {
+
+  stereotype originator="15";
+
+
+
+
+
+  }
+
+
+
+  class Review {
+
+  stereotype originator="15";
+
+
+
+
+
+  }
+
+
+
+  class Communication {
+
+  stereotype originator="16";
+
+  }
+
+
+
+  class Type {
+
+  stereotype originator="16";
+
+
+
+
+
+  }
+
+
+
+  class Link {
+
+  stereotype originator="19";
+
+  }
+
+
+  class Lethality {
+
+  stereotype originator="13";
+  }
+
+
+
+  class Threat {
+
+  stereotype originator="13";
+
+  }
+
+
+  class LOL {
+  stereotype originator="19";
+  stereotype modifiedFeatures="23";
+
+    attribute time : double := 0.0;
+  }
+
+
+
+  class LOLDelay {
+
+  stereotype originator="23";
+
+  }
+
+
+
+  class Format {
+
+  stereotype originator="24";
+
+  }
+
+
+
+  usecase importCreateAndModifyMapDisplayOverlaysForFireSupportCoordinationAirspaceControlAndThreatIdentificationMeasures : Support {
+
+    parameter objectivex : Objective;
+
+    stereotype originator="12";
+    stereotype actor="Objective";
+    stereotype other;
+    stereotype create;
+
+
+    ::
+      true => Support->exists( supportx | result = supportx );
+
+
+  }
+
+
+  usecase provideTheCapabilityToOverrideValidationFaultsAfterTheOperatorAcknowledgesTheFault : void {
+
+    parameter tcsx : TCS;
+
+    stereotype originator="21";
+    stereotype actor="TCS";
+    stereotype other;
+
+
+  }
+
+
+
+
+  usecase provideTheCapabilityToPrintWaypointDataInAlphanumericFormat : void {
+
+    parameter tcsx : TCS;
+    parameter formatx : Format;
+
+    stereotype originator="24";
+    stereotype actor="TCS";
+    stereotype other;
+
+
+  }
+
+
+
+  usecase haveTheFunctionalityToAllowTheOperatorToGenerateAUAVMissionPlan : void {
+
+    parameter missionplanningfunctionx : MissionPlanningFunction;
+    parameter planx : Plan;
+
+    stereotype originator="1";
+    stereotype actor="MissionPlanningFunction";
+    stereotype other;
+
+
+  }
+
+
+
+
+  usecase haveTheFunctionalityToReceiveAndProcessUAVMissionPlansFromServicespecificMissionPlanningSystems : void {
+
+    parameter tcsx : TCS;
+    parameter processx : Process;
+    parameter uavx : UAV;
+    parameter missionx : Mission;
+    parameter planx : Plan;
+    parameter planningx : Planning;
+
+    stereotype originator="2";
+    stereotype actor="TCS";
+    stereotype other;
+    stereotype read;
+
+
+    ::
+      true => processx->display();
+
+
+    ::
+      true => uavx->display();
+
+
+    ::
+      true => missionx->display();
+
+
+    ::
+      true => planx->display();
+
+
+    ::
+      true => planningx->display();
+
+
+  }
+
+
+
+
+  usecase includeAllNecessaryInformationRequiredToBeInteroperableWithTheServicespecificMissionPlanningSystemsIncludingTheTacticalAircraftMissionPlanningSystemTAMPSAviationMissionPlanningSystemAMPSAndAirForceMissionSupportSystemAFMSS : void {
+
+    parameter tcsmissionplanx : TCSMissionPlan;
+    parameter missionx : Mission;
+    parameter planningx : Planning;
+    parameter tacticalx : Tactical;
+    parameter aircraftx : Aircraft;
+    parameter systemx : System;
+    parameter tampsx : TAMPS;
+    parameter aviationx : Aviation;
+    parameter airx : Air;
+    parameter forcex : Force;
+
+    stereotype originator="3";
+    stereotype actor="TCSMissionPlan";
+    stereotype other;
+    stereotype read;
+
+
+    ::
+      true => missionx->display();
+
+
+    ::
+      true => planningx->display();
+
+
+    ::
+      true => tacticalx->display();
+
+
+    ::
+      true => aircraftx->display();
+
+
+    ::
+      true => systemx->display();
+
+
+    ::
+      true => tampsx->display();
+
+
+    ::
+      true => aviationx->display();
+
+
+    ::
+      true => airx->display();
+
+
+    ::
+      true => forcex->display();
+
+
+  }
+
+
+
+
+  usecase haveTheFunctionalityToTransmitUAVMissionPlansToServicespecificMissionPlanningSystems : void {
+
+    parameter tcsx : TCS;
+
+    stereotype originator="4";
+    stereotype actor="TCS";
+    stereotype other;
+
+
+  }
+
+
+
+
+  usecase facilitateTheAutomatedProcessingOfMissionPlanDataReceivedViaCIInterfacesToExtractTheAppropriateMissionPlanningData : void {
+
+    parameter tcsx : TCS;
+    parameter interfacex : Interface;
+    parameter missionx : Mission;
+    parameter planningx : Planning;
+
+    stereotype originator="5";
+    stereotype actor="TCS";
+    stereotype other;
+    stereotype read;
+
+
+    ::
+      true => interfacex->display();
+
+
+    ::
+      true => missionx->display();
+
+
+    ::
+      true => planningx->display();
+
+
+  }
+
+
+
+
+  usecase haveTheFunctionalityToReceiveAndProcessUAVMissionPlansFromOtherTCSs : void {
+
+    parameter tcsx : TCS;
+    parameter processx : Process;
+    parameter uavx : UAV;
+    parameter missionx : Mission;
+    parameter planx : Plan;
+
+    stereotype originator="6";
+    stereotype actor="TCS";
+    stereotype other;
+    stereotype read;
+
+
+    ::
+      true => processx->display();
+
+
+    ::
+      true => uavx->display();
+
+
+    ::
+      true => missionx->display();
+
+
+    ::
+      true => planx->display();
+
+
+    ::
+      true => tcsx->display();
+
+
+  }
+
+
+
+
+  usecase haveTheFunctionalityToTransmitUAVMissionPlansToOtherTCSs : void {
+
+    parameter tcsx : TCS;
+
+    stereotype originator="7";
+    stereotype actor="TCS";
+    stereotype other;
+
+
+  }
+
+
+
+
+  usecase includeAFlightRoutePlanForASelectedAVAPayloadPlanForTheSelectedPayloadAndACommunicationsPlan : void {
+
+    parameter missionplanx : MissionPlan;
+    parameter flightx : Flight;
+    parameter routex : Route;
+    parameter payloadx : Payload;
+    parameter planx : Plan;
+    parameter communicationx : Communication;
+
+    stereotype originator="8";
+    stereotype actor="MissionPlan";
+    stereotype other;
+    stereotype read;
+
+
+    ::
+      true => payloadx->display();
+
+
+    ::
+      true => planx->display();
+
+
+    ::
+      true => communicationx->display();
+
+
+  }
+
+
+
+
+  usecase storingAMinimumOfMissionPlansUnderUniqueNamesToAllowForLaterRetrieval : void {
+
+    parameter tcsx : TCS;
+    parameter missionx : Mission;
+    parameter planx : Plan;
+
+    stereotype originator="9";
+    stereotype actor="TCS";
+    stereotype persistent;
+    stereotype other;
+
+
+  }
+
+
+
+
+  usecase provideAGraphicalUserInterfaceThatAllowsTheOperatorToDefineWaypointsOnAMapbasedDisplayUsingAPointingDeviceWithFullKeysetRedundancy : void {
+
+    parameter tcsmissionplanningfunctionx : TCSMissionPlanningFunction;
+    parameter userx : User;
+    parameter devicex : Device;
+
+    stereotype originator="10";
+    stereotype actor="TCSMissionPlanningFunction";
+    stereotype other;
+
+
+  }
+
+
+
+
+  usecase provideTheCapabilityToComputeTheRangeAndBearingBetweenTwoGeographicPositionsOnTheMapDisplay : void {
+
+    parameter tcsx : TCS;
+
+    stereotype originator="11";
+    stereotype actor="TCS";
+    stereotype other;
+
+
+  }
+
+
+
+
+
+
+  usecase provideTheCapabilityOfDisplayingAircraftSignatureVersusThreatBeforeAndDuringFlight : void {
+
+    parameter completionx : Completion;
+    parameter aircraftx : Aircraft;
+    parameter flightx : Flight;
+
+    stereotype originator="13";
+    stereotype actor="Completion";
+    stereotype other;
+    stereotype read;
+
+
+    ::
+      true => aircraftx->display();
+
+
+    ::
+      true => flightx->display();
+
+
+  }
+
+
+
+
+  usecase shallPermitDynamicMissionAndPayloadRetaskingDuringAllPhasesOfOperationalMissionExecution : void {
+
+    parameter tcsx : TCS;
+
+    stereotype originator="14";
+    stereotype actor="TCS";
+
+
+  }
+
+
+
+
+  usecase allowTheOperatorToEnterAndReviewMissionPlanParametersIncludingAVFlightParametersPayloadControlParametersDataLinkControlParametersAVVCRControlParametersIfApplicableToTheSelectedAVAndAVLoiterPatterns : void {
+
+    parameter tcsx : TCS;
+    parameter reviewx : Review;
+
+    stereotype originator="15";
+    stereotype actor="TCS";
+    stereotype other;
+
+
+  }
+
+
+
+
+  usecase provideTheCapabilityToEnterSystemConfigurationCharacteristicsInTheMissionPlanIncludingSelectedAVTypeAVIdentificationNumberSelectedPayloadTypeGroundControlAuthorizationInformationRequiredCommunicationsPresetForDataLinksTacticalCommunicationsAndCIDataDissemination : void {
+
+    parameter tcsx : TCS;
+    parameter typex : Type;
+
+    stereotype originator="16";
+    stereotype actor="TCS";
+    stereotype other;
+
+
+  }
+
+
+
+
+  usecase provideTheSystemFunctionalityNecessaryToUploadAFlightRoutePlanAndPayloadPlanIfApplicableToTheAVViaTheSelectedSystemDataLinkAndDirectGroundConnection : void {
+
+    parameter tcsx : TCS;
+    parameter flightx : Flight;
+    parameter routex : Route;
+    parameter planx : Plan;
+    parameter payloadx : Payload;
+    parameter avx : AV;
+    parameter systemx : System;
+
+    stereotype originator="17";
+    stereotype actor="TCS";
+    stereotype other;
+    stereotype edit;
+
+
+  }
+
+
+
+
+  usecase provideTheCapabilityForTheOperatorToRetrieveAMissionPlanForViewingModificationAndDeletionAtTheOperator : void {
+
+    parameter tcsx : TCS;
+    parameter missionx : Mission;
+    parameter planx : Plan;
+
+    stereotype originator="18";
+    stereotype actor="TCS";
+    stereotype other;
+    stereotype read;
+
+
+    ::
+      true => missionx->display();
+
+
+    ::
+      true => planx->display();
+
+
+  }
+
+
+
+
+  usecase checkTheValidityOfTheIntendedMissionPlanBeforeBeingUploadedIncludingAltitudeConstraintsPayloadConstraintsDataLinkRangeConstraintsAirspaceRestrictionsFuelLimitationsThreatConstraintsDataLinkTerrainMaskingEffectsAndLossOfLinkLOLPlan : void {
+
+    parameter tcsx : TCS;
+    parameter missionx : Mission;
+    parameter planx : Plan;
+    parameter payloadx : Payload;
+    parameter linkx : Link;
+    parameter rangex : double;
+    parameter lolx : LOL;
+
+    stereotype originator="19";
+    stereotype actor="TCS";
+    stereotype read;
+    stereotype edit;
+
+
+    ::
+      true => missionx->display();
+
+
+    ::
+      true => planx->display();
+
+
+    ::
+      true => payloadx->display();
+
+
+    ::
+      true => linkx->display();
+
+
+    ::
+      true => lolx->display();
+
+
+  }
+
+
+
+
+  usecase notifyTheOperatorOfAllDiscrepanciesFoundDuringTheMissionPlanCheckAndIndicateSuccessfulCompletionOfTheMissionPlanCheck : void {
+
+    parameter tcsx : TCS;
+
+    stereotype originator="20";
+    stereotype actor="TCS";
+    stereotype other;
+
+
+  }
+
+
+
+
+
+
+
+  usecase allowTheOperatorToSetTheLOLDelayTimerSDuringMissionPlanning : void {
+
+    parameter tcsx : TCS;
+    parameter lolx : LOL;
+    parameter missionx : Mission;
+    parameter planningx : Planning;
+
+    stereotype originator="22";
+    stereotype actor="TCS";
+    stereotype other;
+    stereotype edit;
+
+
+  }
+
+
+
+
+  usecase detectsAnUnplannedLOLToTheTimeItInitiatesLOLProcedures : void {
+
+    parameter loldelayx : LOLDelay;
+    parameter lolx : LOL;
+
+    stereotype originator="23";
+    stereotype actor="LOLDelay";
+    stereotype read;
+
+
+    ::
+      true => lolx->display();
+
+
+  }
+
+}
+

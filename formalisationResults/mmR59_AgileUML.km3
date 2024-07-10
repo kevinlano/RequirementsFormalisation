@@ -1,0 +1,758 @@
+package app {
+  class FSW {
+
+  stereotype originator="1";
+
+
+stereotype modifiedFeatures="1";
+
+
+
+    attribute systems : Set(System) := Set{};
+
+    attribute data : String := "";
+
+    attribute time : double := 0.0;
+
+    attribute types : Set(Type) := Set{};
+
+    attribute figure : double := 0.0;
+
+    attribute minutes : double := 0.0;
+
+    attribute distance : double := 0.0;
+
+
+
+  }
+
+
+
+  class OperationalConceptsFollowingSection {
+
+  stereotype originator="1";
+
+
+
+
+
+  }
+
+
+
+  class Interface extends Device {
+
+
+
+
+
+  }
+
+
+
+  class OperationalConcept extends Concept {
+
+  stereotype originator="1";
+
+
+
+
+
+  }
+
+
+
+  class Process {
+
+  stereotype originator="1";
+
+
+
+
+
+  }
+
+
+
+  class Concept {
+
+  stereotype originator="1";
+
+  stereotype modifiedBy="1";
+
+
+
+    attribute FSW : FSW := null;
+
+    attribute functions : Sequence(String) := "";
+
+    attribute performance : String := "";
+
+    attribute characteristics : String := "";
+
+    attribute error : String := "";
+
+    attribute detection : String := "";
+
+    attribute recovery : String := "";
+
+    attribute mechanisms : String := "";
+
+    attribute ground : String := "";
+
+    attribute systems : String := "";
+
+    attribute concepts : Set(Concept) := Set{};
+
+
+
+  }
+
+
+
+  class Spacecraft {
+
+  stereotype originator="2";
+
+
+
+
+
+  }
+
+
+
+  class Control {
+
+  stereotype originator="2";
+
+
+
+
+
+  }
+
+
+
+  class Unit {
+
+  stereotype originator="2";
+
+
+
+
+
+  }
+
+
+
+  class SCU {
+
+  stereotype originator="2";
+
+
+
+
+
+  }
+
+
+
+  class CCSDS {
+
+  stereotype originator="2";
+
+
+
+
+
+  }
+
+
+
+  class Source {
+
+  stereotype originator="2";
+
+
+
+
+
+  }
+
+
+
+  class Function {
+
+  stereotype originator="2";
+
+  stereotype modifiedBy="2";
+
+
+
+    attribute primaryFunctions : Set(String) := Set{};
+
+    attribute ProcessScienceData : Set(String) := Set{};
+
+    attribute camera : String := "";
+
+    attribute relay : String := "";
+
+    attribute SpacecraftControlUnit : String := "";
+
+    attribute SCU : SCU := null;
+
+    attribute form : String := "";
+
+    attribute CCSDSSourcePackets : Set(String) := Set{};
+
+
+
+  }
+
+
+
+  class CommandsSCUCurrentInstrumentStateCameraMode {
+
+  stereotype originator="3";
+
+
+
+
+
+  }
+
+
+
+  class Command {
+
+  stereotype originator="3";
+
+  stereotype modifiedBy="3";
+
+
+
+    attribute SCU : SCU := null;
+
+    attribute instrument : String := "";
+
+    attribute state : String := "";
+
+    attribute camera : String := "";
+
+    attribute mode : String := "";
+
+
+
+  }
+
+
+
+  class DetailedHousekeepingDataSCUFormCCSDSSourcePacket {
+
+  stereotype originator="4";
+
+
+
+
+
+  }
+
+
+
+  class Housekeepingdata {
+
+  stereotype originator="4";
+
+  stereotype modifiedBy="4";
+
+
+
+    attribute SCU : SCU := null;
+
+    attribute form : String := "";
+
+    attribute CCSDS : CCSDS := null;
+
+    attribute Source : Source := null;
+
+    attribute Packets : String := "";
+
+
+
+  }
+
+
+
+  class TimeMessageSCUXCPLocalCopySpacecraftClock {
+
+  stereotype originator="5";
+
+
+
+
+
+  }
+
+
+
+  class Timemessage {
+
+  stereotype originator="5";
+
+  stereotype modifiedBy="5";
+
+
+
+    attribute SCU : SCU := null;
+
+    attribute XCP : String := "";
+
+    attribute copy : String := "";
+
+    attribute spacecraft : Spacecraft := null;
+
+    attribute clock : String := "";
+
+
+
+  }
+
+
+
+  class HeatersTelescopeTube {
+
+  stereotype originator="6";
+
+
+
+
+
+  }
+
+
+
+  class Heater {
+
+  stereotype originator="6";
+
+  stereotype modifiedBy="6";
+
+
+
+    attribute telescope : String := "";
+
+    attribute tube : String := "";
+
+
+
+  }
+
+
+
+  class TAM {
+
+  stereotype originator="7";
+
+
+
+
+
+  }
+
+
+
+  class Observation {
+
+  stereotype originator="8";
+
+
+
+
+
+  }
+
+
+
+  class XRT {
+
+  stereotype originator="8";
+
+
+
+
+
+  }
+
+
+
+  class ObservationSequenceXRT {
+
+  stereotype originator="8";
+
+
+
+
+
+  }
+
+
+
+  class Observationsequence {
+
+  stereotype originator="8";
+
+
+
+  }
+
+
+
+  class Automatic {
+
+  stereotype originator="9";
+
+
+
+
+
+  }
+
+
+
+  class Preplanned {
+
+  stereotype originator="9";
+
+
+
+
+
+  }
+
+
+
+  class Opportunity {
+
+  stereotype originator="9";
+
+
+
+
+
+  }
+
+
+
+  class FigureFigure extends Figure {
+
+  stereotype originator="10";
+
+  stereotype modifiedBy="10";
+
+
+
+
+    reference show : Flowchart;
+
+
+  }
+
+
+
+  class Flowchart {
+
+  stereotype originator="10";
+
+  stereotype modifiedBy="10";
+
+
+
+    attribute observation : Observation := null;
+
+    attribute types : Set(Type) := Set{};
+
+
+
+  }
+
+
+
+  class Type {
+
+  stereotype originator="10";
+
+
+
+
+
+  }
+
+
+
+  class SequenceFigure extends Figure {
+
+  stereotype originator="11";
+
+
+
+
+
+  }
+
+
+
+  class Figure {
+
+  stereotype originator="11";
+
+  stereotype modifiedBy="11";
+
+
+
+    attribute software : String := "";
+
+    attribute mode : String := "";
+
+    attribute observation : Observation := null;
+
+
+
+  }
+
+
+
+  class SISCATTITUDE {
+
+  stereotype originator="12";
+
+  }
+
+
+  class ARCMIN {
+
+  stereotype originator="1";
+
+  }
+
+
+  class Sequence {
+
+  stereotype originator="12";
+
+
+
+
+
+  }
+
+
+
+  class SISCATTITUDEmessage {
+
+  stereotype originator="12";
+
+  stereotype modifiedBy="12";
+
+
+
+    attribute IS_SETTLED : String := "";
+
+    attribute indication : String := "";
+
+
+
+  }
+
+
+
+  class Message {
+
+  stereotype originator="13";
+
+  stereotype modifiedBy="13";
+
+
+
+
+    reference indicates : IS_IN_10_ARCMIN;
+
+
+  }
+
+
+
+  class IS_IN_10_ARCMIN {
+
+  stereotype originator="13";
+
+  stereotype modifiedBy="13";
+
+
+
+    attribute S : String := "";
+
+    attribute C : C := null;
+
+    attribute arc : String := "";
+
+    attribute minutes : Set(Minute) := Set{};
+
+    attribute target : String := "";
+
+    attribute position : Position := null;
+
+
+
+  }
+
+
+
+  class C {
+
+  stereotype originator="13";
+
+
+
+
+
+  }
+
+
+
+  class Minute {
+
+  stereotype originator="13";
+
+
+
+
+
+  }
+
+
+
+  class Target {
+
+  stereotype originator="1";
+
+
+
+
+
+  }
+
+
+
+  class Software {
+
+  stereotype originator="1";
+
+
+
+  }
+
+
+  class Position {
+
+  stereotype originator="13";
+
+
+
+
+
+  }
+
+
+
+  class Activity {
+
+  stereotype originator="14";
+
+
+
+
+
+  }
+
+
+
+  class DistanceSlewGreaterArcMinute {
+
+  stereotype originator="14";
+
+  stereotype modifiedBy="14";
+
+
+
+
+    reference begins : Observation;
+
+
+  }
+
+
+
+  class Distance {
+
+  stereotype originator="14";
+
+  stereotype modifiedBy="14";
+
+  stereotype modifiedBy="15";
+
+
+
+    attribute slew : String := "";
+
+    attribute arc : String := "";
+
+    attribute minutes : Set(Minute) := Set{};
+
+    attribute S : String := "";
+
+    attribute C : C := null;
+
+    attribute activities : Set(Activity) := Set{};
+
+    attribute observation : Observation := null;
+
+    attribute activity : Activity := null;
+
+
+
+  }
+
+
+
+  class ActivityDistanceGreaterArcMinute {
+
+  stereotype originator="15";
+
+
+
+
+
+  }
+
+
+
+  usecase describeTheOperationalConceptsOfTheFSWIncludingItsFunctionsInterfacesPerformanceCharacteristicsErrorDetectionReportingAndRecoveryMechanismsAndGroundSystemsConceptsFunctionsTheFSWHasTheFollowingPrimaryFunctionsProcessScienceDataFromTheCameraAndRelayItToTheSpacecraftControlUnitSCUInTheFormOfCCSDSSourcePacketsReceiveCommandsFromTheSCUThatEstablishTheCurrentInstrumentStateAndCameraModeTransmitDetailedHousekeepingDataToTheSCUInTheFormOfCCSDSSourcePacketsReceiveATimeMessageFromTheSCUAndSynchronizeTheXCPLocalCopyOfTheSpacecraftClockControlTheHeatersOnTheTelescopeTubeAndTheThermalBafflesReadTheTAMObservationSequenceTheXRTSupportsThreeDifferentButVerySimilarObservationSequencesTheThreeObservationTypesAreAutomaticPreplannedTargetOfOpportunityFigure6AndFigure7ShowADetailedFlowchartForTheObservationTypesTheSequenceShownInTheFiguresAssumesTheSoftwareIsInAutomaticModeAndNotPresentlyPerformingAnObservationTheSequenceStartsWhenASISCATTITUDEMessageIsReceivedWithTheISSETTLEDIndicationSetToFalseTheMessageAlsoIndicatesISIN10ARCMINWhichIsTrueWhenTheSCIsWithinTenArcMinutesOfTheTargetPositionWhenTheDistanceRemainingToSlewIsGreaterThanTenArcMinutesTheSCBeginsTheFirstOfUpToThreeActivitiesThatPrecedeAnObservationEachActivityIsInitiatedWhenTheDistanceRemainingIsGreaterThanTenArcMinutesAndThePreviousActivityIsCompleteThePreobservationActivitiesAreCalculateRowBiasMapCalculateImageBiasMapCollectRawDataImage : void {
+
+    parameter operationalconceptx : OperationalConcept;
+    parameter processx : Process;
+    parameter messagex : Message;
+    parameter targetx : Target;
+    parameter softwarex : Software;
+    parameter positionx : Position;
+
+    stereotype originator="1";
+    stereotype actor="OperationalConcept";
+    stereotype other;
+
+
+  }
+
+
+}
+

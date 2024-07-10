@@ -1,0 +1,371 @@
+package R49_Tcs.txt {
+
+class Uav_mission_plan {
+  attribute mission_planning_function : String;
+  attribute tcs : String;
+  attribute functionality : String;
+  attribute operator : String;
+}
+
+class Tcs_mission_plan {
+  attribute necessary_information : String;
+  attribute mission : String;
+  attribute systems : String;
+  attribute tactical_aircraft_mission_planning_system : String;
+  attribute tamps : String;
+  attribute aviation_mission_planning_system : String;
+  attribute amps : String;
+  attribute air_force_mission_support_system : String;
+  attribute afmss : String;
+}
+
+class Graphical_user_interface {
+  attribute tcs_mission_planning_function : String;
+  attribute operator : String;
+  attribute waypoints : String;
+  attribute display : String;
+  attribute full_keyset_redundancy : String;
+  reference pointing_device : Pointing_device;
+}
+
+class Pointing_device {
+  attribute tcs_mission_planning_function : String;
+  attribute operator : String;
+  attribute waypoints : String;
+  attribute display : String;
+  attribute full_keyset_redundancy : String;
+  reference graphical_user_interface : Graphical_user_interface;
+}
+
+class Uav_type {
+  attribute completion : String;
+  attribute radar_analysis : String;
+  attribute characterization : String;
+  attribute government : String;
+  attribute tcs : String;
+  attribute lethality : String;
+  attribute threat : String;
+  attribute uav : String;
+  attribute capability : String;
+  attribute aircraft_signature_versus_threat : String;
+  reference uav_signature_versus_threat_lookup_table : OclAny;
+  reference database : Database;
+  reference flight : Flight;
+}
+
+class Database {
+  attribute completion : String;
+  attribute radar_analysis : String;
+  attribute characterization : String;
+  attribute government : String;
+  attribute tcs : String;
+  attribute lethality : String;
+  attribute threat : String;
+  attribute uav : String;
+  attribute capability : String;
+  attribute aircraft_signature_versus_threat : String;
+  reference uav_type : Uav_type;
+  reference uav_signature_versus_threat_lookup_table : OclAny;
+  reference flight : Flight;
+}
+
+class Flight {
+  attribute completion : String;
+  attribute radar_analysis : String;
+  attribute characterization : String;
+  attribute government : String;
+  attribute tcs : String;
+  attribute lethality : String;
+  attribute threat : String;
+  attribute uav : String;
+  attribute capability : String;
+  attribute aircraft_signature_versus_threat : String;
+  reference uav_type : Uav_type;
+  reference uav_signature_versus_threat_lookup_table : OclAny;
+  reference database : Database;
+}
+
+class Mission_plan_parameters {
+  attribute tcs : String;
+  attribute operator : String;
+  attribute payload_control_parameters : String;
+  attribute data : String;
+  attribute control_parameters : String;
+  attribute av_vcr_control_parameters : String;
+  attribute av : String;
+  attribute av_loiter_patterns : String;
+  reference av_flight_parameters : Av_flight_parameters;
+}
+
+class Av_flight_parameters {
+  attribute tcs : String;
+  attribute operator : String;
+  attribute payload_control_parameters : String;
+  attribute data : String;
+  attribute control_parameters : String;
+  attribute av_vcr_control_parameters : String;
+  attribute av : String;
+  attribute av_loiter_patterns : String;
+  reference mission_plan_parameters : Mission_plan_parameters;
+}
+
+class System_configuration_characteristics {
+  attribute tcs : String;
+  attribute capability : String;
+  attribute av_identification_number : String;
+  attribute ground_control_authorization_information : String;
+  attribute communications : String;
+  attribute data_links : String;
+  attribute tactical_communications : String;
+  attribute ci_data_dissemination : String;
+  reference mission_plan : Mission_plan;
+  reference av_type : Av_type;
+  reference payload_type : Payload_type;
+}
+
+class Mission_plan {
+  attribute tcs : String;
+  attribute capability : String;
+  attribute av_identification_number : String;
+  attribute ground_control_authorization_information : String;
+  attribute communications : String;
+  attribute data_links : String;
+  attribute tactical_communications : String;
+  attribute ci_data_dissemination : String;
+  attribute operator : String;
+  attribute modification : String;
+  attribute deletion : String;
+  attribute discretion : String;
+  attribute different_name : String;
+  attribute future_retrieval : String;
+  attribute validity : String;
+  attribute altitude_constraints : String;
+  attribute payload_constraints : String;
+  attribute data : String;
+  attribute airspace_restrictions : String;
+  attribute fuel_limitations : String;
+  attribute threat_constraints : String;
+  attribute terrain_masking_effects : String;
+  attribute loss : String;
+  attribute link : String;
+  attribute lol : String;
+  attribute plan : String;
+  attribute discrepancies : String;
+  attribute successful_completion : String;
+  reference system_configuration_characteristics : System_configuration_characteristics;
+  reference av_type : Av_type;
+  reference payload_type : Payload_type;
+  reference range_constraints : OclAny;
+}
+
+class Av_type {
+  attribute tcs : String;
+  attribute capability : String;
+  attribute av_identification_number : String;
+  attribute ground_control_authorization_information : String;
+  attribute communications : String;
+  attribute data_links : String;
+  attribute tactical_communications : String;
+  attribute ci_data_dissemination : String;
+  reference system_configuration_characteristics : System_configuration_characteristics;
+  reference mission_plan : Mission_plan;
+  reference payload_type : Payload_type;
+}
+
+class Payload_type {
+  attribute tcs : String;
+  attribute capability : String;
+  attribute av_identification_number : String;
+  attribute ground_control_authorization_information : String;
+  attribute communications : String;
+  attribute data_links : String;
+  attribute tactical_communications : String;
+  attribute ci_data_dissemination : String;
+  reference system_configuration_characteristics : System_configuration_characteristics;
+  reference mission_plan : Mission_plan;
+  reference av_type : Av_type;
+}
+
+class System_functionality {
+  attribute tcs : String;
+  attribute av : String;
+  attribute direct_ground_connection : String;
+  reference flight_route_plan : Flight_route_plan;
+  reference payload_plan : Payload_plan;
+  reference selected_system_data_link : OclAny;
+}
+
+class Flight_route_plan {
+  attribute tcs : String;
+  attribute av : String;
+  attribute direct_ground_connection : String;
+  reference system_functionality : System_functionality;
+  reference payload_plan : Payload_plan;
+  reference selected_system_data_link : OclAny;
+}
+
+class Payload_plan {
+  attribute tcs : String;
+  attribute av : String;
+  attribute direct_ground_connection : String;
+  reference system_functionality : System_functionality;
+  reference flight_route_plan : Flight_route_plan;
+  reference selected_system_data_link : OclAny;
+}
+
+class Alphanumeric_format {
+  attribute tcs : String;
+  attribute capability : String;
+  attribute waypoint_data : String;
+}
+
+
+class Mission_plan_data { }
+
+class Range { }
+
+class Uav_signature_versus_threat_lookup_table { }
+
+class Selected_system_data_link { }
+
+class Range_constraints { }
+
+usecase allow_the_operator_to_generate_a_UAV_mission_plan : void {
+  stereotype actor="Mission_Planning_Function_TCS";
+  stereotype "other";
+  activity: skip;
+}
+
+usecase receive_and_process_UAV_mission_plans_from_mission_planning_systems : void {
+  stereotype actor="TCS";
+  stereotype "read";
+  activity: skip;
+}
+
+usecase include_all_necessary_information_required_to_be_interoperable_with_the_mission_planning_systems_including_the_Tactical_Aircraft_Mission_Planning_System_TAMPS_Aviation_Mission_Planning_System_AMPS_and_Air_Force_Mission_Support_System_AFMSS : void {
+  stereotype actor="TCS_Mission_plan";
+  stereotype "other";
+  activity: skip;
+}
+
+usecase transmit_UAV_mission_plans_to_mission_planning_systems : void {
+  stereotype actor="TCS";
+  stereotype "other";
+  activity: skip;
+}
+
+usecase facilitate_the_automated_processing_of_mission_plan_data_received_via_CI_interfaces_to_extract_the_appropriate_mission_planning_data : void {
+  stereotype actor="TCS";
+  stereotype "other";
+  activity: skip;
+}
+
+usecase receive_and_process_UAV_mission_plans_from_other_TCSs : void {
+  stereotype actor="TCS";
+  stereotype "read";
+  activity: skip;
+}
+
+usecase transmit_UAV_mission_plans_to_other_TCSs : void {
+  stereotype actor="TCS";
+  stereotype "other";
+  activity: skip;
+}
+
+usecase include_a_Flight_Route_Plan_for_a_selected_AV_a_Payload_Plan_for_the_selected_payload_and_a_Communications_Plan : void {
+  stereotype actor="Mission_Plan";
+  stereotype "other";
+  activity: skip;
+}
+
+usecase allow_for_later_retrieval : void {
+  stereotype actor="TCS";
+  stereotype "other";
+  activity: skip;
+}
+
+usecase provide_a_graphical_user_interface_that_allows_the_operator_to_define_waypoints_on_a_display_using_a_pointing_device_with_full_keyset_redundancy : void {
+  stereotype actor="TCS_mission_planning_function";
+  stereotype "other";
+  activity: skip;
+}
+
+usecase provide_the_capability_to_compute_the_range_and_bearing_between_two_geographic_positions_on_the_map_display : void {
+  stereotype actor="TCS";
+  stereotype "other";
+  activity: skip;
+}
+
+usecase import_create_and_modify_map_display_overlays_for_fire_support_coordination_airspace_control_and_threat_identification_measures : void {
+  stereotype actor="objective_TCS";
+  stereotype "other";
+  activity: skip;
+}
+
+usecase utilize_a_UAV_signature_versus_threat_lookup_table_database_that_identifies_the_lethality_of_the_threat_to_the_UAV_and_shall_provide_the_capability_of_displaying_aircraft_signature_versus_threat_before_and_during_flight : void {
+  stereotype actor="completion_radar_cross-section_analysis_and_characterization_Government_UAV_type_TCS";
+  stereotype "other";
+  activity: skip;
+}
+
+usecase permit_dynamic_mission_and_payload_retasking_during_all_phases_of_operational_mission_execution : void {
+  stereotype actor="TCS";
+  stereotype "other";
+  activity: skip;
+}
+
+usecase allow_the_operator_to_enter_and_review_mission_plan_parameters_including_AV_flight_parameters_payload_control_parameters_data_link_control_parameters_AV_VCR_control_parameters_if_applicable_to_the_selected_AV_and_AV_loiter_patterns : void {
+  stereotype actor="TCS";
+  stereotype "other";
+  activity: skip;
+}
+
+usecase provide_the_capability_to_enter_system_configuration_characteristics_in_the_mission_plan_including_selected_AV_type_AV_identification_number_selected_payload_type_ground_control_authorization_information_required_communications_for_data_links_tactical_communications_and_CI_data_dissemination : void {
+  stereotype actor="TCS";
+  stereotype "other";
+  activity: skip;
+}
+
+usecase provide_the_system_functionality_necessary_to_upload_a_flight_route_plan_and_payload_plan_if_applicable_to_the_AV_via_the_selected_system_data_link_and_direct_ground_connection : void {
+  stereotype actor="TCS";
+  stereotype "other";
+  activity: skip;
+}
+
+usecase provide_the_capability_for_the_operator_to_retrieve_a_mission_plan_for_viewing_modification_and_deletion_at_the_operator_discretion_and_allow_the_operator_to_save_the_mission_plan_under_a_different_name_for_future_retrieval : void {
+  stereotype actor="TCS";
+  stereotype "other";
+  activity: skip;
+}
+
+usecase check_the_validity_of_the_intended_mission_plan_before_being_uploaded_including_altitude_constraints_payload_constraints_data_link_range_constraints_airspace_restrictions_fuel_limitations_threat_constraints_data_link_terrain_masking_effects_and_Loss_of_Link_LOL_Plan : void {
+  stereotype actor="TCS";
+  stereotype "read";
+  activity: skip;
+}
+
+usecase notify_the_operator_of_all_discrepancies_found_during_the_mission_plan_check_and_indicate_successful_completion_of_the_mission_plan_check : void {
+  stereotype actor="TCS";
+  stereotype "other";
+  activity: skip;
+}
+
+usecase provide_the_capability_to_override_validation_faults_after_the_operator_acknowledges_the_fault : void {
+  stereotype actor="TCS";
+  stereotype "other";
+  activity: skip;
+}
+
+usecase allow_the_operator_to_set_the_LOL_delay_timer_s_during_mission_planning : void {
+  stereotype actor="TCS";
+  stereotype "other";
+  activity: skip;
+}
+
+usecase provide_the_capability_to_print_waypoint_data_in_alphanumeric_format : void {
+  stereotype actor="TCS";
+  stereotype "other";
+  activity: skip;
+}
+
+}
