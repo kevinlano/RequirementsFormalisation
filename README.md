@@ -12,3 +12,5 @@ Authors of RF approaches are welcome to contribute a description and tooling for
 The work of assembling cases, implementing approaches and writing reference models was carried out by Dr Kevin Lano (KCL), Dr Sobhan Yassipour-Tehrani (UCL), Yiqi Liu (Sheffield), Dr Shekoufeh Kolahdouz-Rahimi (Roehampton) and Muhammad Aminu Umar (KCL).
 
 The work was funded by the EPSRC in the project "Natural Language Processing for Automated Requirements Formalisation", PI Chenghua Lin, Sheffield University.
+
+Two additional industrial case studies have been added from the paper "Generating Domain Models from Natural Language Text Using NLP: A Benchmark Dataset and Experimental Comparison of Tools", Fatma Bozyigit et al., SoSym, 2024. 
