@@ -1,0 +1,48 @@
+Mission Planning Function
+
+The TCS shall have the functionality to allow the operator to generate a UAV mission plan. 
+
+The TCS shall have the functionality to receive and process UAV mission plans from service-specific mission planning systems. 
+
+The TCS Mission plan shall include all necessary information required to be interoperable with the service-specific mission planning systems, including the Tactical Aircraft Mission 
+Planning System (TAMPS), Aviation Mission Planning System (AMPS), and Air Force Mission Support System (AFMSS).  
+
+The TCS shall have the functionality to transmit UAV mission plans to service-specific mission planning systems. 
+
+The TCS shall facilitate the automated processing of mission plan data received via CI interfaces to extract the appropriate mission planning data.  
+
+The TCS shall have the functionality to receive and process UAV mission plans from other TCSs.
+
+The TCS shall have the functionality to transmit UAV mission plans to other TCSs. 
+
+A Mission Plan shall include a Flight Route Plan for a selected AV, a Payload Plan for the selected payload, and a Communications Plan.
+
+The TCS shall be capable of storing a minimum of mission plans under unique names to allow for later retrieval. 
+
+The TCS mission planning function shall provide a graphical user interface that allows the operator to define waypoints on a map-based display using a pointing device with full keyset redundancy. 
+
+The TCS shall provide the capability to compute the range and bearing between two geographic positions on the map display.
+
+As an objective, the TCS shall be able to import, create, and modify map display overlays for fire support coordination, airspace control, and threat identification measures. 
+
+Upon completion of radar cross-section analysis and characterization by the Government for each UAV type, TCS shall utilize a UAV signature versus threat lookup table (database) that identifies the lethality of the threat to the UAV and shall provide the capability of displaying aircraft signature versus threat, before and during flight. 
+
+The TCS shall permit dynamic mission and payload retasking during all phases of operational mission execution. 
+
+The TCS shall allow the operator to enter and review mission plan parameters, including AV flight parameters, payload control parameters, data link control parameters, AV VCR control parameters (if applicable to the selected AV), and AV loiter patterns. 
+
+The TCS shall provide the capability to enter system configuration characteristics in the mission plan, including selected AV type, AV identification number, selected payload type, ground control authorization information, required communications pre-set for data links, tactical communications, and CI data dissemination. 
+
+The TCS shall provide the system functionality necessary to upload a flight route plan and payload plan (if applicable) to the AV via the selected system data link and direct ground connection. 
+
+TCS shall provide the capability for the operator to retrieve a mission plan for viewing, modification, and deletion at the operator's discretion and allow the operator to save the mission plan under a different name for future retrieval.
+
+The TCS shall automatically check the validity of the intended mission plan before being uploaded, including altitude constraints, payload constraints, data link range constraints, airspace restrictions, fuel limitations, threat constraints, data link terrain masking effects, and Loss of Link (LOL) Plan. 
+
+The TCS shall notify the operator of all discrepancies found during the mission plan check and indicate successful completion of the mission plan check. 
+
+The TCS shall provide the capability to override validation faults after the operator acknowledges the fault.  
+
+The TCS shall allow the operator to set the LOL delay timer(s) during mission planning.   The LOL delay is when the AV detects an unplanned LOL to the time it initiates LOL procedures.
+
+The TCS shall provide the capability to print waypoint data in alphanumeric format. 

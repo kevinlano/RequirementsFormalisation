@@ -1,0 +1,34 @@
+Operational Concepts
+
+The following sections describe the operational concepts of the FSW, including its functions, interfaces, performance characteristics, error detection, reporting and recovery mechanisms, and ground systems concepts. 
+
+Functions
+
+The FSW has the following primary functions:
+Process science data from the camera and relay it to the Spacecraft Control Unit (SCU) in the form of CCSDS Source Packets.
+
+Receive commands from the SCU that establish the current instrument state and camera mode.
+
+Transmit detailed housekeeping data to the SCU in the form of CCSDS Source Packets.
+
+Receive a time message from the SCU and synchronize the XCP local copy of the spacecraft clock.
+
+Control the heaters on the telescope tube and the thermal baffles.
+
+Read the TAM.
+
+Observation Sequence
+
+The XRT supports three different but very similar observation sequences. The three observation types are:
+Automatic, Preplanned, Target of Opportunity.
+
+Figure 6 and Figure 7 show a detailed flowchart for the observation types. The sequence shown in the figures assumes the software is in automatic mode and not presently performing an observation. 
+
+The sequence starts when a SISCATTITUDE message is received with the IS_SETTLED indication set to false. The message also indicates IS_IN_10_ARCMIN, which is true when the S/C is within ten arc minutes of the target position. When the distance remaining to slew is greater than ten arc minutes, the S/C begins the first of up to three activities that precede an observation. 
+
+Each activity is initiated when the distance remaining is greater than ten arc minutes, and the previous activity is complete. 
+
+The pre-observation activities are:
+Calculate row bias map,
+Calculate image bias map,
+Collect raw data image.
