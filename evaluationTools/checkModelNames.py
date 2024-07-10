@@ -120,11 +120,17 @@ for lne in modeltext :
     
     taggedName = possq[classIndex+1]
     (wd,tag) = taggedName
+
     if isSingularNoun(taggedName) and isInitialUpperCase(taggedName) : 
       validClasses = validClasses + 1
     else : 
       print("!! Class name " + wd + " " + tag + " should be singular noun with initial capital")
       flaws = flaws + 1
+
+    if len(wd) > 40 : 
+      print("! Class name " + wd + " is too long!")
+      flaws = flaws + 1
+
 
   if "attribute" in ssq :
     totalAttributes = totalAttributes + 1
@@ -132,11 +138,17 @@ for lne in modeltext :
 
     taggedName = possq[attIndex+1]
     (wd,tag) = taggedName
+
     if isInitialLowerCase(taggedName) : 
       validAttributes = validAttributes + 1
     else : 
       print("!! Attribute name " + wd + " should have initial lower case letter")
       flaws = flaws + 1
+
+    if len(wd) > 40 : 
+      print("! Attribute name " + wd + " is too long!")
+      flaws = flaws + 1
+
   
   if "usecase" in ssq :
     totalUsecases = totalUsecases + 1
@@ -150,6 +162,9 @@ for lne in modeltext :
       print("!! Use case name " + wd + " should have initial lower case letter")
       flaws = flaws + 1
 
+    if len(wd) > 150 : 
+      print("! Use case name " + wd + " is too long!")
+      flaws = flaws + 1
 
 if totalClasses > 0 : 
   print(">>> Class validity score: " + str(validClasses/totalClasses))
