@@ -1,0 +1,126 @@
+UML Use Case Model
+Actors:
+Operator
+
+usecase GenerateUAVMissionPlan {}
+
+usecase ReceiveandProcessMissionPlansfromService-SpecificSystems { }
+
+usecase TransmitMissionPlanstoService-SpecificSystems { }
+
+usecase ReceiveandProcessMissionPlansfromOtherTCSs {} 
+
+usecase TransmitMissionPlanstoOtherTCSs { }
+
+usecase StoreMissionPlans { }
+
+usecase RetrieveMissionPlans {} 
+
+usecase ModifyMissionPlans { }
+
+usecase DeleteMissionPlans {} 
+
+usecase DefineWaypointsonMap { }
+
+usecase ComputeRangeandBearing { }
+
+usecase Import/Create/ModifyMapOverlays { }
+
+usecase DisplayUAVSignaturevs.Threat { }
+
+usecase DynamicRetaskingDuringMission { }
+
+usecase EnterandReviewMission Parameters { }
+
+usecase EnterSystemConfiguration Characteristics { }
+
+usecase UploadPlanstoAV { }
+
+usecase CheckValidityofMissionPlan { }
+
+usecase NotifyDiscrepanciesinMissionPlan { }
+
+usecase OverrideValidationFaults { }
+
+usecase SetLOLDelayTimers { }
+
+usecase PrintWaypointData { }
+
+
+class MissionPlan  {
+attribute name: String ;      
+attribute dateCreated: Date ;  
+attribute lastModified: Date ;
+
+ operation storePlan();
+ operation retrievePlan();
+ operation modifyPlan();
+ operation deletePlan();  
+ operation checkValidity();
+ operation notifyDiscrepancies();
+ operation overrideFaults() ;
+}
+    
+        
+class FlightRoutePlan extends MissionPlan {
+attribute waypoints: Sequence(Waypoint);
+
+ operation defineWaypoints();
+ operation computeRange();
+} 
+
+class PayloadPlan {
+ attribute payloadType: String;
+}
+
+class CommunicationsPlan {
+ attribute commsDetails: String;
+}
+
+class Waypoint {
+ attribute latitude: Float ;
+ attribute longitude: Float ;
+ attribute altitude: Float ;
+} 
+
+class UAV {
+ attribute uavType: String ;
+ attribute uavID: String ;
+}
+
+class Operator {
+  attribute operatorID: String ;
+  attribute name: String ;
+}
+
+class SystemConfiguration {
+  attribute AVType: String ;
+attribute payloadType: String;
+attribute commsPreset: String;
+attribute authorizationInfo: String;
+}
+
+class MissionValidation {
+ attribute altitudeConstraints: String;
+ attribute payloadConstraints: String ;
+ attribute rangeConstraints: String ;
+ attribute fuelLimitations: String ;
+ attribute threatConstraints: String ;
+attribute LOLPlan: String ;          
+}
+
+class MapOverlay {
+ attribute overlayType: String ;
+ attribute details: String ;
+}
+
+class ThreatDatabase  {
+ attribute threatInfo: String;
+}
+
+class Notification {
+attribute message: String ;
+attribute timestamp: Date ;
+ operation notifyOperator();
+}
+

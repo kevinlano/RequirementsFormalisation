@@ -1,0 +1,108 @@
+class FSW {
+  stereotype comment="Flight Software";
+
+attribute state: InstrumentState; 
+attribute mode: CameraMode; 
+
+reference contains : ObservationSequence;
+reference heater : Heater; 
+reference tam : TAM; 
+reference scu : SCU; 
+reference camera : Camera; 
+reference clock : Clock;
+
+operation processScienceData(); operation receiveCommands(); operation transmitHousekeepingData();
+operation synchronizeClock();
+operation controlHeaters();
+operation readTAM(); 
+}
+
+class SCU { 
+stereotype comment="Spacecraft Control Unit";
+
+operation sendCommands();
+operation receiveScienceData();
+operation receiveHousekeepingData();
+operation sendTimeMessage(); 
+} 
+
+class Camera
+{ attribute imageData: Data;
+
+operation captureImage();
+operation calculateRowBiasMap();
+operation calculateImageBiasMap();
+operation  collectRawDataImage();
+}
+
+class Clock
+{ attribute currentTime: Time;
+ operation synchronizeTime();
+}
+
+class Heater
+{ attribute temperature: Temperature;
+
+operation controlTemperature(); 
+}
+
+
+class TAM { stereotype comment="Telemetry and Attitude Module";
+
+operation readData();
+}
+
+class ObservationSequence
+{ attribute type: ObservationType; 
+/* (Automatic, Preplanned, Target of Opportunity) */
+
+operation initiateSequence();
+operation handleSISCATTITUDEMessage();
+} 
+
+Relationships:
+
+FSW is associated with SCU, Camera, Clock, Heater, and TAM.
+ObservationSequence is part of FSW.
+SCU sends commands and time messages to FSW and receives data from it.
+Camera captures images and processes data.
+Clock is synchronized by FSW.
+Heater is controlled by FSW.
+TAM provides telemetry data.
+
+usecase ProcessScienceData { 
+stereotype actor="Camera"; 
+stereotype description="Camera captures science data and sends it to FSW, which processes and relays it to SCU.";
+} 
+
+usecase ReceiveCommands { 
+stereotype actor="SCU"; 
+stereotype description="SCU sends commands to FSW to establish instrument state and camera mode.";
+}
+
+usecase TransmitHousekeepingData {
+stereotype actor="SCU";
+stereotype description="FSW transmits detailed housekeeping data to SCU.";
+}
+
+usecase SynchronizeClock
+{ stereotype actor="SCU, Clock"; 
+stereotype description="SCU sends a time message to FSW, which synchronizes the local copy of the spacecraft clock.";
+} 
+
+usecase ControlHeaters
+{ stereotype actor="Heater"; stereotype description="FSW controls the heaters on the telescope tube and thermal baffles."; 
+}
+
+usecase ReadTAMData
+{ stereotype actor="TAM"; stereotype description="FSW reads data from the Telemetry and Attitude Module.";
+}
+
+usecase ObservationSequence
+{ stereotype actor="SCU";
+stereotype description="FSW handles observation sequences (Automatic, Preplanned, Target of Opportunity) based on received messages and distance to target.";
+}
+
+
+
+

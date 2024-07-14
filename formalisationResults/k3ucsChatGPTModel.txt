@@ -1,0 +1,32 @@
+class ProgramAdministrator
+{ }
+
+class NursingStaffMember { }
+
+usecase AddClinicalClasses {}
+usecase AddNewCohort {}
+usecase AddNewClasses {}
+usecase CreateProgramofStudy {}
+usecase SpecifyRequiredClasses  {}
+usecase DisplayNeededClasses {}
+usecase AddNewClinicalSite {}
+usecase AddClinicalLabSection {}
+usecase AddStudenttoLabSection {}
+usecase RemoveStudentfromLab {}
+usecase MoveStudentBetweenLabs {}
+usecase CancelClinicalLabSection {}
+usecase AddNewNursingStudent {}
+usecase ManagePart-TimeProgress {}
+usecase DisplayCohortSummary {}
+usecase DisplayClinicalSiteSummary {}
+usecase DisplayClinicalLabSummary {}
+usecase DisplayNursingStudentSummary {}
+usecase DisplaySystemLogSummary {}
+usecase NotifyCohortChanges {}
+usecase NotifyStudentChanges    {}
+usecase ModifyCohortInfo        {}
+usecase ModifyProgramInfo       {}
+usecase ModifyClinicalSiteInfo {}
+usecase ModifyClinicalLabInfo  {}
+usecase ModifyNursingStudentInfo {}
+
