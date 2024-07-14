@@ -82,6 +82,45 @@ def isAuxiliaryPartOfSpeech(wd) :
   return isDeterminer(wd) or isPreposition(wd)
 
 
+
+def camel_case_split(s):
+  # Successive upper case letters are combined 
+  # except for the final one if it is before a 
+  # lower case letter - it then belongs with the
+  # following lower case letters
+
+  results = [] 
+  previousUpper = False  # case of previous char
+  w = "" # current normal word
+  b = "" # preceding uppercase word
+  
+  for c in s:
+    currentUpper = c.isupper()
+    if previousUpper and currentUpper:
+      # extend the uppercase word
+      b = b + c
+    elif previousUpper and not currentUpper:
+      if len(b) > 0 : 
+        if len(b) > 1 : 
+          results.append(b[:-1])
+        w = b[len(b)-1] + c
+        b = ""
+      else : 
+        b = c
+    elif not previousUpper and currentUpper:
+      if len(w) > 0 : 
+        results.append(w)
+      w = ""
+      b = c
+    else:  # not previousUpper and not currentUpper:
+      w += c
+      b = ""
+    previousUpper = currentUpper
+  if len(w)>0 :  # flush
+    results.append(w)
+  return results
+
+
 def findFirstMatchIgnoreCase(ss, strs) : 
   lcss = ss.lower()
   for s in strs : 
@@ -93,6 +132,9 @@ def findFirstMatchIgnoreCase(ss, strs) :
 
 
 
+# print(camel_case_split("aLongWord"))
+# print(camel_case_split("ALongWord"))
+# exit()
 
 
 
@@ -117,13 +159,15 @@ dataset = nltk.data.load(sourcename)
 
 nouns = []
 verbs = []
+allwords = [] 
 
 sq = sent_tokenize(dataset)
 ssq = [word_tokenize(t) for t in sq]
 possq = [pos_tag(st) for st in ssq]
 
 for lst in possq :
-  for wd in lst : 
+  for wd in lst :
+    allwords.append(wd[0]) 
     if isNoun(wd) : 
       noun = wd[0]
       if noun in nouns : 
@@ -160,21 +204,24 @@ for lne in modeltext :
     
     taggedName = possq[classIndex+1]
     (wd,tag) = taggedName
-    datanames.append(wd)
+    splitwords = camel_case_split(wd)
+    datanames = datanames + splitwords
 
   if "attribute" in ssq :
     attIndex = ssq.index("attribute")
 
     taggedName = possq[attIndex+1]
     (wd,tag) = taggedName
-    datanames.append(wd)
+    splitwords = camel_case_split(wd)
+    datanames = datanames + splitwords
   
   if "usecase" in ssq :
     ucIndex = ssq.index("usecase")
 
     taggedName = possq[ucIndex+1]
     (wd,tag) = taggedName
-    usecasenames.append(wd)
+    splitwords = camel_case_split(wd)
+    usecasenames = usecasenames + splitwords
 
 
 # print(datanames)
@@ -195,9 +242,41 @@ for vx in verbs :
     verbflaws = verbflaws + 1
 
 
+print()
 
 if totalverbs > 0 : 
   print(">>> Verb completeness score: " + str((totalverbs - verbflaws)/totalverbs))
 if totalnouns > 0 : 
   print(">>> Noun completeness score: " + str((totalnouns - nounflaws)/totalnouns))
+
+print()
+
+consistencyNounflaws = 0 
+consistencyVerbflaws = 0
+
+for nx in datanames : 
+  # it should be a noun in the source
+  elem = findFirstMatchIgnoreCase(nx, allwords)
+  if elem == None : 
+    print("! Model name  " + nx + "  does not appear in the source requirements")
+    consistencyNounflaws = consistencyNounflaws + 1
+
+for vx in usecasenames : 
+  # It should be a verb or noun in the source
+  elem1 = findFirstMatchIgnoreCase(vx, allwords)
+  if elem1 == None : 
+    print("! Model usecase name  " + vx + "  does not appear in the source requirements as a noun or verb")
+    consistencyVerbflaws = consistencyVerbflaws + 1
+
+
+totalverbs = len(usecasenames)
+totalnouns = len(datanames)    
+
+print()
+
+if totalverbs > 0 : 
+  print(">>> Verb consistency score: " + str((totalverbs - consistencyVerbflaws)/totalverbs))
+if totalnouns > 0 : 
+  print(">>> Noun consistency score: " + str((totalnouns - consistencyNounflaws)/totalnouns))
+
 
