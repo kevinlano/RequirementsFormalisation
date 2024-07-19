@@ -95,6 +95,15 @@ def camel_case_split(s):
   b = "" # preceding uppercase word
   
   for c in s:
+    if c == "_" or c == " " :
+      if len(w) > 0 : 
+        results.append(w) 
+      else : 
+        if len(b) > 0 : 
+          results.append(b) 
+      w = ""
+      b = ""
+      continue
     currentUpper = c.isupper()
     if previousUpper and currentUpper:
       # extend the uppercase word
@@ -134,6 +143,8 @@ def findFirstMatchIgnoreCase(ss, strs) :
 
 # print(camel_case_split("aLongWord"))
 # print(camel_case_split("ALongWord"))
+# print(camel_case_split("A_Long_Word"))
+
 # exit()
 
 
