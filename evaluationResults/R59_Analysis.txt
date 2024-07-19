@@ -5,6 +5,10 @@ python compareModel2Source.py --source R59_Telescope.txt --model R59_simpleHeuri
 >>> Verb completeness score: 1.0
 >>> Noun completeness score: 0.24358974358974358
 
+>>> Verb consistency score: 1.0
+>>> Noun consistency score: 1.0
+
+
 python checkModelNames.py --model R59_simpleHeuristicResult.txt
 
 >>> Class validity score: 1.0
@@ -21,6 +25,9 @@ python compareModel2Source.py --source R59_Telescope.txt --model mmR59_AgileUML.
 
 >>> Verb completeness score: 1.0
 >>> Noun completeness score: 0.7692307692307693
+
+>>> Verb consistency score: 0.973384030418251
+>>> Noun consistency score: 0.9642857142857143
 
 python checkModelNames.py --model mmR59_AgileUML.km3
 

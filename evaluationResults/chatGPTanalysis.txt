@@ -11,6 +11,9 @@ completeness:
 >>> Verb completeness score: 0.7333333333333333
 >>> Noun completeness score: 0.11538461538461539
 
+>>> Verb consistency score: 0.9456521739130435
+>>> Noun consistency score: 1.0
+
 
 R49: 
 
@@ -27,6 +30,10 @@ completeness:
 >>> Noun completeness score: 0.2916666666666667
 
 
+>>> Verb consistency score: 0.7931034482758621
+>>> Noun consistency score: 0.7846153846153846
+
+
 R59: 
 
 >>> Class validity score: 1.0
@@ -38,6 +45,11 @@ completeness:
 
 >>> Verb completeness score: 0.4444444444444444
 >>> Noun completeness score: 0.1794871794871795
+
+! Model name  temperature  does not appear in the source requirements
+
+>>> Verb consistency score: 1.0
+>>> Noun consistency score: 0.9230769230769231
 
 
 

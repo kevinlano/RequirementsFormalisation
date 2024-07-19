@@ -6,6 +6,10 @@ python compareModel2Source.py --source R49_Tcs.txt --model R49_simpleHeuristicRe
 >>> Verb completeness score: 0.9655172413793104
 >>> Noun completeness score: 0.8
 
+>>> Verb consistency score: 1.0
+>>> Noun consistency score: 1.0
+
+
 python checkModelNames.py --model R49_simpleHeuristicResult.txt
 
 
@@ -22,8 +26,12 @@ For AgileUML formalisation process:
 
 python compareModel2Source.py --source R49_Tcs.txt --model mmR49_agileuml.km3
 
->>> Verb completeness score: 0.9310344827586207
->>> Noun completeness score: 0.7333333333333333
+>>> Verb completeness score: 0.9655172413793104
+>>> Noun completeness score: 0.8
+
+>>> Verb consistency score: 1.0
+>>> Noun consistency score: 1.0
+
 
 
 python checkModelNames.py --model mmR49_agileuml.km3

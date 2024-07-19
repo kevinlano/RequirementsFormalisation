@@ -4,21 +4,47 @@ compareModel2Source.py
 
 AgileUML model: 
 
+python compareModel2Source.py --source k3ucs.txt --model k3ucsAgileUML.km3
+
+
 >>> Verb completeness score: 1.0
 >>> Noun completeness score: 0.5128205128205128
 
+! Model name  Party  does not appear in the source requirements
+
+>>> Verb consistency score: 1.0
+>>> Noun consistency score: 0.9803921568627451
+
+
+
 Simple heuristic model: 
+
+python compareModel2Source.py --source k3ucs.txt --model k3ucsHeuristicResult.km3
 
 >>> Verb completeness score: 0.9333333333333333
 >>> Noun completeness score: 0.44871794871794873
 
+
+>>> Verb consistency score: 1.0
+>>> Noun consistency score: 1.0
+
+
 HH19 model: 
+
+python compareModel2Source.py --source k3ucs.txt --model k3ucsHH19.km3
 
 >>> Verb completeness score: 0.4
 >>> Noun completeness score: 0.0
 
+>>> Verb consistency score: 0.0
+
+
 Elal18 model: 
+
+python compareModel2Source.py --source k3ucs.txt --model Elal18k3ucs.km3
 
 >>> Verb completeness score: 1.0
 >>> Noun completeness score: 0.07692307692307693
 
+>>> Verb consistency score: 0.6372549019607843
+>>> Noun consistency score: 1.0

@@ -150,10 +150,15 @@ There are 73 source verbs
 >>> Noun completeness score: 0.40707964601769914
 
 
+>>> Verb consistency score: 0.9883268482490273
+>>> Noun consistency score: 1.0
+
 
 >python compareModel2Source.py --source FABSucs.txt --model fabsResultSimpleHeuristic.km3
+
 There are 226 source nouns
 There are 73 source verbs
+
 ! Requirements noun  designer  is not used in the model data
 ! Requirements noun  design  is not used in the model data
 ! Requirements noun  styles  is not used in the model data
@@ -299,12 +304,15 @@ There are 73 source verbs
 ! Requirements noun  sets  is not used in the model data
 ! Requirements noun  labels  is not used in the model data
 ! Requirements noun  history  is not used in the model data
+
 >>> Verb completeness score: 1.0
 >>> Noun completeness score: 0.3584070796460177
 
 >python compareModel2Source.py --source FABSucs.txt --model fabsHH19Solution.km3
+
 There are 226 source nouns
 There are 73 source verbs
+
 ! Requirements noun  UI  is not used in the model data
 ! Requirements noun  designer  is not used in the model data
 ! Requirements noun  Resources  is not used in the model data
@@ -581,11 +589,16 @@ There are 73 source verbs
 ! Requirements verb  download  is not used in the model usecases
 ! Requirements verb  investigate  is not used in the model usecases
 ! Requirements verb  view  is not used in the model usecases
+
 >>> Verb completeness score: 0.3150684931506849
 >>> Noun completeness score: 0.0
 
 
+>>> Verb consistency score: 0.015625
+
+
 C:\Users\klano\Documents\icse\nlpDSL>python compareModel2Source.py --source FABSucs.txt --model Elal18fabs.km3
+
 There are 226 source nouns
 There are 73 source verbs
 ! Requirements noun  designer  is not used in the model data
